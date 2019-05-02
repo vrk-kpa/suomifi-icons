@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Ikonit / Kuvitukset / Työryhmä</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Ikonit-/-Kuvitukset-/-Työryhmä" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Työsuhdeasiat" transform="translate(12.000000, 8.000000)">
+            <polygon id="Fill-262" fill="#EA7125" points="27 64 29 64 29 43 27 43"></polygon>
+            <path d="M28,2 C25.794,2 24,3.794 24,6 C24,8.206 25.794,10 28,10 C30.206,10 32,8.206 32,6 C32,3.794 30.206,2 28,2 Z M28,12 C24.691,12 22,9.309 22,6 C22,2.691 24.691,0 28,0 C31.309,0 34,2.691 34,6 C34,9.309 31.309,12 28,12 L28,12 Z" id="Fill-263" fill="#EA7125"></path>
+            <path d="M40,22 L38,22 L38,21 C38,18.243 35.757,16 33,16 L23,16 C20.243,16 18,18.243 18,21 L18,22 L16,22 L16,21 C16,17.141 19.14,14 23,14 L33,14 C36.86,14 40,17.141 40,21 L40,22" id="Fill-264" fill="#EA7125"></path>
+            <polygon id="Fill-265" fill="#A5ACB0" points="10 64 12 64 12 47 10 47"></polygon>
+            <path d="M11,11 C9.346,11 8,12.346 8,14 C8,15.654 9.346,17 11,17 C12.654,17 14,15.654 14,14 C14,12.346 12.654,11 11,11 Z M11,19 C8.243,19 6,16.757 6,14 C6,11.243 8.243,9 11,9 C13.757,9 16,11.243 16,14 C16,16.757 13.757,19 11,19 L11,19 Z" id="Fill-266" fill="#A5ACB0"></path>
+            <path d="M18,64 L16,64 L16,43 L20,43 L20,27 C20,24.794 18.206,23 16,23 L6,23 C3.794,23 2,24.794 2,27 L2,43 L6,43 L6,64 L4,64 L4,45 L0,45 L0,27 C0,23.691 2.691,21 6,21 L16,21 C19.309,21 22,23.691 22,27 L22,45 L18,45 L18,64" id="Fill-267" fill="#A5ACB0"></path>
+            <polygon id="Fill-268" fill="#A5ACB0" points="44 64 46 64 46 47 44 47"></polygon>
+            <path d="M45,11 C43.346,11 42,12.346 42,14 C42,15.654 43.346,17 45,17 C46.654,17 48,15.654 48,14 C48,12.346 46.654,11 45,11 Z M45,19 C42.243,19 40,16.757 40,14 C40,11.243 42.243,9 45,9 C47.757,9 50,11.243 50,14 C50,16.757 47.757,19 45,19 L45,19 Z" id="Fill-269" fill="#A5ACB0"></path>
+            <path d="M52,64 L50,64 L50,43 L54,43 L54,27 C54,24.794 52.206,23 50,23 L40,23 C37.794,23 36,24.794 36,27 L36,43 L40,43 L40,64 L38,64 L38,45 L34,45 L34,27 C34,23.691 36.691,21 40,21 L50,21 C53.309,21 56,23.691 56,27 L56,45 L52,45 L52,64" id="Fill-270" fill="#A5ACB0"></path>
+            <polygon id="Fill-271" fill="#EA7125" points="27 20 29 20 29 18 27 18"></polygon>
+            <polygon id="Fill-272" fill="#EA7125" points="27 24 29 24 29 22 27 22"></polygon>
+            <polygon id="Fill-273" fill="#A5ACB0" points="44 27 46 27 46 25 44 25"></polygon>
+            <polygon id="Fill-274" fill="#A5ACB0" points="10 27 12 27 12 25 10 25"></polygon>
+            <polygon id="Fill-275" fill="#EA7125" points="20 64 22 64 22 44 20 44"></polygon>
+            <polygon id="Fill-276" fill="#EA7125" points="34 64 36 64 36 44 34 44"></polygon>
+        </g>
+        <rect id="bounding-box" x="0" y="0" width="80" height="80"></rect>
+    </g>
+</svg>

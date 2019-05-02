@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Ikonit / Kuvitukset / Asuminen</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Ikonit-/-Kuvitukset-/-Asuminen" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Asuminen-ja-muttaminen" transform="translate(8.000000, 10.000000)">
+            <polyline id="Fill-35" fill="#A5ACB0" points="46 60 4 60 4 16 6 16 6 58 44 58 44 50 46 50 46 60"></polyline>
+            <polygon id="Fill-36" fill="#A5ACB0" points="44 24 46 24 46 16 44 16"></polygon>
+            <path d="M25,5 C25.153,5 25.307,5.035 25.447,5.105 L48,16.382 L48,13.618 L25,2.118 L2,13.618 L2,16.382 L24.553,5.105 C24.693,5.035 24.847,5 25,5 Z M49,18.9999959 C48.847,18.9999959 48.694,18.9649959 48.553,18.8949959 L25,7.11799846 L1.447,18.8949959 C1.137,19.0489959 0.769,19.0329959 0.474,18.8509959 C0.18,18.667996 0,18.346996 0,17.9999961 L0,12.9999972 C0,12.6209973 0.214,12.2749973 0.553,12.1049974 L24.553,0.104999977 C24.834,-0.0349999924 25.166,-0.0349999924 25.447,0.104999977 L49.447,12.1049974 C49.786,12.2749973 50,12.6209973 50,12.9999972 L50,17.9999961 C50,18.346996 49.82,18.667996 49.526,18.8509959 C49.365,18.9499959 49.183,18.9999959 49,18.9999959 L49,18.9999959 Z" id="Fill-37" fill="#A5ACB0"></path>
+            <path d="M25,17 C22.794,17 21,18.794 21,21 C21,23.206 22.794,25 25,25 C27.206,25 29,23.206 29,21 C29,18.794 27.206,17 25,17 Z M25,27 C21.691,27 19,24.309 19,21 C19,17.691 21.691,15 25,15 C28.309,15 31,17.691 31,21 C31,24.309 28.309,27 25,27 L25,27 Z" id="Fill-38" fill="#EA7125"></path>
+            <path d="M15,37 L15,35 L35,35 L35,37 L35,58 L33,58 L33,37 L17,37 L17,58 L15,58 L15,37 Z" id="Combined-Shape" fill="#EA7125"></path>
+            <polyline id="Fill-42" fill="#A5ACB0" points="10 9 8 9 8 0 14 0 14 7 12 7 12 2 10 2 10 9"></polyline>
+            <polygon id="Fill-43" fill="#A5ACB0" points="0 60 50 60 50 58 0 58"></polygon>
+            <polygon id="Fill-44" fill="#A5ACB0" points="45 60 64 60 64 58 45 58"></polygon>
+            <polygon id="Fill-45" fill="#A5ACB0" points="29 49 31 49 31 47 29 47"></polygon>
+            <polygon id="Fill-46" fill="#A5ACB0" points="51 59 53 59 53 33 51 33"></polygon>
+            <path d="M52,27 C46.486,27 42,31.486 42,37 C42,42.514 46.486,47 52,47 C57.514,47 62,42.514 62,37 C62,31.486 57.514,27 52,27 Z M52,49 C45.383,49 40,43.617 40,37 C40,30.383 45.383,25 52,25 C58.617,25 64,30.383 64,37 C64,43.617 58.617,49 52,49 L52,49 Z" id="Fill-47" fill="#A5ACB0"></path>
+            <polyline id="Fill-48" fill="#A5ACB0" points="51.293 40.707 45.293 34.707 46.707 33.293 52.707 39.293 51.293 40.707"></polyline>
+            <polyline id="Fill-49" fill="#A5ACB0" points="52.707 44.707 51.293 43.293 57.293 37.293 58.707 38.707 52.707 44.707"></polyline>
+        </g>
+        <rect id="bounding-box" x="0" y="0" width="80" height="80"></rect>
+    </g>
+</svg>
