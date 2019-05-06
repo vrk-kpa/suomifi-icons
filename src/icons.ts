@@ -49,6 +49,9 @@ import swapRounded from './icons/icon-swap-rounded.svg';
 import swapVertical from './icons/icon-swap-vertical.svg';
 import toggle from './icons/icon-toggle.svg';
 
+import staticIllustrationRocket from './icons/icon-illustration-rocket.svg';
+import staticIllustrationPuzzle from './icons/icon-illustration-puzzle.svg';
+
 export type IconKeys = keyof typeof icons;
 
 export const icons = {
@@ -102,4 +105,11 @@ export const icons = {
   swapRounded,
   swapVertical,
   toggle
+};
+
+export type StaticIconKeys = keyof typeof staticIcons;
+
+export const staticIcons = {
+  staticIllustrationPuzzle,
+  staticIllustrationRocket
 };
