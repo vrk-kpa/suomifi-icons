@@ -16,11 +16,28 @@ module.exports = {
       { enforce: 'pre', test: /\.js$/, loader: 'source-map-loader' },
       {
         test: /\.svg$/,
-        loader: '@svgr/webpack',
-        options: {
-          svgo: true,
-          icon: true
-        }
+        oneOf: [
+          {
+            include: [path.resolve(__dirname, 'src/staticIcons')],
+            loader: '@svgr/webpack',
+            options: {
+              svgo: true,
+              svgoConfig: { plugins: [{ removeAttrs: false }] },
+              icon: true
+            }
+          },
+          {
+            exclude: [path.resolve(__dirname, 'src/staticIcons')],
+            loader: '@svgr/webpack',
+            options: {
+              svgo: true,
+              svgoConfig: {
+                plugins: [{ removeAttrs: { attrs: '(fill|stroke)' } }]
+              },
+              icon: true
+            }
+          }
+        ]
       }
     ]
   },
