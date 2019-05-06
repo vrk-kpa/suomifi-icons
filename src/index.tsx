@@ -1,6 +1,8 @@
 import React from 'react';
-import { IconKeys, icons, StaticIconKeys, staticIcons } from './icons';
-export { IconKeys, StaticIconKeys } from './icons';
+import { IconKeys, icons } from './icons';
+import { StaticIconKeys, staticIcons } from './staticIcons';
+export { IconKeys } from './icons';
+export { StaticIconKeys } from './staticIcons';
 
 const fallbackIcon = 'login';
 
