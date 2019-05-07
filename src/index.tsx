@@ -27,7 +27,7 @@ export interface SuomifiIconInterface {
 export class SuomifiIcon extends React.Component<SuomifiIconInterface> {
   render() {
     const { icon, color, ...passProps } = this.props;
-    const style = !!color ? { fill: color } : {};
+    const style = !(icon in staticIcons) && !!color ? { fill: color } : {};
     const Svg = getIcon(icon) as SvgrComponent;
     return <Svg {...passProps} style={style} />;
   }
