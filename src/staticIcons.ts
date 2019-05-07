@@ -78,6 +78,7 @@ import staticIllustrationWebDevelopment from './staticIcons/icon-illustration-we
 import staticIllustrationWheel from './staticIcons/icon-illustration-wheel.svg';
 import staticIllustrationWomanButtons from './staticIcons/icon-illustration-woman-buttons.svg';
 import staticIllustrationWomanNecklace from './staticIcons/icon-illustration-woman-necklace.svg';
+import toggle from './staticIcons/icon-toggle.svg';
 
 export type StaticIconKeys = keyof typeof staticIcons;
 
@@ -161,5 +162,6 @@ export const staticIcons = {
   staticIllustrationWebDevelopment,
   staticIllustrationWheel,
   staticIllustrationWomanButtons,
-  staticIllustrationWomanNecklace
+  staticIllustrationWomanNecklace,
+  toggle
 };

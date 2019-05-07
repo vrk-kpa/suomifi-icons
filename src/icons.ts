@@ -47,7 +47,6 @@ import search from './icons/icon-search.svg';
 import settings from './icons/icon-settings.svg';
 import swapRounded from './icons/icon-swap-rounded.svg';
 import swapVertical from './icons/icon-swap-vertical.svg';
-import toggle from './icons/icon-toggle.svg';
 
 export type IconKeys = keyof typeof icons;
 
@@ -100,6 +99,5 @@ export const icons = {
   search,
   settings,
   swapRounded,
-  swapVertical,
-  toggle
+  swapVertical
 };
