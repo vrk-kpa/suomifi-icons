@@ -18,6 +18,9 @@ const getIcon = (icon: IconKeys | StaticIconKeys) => {
   return !!suomifiIcon ? suomifiIcon : objValue(icons, fallbackIcon);
 };
 
+export const allIcons = Object.keys(icons);
+export const allStaticIcons = Object.keys(staticIcons);
+
 export interface SuomifiIconInterface {
   icon: IconKeys | StaticIconKeys;
   color?: string;
