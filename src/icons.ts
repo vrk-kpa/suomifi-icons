@@ -7,7 +7,10 @@ import chatHeart from './icons/icon-chat-heart.svg';
 import chatQuestion from './icons/icon-chat-question.svg';
 import checkFilled from './icons/icon-check-filled.svg';
 import check from './icons/icon-check.svg';
+import chevronUp from './icons/icon-chevron-up.svg';
+import chevronRight from './icons/icon-chevron-right.svg';
 import chevronDown from './icons/icon-chevron-down.svg';
+import chevronLeft from './icons/icon-chevron-left.svg';
 import close from './icons/icon-close.svg';
 import copy from './icons/icon-copy.svg';
 import done from './icons/icon-done.svg';
@@ -60,7 +63,10 @@ export const icons = {
   chatQuestion,
   checkFilled,
   check,
+  chevronUp,
+  chevronRight,
   chevronDown,
+  chevronLeft,
   close,
   copy,
   done,
