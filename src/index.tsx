@@ -24,14 +24,16 @@ export const allStaticIcons = Object.keys(staticIcons);
 export interface SuomifiIconInterface {
   icon: IconKeys | StaticIconKeys;
   color?: string;
+  fill?: string;
   className?: string;
 }
 
 export class SuomifiIcon extends React.Component<SuomifiIconInterface> {
   render() {
-    const { icon, color, ...passProps } = this.props;
-    const style = !(icon in staticIcons) && !!color ? { fill: color } : {};
+    const { icon, color, fill: origFill, ...passProps } = this.props;
+    const fill = !!origFill ? origFill : color;
+    const fillProp = !(icon in staticIcons) && !!fill ? { fill: fill } : {};
     const Svg = getIcon(icon) as SvgrComponent;
-    return <Svg {...passProps} style={style} />;
+    return <Svg {...passProps} {...fillProp} />;
   }
 }
