@@ -26,6 +26,8 @@ export interface SuomifiIconInterface {
   color?: string;
   fill?: string;
   className?: string;
+  //allow passing unsupported props to Svg
+  [key: string]: any;
 }
 
 export class SuomifiIcon extends React.Component<SuomifiIconInterface> {
