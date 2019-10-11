@@ -26,7 +26,7 @@ export interface SuomifiIconInterface {
   color?: string;
   fill?: string;
   className?: string;
-  //allow passing unsupported props to Svg
+  // Allow passing unsupported custom props to SVG without providing an API
   [key: string]: any;
 }
 
