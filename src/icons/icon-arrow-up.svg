@@ -1,4 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <polygon points="5 2 9 8 1 8"></polygon>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><path d="M12.7062.2937c-.181-.181-.431-.294-.708-.294-.276 0-.526.113-.707.294l-6 6c-.39.391-.39 1.024 0 1.415.391.39 1.024.39 1.415-.001l4.292-4.293v19.585c0 .553.448 1 1 1 .553 0 1-.447 1-1V3.4147l4.293 4.293c.196.196.452.293.707.293.256 0 .512-.097.708-.292.39-.391.39-1.024 0-1.415l-6-6z" id="a"/></svg>
