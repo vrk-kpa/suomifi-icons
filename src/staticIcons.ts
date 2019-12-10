@@ -173,7 +173,7 @@ export const staticIcons = {
   toggle
 };
 
-export type DoctypeIconKeys = keyof typeof staticIcons;
+export type DoctypeIconKeys = keyof typeof doctypeIcons;
 
 export const doctypeIcons = {
   doc,
