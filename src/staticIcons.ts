@@ -80,6 +80,13 @@ import staticIllustrationWomanButtons from './staticIcons/icon-illustration-woma
 import staticIllustrationWomanNecklace from './staticIcons/icon-illustration-woman-necklace.svg';
 import toggle from './staticIcons/icon-toggle.svg';
 
+import doc from './staticIcons/icon-doc.svg';
+import generic from './staticIcons/icon-generic.svg';
+import pdf from './staticIcons/icon-pdf.svg';
+import ppt from './staticIcons/icon-ppt.svg';
+import xls from './staticIcons/icon-xls.svg';
+import xml from './staticIcons/icon-xml.svg';
+
 export type StaticIconKeys = keyof typeof staticIcons;
 
 export const staticIcons = {
@@ -164,4 +171,15 @@ export const staticIcons = {
   staticIllustrationWomanButtons,
   staticIllustrationWomanNecklace,
   toggle
+};
+
+export type DoctypeIconKeys = keyof typeof staticIcons;
+
+export const doctypeIcons = {
+  doc,
+  generic,
+  pdf,
+  ppt,
+  xls,
+  xml
 };
