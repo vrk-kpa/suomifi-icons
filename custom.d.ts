@@ -1,7 +1,6 @@
-interface SvgrComponent
-  extends React.FunctionComponent<React.SVGProps<SVGElement>> {}
-
 declare module '*.svg' {
+  import SvgrComponent from './src/index';
+
   const value: SvgrComponent;
   export default value;
 }

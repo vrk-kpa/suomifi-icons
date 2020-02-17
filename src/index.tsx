@@ -8,6 +8,8 @@ import {
 } from './staticIcons';
 export { IconKeys } from './icons';
 export { StaticIconKeys, DoctypeIconKeys } from './staticIcons';
+export interface SvgrComponent
+extends React.FunctionComponent<React.SVGProps<SVGElement>> {}
 
 const fallbackIcon = 'login';
 
