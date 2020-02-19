@@ -2,14 +2,14 @@ const path = require('path');
 
 module.exports = {
   entry: './src/index.tsx',
-  mode: 'development',
+  mode: 'production',
   devtool: 'inline-source-map',
   module: {
     rules: [
       // Run the typescript compilier on .ts files before webpack
       {
         test: /\.(ts|tsx)$/,
-        loader: 'awesome-typescript-loader?configFileName=./tsconfig.json',
+        loader: 'ts-loader',
         exclude: [/node_modules/]
       },
       // All output '.js' files will have any sourcemaps re-processed by 'source-map-loader'.
