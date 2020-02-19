@@ -1,5 +1,7 @@
+/// <reference path='../typings/index.d.ts' />
 import React from 'react';
 import { IconKeys, icons } from './icons';
+import { SvgrComponent } from '*.svg';
 import {
   StaticIconKeys,
   staticIcons,
@@ -8,8 +10,6 @@ import {
 } from './staticIcons';
 export { IconKeys } from './icons';
 export { StaticIconKeys, DoctypeIconKeys } from './staticIcons';
-export interface SvgrComponent
-extends React.FunctionComponent<React.SVGProps<SVGElement>> {}
 
 const fallbackIcon = 'login';
 
