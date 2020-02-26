@@ -46,7 +46,7 @@ export class SuomifiIcon extends React.Component<SuomifiIconInterface> {
       !(icon in staticIcons || icon in doctypeIcons) && !!fill
         ? { fill: fill }
         : {};
-    const Svg = getIcon(icon) as SvgrComponent;
+    const Svg = getIcon(icon) as any;
     return <Svg {...passProps} {...fillProp} />;
   }
 }
