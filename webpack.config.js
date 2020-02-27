@@ -9,7 +9,7 @@ module.exports = {
       // Run the typescript compilier on .ts files before webpack
       {
         test: /\.(ts|tsx)$/,
-        loader: 'awesome-typescript-loader?configFileName=./tsconfig.json',
+        loader: 'ts-loader',
         exclude: [/node_modules/]
       },
       // All output '.js' files will have any sourcemaps re-processed by 'source-map-loader'.
