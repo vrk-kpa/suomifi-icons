@@ -68,7 +68,7 @@ export class SuomifiIllustrativeIcon extends React.Component<
 > {
   render() {
     const { icon, ...passProps } = this.props;
-    const Svg = getIcon(icon) as SvgrComponent;
+    const Svg = getIcon(icon) as any;
     return <Svg {...passProps} />;
   }
 }
