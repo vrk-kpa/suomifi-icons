@@ -6,13 +6,11 @@ import arrowheadDown from './icons/icon-arrowhead-down.svg';
 import arrowheadUp from './icons/icon-arrowhead-up.svg';
 import attachment from './icons/icon-attachment.svg';
 import authorise from './icons/icon-authorise.svg';
-import bicycle from './icons/icon-bicycle.svg';
-import bus from './icons/icon-bus.svg';
 import calendar from './icons/icon-calendar.svg';
-import car from './icons/icon-car.svg';
 import chatHeart from './icons/icon-chat-heart.svg';
 import chatQuestion from './icons/icon-chat-question.svg';
-import checkFilled from './icons/icon-check-filled.svg';
+import checkCircleFilled from './icons/icon-check-circle-filled.svg';
+import checkCircle from './icons/icon-check-circle.svg';
 import check from './icons/icon-check.svg';
 import chevronUp from './icons/icon-chevron-up.svg';
 import chevronRight from './icons/icon-chevron-right.svg';
@@ -30,7 +28,6 @@ import controlPlay from './icons/icon-control-play.svg';
 import controlNext from './icons/icon-control-next.svg';
 import copy from './icons/icon-copy.svg';
 import disabled from './icons/icon-disabled.svg';
-import done from './icons/icon-done.svg';
 import download from './icons/icon-download.svg';
 import edit from './icons/icon-edit.svg';
 import errorFilled from './icons/icon-error-filled.svg';
@@ -60,7 +57,6 @@ import map from './icons/icon-map.svg';
 import menu from './icons/icon-menu.svg';
 import message from './icons/icon-message.svg';
 import minus from './icons/icon-minus.svg';
-import pedestrian from './icons/icon-pedestrian.svg';
 import pin from './icons/icon-pin.svg';
 import phone from './icons/icon-phone.svg';
 import plus from './icons/icon-plus.svg';
@@ -77,6 +73,10 @@ import settings from './icons/icon-settings.svg';
 import signLanguageContent from './icons/icon-sign-language-content.svg';
 import swapRounded from './icons/icon-swap-rounded.svg';
 import swapVertical from './icons/icon-swap-vertical.svg';
+import transportBicycle from './icons/icon-transport-bicycle.svg';
+import transportBus from './icons/icon-transport-bus.svg';
+import transportCar from './icons/icon-transport-car.svg';
+import transportWalk from './icons/icon-transport-walk.svg';
 
 export type IconKeys = keyof typeof icons;
 
@@ -89,13 +89,11 @@ export const icons = {
   arrowheadUp,
   attachment,
   authorise,
-  bicycle,
-  bus,
   calendar,
-  car,
   chatHeart,
   chatQuestion,
-  checkFilled,
+  checkCircleFilled,
+  checkCircle,
   check,
   chevronUp,
   chevronRight,
@@ -113,7 +111,6 @@ export const icons = {
   controlNext,
   copy,
   disabled,
-  done,
   download,
   edit,
   errorFilled,
@@ -143,7 +140,6 @@ export const icons = {
   menu,
   message,
   minus,
-  pedestrian,
   pin,
   phone,
   plus,
@@ -159,5 +155,9 @@ export const icons = {
   settings,
   signLanguageContent,
   swapRounded,
-  swapVertical
+  swapVertical,
+  transportBicycle,
+  transportBus,
+  transportCar,
+  transportWalk
 };

@@ -4,7 +4,9 @@ import {
   StaticIconKeys,
   staticIcons,
   DoctypeIconKeys,
-  doctypeIcons
+  doctypeIcons,
+  ComponentIconKeys,
+  componentIcons
 } from './staticIcons';
 export { IconKeys } from './icons';
 export { StaticIconKeys, DoctypeIconKeys } from './staticIcons';
@@ -15,7 +17,9 @@ function objValue<T, K extends keyof T>(obj: T, key: K) {
   return obj[key];
 }
 
-const getIcon = (icon: IconKeys | StaticIconKeys | DoctypeIconKeys) => {
+const getIcon = (
+  icon: IconKeys | StaticIconKeys | DoctypeIconKeys | ComponentIconKeys
+) => {
   const suomifiIcon =
     icon in icons
       ? objValue(icons, icon as IconKeys)
@@ -28,9 +32,10 @@ const getIcon = (icon: IconKeys | StaticIconKeys | DoctypeIconKeys) => {
 export const allIcons = Object.keys(icons);
 export const allStaticIcons = Object.keys(staticIcons);
 export const allDoctypeIcons = Object.keys(doctypeIcons);
+export const allComponentIcons = Object.keys(componentIcons);
 
 export interface SuomifiIconInterface {
-  icon: IconKeys | StaticIconKeys | DoctypeIconKeys;
+  icon: IconKeys;
   color?: string;
   fill?: string;
   className?: string;
@@ -48,5 +53,22 @@ export class SuomifiIcon extends React.Component<SuomifiIconInterface> {
         : {};
     const Svg = getIcon(icon) as any;
     return <Svg {...passProps} {...fillProp} />;
+  }
+}
+
+export interface SuomifiIllustrativeIconInterface {
+  icon: StaticIconKeys | DoctypeIconKeys | ComponentIconKeys;
+  className?: string;
+  // Allow passing unsupported custom props to SVG without providing an API
+  [key: string]: any;
+}
+
+export class SuomifiIllustrativeIcon extends React.Component<
+  SuomifiIllustrativeIconInterface
+> {
+  render() {
+    const { icon, ...passProps } = this.props;
+    const Svg = getIcon(icon) as SvgrComponent;
+    return <Svg {...passProps} />;
   }
 }

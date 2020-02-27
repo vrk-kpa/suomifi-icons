@@ -1,185 +1,201 @@
-import staticIllustrationArchive from './staticIcons/icon-illustration-archive.svg';
-import staticIllustrationArrows from './staticIcons/icon-illustration-arrows.svg';
-import staticIllustrationAuthorizations from './staticIcons/icon-illustration-authorizations.svg';
-import staticIllustrationBlock from './staticIcons/icon-illustration-block.svg';
-import staticIllustrationBook from './staticIcons/icon-illustration-book.svg';
-import staticIllustrationBriefcase from './staticIcons/icon-illustration-briefcase.svg';
-import staticIllustrationBubbles from './staticIcons/icon-illustration-bubbles.svg';
-import staticIllustrationBuilding from './staticIcons/icon-illustration-building.svg';
-import staticIllustrationCatalog from './staticIcons/icon-illustration-catalog.svg';
-import staticIllustrationChat from './staticIcons/icon-illustration-chat.svg';
-import staticIllustrationChild from './staticIcons/icon-illustration-child.svg';
-import staticIllustrationCogwheels from './staticIcons/icon-illustration-cogwheels.svg';
-import staticIllustrationCoins from './staticIcons/icon-illustration-coins.svg';
-import staticIllustrationContent from './staticIcons/icon-illustration-content.svg';
-import staticIllustrationContract from './staticIcons/icon-illustration-contract.svg';
-import staticIllustrationCreditCards from './staticIcons/icon-illustration-credit-cards.svg';
-import staticIllustrationDatabase from './staticIcons/icon-illustration-database.svg';
-import staticIllustrationDiagram from './staticIcons/icon-illustration-diagram.svg';
-import staticIllustrationDisplay from './staticIcons/icon-illustration-display.svg';
-import staticIllustrationDoctor from './staticIcons/icon-illustration-doctor.svg';
-import staticIllustrationEar from './staticIcons/icon-illustration-ear.svg';
-import staticIllustrationFailure from './staticIcons/icon-illustration-failure.svg';
-import staticIllustrationFamily from './staticIcons/icon-illustration-family.svg';
-import staticIllustrationFeedback from './staticIcons/icon-illustration-feedback.svg';
-import staticIllustrationFinance from './staticIcons/icon-illustration-finance.svg';
-import staticIllustrationFolder from './staticIcons/icon-illustration-folder.svg';
-import staticIllustrationGlobe from './staticIcons/icon-illustration-globe.svg';
-import staticIllustrationGraph from './staticIcons/icon-illustration-graph.svg';
-import staticIllustrationGroup from './staticIcons/icon-illustration-group.svg';
-import staticIllustrationGrowth from './staticIcons/icon-illustration-growth.svg';
-import staticIllustrationHands from './staticIcons/icon-illustration-hands.svg';
-import staticIllustrationHelper from './staticIcons/icon-illustration-helper.svg';
-import staticIllustrationHome from './staticIcons/icon-illustration-home.svg';
-import staticIllustrationHop from './staticIcons/icon-illustration-hop.svg';
-import staticIllustrationHouse from './staticIcons/icon-illustration-house.svg';
-import staticIllustrationId from './staticIcons/icon-illustration-id.svg';
-import staticIllustrationLaptop from './staticIcons/icon-illustration-laptop.svg';
-import staticIllustrationLineChart from './staticIcons/icon-illustration-line-chart.svg';
-import staticIllustrationLineScreen from './staticIcons/icon-illustration-line-screen.svg';
-import staticIllustrationMailbox from './staticIcons/icon-illustration-mailbox.svg';
-import staticIllustrationMailed from './staticIcons/icon-illustration-mailed.svg';
-import staticIllustrationMallet from './staticIcons/icon-illustration-mallet.svg';
-import staticIllustrationManButtons from './staticIcons/icon-illustration-man-buttons.svg';
-import staticIllustrationManGlasses from './staticIcons/icon-illustration-man-glasses.svg';
-import staticIllustrationManLaptop from './staticIcons/icon-illustration-man-laptop.svg';
-import staticIllustrationMap from './staticIcons/icon-illustration-map.svg';
-import staticIllustrationMessages from './staticIcons/icon-illustration-messages.svg';
-import staticIllustrationMeter from './staticIcons/icon-illustration-meter.svg';
-import staticIllustrationMoney from './staticIcons/icon-illustration-money.svg';
-import staticIllustrationMoneyBag from './staticIcons/icon-illustration-money-bag.svg';
-import staticIllustrationOrganisation from './staticIcons/icon-illustration-organisation.svg';
-import staticIllustrationPhone from './staticIcons/icon-illustration-phone.svg';
-import staticIllustrationPhoneText from './staticIcons/icon-illustration-phone-text.svg';
-import staticIllustrationPiggyBank from './staticIcons/icon-illustration-piggy-bank.svg';
-import staticIllustrationPillar from './staticIcons/icon-illustration-pillar.svg';
-import staticIllustrationPlane from './staticIcons/icon-illustration-plane.svg';
-import staticIllustrationPlate from './staticIcons/icon-illustration-plate.svg';
-import staticIllustrationPortrait from './staticIcons/icon-illustration-portrait.svg';
-import staticIllustrationPresentation from './staticIcons/icon-illustration-presentation.svg';
-import staticIllustrationPuzzle from './staticIcons/icon-illustration-puzzle.svg';
-import staticIllustrationRocket from './staticIcons/icon-illustration-rocket.svg';
-import staticIllustrationScale from './staticIcons/icon-illustration-scale.svg';
-import staticIllustrationScaleBalance from './staticIcons/icon-illustration-scale-balance.svg';
-import staticIllustrationServer from './staticIcons/icon-illustration-server.svg';
-import staticIllustrationShop from './staticIcons/icon-illustration-shop.svg';
-import staticIllustrationSuccess from './staticIcons/icon-illustration-success.svg';
-import staticIllustrationSupport from './staticIcons/icon-illustration-support.svg';
-import staticIllustrationSwim from './staticIcons/icon-illustration-swim.svg';
-import staticIllustrationTablet from './staticIcons/icon-illustration-tablet.svg';
-import staticIllustrationTabletText from './staticIcons/icon-illustration-tablet-text.svg';
-import staticIllustrationTeam from './staticIcons/icon-illustration-team.svg';
-import staticIllustrationTouch from './staticIcons/icon-illustration-touch.svg';
-import staticIllustrationUmbrella from './staticIcons/icon-illustration-umbrella.svg';
-import staticIllustrationUser from './staticIcons/icon-illustration-user.svg';
-import staticIllustrationWand from './staticIcons/icon-illustration-wand.svg';
-import staticIllustrationWatch from './staticIcons/icon-illustration-watch.svg';
-import staticIllustrationWebDevelopment from './staticIcons/icon-illustration-web-development.svg';
-import staticIllustrationWheel from './staticIcons/icon-illustration-wheel.svg';
-import staticIllustrationWomanButtons from './staticIcons/icon-illustration-woman-buttons.svg';
-import staticIllustrationWomanNecklace from './staticIcons/icon-illustration-woman-necklace.svg';
-import toggle from './staticIcons/icon-toggle.svg';
+import archive from './staticIcons/icon-illustration-archive.svg';
+import authorisation from './staticIcons/icon-illustration-authorisation.svg';
+import book from './staticIcons/icon-illustration-book.svg';
+import briefcase from './staticIcons/icon-illustration-briefcase.svg';
+import buildingAdministrative from './staticIcons/icon-illustration-building-administrative.svg';
+import buildings from './staticIcons/icon-illustration-buildings.svg';
+import catalog from './staticIcons/icon-illustration-catalog.svg';
+import chartAnalytics from './staticIcons/icon-illustration-chart-analytics.svg';
+import chartPie from './staticIcons/icon-illustration-chart-pie.svg';
+import chartScreen from './staticIcons/icon-illustration-chart-screen.svg';
+import chartStatistic from './staticIcons/icon-illustration-chart-statistic.svg';
+import chatBubbles from './staticIcons/icon-illustration-chat-bubbles.svg';
+import child from './staticIcons/icon-illustration-child.svg';
+import collaboration from './staticIcons/icon-illustration-collaboration.svg';
+import contract from './staticIcons/icon-illustration-contract.svg';
+import conversation from './staticIcons/icon-illustration-conversation.svg';
+import court from './staticIcons/icon-illustration-court.svg';
+import creditCards from './staticIcons/icon-illustration-credit-cards.svg';
+import database from './staticIcons/icon-illustration-database.svg';
+import display from './staticIcons/icon-illustration-display.svg';
+import doctor from './staticIcons/icon-illustration-doctor.svg';
+import environment from './staticIcons/icon-illustration-environment.svg';
+import exchange from './staticIcons/icon-illustration-exchange.svg';
+import failure from './staticIcons/icon-illustration-failure.svg';
+import family from './staticIcons/icon-illustration-family.svg';
+import faq from './staticIcons/icon-illustration-faq.svg';
+import feedback from './staticIcons/icon-illustration-feedback.svg';
+import finance from './staticIcons/icon-illustration-finance.svg';
+import folder from './staticIcons/icon-illustration-folder.svg';
+import global from './staticIcons/icon-illustration-global.svg';
+import group from './staticIcons/icon-illustration-group.svg';
+import growth from './staticIcons/icon-illustration-growth.svg';
+import handCoins from './staticIcons/icon-illustration-hand-coins.svg';
+import handPlate from './staticIcons/icon-illustration-hand-plate.svg';
+import helpdesk from './staticIcons/icon-illustration-helpdesk.svg';
+import home from './staticIcons/icon-illustration-home.svg';
+import house from './staticIcons/icon-illustration-house.svg';
+import idBadge from './staticIcons/icon-illustration-id-badge.svg';
+import laptopContent from './staticIcons/icon-illustration-laptop-content.svg';
+import laptop from './staticIcons/icon-illustration-laptop.svg';
+import leap from './staticIcons/icon-illustration-leap.svg';
+import magicWand from './staticIcons/icon-illustration-magic-wand.svg';
+import mailbox from './staticIcons/icon-illustration-mailbox.svg';
+import manButtons from './staticIcons/icon-illustration-man-buttons.svg';
+import manGlasses from './staticIcons/icon-illustration-man-glasses.svg';
+import manLaptop from './staticIcons/icon-illustration-man-laptop.svg';
+import map from './staticIcons/icon-illustration-map.svg';
+import messageSent from './staticIcons/icon-illustration-message-sent.svg';
+import messages from './staticIcons/icon-illustration-messages.svg';
+import meter from './staticIcons/icon-illustration-meter.svg';
+import migrationFinland from './staticIcons/icon-illustration-migration-finland.svg';
+import money from './staticIcons/icon-illustration-money.svg';
+import moneyBag from './staticIcons/icon-illustration-money-bag.svg';
+import organisation from './staticIcons/icon-illustration-organisation.svg';
+import phoneText from './staticIcons/icon-illustration-phone-text.svg';
+import phone from './staticIcons/icon-illustration-phone.svg';
+import piggyBank from './staticIcons/icon-illustration-piggy-bank.svg';
+import pillar from './staticIcons/icon-illustration-pillar.svg';
+import planeFlying from './staticIcons/icon-illustration-plane-flying.svg';
+import presentation from './staticIcons/icon-illustration-presentation.svg';
+import puzzle from './staticIcons/icon-illustration-puzzle.svg';
+import rocket from './staticIcons/icon-illustration-rocket.svg';
+import scaleBalance from './staticIcons/icon-illustration-scale-balance.svg';
+import scale from './staticIcons/icon-illustration-scale.svg';
+import server from './staticIcons/icon-illustration-server.svg';
+import settings from './staticIcons/icon-illustration-settings.svg';
+import shelter from './staticIcons/icon-illustration-shelter.svg';
+import shop from './staticIcons/icon-illustration-shop.svg';
+import smartwatch from './staticIcons/icon-illustration-smartwatch.svg';
+import socialSecurity from './staticIcons/icon-illustration-social-security.svg';
+import steering from './staticIcons/icon-illustration-steering.svg';
+import success from './staticIcons/icon-illustration-success.svg';
+import support from './staticIcons/icon-illustration-support.svg';
+import swim from './staticIcons/icon-illustration-swim.svg';
+import tabletText from './staticIcons/icon-illustration-tablet-text.svg';
+import tablet from './staticIcons/icon-illustration-tablet.svg';
+import team from './staticIcons/icon-illustration-team.svg';
+import touch from './staticIcons/icon-illustration-touch.svg';
+import train from './staticIcons/icon-illustration-train.svg';
+import userBadge from './staticIcons/icon-illustration-user-badge.svg';
+import userProfile from './staticIcons/icon-illustration-user-profile.svg';
+import webDevelopment from './staticIcons/icon-illustration-web-development.svg';
+import webService from './staticIcons/icon-illustration-web-service.svg';
+import womanButtons from './staticIcons/icon-illustration-woman-buttons.svg';
+import womanNecklace from './staticIcons/icon-illustration-woman-necklace.svg';
 
 import doc from './staticIcons/icon-doc.svg';
-import generic from './staticIcons/icon-generic.svg';
+import genericFile from './staticIcons/icon-generic-file.svg';
 import pdf from './staticIcons/icon-pdf.svg';
 import ppt from './staticIcons/icon-ppt.svg';
 import xls from './staticIcons/icon-xls.svg';
 import xml from './staticIcons/icon-xml.svg';
 
+import toggle from './staticIcons/icon-toggle.svg';
+
 export type StaticIconKeys = keyof typeof staticIcons;
 
 export const staticIcons = {
-  staticIllustrationArchive,
-  staticIllustrationArrows,
-  staticIllustrationAuthorizations,
-  staticIllustrationBlock,
-  staticIllustrationBook,
-  staticIllustrationBriefcase,
-  staticIllustrationBubbles,
-  staticIllustrationBuilding,
-  staticIllustrationCatalog,
-  staticIllustrationChat,
-  staticIllustrationChild,
-  staticIllustrationCogwheels,
-  staticIllustrationCoins,
-  staticIllustrationContent,
-  staticIllustrationContract,
-  staticIllustrationCreditCards,
-  staticIllustrationDatabase,
-  staticIllustrationDiagram,
-  staticIllustrationDisplay,
-  staticIllustrationDoctor,
-  staticIllustrationEar,
-  staticIllustrationFailure,
-  staticIllustrationFamily,
-  staticIllustrationFeedback,
-  staticIllustrationFinance,
-  staticIllustrationFolder,
-  staticIllustrationGlobe,
-  staticIllustrationGraph,
-  staticIllustrationGroup,
-  staticIllustrationGrowth,
-  staticIllustrationHands,
-  staticIllustrationHelper,
-  staticIllustrationHome,
-  staticIllustrationHop,
-  staticIllustrationHouse,
-  staticIllustrationId,
-  staticIllustrationLaptop,
-  staticIllustrationLineChart,
-  staticIllustrationLineScreen,
-  staticIllustrationMailbox,
-  staticIllustrationMailed,
-  staticIllustrationMallet,
-  staticIllustrationManButtons,
-  staticIllustrationManGlasses,
-  staticIllustrationManLaptop,
-  staticIllustrationMap,
-  staticIllustrationMessages,
-  staticIllustrationMeter,
-  staticIllustrationMoney,
-  staticIllustrationMoneyBag,
-  staticIllustrationOrganisation,
-  staticIllustrationPhone,
-  staticIllustrationPhoneText,
-  staticIllustrationPiggyBank,
-  staticIllustrationPillar,
-  staticIllustrationPlane,
-  staticIllustrationPlate,
-  staticIllustrationPortrait,
-  staticIllustrationPresentation,
-  staticIllustrationPuzzle,
-  staticIllustrationRocket,
-  staticIllustrationScale,
-  staticIllustrationScaleBalance,
-  staticIllustrationServer,
-  staticIllustrationShop,
-  staticIllustrationSuccess,
-  staticIllustrationSupport,
-  staticIllustrationSwim,
-  staticIllustrationTablet,
-  staticIllustrationTabletText,
-  staticIllustrationTeam,
-  staticIllustrationTouch,
-  staticIllustrationUmbrella,
-  staticIllustrationUser,
-  staticIllustrationWand,
-  staticIllustrationWatch,
-  staticIllustrationWebDevelopment,
-  staticIllustrationWheel,
-  staticIllustrationWomanButtons,
-  staticIllustrationWomanNecklace,
-  toggle
+  archive,
+  authorisation,
+  book,
+  briefcase,
+  buildingAdministrative,
+  buildings,
+  catalog,
+  chartAnalytics,
+  chartPie,
+  chartScreen,
+  chartStatistic,
+  chatBubbles,
+  child,
+  collaboration,
+  contract,
+  conversation,
+  court,
+  creditCards,
+  database,
+  display,
+  doctor,
+  environment,
+  exchange,
+  failure,
+  family,
+  faq,
+  feedback,
+  finance,
+  folder,
+  global,
+  group,
+  growth,
+  handCoins,
+  handPlate,
+  helpdesk,
+  home,
+  house,
+  idBadge,
+  laptopContent,
+  laptop,
+  leap,
+  magicWand,
+  mailbox,
+  manButtons,
+  manGlasses,
+  manLaptop,
+  map,
+  messageSent,
+  messages,
+  meter,
+  migrationFinland,
+  money,
+  moneyBag,
+  organisation,
+  phoneText,
+  phone,
+  piggyBank,
+  pillar,
+  planeFlying,
+  presentation,
+  puzzle,
+  rocket,
+  scaleBalance,
+  scale,
+  server,
+  settings,
+  shelter,
+  shop,
+  smartwatch,
+  socialSecurity,
+  steering,
+  success,
+  support,
+  swim,
+  tabletText,
+  tablet,
+  team,
+  touch,
+  train,
+  userBadge,
+  userProfile,
+  webDevelopment,
+  webService,
+  womanButtons,
+  womanNecklace
 };
 
 export type DoctypeIconKeys = keyof typeof doctypeIcons;
 
 export const doctypeIcons = {
   doc,
-  generic,
+  genericFile,
   pdf,
   ppt,
   xls,
   xml
+};
+
+export type ComponentIconKeys = keyof typeof componentIcons;
+
+export const componentIcons = {
+  toggle
 };
