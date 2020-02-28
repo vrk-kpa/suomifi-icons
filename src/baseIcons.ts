@@ -78,9 +78,9 @@ import transportBus from './icons/icon-transport-bus.svg';
 import transportCar from './icons/icon-transport-car.svg';
 import transportWalk from './icons/icon-transport-walk.svg';
 
-export type IconKeys = keyof typeof icons;
+export type BaseIconKeys = keyof typeof baseIcons;
 
-export const icons = {
+export const baseIcons = {
   arrowUp,
   arrowRight,
   arrowDown,

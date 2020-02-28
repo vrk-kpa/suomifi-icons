@@ -1,15 +1,27 @@
 import React from 'react';
-import { IconKeys, icons } from './icons';
+import { BaseIconKeys, baseIcons as origBaseIcons } from './baseIcons';
 import {
-  StaticIconKeys,
-  staticIcons,
+  IllustrativeIconKeys,
+  illustrativeIcons as origIllustrativeIcons
+} from './illustrativeIcons';
+import {
   DoctypeIconKeys,
-  doctypeIcons,
+  doctypeIcons as origDoctypeIcons
+} from './doctypeIcons';
+import {
   ComponentIconKeys,
-  componentIcons
-} from './staticIcons';
-export { IconKeys } from './icons';
-export { StaticIconKeys, DoctypeIconKeys } from './staticIcons';
+  componentIcons as origComponentIcons
+} from './componentIcons';
+
+export { BaseIconKeys } from './baseIcons';
+export { IllustrativeIconKeys } from './illustrativeIcons';
+export { DoctypeIconKeys } from './doctypeIcons';
+export { ComponentIconKeys } from './componentIcons';
+
+export const baseIcons = Object.keys(origBaseIcons);
+export const illustrativeIcons = Object.keys(origIllustrativeIcons);
+export const doctypeIcons = Object.keys(origDoctypeIcons);
+export const componentIcons = Object.keys(origComponentIcons);
 
 const fallbackIcon = 'login';
 
@@ -17,18 +29,17 @@ function objValue<T, K extends keyof T>(obj: T, key: K) {
   return obj[key];
 }
 
-export const allIcons = Object.keys(icons);
-export const allStaticIcons = Object.keys(staticIcons);
-export const allDoctypeIcons = Object.keys(doctypeIcons);
-export const allComponentIcons = Object.keys(componentIcons);
-
-export interface SuomifiIconInterface {
-  icon: IconKeys;
-  color?: string;
-  fill?: string;
+interface SuomifiIconBaseInterface<T> {
+  icon: T;
   className?: string;
   // Allow passing unsupported custom props to SVG without providing an API
   [key: string]: any;
+}
+
+export interface SuomifiIconInterface
+  extends SuomifiIconBaseInterface<BaseIconKeys> {
+  color?: string;
+  fill?: string;
 }
 
 export class SuomifiIcon extends React.Component<SuomifiIconInterface> {
@@ -36,52 +47,44 @@ export class SuomifiIcon extends React.Component<SuomifiIconInterface> {
     const { icon, color, fill: origFill, ...passProps } = this.props;
     const fill = !!origFill ? origFill : color;
     const fillProp =
-      !(icon in staticIcons || icon in doctypeIcons) && !!fill
+      !(icon in origIllustrativeIcons || icon in origDoctypeIcons) && !!fill
         ? { fill: fill }
         : {};
-    const Svg = (!!(icon in icons)
-      ? objValue(icons, icon as IconKeys)
-      : objValue(icons, fallbackIcon)) as any;
+    const Svg = (!!(icon in origBaseIcons)
+      ? objValue(origBaseIcons, icon as BaseIconKeys)
+      : objValue(origBaseIcons, fallbackIcon)) as any;
     return <Svg {...passProps} {...fillProp} />;
   }
 }
 
-export interface SuomifiIllustrativeIconInterface {
-  icon: StaticIconKeys | DoctypeIconKeys;
-  className?: string;
-  // Allow passing unsupported custom props to SVG without providing an API
-  [key: string]: any;
-}
+export interface SuomifiStaticIconInterface
+  extends SuomifiIconBaseInterface<IllustrativeIconKeys | DoctypeIconKeys> {}
 
-export class SuomifiIllustrativeIcon extends React.Component<
-  SuomifiIllustrativeIconInterface
+export class SuomifiStaticIcon extends React.Component<
+  SuomifiStaticIconInterface
 > {
   render() {
     const { icon, ...passProps } = this.props;
-    const Svg = (icon in staticIcons
-      ? objValue(staticIcons, icon as StaticIconKeys)
-      : icon in doctypeIcons
-      ? objValue(doctypeIcons, icon as DoctypeIconKeys)
-      : objValue(icons, fallbackIcon)) as any;
+    const Svg = (icon in origIllustrativeIcons
+      ? objValue(origIllustrativeIcons, icon as IllustrativeIconKeys)
+      : icon in origDoctypeIcons
+      ? objValue(origDoctypeIcons, icon as DoctypeIconKeys)
+      : objValue(origBaseIcons, fallbackIcon)) as any;
     return <Svg {...passProps} />;
   }
 }
 
-export interface SuomifiComponentIconInterface {
-  icon: ComponentIconKeys;
-  className?: string;
-  // Allow passing unsupported custom props to SVG without providing an API
-  [key: string]: any;
-}
+export interface SuomifiComponentIconInterface
+  extends SuomifiIconBaseInterface<ComponentIconKeys> {}
 
 export class SuomifiComponentIcon extends React.Component<
   SuomifiComponentIconInterface
 > {
   render() {
     const { icon, ...passProps } = this.props;
-    const Svg = (!!(icon in componentIcons)
-      ? objValue(componentIcons, icon as ComponentIconKeys)
-      : objValue(icons, fallbackIcon)) as any;
+    const Svg = (!!(icon in origComponentIcons)
+      ? objValue(origComponentIcons, icon as ComponentIconKeys)
+      : objValue(origBaseIcons, fallbackIcon)) as any;
     return <Svg {...passProps} />;
   }
 }
