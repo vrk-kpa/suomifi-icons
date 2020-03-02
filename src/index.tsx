@@ -38,14 +38,18 @@ function fillProp<T extends FillPropsInterface>(props: T): CSSProperties {
 }
 
 interface SuomifiIconBaseInterface<T> {
+  /** Icon name */
   icon: T;
+  /** Custom classname to extend or customize */
   className?: string;
   // Allow passing unsupported custom props to SVG without providing an API
   [key: string]: any;
 }
 
 interface FillPropsInterface {
+  /** Custom fill color */
   color?: string;
+  /** Custom fill color, takes precedence over color if both are provided */
   fill?: string;
 }
 
@@ -81,17 +85,16 @@ export class SuomifiStaticIcon extends React.Component<
 }
 
 export interface SuomifiComponentIconInterface
-  extends SuomifiIconBaseInterface<ComponentIconKeys>,
-    FillPropsInterface {}
+  extends SuomifiIconBaseInterface<ComponentIconKeys> {}
 
 export class SuomifiComponentIcon extends React.Component<
   SuomifiComponentIconInterface
 > {
   render() {
-    const { icon, color, fill, ...passProps } = this.props;
+    const { icon, ...passProps } = this.props;
     const Svg = (!!(icon in origComponentIcons)
       ? objValue(origComponentIcons, icon as ComponentIconKeys)
       : objValue(origComponentIcons, fallbackComponentIcon)) as any;
-    return <Svg {...passProps} {...fillProp(this.props)} />;
+    return <Svg {...passProps} />;
   }
 }
