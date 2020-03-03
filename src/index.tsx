@@ -31,6 +31,13 @@ function objValue<T, K extends keyof T>(obj: T, key: K) {
   return obj[key];
 }
 
+interface FillPropsInterface {
+  /** Custom fill color */
+  color?: string;
+  /** Custom fill color, takes precedence over color if both are provided */
+  fill?: string;
+}
+
 function fillProp<T extends FillPropsInterface>(props: T): CSSProperties {
   const { color, fill: origFill } = props;
   const fill = !!origFill ? origFill : color;
@@ -44,13 +51,6 @@ interface SuomifiIconBaseInterface<T> {
   className?: string;
   // Allow passing unsupported custom props to SVG without providing an API
   [key: string]: any;
-}
-
-interface FillPropsInterface {
-  /** Custom fill color */
-  color?: string;
-  /** Custom fill color, takes precedence over color if both are provided */
-  fill?: string;
 }
 
 export interface SuomifiIconInterface
