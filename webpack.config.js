@@ -18,7 +18,11 @@ module.exports = {
         test: /\.svg$/,
         oneOf: [
           {
-            include: [path.resolve(__dirname, 'src/staticIcons')],
+            include: [
+              path.resolve(__dirname, 'src/componentIcons'),
+              path.resolve(__dirname, 'src/doctypeIcons'),
+              path.resolve(__dirname, 'src/illustrativeIcons')
+            ],
             loader: '@svgr/webpack',
             options: {
               svgo: true,
@@ -27,7 +31,11 @@ module.exports = {
             }
           },
           {
-            exclude: [path.resolve(__dirname, 'src/staticIcons')],
+            exclude: [
+              path.resolve(__dirname, 'src/componentIcons'),
+              path.resolve(__dirname, 'src/doctypeIcons'),
+              path.resolve(__dirname, 'src/illustrativeIcons')
+            ],
             loader: '@svgr/webpack',
             options: {
               svgo: true,
