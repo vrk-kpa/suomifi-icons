@@ -2,6 +2,8 @@
 
 Offers suomi.fi-styleguide icons as React-components. **This library does not take responsibility of accessibility, component passes given attributes to the SVG-element.**
 
+This repository uses semantic versioning (https://semver.org/).
+
 ```bash
 yarn add suomifi-icons
 ```
