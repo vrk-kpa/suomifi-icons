@@ -1,9 +1,14 @@
 const path = require('path');
+const TerserPlugin = require('terser-webpack-plugin');
 
-module.exports = {
+module.exports = (env) => ({
   entry: './src/index.tsx',
-  mode: 'development',
-  devtool: 'inline-source-map',
+  mode: env.production ? 'production' : 'development',
+  devtool: env.production ? 'source-map' : 'inline-source-map',
+  optimization: {
+    minimize: true,
+    minimizer: [new TerserPlugin()]
+  },
   module: {
     rules: [
       // Run the typescript compilier on .ts files before webpack
@@ -66,4 +71,4 @@ module.exports = {
   //     minSize: 0
   //   }
   // }
-};
+});
