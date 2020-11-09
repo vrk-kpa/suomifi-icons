@@ -7,6 +7,7 @@ import arrowheadUp from './baseIcons/icon-arrowhead-up.svg';
 import attachment from './baseIcons/icon-attachment.svg';
 import authorise from './baseIcons/icon-authorise.svg';
 import calendar from './baseIcons/icon-calendar.svg';
+import calendarChecked from './baseIcons/icon-calendar-checked.svg';
 import chatHeart from './baseIcons/icon-chat-heart.svg';
 import chatQuestion from './baseIcons/icon-chat-question.svg';
 import checkCircleFilled from './baseIcons/icon-check-circle-filled.svg';
@@ -90,6 +91,7 @@ export const baseIcons = {
   attachment,
   authorise,
   calendar,
+  calendarChecked,
   chatHeart,
   chatQuestion,
   checkCircleFilled,
