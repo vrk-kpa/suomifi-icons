@@ -1,7 +1,8 @@
 const path = require('path');
 const TerserPlugin = require('terser-webpack-plugin');
 
-module.exports = (env) => ({
+module.exports = env => ({
+  target: ['web', 'es5'],
   entry: './src/index.tsx',
   mode: env.production ? 'production' : 'development',
   devtool: env.production ? 'source-map' : 'inline-source-map',
