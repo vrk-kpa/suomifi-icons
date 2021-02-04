@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37px" height="20px" viewBox="0 0 37 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title> Toggle Switch/ Tumbler On</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="37" height="14" rx="7"></rect>
+        <path d="M9.72352511,2.69212662 L3.99981144,8.7093477 C3.63117826,9.0968841 3.03438848,9.0968841 2.66669809,8.7093477 L0.275767789,6.19680357 C-0.0919225965,5.80926717 -0.0919225965,5.1818745 0.275767789,4.7943381 C0.644400971,4.40779285 1.24119075,4.40779285 1.60888114,4.7943381 L3.33325477,6.60713622 L8.39041177,1.2906523 C8.75810215,0.903115902 9.35489193,0.903115902 9.72352511,1.2906523 C10.0921583,1.67719755 10.0921583,2.30459022 9.72352511,2.69212662" id="path-3"></path>
+    </defs>
+    <g id="-Toggle-Switch/-Tumbler-On" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(0.000000, 3.000000)">
+            <g id="*-UI/*-Pohja/Rounded-(100px)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Pohja"></g>
+                <g id="Group" mask="url(#mask-2)" fill="#FFFFFF">
+                    <g id="↳-🎨Väri">
+                        <rect id="Base" x="0" y="0" width="37" height="14"></rect>
+                    </g>
+                </g>
+                <g id="Group" mask="url(#mask-2)" fill="#FFFFFF">
+                    <g id="↳⚙️Tila">
+                        <rect id="Rectangle-2" x="0" y="0" width="37" height="14"></rect>
+                    </g>
+                </g>
+            </g>
+            <g id="*-UI/*-Reunukset-(100px)/Harmaa" stroke="#8C969B">
+                <path d="M30,0.5 C31.7949254,0.5 33.4199254,1.22753728 34.5961941,2.40380592 C35.7724627,3.58007456 36.5,5.20507456 36.5,7 C36.5,8.79492544 35.7724627,10.4199254 34.5961941,11.5961941 C33.4199254,12.7724627 31.7949254,13.5 30,13.5 L30,13.5 L7,13.5 C5.20507456,13.5 3.58007456,12.7724627 2.40380592,11.5961941 C1.22753728,10.4199254 0.5,8.79492544 0.5,7 C0.5,5.20507456 1.22753728,3.58007456 2.40380592,2.40380592 C3.58007456,1.22753728 5.20507456,0.5 7,0.5 L7,0.5 Z" id="Reunus"></path>
+            </g>
+        </g>
+        <circle id="knob" fill="#09A580" cx="27" cy="10" r="10"></circle>
+        <g id="Icons/Basic-Icons/Done-Small" transform="translate(22.000000, 5.000000)">
+            <mask id="mask-4" fill="white">
+                <use xlink:href="#path-3"></use>
+            </mask>
+            <use id="Valittu" fill="#FFFFFF" xlink:href="#path-3"></use>
+        </g>
+    </g>
+</svg>

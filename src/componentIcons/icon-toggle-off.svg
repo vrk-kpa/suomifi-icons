@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37px" height="20px" viewBox="0 0 37 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title> Toggle Switch/ Tumbler Off</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="37" height="14" rx="7"></rect>
+    </defs>
+    <g id="-Toggle-Switch/-Tumbler-Off" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(0.000000, 3.000000)">
+            <g id="*-UI/*-Pohja/Rounded-(100px)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Pohja"></g>
+                <g id="Group" mask="url(#mask-2)" fill="#FFFFFF">
+                    <g id="↳-🎨Väri">
+                        <rect id="Base" x="0" y="0" width="37" height="14"></rect>
+                    </g>
+                </g>
+                <g id="Group" mask="url(#mask-2)" fill="#FFFFFF">
+                    <g id="↳⚙️Tila">
+                        <rect id="Rectangle-2" x="0" y="0" width="37" height="14"></rect>
+                    </g>
+                </g>
+            </g>
+            <g id="*-UI/*-Reunukset-(100px)/Harmaa" stroke="#8C969B">
+                <path d="M30,0.5 C31.7949254,0.5 33.4199254,1.22753728 34.5961941,2.40380592 C35.7724627,3.58007456 36.5,5.20507456 36.5,7 C36.5,8.79492544 35.7724627,10.4199254 34.5961941,11.5961941 C33.4199254,12.7724627 31.7949254,13.5 30,13.5 L30,13.5 L7,13.5 C5.20507456,13.5 3.58007456,12.7724627 2.40380592,11.5961941 C1.22753728,10.4199254 0.5,8.79492544 0.5,7 C0.5,5.20507456 1.22753728,3.58007456 2.40380592,2.40380592 C3.58007456,1.22753728 5.20507456,0.5 7,0.5 L7,0.5 Z" id="Reunus"></path>
+            </g>
+        </g>
+        <circle id="knob" fill="#6D787E" cx="10" cy="10" r="10"></circle>
+    </g>
+</svg>

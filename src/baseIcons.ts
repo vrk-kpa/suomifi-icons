@@ -46,6 +46,8 @@ import internet from './baseIcons/icon-internet.svg';
 import linkBreadcrumb from './baseIcons/icon-link-breadcrumb.svg';
 import linkExternal from './baseIcons/icon-link-external.svg';
 import linkList from './baseIcons/icon-link-list.svg';
+import listBulleted from './baseIcons/icon-list-bulleted.svg';
+import listNumbered from './baseIcons/icon-list-numbered.svg';
 import login from './baseIcons/icon-login.svg';
 import logout from './baseIcons/icon-logout.svg';
 import mailSend from './baseIcons/icon-mail-send.svg';
@@ -72,12 +74,14 @@ import save from './baseIcons/icon-save.svg';
 import search from './baseIcons/icon-search.svg';
 import settings from './baseIcons/icon-settings.svg';
 import signLanguageContent from './baseIcons/icon-sign-language-content.svg';
+import subDirectory from './baseIcons/icon-sub-directory.svg';
 import swapRounded from './baseIcons/icon-swap-rounded.svg';
 import swapVertical from './baseIcons/icon-swap-vertical.svg';
 import transportBicycle from './baseIcons/icon-transport-bicycle.svg';
 import transportBus from './baseIcons/icon-transport-bus.svg';
 import transportCar from './baseIcons/icon-transport-car.svg';
 import transportWalk from './baseIcons/icon-transport-walk.svg';
+import upload from './baseIcons/icon-upload.svg';
 
 export type BaseIconKeys = keyof typeof baseIcons;
 
@@ -130,6 +134,8 @@ export const baseIcons = {
   linkBreadcrumb,
   linkExternal,
   linkList,
+  listBulleted,
+  listNumbered,
   login,
   logout,
   mailSend,
@@ -156,10 +162,12 @@ export const baseIcons = {
   search,
   settings,
   signLanguageContent,
+  subDirectory,
   swapRounded,
   swapVertical,
   transportBicycle,
   transportBus,
   transportCar,
-  transportWalk
+  transportWalk,
+  upload
 };

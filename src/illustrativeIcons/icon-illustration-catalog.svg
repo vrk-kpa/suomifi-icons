@@ -1,27 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
-    <title>Ikonit / Kuvitukset / Liityntäkatalogi</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Ikonit-/-Kuvitukset-/-Liityntäkatalogi" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <title>Icons/Illustrative Icons/Suomifi Services/API Catalogue</title>
+    <g id="Icons/Illustrative-Icons/Suomifi-Services/API-Catalogue" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group-2" transform="translate(17.000000, 10.000000)">
-            <path d="M45,60 L1,60 C0.447,60 0,59.553 0,59 L0,1 C0,0.447 0.447,0 1,0 L12,0 L12,2 L2,2 L2,58 L44,58 L44,2 L34,2 L34,0 L45,0 C45.553,0 46,0.447 46,1 L46,59 C46,59.553 45.553,60 45,60" id="Fill-36-Copy" fill="#A5ACB0"></path>
-            <polygon id="Fill-44-Copy-11" fill="#EA7125" points="11 21 13 21 13 19 11 19"></polygon>
-            <polygon id="Fill-44-Copy-10" fill="#EA7125" points="11 16 13 16 13 14 11 14"></polygon>
-            <polygon id="Fill-45-Copy-5" fill="#EA7125" points="11 26 13 26 13 24 11 24"></polygon>
-            <polygon id="Fill-46-Copy-5" fill="#EA7125" points="11 31 13 31 13 29 11 29"></polygon>
-            <polygon id="Fill-47-Copy-5" fill="#EA7125" points="11 36 13 36 13 34 11 34"></polygon>
-            <polygon id="Fill-48-Copy-5" fill="#EA7125" points="11 41 13 41 13 39 11 39"></polygon>
-            <polygon id="Fill-49-Copy-5" fill="#EA7125" points="11 46 13 46 13 44 11 44"></polygon>
-            <polygon id="Fill-44-Copy-9" fill="#EA7125" points="15 21 35 21 35 19 15 19"></polygon>
-            <polygon id="Fill-44-Copy-8" fill="#EA7125" points="15 16 35 16 35 14 15 14"></polygon>
-            <polygon id="Fill-44-Copy-12" fill="#A5ACB0" points="12 2 34 2 34 0 12 0"></polygon>
-            <polygon id="Fill-45-Copy-4" fill="#EA7125" points="15 26 35 26 35 24 15 24"></polygon>
-            <polygon id="Fill-46-Copy-4" fill="#EA7125" points="15 31 35 31 35 29 15 29"></polygon>
-            <polygon id="Fill-47-Copy-4" fill="#EA7125" points="15 36 35 36 35 34 15 34"></polygon>
-            <polygon id="Fill-48-Copy-4" fill="#EA7125" points="15 41 35 41 35 39 15 39"></polygon>
-            <polygon id="Fill-49-Copy-4" fill="#EA7125" points="15 46 35 46 35 44 15 44"></polygon>
+            <path d="M45,60 L1,60 C0.447,60 0,59.553 0,59 L0,1 C0,0.447 0.447,0 1,0 L12,0 L12,2 L2,2 L2,58 L44,58 L44,2 L34,2 L34,0 L45,0 C45.553,0 46,0.447 46,1 L46,59 C46,59.553 45.553,60 45,60" id="Fill-36-Copy" fill="#A5ADB1"></path>
+            <polygon id="Fill-44-Copy-11" fill="#E97025" points="11 21 13 21 13 19 11 19"></polygon>
+            <polygon id="Fill-44-Copy-10" fill="#E97025" points="11 16 13 16 13 14 11 14"></polygon>
+            <polygon id="Fill-45-Copy-5" fill="#E97025" points="11 26 13 26 13 24 11 24"></polygon>
+            <polygon id="Fill-46-Copy-5" fill="#E97025" points="11 31 13 31 13 29 11 29"></polygon>
+            <polygon id="Fill-47-Copy-5" fill="#E97025" points="11 36 13 36 13 34 11 34"></polygon>
+            <polygon id="Fill-48-Copy-5" fill="#E97025" points="11 41 13 41 13 39 11 39"></polygon>
+            <polygon id="Fill-49-Copy-5" fill="#E97025" points="11 46 13 46 13 44 11 44"></polygon>
+            <polygon id="Fill-44-Copy-9" fill="#E97025" points="15 21 35 21 35 19 15 19"></polygon>
+            <polygon id="Fill-44-Copy-8" fill="#E97025" points="15 16 35 16 35 14 15 14"></polygon>
+            <polygon id="Fill-44-Copy-12" fill="#A5ADB1" points="12 2 34 2 34 0 12 0"></polygon>
+            <polygon id="Fill-45-Copy-4" fill="#E97025" points="15 26 35 26 35 24 15 24"></polygon>
+            <polygon id="Fill-46-Copy-4" fill="#E97025" points="15 31 35 31 35 29 15 29"></polygon>
+            <polygon id="Fill-47-Copy-4" fill="#E97025" points="15 36 35 36 35 34 15 34"></polygon>
+            <polygon id="Fill-48-Copy-4" fill="#E97025" points="15 41 35 41 35 39 15 39"></polygon>
+            <polygon id="Fill-49-Copy-4" fill="#E97025" points="15 46 35 46 35 44 15 44"></polygon>
         </g>
         <rect id="bounding-box" x="0" y="0" width="80" height="80"></rect>
     </g>

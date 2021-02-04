@@ -1,26 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
-    <title>Ikonit / Kuvitukset / Tunnistus</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Ikonit-/-Kuvitukset-/-Tunnistus" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <title>Icons/Illustrative Icons/Suomifi Services/ Identification</title>
+    <g id="Icons/Illustrative-Icons/Suomifi-Services/-Identification" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group-7" transform="translate(8.000000, 10.000000)">
-            <path d="M61,60 L3,60 C1.346,60 0,58.654 0,57 L0,21 C0,19.346 1.346,18 3,18 L22,18 L22,20 L3,20 C2.448,20 2,20.449 2,21 L2,57 C2,57.551 2.448,58 3,58 L61,58 C61.552,58 62,57.551 62,57 L62,21 C62,20.449 61.552,20 61,20 L42,20 L42,18 L61,18 C62.654,18 64,19.346 64,21 L64,57 C64,58.654 62.654,60 61,60" id="Fill-108" fill="#A5ACB0"></path>
-            <polygon id="Fill-109" fill="#A5ACB0" points="20 24 44 24 44 22 20 22"></polygon>
-            <path d="M32,6 C30.897,6 30,6.897 30,8 C30,9.103 30.897,10 32,10 C33.103,10 34,9.103 34,8 C34,6.897 33.103,6 32,6 L32,6 Z M32,12 C29.794,12 28,10.206 28,8 C28,5.794 29.794,4 32,4 C34.206,4 36,5.794 36,8 C36,10.206 34.206,12 32,12 L32,12 Z" id="Fill-110" fill="#A5ACB0"></path>
-            <path d="M40,23 L38,23 L38,8 C38,4.691 35.309,2 32,2 C28.691,2 26,4.691 26,8 L26,23 L24,23 L24,8 C24,3.589 27.589,0 32,0 C36.411,0 40,3.589 40,8 L40,23" id="Fill-111" fill="#A5ACB0"></path>
-            <path d="M17,32 C13.972,32 13,33.093 13,36.5 C13,39.167 14.402,42 17,42 C19.598,42 21,39.167 21,36.5 C21,33.093 20.028,32 17,32 L17,32 Z M14.0737443,43.1092889 L8,46.58 L8,48 C8,49.224 8.703,50 9,50 L25,50 C25.297,50 26,49.224 26,48 L26,46.58 L19.9262557,43.1092889 C19.0704013,43.6805108 18.0769205,44 17,44 C15.9230795,44 14.9295987,43.6805108 14.0737443,43.1092889 Z M12.5716119,41.6647932 C11.5866936,40.3396254 11,38.5394718 11,36.5 C11,33.474 11.682,30 17,30 C22.318,30 23,33.474 23,36.5 C23,38.5394718 22.4133064,40.3396254 21.4283881,41.6647932 L28,45.42 L28,48 C28,50.168 26.626,52 25,52 L9,52 C7.374,52 6,50.168 6,48 L6,45.42 L12.5716119,41.6647932 Z" id="Combined-Shape" fill="#EA7125"></path>
-            <polygon id="Fill-114" fill="#A5ACB0" points="49 36 58 36 58 34 49 34"></polygon>
-            <polygon id="Fill-115" fill="#A5ACB0" points="30 36 47 36 47 34 30 34"></polygon>
-            <polygon id="Fill-116" fill="#A5ACB0" points="41 32 58 32 58 30 41 30"></polygon>
-            <polygon id="Fill-117" fill="#A5ACB0" points="30 32 39 32 39 30 30 30"></polygon>
-            <path d="M32,50 L56,50 L56,44 L32,44 L32,50 Z M30,52 L58,52 L58,42 L30,42 L30,52 Z" id="Fill-118" fill="#A5ACB0"></path>
-            <polygon id="Fill-119" fill="#A5ACB0" points="35 48 37 48 37 46 35 46"></polygon>
-            <polygon id="Fill-120" fill="#A5ACB0" points="39 48 41 48 41 46 39 46"></polygon>
-            <polygon id="Fill-121" fill="#A5ACB0" points="43 48 45 48 45 46 43 46"></polygon>
-            <polygon id="Fill-122" fill="#A5ACB0" points="47 48 49 48 49 46 47 46"></polygon>
-            <polygon id="Fill-123" fill="#A5ACB0" points="51 48 53 48 53 46 51 46"></polygon>
+            <path d="M61,60 L3,60 C1.346,60 0,58.654 0,57 L0,21 C0,19.346 1.346,18 3,18 L22,18 L22,20 L3,20 C2.448,20 2,20.449 2,21 L2,57 C2,57.551 2.448,58 3,58 L61,58 C61.552,58 62,57.551 62,57 L62,21 C62,20.449 61.552,20 61,20 L42,20 L42,18 L61,18 C62.654,18 64,19.346 64,21 L64,57 C64,58.654 62.654,60 61,60" id="Fill-108" fill="#A5ADB1"></path>
+            <polygon id="Fill-109" fill="#A5ADB1" points="20 24 44 24 44 22 20 22"></polygon>
+            <path d="M32,6 C30.897,6 30,6.897 30,8 C30,9.103 30.897,10 32,10 C33.103,10 34,9.103 34,8 C34,6.897 33.103,6 32,6 L32,6 Z M32,12 C29.794,12 28,10.206 28,8 C28,5.794 29.794,4 32,4 C34.206,4 36,5.794 36,8 C36,10.206 34.206,12 32,12 L32,12 Z" id="Fill-110" fill="#A5ADB1"></path>
+            <path d="M40,23 L38,23 L38,8 C38,4.691 35.309,2 32,2 C28.691,2 26,4.691 26,8 L26,23 L24,23 L24,8 C24,3.589 27.589,0 32,0 C36.411,0 40,3.589 40,8 L40,23" id="Fill-111" fill="#A5ADB1"></path>
+            <path d="M17,32 C13.972,32 13,33.093 13,36.5 C13,39.167 14.402,42 17,42 C19.598,42 21,39.167 21,36.5 C21,33.093 20.028,32 17,32 L17,32 Z M17,30 C22.318,30 23,33.474 23,36.5 C23,38.5395682 22.4132509,40.3397956 21.4282484,41.6649811 L28,45.42 L28,48 C28,50.168 26.626,52 25,52 L9,52 C7.374,52 6,50.168 6,48 L6,45.42 L12.5717516,41.6649811 C11.5867491,40.3397956 11,38.5395682 11,36.5 C11,33.474 11.682,30 17,30 Z M17,44 C15.9232509,44 14.9299151,43.6806125 14.0741531,43.1095618 L8,46.58 L8,48 C8,49.224 8.703,50 9,50 L25,50 C25.297,50 26,49.224 26,48 L26,46.58 L19.9258469,43.1095618 C19.0700849,43.6806125 18.0767491,44 17,44 Z" id="Combined-Shape" fill="#E97025"></path>
+            <polygon id="Fill-114" fill="#A5ADB1" points="49 36 58 36 58 34 49 34"></polygon>
+            <polygon id="Fill-115" fill="#A5ADB1" points="30 36 47 36 47 34 30 34"></polygon>
+            <polygon id="Fill-116" fill="#A5ADB1" points="41 32 58 32 58 30 41 30"></polygon>
+            <polygon id="Fill-117" fill="#A5ADB1" points="30 32 39 32 39 30 30 30"></polygon>
+            <path d="M32,50 L56,50 L56,44 L32,44 L32,50 Z M30,52 L58,52 L58,42 L30,42 L30,52 Z" id="Fill-118" fill="#A5ADB1"></path>
+            <polygon id="Fill-119" fill="#A5ADB1" points="35 48 37 48 37 46 35 46"></polygon>
+            <polygon id="Fill-120" fill="#A5ADB1" points="39 48 41 48 41 46 39 46"></polygon>
+            <polygon id="Fill-121" fill="#A5ADB1" points="43 48 45 48 45 46 43 46"></polygon>
+            <polygon id="Fill-122" fill="#A5ADB1" points="47 48 49 48 49 46 47 46"></polygon>
+            <polygon id="Fill-123" fill="#A5ADB1" points="51 48 53 48 53 46 51 46"></polygon>
         </g>
         <rect id="bounding-box" x="0" y="0" width="80" height="80"></rect>
     </g>

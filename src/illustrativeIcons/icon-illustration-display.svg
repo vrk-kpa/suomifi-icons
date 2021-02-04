@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
-    <title>Ikonit / Kuvitukset / Näyttö</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Ikonit-/-Kuvitukset-/-Näyttö" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <title>Icons/Illustrative Icons/Screen display</title>
+    <g id="Icons/Illustrative-Icons/Screen-display" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group-2" transform="translate(8.000000, 11.000000)">
-            <path d="M4,2 C2.897,2 2,2.897 2,4 L2,44 C2,45.103 2.897,46 4,46 L60,46 C61.103,46 62,45.103 62,44 L62,4 C62,2.897 61.103,2 60,2 L4,2 Z M60,48 L4,48 C1.794,48 0,46.206 0,44 L0,4 C0,1.794 1.794,0 4,0 L60,0 C62.206,0 64,1.794 64,4 L64,44 C64,46.206 62.206,48 60,48 L60,48 Z" id="Fill-68" fill="#A5ACB0"></path>
-            <polyline id="Fill-69" fill="#A5ACB0" points="39.02 57.196 37.02 47.196 38.98 46.804 40.98 56.804 39.02 57.196"></polyline>
-            <polyline id="Fill-70" fill="#A5ACB0" points="24.98 57.196 23.02 56.804 25.02 46.804 26.98 47.196 24.98 57.196"></polyline>
-            <polygon id="Fill-71" fill="#A5ACB0" points="19 58 45 58 45 56 19 56"></polygon>
-            <polygon id="Fill-72" fill="#A5ACB0" points="31 44 33 44 33 42 31 42"></polygon>
-            <polygon id="Fill-73" fill="#EA7125" points="31 34 33 34 33 32 31 32"></polygon>
-            <polygon id="Fill-74" fill="#EA7125" points="35 34 37 34 37 32 35 32"></polygon>
-            <polygon id="Fill-75" fill="#EA7125" points="39 34 41 34 41 32 39 32"></polygon>
-            <polygon id="Fill-76" fill="#EA7125" points="27 34 29 34 29 32 27 32"></polygon>
-            <polygon id="Fill-77" fill="#EA7125" points="23 34 25 34 25 32 23 32"></polygon>
-            <path d="M6,38 L58,38 L58,6 L6,6 L6,38 Z M4,40 L60,40 L60,4 L4,4 L4,40 Z" id="Fill-78" fill="#A5ACB0"></path>
+            <path d="M4,2 C2.897,2 2,2.897 2,4 L2,44 C2,45.103 2.897,46 4,46 L60,46 C61.103,46 62,45.103 62,44 L62,4 C62,2.897 61.103,2 60,2 L4,2 Z M60,48 L4,48 C1.794,48 0,46.206 0,44 L0,4 C0,1.794 1.794,0 4,0 L60,0 C62.206,0 64,1.794 64,4 L64,44 C64,46.206 62.206,48 60,48 L60,48 Z" id="Fill-68" fill="#A5ADB1"></path>
+            <polyline id="Fill-69" fill="#A5ADB1" points="39.02 57.196 37.02 47.196 38.98 46.804 40.98 56.804 39.02 57.196"></polyline>
+            <polyline id="Fill-70" fill="#A5ADB1" points="24.98 57.196 23.02 56.804 25.02 46.804 26.98 47.196 24.98 57.196"></polyline>
+            <polygon id="Fill-71" fill="#A5ADB1" points="19 58 45 58 45 56 19 56"></polygon>
+            <polygon id="Fill-72" fill="#A5ADB1" points="31 44 33 44 33 42 31 42"></polygon>
+            <polygon id="Fill-73" fill="#E97025" points="31 34 33 34 33 32 31 32"></polygon>
+            <polygon id="Fill-74" fill="#E97025" points="35 34 37 34 37 32 35 32"></polygon>
+            <polygon id="Fill-75" fill="#E97025" points="39 34 41 34 41 32 39 32"></polygon>
+            <polygon id="Fill-76" fill="#E97025" points="27 34 29 34 29 32 27 32"></polygon>
+            <polygon id="Fill-77" fill="#E97025" points="23 34 25 34 25 32 23 32"></polygon>
+            <path d="M6,38 L58,38 L58,6 L6,6 L6,38 Z M4,40 L60,40 L60,4 L4,4 L4,40 Z" id="Fill-78" fill="#A5ADB1"></path>
         </g>
         <rect id="bounding-box" x="0" y="0" width="80" height="80"></rect>
     </g>

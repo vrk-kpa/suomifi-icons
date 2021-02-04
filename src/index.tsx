@@ -25,7 +25,7 @@ export const componentIcons = Object.keys(origComponentIcons);
 
 const fallbackIcon = 'login';
 const fallbackStaticIcon = 'authorisation';
-const fallbackComponentIcon = 'toggle';
+const fallbackComponentIcon = 'toggleOff';
 
 function objValue<T, K extends keyof T>(obj: T, key: K) {
   return obj[key];
@@ -70,9 +70,7 @@ export class SuomifiIcon extends React.Component<SuomifiIconInterface> {
 export interface SuomifiStaticIconInterface
   extends SuomifiIconBaseInterface<IllustrativeIconKeys | DoctypeIconKeys> {}
 
-export class SuomifiStaticIcon extends React.Component<
-  SuomifiStaticIconInterface
-> {
+export class SuomifiStaticIcon extends React.Component<SuomifiStaticIconInterface> {
   render() {
     const { icon, fill, color, ...passProps } = this.props;
     const Svg = (icon in origIllustrativeIcons
@@ -87,9 +85,7 @@ export class SuomifiStaticIcon extends React.Component<
 export interface SuomifiComponentIconInterface
   extends SuomifiIconBaseInterface<ComponentIconKeys> {}
 
-export class SuomifiComponentIcon extends React.Component<
-  SuomifiComponentIconInterface
-> {
+export class SuomifiComponentIcon extends React.Component<SuomifiComponentIconInterface> {
   render() {
     const { icon, ...passProps } = this.props;
     const Svg = (!!(icon in origComponentIcons)

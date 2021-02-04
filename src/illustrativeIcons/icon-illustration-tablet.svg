@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
-    <title>Ikonit / Kuvitukset / Tabletti 2</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Ikonit-/-Kuvitukset-/-Tabletti-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <title>Icons/Illustrative Icons/Tablet 2</title>
+    <g id="Icons/Illustrative-Icons/Tablet-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group-2" transform="translate(17.000000, 8.000000)">
-            <polygon id="Fill-173" fill="#A5ACB0" points="1 10 45 10 45 8 1 8"></polygon>
-            <polygon id="Fill-174" fill="#A5ACB0" points="1 56 45 56 45 54 1 54"></polygon>
-            <path d="M6,2 C3.794,2 2,3.794 2,6 L2,58 C2,60.206 3.794,62 6,62 L40,62 C42.206,62 44,60.206 44,58 L44,6 C44,3.794 42.206,2 40,2 L6,2 Z M40,64 L6,64 C2.691,64 0,61.309 0,58 L0,6 C0,2.691 2.691,0 6,0 L40,0 C43.309,0 46,2.691 46,6 L46,58 C46,61.309 43.309,64 40,64 L40,64 Z" id="Fill-175" fill="#A5ACB0"></path>
-            <polygon id="Fill-176" fill="#EA7125" points="17 6 29 6 29 4 17 4"></polygon>
-            <polygon id="Fill-177" fill="#EA7125" points="21 60 25 60 25 58 21 58"></polygon>
+            <polygon id="Fill-173" fill="#A5ADB1" points="1 10 45 10 45 8 1 8"></polygon>
+            <polygon id="Fill-174" fill="#A5ADB1" points="1 56 45 56 45 54 1 54"></polygon>
+            <path d="M6,2 C3.794,2 2,3.794 2,6 L2,58 C2,60.206 3.794,62 6,62 L40,62 C42.206,62 44,60.206 44,58 L44,6 C44,3.794 42.206,2 40,2 L6,2 Z M40,64 L6,64 C2.691,64 0,61.309 0,58 L0,6 C0,2.691 2.691,0 6,0 L40,0 C43.309,0 46,2.691 46,6 L46,58 C46,61.309 43.309,64 40,64 L40,64 Z" id="Fill-175" fill="#A5ADB1"></path>
+            <polygon id="Fill-176" fill="#E97025" points="17 6 29 6 29 4 17 4"></polygon>
+            <polygon id="Fill-177" fill="#E97025" points="21 60 25 60 25 58 21 58"></polygon>
         </g>
         <rect id="bounding-box" x="0" y="0" width="80" height="80"></rect>
     </g>

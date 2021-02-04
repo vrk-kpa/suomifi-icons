@@ -1,7 +1,9 @@
-import toggle from './componentIcons/icon-toggle.svg';
+import toggleOff from './componentIcons/icon-toggle-off.svg';
+import toggleOn from './componentIcons/icon-toggle-on.svg';
 
 export type ComponentIconKeys = keyof typeof componentIcons;
 
 export const componentIcons = {
-  toggle
+  toggleOff,
+  toggleOn
 };
