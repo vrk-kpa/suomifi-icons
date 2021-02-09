@@ -4,7 +4,7 @@
     <g id="Icons/Illustrative-Icons/Suomifi-Services/Messages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="icon-messaging" transform="translate(4.000000, 22.000000)">
             <path d="M1,34 C0.447,34 0,33.553 0,33 L0,1 C0,0.447 0.447,0 1,0 L47,0 C47.553,0 48,0.447 48,1 L48,4 L46,4 L46,2 L2,2 L2,32 L4,32 L4,34 L1,34 Z" id="Fill-259" fill="#A5ADB1"></path>
-            <g id="Group-4" transform="translate(5.000000, 5.000000)" fill="#E97025">
+            <g id="Group-4" transform="translate(5.000000, 5.000000)" class="fi-icon-illustative-highlight-fill">
                 <path d="M2,30 L46,30 L46,2 L2,2 L2,30 Z M47,32 L1,32 C0.447,32 0,31.553 0,31 L0,1 C0,0.447 0.447,0 1,0 L47,0 C47.553,0 48,0.447 48,1 L48,31 C48,31.553 47.553,32 47,32 L47,32 Z" id="Fill-246"></path>
                 <path d="M24,23 C23.759,23 23.517,22.913 23.326,22.738 L0.326,1.738 L1.674,0.262 L24,20.646 L46.326,0.262 L47.674,1.738 L24.674,22.738 C24.483,22.913 24.241,23 24,23" id="Fill-247"></path>
                 <polyline id="Fill-248" points="1.707 31.707 0.293 30.293 13.293 17.293 14.707 18.707 1.707 31.707"></polyline>

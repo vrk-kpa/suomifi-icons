@@ -11,12 +11,12 @@
             <polyline id="Fill-142" fill="#A5ADB1" points="49 64 39 64 39 55 41 55 41 62 47 62 47 50 49 50 49 64"></polyline>
             <path d="M18,37 C15.243,37 13,34.757 13,32 L15,32 C15,33.654 16.346,35 18,35 C19.654,35 21,33.654 21,32 L23,32 C23,34.757 20.757,37 18,37" id="Fill-143" fill="#A5ADB1"></path>
             <path d="M57,40 L57,38 C59.757,38 62,35.757 62,33 L64,33 C64,36.86 60.859,40 57,40" id="Fill-144" fill="#A5ADB1"></path>
-            <path d="M41.601,24.8 L40.399,23.2 C41.417,22.437 42,21.27 42,20 C42,17.794 40.206,16 38,16 C35.794,16 34,17.794 34,20 C34,20.875 34.277,21.705 34.801,22.402 L33.203,23.604 C32.416,22.558 32,21.312 32,20 C32,16.691 34.691,14 38,14 C41.309,14 44,16.691 44,20 C44,21.905 43.125,23.655 41.601,24.8" id="Fill-145" fill="#E97025"></path>
-            <polygon id="Fill-146" fill="#E97025" points="39 6 41 6 41 0 39 0"></polygon>
+            <path d="M41.601,24.8 L40.399,23.2 C41.417,22.437 42,21.27 42,20 C42,17.794 40.206,16 38,16 C35.794,16 34,17.794 34,20 C34,20.875 34.277,21.705 34.801,22.402 L33.203,23.604 C32.416,22.558 32,21.312 32,20 C32,16.691 34.691,14 38,14 C41.309,14 44,16.691 44,20 C44,21.905 43.125,23.655 41.601,24.8" id="Fill-145" class="fi-icon-illustative-highlight-fill"></path>
+            <polygon id="Fill-146" class="fi-icon-illustative-highlight-fill" points="39 6 41 6 41 0 39 0"></polygon>
             <path d="M44.4,27.8 C40.99,25.243 36.28,24 30,24 L30,22 C36.729,22 41.832,23.374 45.6,26.2 L44.4,27.8" id="Fill-140" fill="#A5ADB1"></path>
-            <polygon id="Fill-147" fill="#E97025" points="35 12 37 12 37 6 35 6"></polygon>
-            <polygon id="Fill-148" fill="#E97025" points="39 10 41 10 41 8 39 8"></polygon>
-            <polygon id="Fill-149" fill="#E97025" points="35 4 37 4 37 2 35 2"></polygon>
+            <polygon id="Fill-147" class="fi-icon-illustative-highlight-fill" points="35 12 37 12 37 6 35 6"></polygon>
+            <polygon id="Fill-148" class="fi-icon-illustative-highlight-fill" points="39 10 41 10 41 8 39 8"></polygon>
+            <polygon id="Fill-149" class="fi-icon-illustative-highlight-fill" points="35 4 37 4 37 2 35 2"></polygon>
             <polygon id="Fill-150" fill="#A5ADB1" points="31 52 33 52 33 50 31 50"></polygon>
             <polygon id="Fill-151" fill="#A5ADB1" points="35 52 37 52 37 50 35 50"></polygon>
             <polygon id="Fill-152" fill="#A5ADB1" points="27 52 29 52 29 50 27 50"></polygon>

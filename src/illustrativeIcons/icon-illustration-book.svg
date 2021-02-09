@@ -14,16 +14,16 @@
             <polygon id="Fill-62" fill="#A5ADB1" points="8 34 29 34 29 32 8 32"></polygon>
             <polygon id="Fill-63" fill="#A5ADB1" points="8 38 29 38 29 36 8 36"></polygon>
             <polygon id="Fill-64" fill="#A5ADB1" points="8 42 29 42 29 40 8 40"></polygon>
-            <path d="M10,20 L27,20 L27,12 L10,12 L10,20 Z M28,22 L9,22 C8.447,22 8,21.552 8,21 L8,11 C8,10.448 8.447,10 9,10 L28,10 C28.553,10 29,10.448 29,11 L29,21 C29,21.552 28.553,22 28,22 L28,22 Z" id="Fill-65" fill="#E97025"></path>
+            <path d="M10,20 L27,20 L27,12 L10,12 L10,20 Z M28,22 L9,22 C8.447,22 8,21.552 8,21 L8,11 C8,10.448 8.447,10 9,10 L28,10 C28.553,10 29,10.448 29,11 L29,21 C29,21.552 28.553,22 28,22 L28,22 Z" id="Fill-65" class="fi-icon-illustative-highlight-fill"></path>
             <polygon id="Fill-66" fill="#A5ADB1" points="35 8 56 8 56 6 35 6"></polygon>
             <polygon id="Fill-67" fill="#A5ADB1" points="35 12 56 12 56 10 35 10"></polygon>
             <polygon id="Fill-68" fill="#A5ADB1" points="35 16 56 16 56 14 35 14"></polygon>
             <polygon id="Fill-69" fill="#A5ADB1" points="35 32 56 32 56 30 35 30"></polygon>
             <polygon id="Fill-70" fill="#A5ADB1" points="35 36 56 36 56 34 35 34"></polygon>
             <polygon id="Fill-71" fill="#A5ADB1" points="35 40 56 40 56 38 35 38"></polygon>
-            <polygon id="Fill-72" fill="#E97025" points="37 24 39 24 39 22 37 22"></polygon>
-            <polygon id="Fill-73" fill="#E97025" points="41 24 50 24 50 22 41 22"></polygon>
-            <polygon id="Fill-74" fill="#E97025" points="52 24 54 24 54 22 52 22"></polygon>
+            <polygon id="Fill-72" class="fi-icon-illustative-highlight-fill" points="37 24 39 24 39 22 37 22"></polygon>
+            <polygon id="Fill-73" class="fi-icon-illustative-highlight-fill" points="41 24 50 24 50 22 41 22"></polygon>
+            <polygon id="Fill-74" class="fi-icon-illustative-highlight-fill" points="52 24 54 24 54 22 52 22"></polygon>
             <polygon id="Fill-77" fill="#A5ADB1" points="8 8 29 8 29 6 8 6"></polygon>
         </g>
         <rect id="bounding-box" x="0" y="0" width="80" height="80"></rect>

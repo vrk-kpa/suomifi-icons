@@ -3,8 +3,8 @@
     <title>Icons/Illustrative Icons/Folder</title>
     <g id="Icons/Illustrative-Icons/Folder" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group-2" transform="translate(8.000000, 14.000000)">
-            <polygon id="Fill-89" fill="#E97025" points="40 18 58 18 58 16 40 16"></polygon>
-            <polygon id="Fill-90" fill="#E97025" points="40 22 58 22 58 20 40 20"></polygon>
+            <polygon id="Fill-89" class="fi-icon-illustative-highlight-fill" points="40 18 58 18 58 16 40 16"></polygon>
+            <polygon id="Fill-90" class="fi-icon-illustative-highlight-fill" points="40 22 58 22 58 20 40 20"></polygon>
             <polygon id="Fill-91" fill="#A5ADB1" points="12 18 14 18 14 16 12 16"></polygon>
             <polygon id="Fill-92" fill="#A5ADB1" points="16 18 18 18 18 16 16 16"></polygon>
             <polygon id="Fill-93" fill="#A5ADB1" points="20 18 22 18 22 16 20 16"></polygon>

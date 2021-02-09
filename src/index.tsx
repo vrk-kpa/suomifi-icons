@@ -25,7 +25,7 @@ export const componentIcons = Object.keys(origComponentIcons);
 
 const fallbackIcon = 'login';
 const fallbackStaticIcon = 'authorisation';
-const fallbackComponentIcon = 'toggleOff';
+const fallbackComponentIcon = 'toggle';
 
 function objValue<T, K extends keyof T>(obj: T, key: K) {
   return obj[key];

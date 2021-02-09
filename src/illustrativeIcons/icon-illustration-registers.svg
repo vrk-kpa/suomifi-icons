@@ -5,23 +5,23 @@
         <g id="-Rekisterit-keskitetty" transform="translate(10.000000, 14.000000)" fill-rule="nonzero">
             <polygon id="Fill-8" fill="#A5ADB1" points="4 38.001 26.999 38.001 26.999 36 4 36"></polygon>
             <polygon id="Fill-23" fill="#A5ADB1" points="4 8 26.999 8 26.999 6 4 6"></polygon>
-            <polygon id="Fill-27" fill="#E97025" points="24.496 31.448 18 27.736 18.992 26 26 30"></polygon>
-            <polygon id="Fill-28" fill="#E97025" points="5 30 11.504 26 12.496 27.736 6 31.448"></polygon>
+            <polygon id="Fill-27" class="fi-icon-illustative-highlight-fill" points="24.496 31.448 18 27.736 18.992 26 26 30"></polygon>
+            <polygon id="Fill-28" class="fi-icon-illustative-highlight-fill" points="5 30 11.504 26 12.496 27.736 6 31.448"></polygon>
             <polygon id="Fill-8" fill="#A5ADB1" points="4 42.001 26.999 42.001 26.999 40 4 40"></polygon>
             <polygon id="Fill-13" fill="#A5ADB1" points="33 8 56 8 56 6 33 6"></polygon>
             <polygon id="Fill-14" fill="#A5ADB1" points="33 12 56 12 56 10 33 10"></polygon>
             <polygon id="Fill-15" fill="#A5ADB1" points="33 16 56 16 56 14 33 14"></polygon>
             <polygon id="Fill-16" fill="#A5ADB1" points="33 24 56 24 56 22 33 22"></polygon>
             <polygon id="Fill-17" fill="#A5ADB1" points="33 20 56 20 56 18 33 18"></polygon>
-            <polygon id="Fill-18" fill="#E97025" points="33 34 35 34 35 32 33 32"></polygon>
-            <polygon id="Fill-19" fill="#E97025" points="41 34 43 34 43 32 41 32"></polygon>
-            <polygon id="Fill-20" fill="#E97025" points="37 34 39 34 39 32 37 32"></polygon>
-            <polygon id="Fill-21" fill="#E97025" points="33 30 35 30 35 28 33 28"></polygon>
-            <polygon id="Fill-22" fill="#E97025" points="37 30 46 30 46 28 37 28"></polygon>
-            <path d="M9,20.8594604 C9,15.8958036 10.6851968,14 15.2082631,14 C19.7313294,14 21.4165262,15.8958036 21.4165262,20.8594604 C21.4165262,25.2521452 18.9743643,29.02 15.2082631,29.02 C11.443097,29.02 9,25.2514076 9,20.8594604 Z M11,20.8594604 C11,24.2818082 12.7751105,27.02 15.2082631,27.02 C17.6422437,27.02 19.4165262,24.2825734 19.4165262,20.8594604 C19.4165262,16.9513437 18.5708683,16 15.2082631,16 C11.845658,16 11,16.9513437 11,20.8594604 Z" id="Path" fill="#E97025"></path>
+            <polygon id="Fill-18" class="fi-icon-illustative-highlight-fill" points="33 34 35 34 35 32 33 32"></polygon>
+            <polygon id="Fill-19" class="fi-icon-illustative-highlight-fill" points="41 34 43 34 43 32 41 32"></polygon>
+            <polygon id="Fill-20" class="fi-icon-illustative-highlight-fill" points="37 34 39 34 39 32 37 32"></polygon>
+            <polygon id="Fill-21" class="fi-icon-illustative-highlight-fill" points="33 30 35 30 35 28 33 28"></polygon>
+            <polygon id="Fill-22" class="fi-icon-illustative-highlight-fill" points="37 30 46 30 46 28 37 28"></polygon>
+            <path d="M9,20.8594604 C9,15.8958036 10.6851968,14 15.2082631,14 C19.7313294,14 21.4165262,15.8958036 21.4165262,20.8594604 C21.4165262,25.2521452 18.9743643,29.02 15.2082631,29.02 C11.443097,29.02 9,25.2514076 9,20.8594604 Z M11,20.8594604 C11,24.2818082 12.7751105,27.02 15.2082631,27.02 C17.6422437,27.02 19.4165262,24.2825734 19.4165262,20.8594604 C19.4165262,16.9513437 18.5708683,16 15.2082631,16 C11.845658,16 11,16.9513437 11,20.8594604 Z" id="Path" class="fi-icon-illustative-highlight-fill"></path>
             <path d="M2,48.2522787 L5.8318798,46 L29,46 L29,2 L6.376128,2 L2,4.5721736 L2,48.2522787 Z M6.376128,48 L0.996327841,51.1621058 L0,50.5760259 L0,3.4278264 L5.8318798,0 L31,0 L31,48 L6.376128,48 Z" id="Rectangle-3" fill="#A5ADB1" transform="translate(15.500000, 25.581053) scale(-1, 1) translate(-15.500000, -25.581053) "></path>
             <path d="M31,48.2522787 L34.8318798,46 L58,46 L58,2 L35.376128,2 L31,4.5721736 L31,48.2522787 Z M29,50.5614268 L29,3.4278264 L34.8318798,0 L60,0 L60,48 L35.376128,48 L30.0118192,51.1530005 L29,50.5614268 Z" id="Rectangle-3" fill="#A5ADB1"></path>
-            <path d="M23,12 L8,12 C5.790861,12 4,13.790861 4,16 L4,28 C4,30.209139 5.790861,32 8,32 L23,32 C25.209139,32 27,30.209139 27,28 L27,16 C27,13.790861 25.209139,12 23,12 Z M8,14 L23,14 C24.1045695,14 25,14.8954305 25,16 L25,28 C25,29.1045695 24.1045695,30 23,30 L8,30 C6.8954305,30 6,29.1045695 6,28 L6,16 C6,14.8954305 6.8954305,14 8,14 Z" id="Rectangle-2" fill="#E97025"></path>
+            <path d="M23,12 L8,12 C5.790861,12 4,13.790861 4,16 L4,28 C4,30.209139 5.790861,32 8,32 L23,32 C25.209139,32 27,30.209139 27,28 L27,16 C27,13.790861 25.209139,12 23,12 Z M8,14 L23,14 C24.1045695,14 25,14.8954305 25,16 L25,28 C25,29.1045695 24.1045695,30 23,30 L8,30 C6.8954305,30 6,29.1045695 6,28 L6,16 C6,14.8954305 6.8954305,14 8,14 Z" id="Rectangle-2" class="fi-icon-illustative-highlight-fill"></path>
         </g>
         <rect id="bounding-box" x="0" y="0" width="80" height="80"></rect>
     </g>

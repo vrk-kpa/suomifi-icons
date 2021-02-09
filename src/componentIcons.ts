@@ -1,9 +1,11 @@
-import toggleOff from './componentIcons/icon-toggle-off.svg';
-import toggleOn from './componentIcons/icon-toggle-on.svg';
+import radioButton from './componentIcons/icon-radio-button.svg';
+import radioButtonLarge from './componentIcons/icon-radio-button-large.svg';
+import toggle from './componentIcons/icon-toggle.svg';
 
 export type ComponentIconKeys = keyof typeof componentIcons;
 
 export const componentIcons = {
-  toggleOff,
-  toggleOn
+  radioButton,
+  radioButtonLarge,
+  toggle
 };

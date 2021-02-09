@@ -10,8 +10,8 @@
             <polygon id="Fill-240" fill="#A5ADB1" points="19 54 45 54 45 52 19 52"></polygon>
             <polygon id="Fill-241" fill="#A5ADB1" points="19 10 45 10 45 8 19 8"></polygon>
             <polygon id="Fill-244" fill="#A5ADB1" points="27 29 37 29 37 27 27 27"></polygon>
-            <polygon id="Fill-245" fill="#E97025" points="47 36 49 36 49 31 47 31"></polygon>
-            <polygon id="Fill-246" fill="#E97025" points="15 36 17 36 17 31 15 31"></polygon>
+            <polygon id="Fill-245" class="fi-icon-illustative-highlight-fill" points="47 36 49 36 49 31 47 31"></polygon>
+            <polygon id="Fill-246" class="fi-icon-illustative-highlight-fill" points="15 36 17 36 17 31 15 31"></polygon>
             <polygon id="Fill-247" fill="#A5ADB1" points="47 21 49 21 49 19 47 19"></polygon>
             <polygon id="Fill-248" fill="#A5ADB1" points="47 25 49 25 49 23 47 23"></polygon>
             <polygon id="Fill-249" fill="#A5ADB1" points="47 41 49 41 49 39 47 39"></polygon>
@@ -28,8 +28,8 @@
             <polyline id="Fill-258" fill="#A5ADB1" points="20 56 12 56 12 36 14 36 14 54 18 54 18 36 20 36 20 56"></polyline>
             <polyline id="Fill-259" fill="#A5ADB1" points="20 28 18 28 18 8 14 8 14 28 12 28 12 6 20 6 20 28"></polyline>
             <polyline id="Fill-260" fill="#A5ADB1" points="52 28 50 28 50 8 46 8 46 28 44 28 44 6 52 6 52 28"></polyline>
-            <path d="M13,35 L19,35 L19,29 L13,29 L13,35 Z M11,37 L21,37 L21,27 L11,27 L11,37 Z" id="Fill-242" fill="#E97025"></path>
-            <path d="M45,35 L51,35 L51,29 L45,29 L45,35 Z M43,37 L53,37 L53,27 L43,27 L43,37 Z" id="Fill-243" fill="#E97025"></path>
+            <path d="M13,35 L19,35 L19,29 L13,29 L13,35 Z M11,37 L21,37 L21,27 L11,27 L11,37 Z" id="Fill-242" class="fi-icon-illustative-highlight-fill"></path>
+            <path d="M45,35 L51,35 L51,29 L45,29 L45,35 Z M43,37 L53,37 L53,27 L43,27 L43,37 Z" id="Fill-243" class="fi-icon-illustative-highlight-fill"></path>
         </g>
         <rect id="bounding-box" x="0" y="0" width="80" height="80"></rect>
     </g>

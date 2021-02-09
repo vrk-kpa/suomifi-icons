@@ -21,7 +21,7 @@
             <polygon id="Fill-267" fill="#A5ADB1" points="8 49 10 49 10 30 8 30"></polygon>
             <polygon id="Fill-268" fill="#A5ADB1" points="14 49 16 49 16 30 14 30"></polygon>
             <polyline id="Fill-269" fill="#A5ADB1" points="62 26 4 26 4 21 6 21 6 24 60 24 60 21 62 21 62 26"></polyline>
-            <path d="M33,10 C31.346,10 30,11.346 30,13 C30,14.654 31.346,16 33,16 C34.654,16 36,14.654 36,13 C36,11.346 34.654,10 33,10 Z M33,18 C30.243,18 28,15.757 28,13 C28,10.243 30.243,8 33,8 C35.757,8 38,10.243 38,13 C38,15.757 35.757,18 33,18 L33,18 Z" id="Fill-270" fill="#E97025"></path>
+            <path d="M33,10 C31.346,10 30,11.346 30,13 C30,14.654 31.346,16 33,16 C34.654,16 36,14.654 36,13 C36,11.346 34.654,10 33,10 Z M33,18 C30.243,18 28,15.757 28,13 C28,10.243 30.243,8 33,8 C35.757,8 38,10.243 38,13 C38,15.757 35.757,18 33,18 L33,18 Z" id="Fill-270" class="fi-icon-illustative-highlight-fill"></path>
             <polygon id="Fill-271" fill="#A5ADB1" points="24 14 26 14 26 12 24 12"></polygon>
             <polygon id="Fill-271" fill="#A5ADB1" points="1 58 65 58 65 56 1 56"></polygon>
             <polygon id="Fill-272" fill="#A5ADB1" points="40 14 42 14 42 12 40 12"></polygon>

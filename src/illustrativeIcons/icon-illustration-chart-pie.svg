@@ -4,10 +4,10 @@
     <g id="Icons/Illustrative-Icons/Pie-chart" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group-2" transform="translate(8.000000, 8.000000)">
             <path d="M30,64 C13.458,64 0,50.542 0,34 C0,17.458 13.458,4 30,4 L30,6 C14.561,6 2,18.561 2,34 C2,49.439 14.561,62 30,62 C45.439,62 58,49.439 58,34 L60,34 C60,50.542 46.542,64 30,64" id="Fill-215" fill="#A5ADB1"></path>
-            <path d="M35,29 L61.982,29 C61.466,14.354 49.646,2.534 35,2.018 L35,29 Z M63,31 L34,31 C33.447,31 33,30.552 33,30 L33,1 C33,0.448 33.447,0 34,0 C50.542,0 64,13.458 64,30 C64,30.552 63.553,31 63,31 L63,31 Z" id="Fill-216" fill="#E97025"></path>
-            <polygon id="Fill-217" fill="#E97025" points="39 25 41 25 41 23 39 23"></polygon>
-            <polygon id="Fill-218" fill="#E97025" points="43 25 45 25 45 23 43 23"></polygon>
-            <polygon id="Fill-219" fill="#E97025" points="47 25 49 25 49 23 47 23"></polygon>
+            <path d="M35,29 L61.982,29 C61.466,14.354 49.646,2.534 35,2.018 L35,29 Z M63,31 L34,31 C33.447,31 33,30.552 33,30 L33,1 C33,0.448 33.447,0 34,0 C50.542,0 64,13.458 64,30 C64,30.552 63.553,31 63,31 L63,31 Z" id="Fill-216" class="fi-icon-illustative-highlight-fill"></path>
+            <polygon id="Fill-217" class="fi-icon-illustative-highlight-fill" points="39 25 41 25 41 23 39 23"></polygon>
+            <polygon id="Fill-218" class="fi-icon-illustative-highlight-fill" points="43 25 45 25 45 23 43 23"></polygon>
+            <polygon id="Fill-219" class="fi-icon-illustative-highlight-fill" points="47 25 49 25 49 23 47 23"></polygon>
             <path d="M49.293,54.707 L29.586,35 L1,35 L1,33 L30,33 C30.266,33 30.52,33.105 30.707,33.293 L50.707,53.293 L49.293,54.707" id="Fill-220" fill="#A5ADB1"></path>
             <polyline id="Fill-221" fill="#A5ADB1" points="10.707 54.707 9.293 53.293 29.293 33.293 30.707 34.707 10.707 54.707"></polyline>
         </g>
