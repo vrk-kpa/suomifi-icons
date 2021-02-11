@@ -1,7 +1,7 @@
 const path = require('path');
 const TerserPlugin = require('terser-webpack-plugin');
 
-module.exports = env => ({
+module.exports = (env) => ({
   target: ['web', 'es5'],
   entry: './src/index.tsx',
   mode: env.production ? 'production' : 'development',
@@ -25,10 +25,20 @@ module.exports = env => ({
         oneOf: [
           {
             include: [
-              path.resolve(__dirname, 'src/componentIcons'),
-              path.resolve(__dirname, 'src/doctypeIcons'),
-              path.resolve(__dirname, 'src/illustrativeIcons')
+              path.resolve(__dirname, 'src/illustrativeIcons'),
+              path.resolve(__dirname, 'src/componentIcons')
             ],
+            loader: '@svgr/webpack',
+            options: {
+              svgo: true,
+              svgoConfig: {
+                plugins: [{ removeAttrs: false, prefixIds: false }]
+              },
+              icon: true
+            }
+          },
+          {
+            include: [path.resolve(__dirname, 'src/doctypeIcons')],
             loader: '@svgr/webpack',
             options: {
               svgo: true,

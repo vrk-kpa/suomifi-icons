@@ -59,6 +59,7 @@ import pillar from './illustrativeIcons/icon-illustration-pillar.svg';
 import planeFlying from './illustrativeIcons/icon-illustration-plane-flying.svg';
 import presentation from './illustrativeIcons/icon-illustration-presentation.svg';
 import puzzle from './illustrativeIcons/icon-illustration-puzzle.svg';
+import registers from './illustrativeIcons/icon-illustration-registers.svg';
 import rocket from './illustrativeIcons/icon-illustration-rocket.svg';
 import scaleBalance from './illustrativeIcons/icon-illustration-scale-balance.svg';
 import scale from './illustrativeIcons/icon-illustration-scale.svg';
@@ -148,6 +149,7 @@ export const illustrativeIcons = {
   planeFlying,
   presentation,
   puzzle,
+  registers,
   rocket,
   scaleBalance,
   scale,

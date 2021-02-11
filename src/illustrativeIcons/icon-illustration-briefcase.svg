@@ -1,38 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
-    <title>Ikonit / Kuvitukset / Salkku</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Ikonit-/-Kuvitukset-/-Salkku" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <title>Icons/Illustrative Icons/Briefcase</title>
+    <g id="Icons/Illustrative-Icons/Briefcase" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Työelämä-ja-eläkkeet" transform="translate(8.000000, 12.000000)">
-            <path d="M12,33 L8,33 C3.589,33 0,29.411 0,25 L2,25 C2,28.309 4.691,31 8,31 L12,31 L12,33" id="Fill-237" fill="#A5ACB0"></path>
-            <polygon id="Fill-238" fill="#A5ACB0" points="20 33 44 33 44 31 20 31"></polygon>
-            <path d="M56,33 L52,33 L52,31 L56,31 C59.309,31 62,28.309 62,25 L64,25 C64,29.411 60.411,33 56,33" id="Fill-239" fill="#A5ACB0"></path>
-            <path d="M42,9 L40,9 L40,3 C40,2.448 39.551,2 39,2 L25,2 C24.449,2 24,2.448 24,3 L24,9 L22,9 L22,3 C22,1.346 23.346,0 25,0 L39,0 C40.654,0 42,1.346 42,3 L42,9" id="Fill-261" fill="#A5ACB0"></path>
-            <polygon id="Fill-240" fill="#A5ACB0" points="19 54 45 54 45 52 19 52"></polygon>
-            <polygon id="Fill-241" fill="#A5ACB0" points="19 10 45 10 45 8 19 8"></polygon>
-            <polygon id="Fill-244" fill="#A5ACB0" points="27 29 37 29 37 27 27 27"></polygon>
-            <polygon id="Fill-245" fill="#EA7125" points="47 36 49 36 49 31 47 31"></polygon>
-            <polygon id="Fill-246" fill="#EA7125" points="15 36 17 36 17 31 15 31"></polygon>
-            <polygon id="Fill-247" fill="#A5ACB0" points="47 21 49 21 49 19 47 19"></polygon>
-            <polygon id="Fill-248" fill="#A5ACB0" points="47 25 49 25 49 23 47 23"></polygon>
-            <polygon id="Fill-249" fill="#A5ACB0" points="47 41 49 41 49 39 47 39"></polygon>
-            <polygon id="Fill-250" fill="#A5ACB0" points="47 45 49 45 49 43 47 43"></polygon>
-            <polygon id="Fill-251" fill="#A5ACB0" points="15 21 17 21 17 19 15 19"></polygon>
-            <polygon id="Fill-252" fill="#A5ACB0" points="15 25 17 25 17 23 15 23"></polygon>
-            <polygon id="Fill-253" fill="#A5ACB0" points="15 41 17 41 17 39 15 39"></polygon>
-            <polygon id="Fill-254" fill="#A5ACB0" points="15 45 17 45 17 43 15 43"></polygon>
-            <polygon id="Fill-255" fill="#A5ACB0" points="23 6 41 6 41 4 23 4"></polygon>
-            <polygon id="Fill-256" fill="#A5ACB0" points="31 25 33 25 33 23 31 23"></polygon>
-            <path d="M61,54 L51,54 L51,52 L61,52 C61.551,52 62,51.552 62,51 L62,11 C62,10.448 61.551,10 61,10 L51,10 L51,8 L61,8 C62.654,8 64,9.346 64,11 L64,51 C64,52.654 62.654,54 61,54" id="Fill-262" fill="#A5ACB0"></path>
-            <path d="M13,54 L3,54 C1.346,54 0,52.654 0,51 L0,11 C0,9.346 1.346,8 3,8 L13,8 L13,10 L3,10 C2.449,10 2,10.448 2,11 L2,51 C2,51.552 2.449,52 3,52 L13,52 L13,54" id="Fill-263" fill="#A5ACB0"></path>
-            <polyline id="Fill-257" fill="#A5ACB0" points="52 56 44 56 44 36 46 36 46 54 50 54 50 36 52 36 52 56"></polyline>
-            <polyline id="Fill-258" fill="#A5ACB0" points="20 56 12 56 12 36 14 36 14 54 18 54 18 36 20 36 20 56"></polyline>
-            <polyline id="Fill-259" fill="#A5ACB0" points="20 28 18 28 18 8 14 8 14 28 12 28 12 6 20 6 20 28"></polyline>
-            <polyline id="Fill-260" fill="#A5ACB0" points="52 28 50 28 50 8 46 8 46 28 44 28 44 6 52 6 52 28"></polyline>
-            <path d="M13,35 L19,35 L19,29 L13,29 L13,35 Z M11,37 L21,37 L21,27 L11,27 L11,37 Z" id="Fill-242" fill="#EA7125"></path>
-            <path d="M45,35 L51,35 L51,29 L45,29 L45,35 Z M43,37 L53,37 L53,27 L43,27 L43,37 Z" id="Fill-243" fill="#EA7125"></path>
+            <path d="M12,33 L8,33 C3.589,33 0,29.411 0,25 L2,25 C2,28.309 4.691,31 8,31 L12,31 L12,33" id="Fill-237" fill="#A5ADB1"></path>
+            <polygon id="Fill-238" fill="#A5ADB1" points="20 33 44 33 44 31 20 31"></polygon>
+            <path d="M56,33 L52,33 L52,31 L56,31 C59.309,31 62,28.309 62,25 L64,25 C64,29.411 60.411,33 56,33" id="Fill-239" fill="#A5ADB1"></path>
+            <path d="M42,9 L40,9 L40,3 C40,2.448 39.551,2 39,2 L25,2 C24.449,2 24,2.448 24,3 L24,9 L22,9 L22,3 C22,1.346 23.346,0 25,0 L39,0 C40.654,0 42,1.346 42,3 L42,9" id="Fill-261" fill="#A5ADB1"></path>
+            <polygon id="Fill-240" fill="#A5ADB1" points="19 54 45 54 45 52 19 52"></polygon>
+            <polygon id="Fill-241" fill="#A5ADB1" points="19 10 45 10 45 8 19 8"></polygon>
+            <polygon id="Fill-244" fill="#A5ADB1" points="27 29 37 29 37 27 27 27"></polygon>
+            <polygon id="Fill-245" class="fi-icon-illustative-highlight-fill" points="47 36 49 36 49 31 47 31"></polygon>
+            <polygon id="Fill-246" class="fi-icon-illustative-highlight-fill" points="15 36 17 36 17 31 15 31"></polygon>
+            <polygon id="Fill-247" fill="#A5ADB1" points="47 21 49 21 49 19 47 19"></polygon>
+            <polygon id="Fill-248" fill="#A5ADB1" points="47 25 49 25 49 23 47 23"></polygon>
+            <polygon id="Fill-249" fill="#A5ADB1" points="47 41 49 41 49 39 47 39"></polygon>
+            <polygon id="Fill-250" fill="#A5ADB1" points="47 45 49 45 49 43 47 43"></polygon>
+            <polygon id="Fill-251" fill="#A5ADB1" points="15 21 17 21 17 19 15 19"></polygon>
+            <polygon id="Fill-252" fill="#A5ADB1" points="15 25 17 25 17 23 15 23"></polygon>
+            <polygon id="Fill-253" fill="#A5ADB1" points="15 41 17 41 17 39 15 39"></polygon>
+            <polygon id="Fill-254" fill="#A5ADB1" points="15 45 17 45 17 43 15 43"></polygon>
+            <polygon id="Fill-255" fill="#A5ADB1" points="23 6 41 6 41 4 23 4"></polygon>
+            <polygon id="Fill-256" fill="#A5ADB1" points="31 25 33 25 33 23 31 23"></polygon>
+            <path d="M61,54 L51,54 L51,52 L61,52 C61.551,52 62,51.552 62,51 L62,11 C62,10.448 61.551,10 61,10 L51,10 L51,8 L61,8 C62.654,8 64,9.346 64,11 L64,51 C64,52.654 62.654,54 61,54" id="Fill-262" fill="#A5ADB1"></path>
+            <path d="M13,54 L3,54 C1.346,54 0,52.654 0,51 L0,11 C0,9.346 1.346,8 3,8 L13,8 L13,10 L3,10 C2.449,10 2,10.448 2,11 L2,51 C2,51.552 2.449,52 3,52 L13,52 L13,54" id="Fill-263" fill="#A5ADB1"></path>
+            <polyline id="Fill-257" fill="#A5ADB1" points="52 56 44 56 44 36 46 36 46 54 50 54 50 36 52 36 52 56"></polyline>
+            <polyline id="Fill-258" fill="#A5ADB1" points="20 56 12 56 12 36 14 36 14 54 18 54 18 36 20 36 20 56"></polyline>
+            <polyline id="Fill-259" fill="#A5ADB1" points="20 28 18 28 18 8 14 8 14 28 12 28 12 6 20 6 20 28"></polyline>
+            <polyline id="Fill-260" fill="#A5ADB1" points="52 28 50 28 50 8 46 8 46 28 44 28 44 6 52 6 52 28"></polyline>
+            <path d="M13,35 L19,35 L19,29 L13,29 L13,35 Z M11,37 L21,37 L21,27 L11,27 L11,37 Z" id="Fill-242" class="fi-icon-illustative-highlight-fill"></path>
+            <path d="M45,35 L51,35 L51,29 L45,29 L45,35 Z M43,37 L53,37 L53,27 L43,27 L43,37 Z" id="Fill-243" class="fi-icon-illustative-highlight-fill"></path>
         </g>
         <rect id="bounding-box" x="0" y="0" width="80" height="80"></rect>
     </g>

@@ -13,6 +13,11 @@
     "url": "git+https://github.com/vrk-kpa/suomifi-icons.git"
   },
   "author": "Joonas Kallunki <jkallunki@gmail.com> (https://jkallunki.net/)",
+  "contributors": [
+    "Aappo Ålander",
+    "Joonas Kaski",
+    "Sami Korpela"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/vrk-kpa/suomifi-icons/issues"
@@ -41,6 +46,7 @@
     "react-dom": ">=16.3"
   },
   "scripts": {
+    "prepare": "yarn run build",
     "build": "webpack --env production"
   }
 }

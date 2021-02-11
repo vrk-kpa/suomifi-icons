@@ -1,27 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
-    <title>Ikonit / Kuvitukset / Tuki</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Ikonit-/-Kuvitukset-/-Tuki" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <title>Icons/Illustrative Icons/Support</title>
+    <g id="Icons/Illustrative-Icons/Support" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group-16" transform="translate(8.000000, 8.000000)">
-            <path d="M36,47 L36,45 C40.963,45 45,40.963 45,36 L47,36 C47,42.065 42.065,47 36,47" id="Fill-175" fill="#A1AAB3"></path>
-            <path d="M28,47 C21.935,47 17,42.065 17,36 L19,36 C19,40.963 23.037,45 28,45 L28,47" id="Fill-176" fill="#A1AAB3"></path>
-            <path d="M19,28 L17,28 C17,21.935 21.935,17 28,17 L28,19 C23.037,19 19,23.037 19,28" id="Fill-177" fill="#A1AAB3"></path>
-            <path d="M47,28 L45,28 C45,23.037 40.963,19 36,19 L36,17 C42.065,17 47,21.935 47,28" id="Fill-178" fill="#A1AAB3"></path>
-            <path d="M36,62 L36,60 C49.233,60 60,49.233 60,36 L62,36 C62,50.337 50.337,62 36,62" id="Fill-179" fill="#A1AAB3"></path>
-            <path d="M62,28 L60,28 C60,14.767 49.233,4 36,4 L36,2 C50.337,2 62,13.663 62,28" id="Fill-180" fill="#A1AAB3"></path>
-            <path d="M28,62 C13.663,62 2,50.337 2,36 L4,36 C4,49.233 14.767,60 28,60 L28,62" id="Fill-181" fill="#A1AAB3"></path>
-            <path d="M4,28 L2,28 C2,13.663 13.663,2 28,2 L28,4 C14.767,4 4,14.767 4,28" id="Fill-182" fill="#A1AAB3"></path>
-            <path d="M29,2 L29,18 L35.002,18 L35,2 L29,2 L29,2 Z M35,20 L29,20 C27.897,20 27,19.103 27,18 L27,2 C27,0.897 27.897,0 29,0 L35,0 C36.103,0 37,0.897 37,2 L37,18 C37,19.103 36.103,20 35,20 L35,20 Z" id="Fill-171" fill="#EA7125"></path>
-            <path d="M29,46 L29,62 L35.002,62 L35,46 L29,46 L29,46 Z M35,64 L29,64 C27.897,64 27,63.103 27,62 L27,46 C27,44.897 27.897,44 29,44 L35,44 C36.103,44 37,44.897 37,46 L37,62 C37,63.103 36.103,64 35,64 L35,64 Z" id="Fill-172" fill="#EA7125"></path>
-            <path d="M46,29 L46,35 L62.002,35 L62,29 L46,29 L46,29 Z M62,37 L46,37 C44.897,37 44,36.103 44,35 L44,29 C44,27.897 44.897,27 46,27 L62,27 C63.103,27 64,27.897 64,29 L64,35 C64,36.103 63.103,37 62,37 L62,37 Z" id="Fill-173" fill="#EA7125"></path>
-            <path d="M2,29 L2,35 L18.002,35 L18,29 L2,29 L2,29 Z M18,37 L2,37 C0.897,37 0,36.103 0,35 L0,29 C0,27.897 0.897,27 2,27 L18,27 C19.103,27 20,27.897 20,29 L20,35 C20,36.103 19.103,37 18,37 L18,37 Z" id="Fill-174" fill="#EA7125"></path>
-            <polygon id="Fill-183" fill="#EA7125" points="31 16 33 16 33 14 31 14"></polygon>
-            <polygon id="Fill-184" fill="#EA7125" points="48 33 50 33 50 31 48 31"></polygon>
-            <polygon id="Fill-185" fill="#EA7125" points="31 50 33 50 33 48 31 48"></polygon>
-            <polygon id="Fill-187" fill="#EA7125" points="14 33 16 33 16 31 14 31"></polygon>
+            <path d="M36,47 L36,45 C40.963,45 45,40.963 45,36 L47,36 C47,42.065 42.065,47 36,47" id="Fill-175" fill="#A5ADB1"></path>
+            <path d="M28,47 C21.935,47 17,42.065 17,36 L19,36 C19,40.963 23.037,45 28,45 L28,47" id="Fill-176" fill="#A5ADB1"></path>
+            <path d="M19,28 L17,28 C17,21.935 21.935,17 28,17 L28,19 C23.037,19 19,23.037 19,28" id="Fill-177" fill="#A5ADB1"></path>
+            <path d="M47,28 L45,28 C45,23.037 40.963,19 36,19 L36,17 C42.065,17 47,21.935 47,28" id="Fill-178" fill="#A5ADB1"></path>
+            <path d="M36,62 L36,60 C49.233,60 60,49.233 60,36 L62,36 C62,50.337 50.337,62 36,62" id="Fill-179" fill="#A5ADB1"></path>
+            <path d="M62,28 L60,28 C60,14.767 49.233,4 36,4 L36,2 C50.337,2 62,13.663 62,28" id="Fill-180" fill="#A5ADB1"></path>
+            <path d="M28,62 C13.663,62 2,50.337 2,36 L4,36 C4,49.233 14.767,60 28,60 L28,62" id="Fill-181" fill="#A5ADB1"></path>
+            <path d="M4,28 L2,28 C2,13.663 13.663,2 28,2 L28,4 C14.767,4 4,14.767 4,28" id="Fill-182" fill="#A5ADB1"></path>
+            <path d="M29,2 L29,18 L35.002,18 L35,2 L29,2 L29,2 Z M35,20 L29,20 C27.897,20 27,19.103 27,18 L27,2 C27,0.897 27.897,0 29,0 L35,0 C36.103,0 37,0.897 37,2 L37,18 C37,19.103 36.103,20 35,20 L35,20 Z" id="Fill-171" class="fi-icon-illustative-highlight-fill"></path>
+            <path d="M29,46 L29,62 L35.002,62 L35,46 L29,46 L29,46 Z M35,64 L29,64 C27.897,64 27,63.103 27,62 L27,46 C27,44.897 27.897,44 29,44 L35,44 C36.103,44 37,44.897 37,46 L37,62 C37,63.103 36.103,64 35,64 L35,64 Z" id="Fill-172" class="fi-icon-illustative-highlight-fill"></path>
+            <path d="M46,29 L46,35 L62.002,35 L62,29 L46,29 L46,29 Z M62,37 L46,37 C44.897,37 44,36.103 44,35 L44,29 C44,27.897 44.897,27 46,27 L62,27 C63.103,27 64,27.897 64,29 L64,35 C64,36.103 63.103,37 62,37 L62,37 Z" id="Fill-173" class="fi-icon-illustative-highlight-fill"></path>
+            <path d="M2,29 L2,35 L18.002,35 L18,29 L2,29 L2,29 Z M18,37 L2,37 C0.897,37 0,36.103 0,35 L0,29 C0,27.897 0.897,27 2,27 L18,27 C19.103,27 20,27.897 20,29 L20,35 C20,36.103 19.103,37 18,37 L18,37 Z" id="Fill-174" class="fi-icon-illustative-highlight-fill"></path>
+            <polygon id="Fill-183" class="fi-icon-illustative-highlight-fill" points="31 16 33 16 33 14 31 14"></polygon>
+            <polygon id="Fill-184" class="fi-icon-illustative-highlight-fill" points="48 33 50 33 50 31 48 31"></polygon>
+            <polygon id="Fill-185" class="fi-icon-illustative-highlight-fill" points="31 50 33 50 33 48 31 48"></polygon>
+            <polygon id="Fill-187" class="fi-icon-illustative-highlight-fill" points="14 33 16 33 16 31 14 31"></polygon>
         </g>
         <rect id="bounding-box" x="0" y="0" width="80" height="80"></rect>
     </g>
