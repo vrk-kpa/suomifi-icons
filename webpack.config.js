@@ -50,6 +50,11 @@ module.exports = (env) => ({
                               attribute: 'fill',
                               value: '#A5ADB1',
                               className: 'fi-icon-illustrative-base-stroke'
+                            },
+                            {
+                              attribute: 'fill',
+                              value: '#E97025',
+                              className: 'fi-icon-illustrative-highlight-fill'
                             }
                           ]
                         }
