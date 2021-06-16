@@ -36,8 +36,7 @@ module.exports = (env) => ({
                 plugins: [
                   {
                     removeAttrs: false,
-                    prefixIds: false,
-                    icon: true
+                    prefixIds: false
                   },
                   {
                     addClassNamesPlugin: Object.assign(
@@ -62,7 +61,8 @@ module.exports = (env) => ({
                     )
                   }
                 ]
-              }
+              },
+              icon: true
             }
           },
           {
