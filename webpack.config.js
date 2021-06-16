@@ -1,5 +1,6 @@
 const path = require('path');
 const TerserPlugin = require('terser-webpack-plugin');
+const addClassNamesPlugin = require('./add_classnames.svgo-plugin');
 
 module.exports = (env) => ({
   target: ['web', 'es5'],
@@ -32,9 +33,31 @@ module.exports = (env) => ({
             options: {
               svgo: true,
               svgoConfig: {
-                plugins: [{ removeAttrs: false, prefixIds: false }]
-              },
-              icon: true
+                plugins: [
+                  {
+                    removeAttrs: false,
+                    prefixIds: false,
+                    icon: true
+                  },
+                  {
+                    addClassNamesPlugin: Object.assign(
+                      {},
+                      addClassNamesPlugin,
+                      {
+                        params: {
+                          rules: [
+                            {
+                              attribute: 'fill',
+                              value: '#A5ADB1',
+                              className: 'fi-icon-illustrative-base-stroke'
+                            }
+                          ]
+                        }
+                      }
+                    )
+                  }
+                ]
+              }
             }
           },
           {
