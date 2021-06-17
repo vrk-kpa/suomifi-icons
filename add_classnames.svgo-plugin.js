@@ -57,8 +57,8 @@ exports.fn = function (item, params) {
   var patternMap = params.rules.map(function (rule) {
     return {
       pattern: [
-        new RegExp([rule.attribute].join(''), 'i'),
-        new RegExp([rule.value].join(''), 'i')
+        new RegExp(['^', rule.attribute, '$'].join(''), 'i'),
+        new RegExp(['^', rule.value, '$'].join(''), 'i')
       ],
       className: rule.className
     };
