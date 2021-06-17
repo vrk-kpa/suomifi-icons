@@ -18,14 +18,32 @@ exports.params = {
  *
  * example:
  *
- * > Add given class name based on fill attribute and it's value
+ * > Add two different class name based on fill attribute and it's value
  * ---
  * rules: [
- *  { attribute: 'fill'
- *  , value: '#A5ADB1'
- *  , className: 'fi-icon-illustrative-base-stroke'
- *  }
+ *   {
+ *       attribute: 'fill',
+ *       value: '#A5ADB1',
+ *       className: 'fi-icon-illustrative-base-stroke'
+ *   },
+ *   {
+ *       attribute: 'fill',
+ *       value: '#E97025',
+ *       className: 'fi-icon-illustrative-highlight-fill'
+ *   }
  * ]
+ *
+ *
+ * > Add same class name based on two separate values
+ * ---
+ * rules: [
+ *   {
+ *       attribute: 'fill',
+ *       value: '#A5ADB1|#A5ADD1',
+ *       className: 'fi-icon-illustrative-base-stroke'
+ *   }
+ * ]
+ *
  *
  * @param {Object} item current iteration item
  * @param {Object} params plugin params
