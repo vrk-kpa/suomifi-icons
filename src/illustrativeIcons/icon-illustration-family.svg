@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Icons/Illustrative Icons/Family</title>
-    <g id="Icons/Illustrative-Icons/Family" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <title>Icons/Illustrative icons/family</title>
+    <g id="Icons/Illustrative-icons/family" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Parisuhde-ja-perhe" transform="translate(10.000000, 8.000000)">
-            <path d="M30,2 C27.794,2 26,3.794 26,6 C26,8.206 27.794,10 30,10 C32.206,10 34,8.206 34,6 C34,3.794 32.206,2 30,2 Z M30,12 C26.691,12 24,9.309 24,6 C24,2.691 26.691,0 30,0 C33.309,0 36,2.691 36,6 C36,9.309 33.309,12 30,12 L30,12 Z" id="Fill-528" class="fi-icon-illustative-highlight-fill"></path>
+            <path d="M30,2 C27.794,2 26,3.794 26,6 C26,8.206 27.794,10 30,10 C32.206,10 34,8.206 34,6 C34,3.794 32.206,2 30,2 Z M30,12 C26.691,12 24,9.309 24,6 C24,2.691 26.691,0 30,0 C33.309,0 36,2.691 36,6 C36,9.309 33.309,12 30,12 L30,12 Z" id="Fill-528" fill="#E97025"></path>
             <polygon id="Fill-529" fill="#A5ADB1" points="48 64 50 64 50 46 48 46"></polygon>
             <path d="M49,10 C47.346,10 46,11.346 46,13 C46,14.654 47.346,16 49,16 C50.654,16 52,14.654 52,13 C52,11.346 50.654,10 49,10 Z M49,18 C46.243,18 44,15.757 44,13 C44,10.243 46.243,8 49,8 C51.757,8 54,10.243 54,13 C54,15.757 51.757,18 49,18 L49,18 Z" id="Fill-530" fill="#A5ADB1"></path>
             <polyline id="Fill-531" fill="#A5ADB1" points="44 64 42 64 42 44 40 44 40 42 44 42 44 64"></polyline>
@@ -14,7 +14,7 @@
                 <polyline id="Fill-531-Copy" points="2 44 2 30 0 30 0 28 4 28 4 44"></polyline>
                 <path d="M14,44 L14,28 L18,28 L18,18 C18,15.794 16.206,14 14,14 L4,14 L4,12 L14,12 C17.309,12 20,14.691 20,18 L20,30 L16,30 L16,44" id="Fill-532-Copy"></path>
             </g>
-            <path d="M38,64 L36,64 L36,38 L40,38 L40,21 C40,18.243 37.757,16 35,16 L25,16 C22.243,16 20,18.243 20,21 L20,38 L24,38 L24,64 L22,64 L22,40 L18,40 L18,21 C18,17.14 21.14,14 25,14 L35,14 C38.86,14 42,17.14 42,21 L42,40 L38,40 L38,64" id="Fill-539" class="fi-icon-illustative-highlight-fill"></path>
+            <path d="M38,64 L36,64 L36,38 L40,38 L40,21 C40,18.243 37.757,16 35,16 L25,16 C22.243,16 20,18.243 20,21 L20,38 L24,38 L24,64 L22,64 L22,40 L18,40 L18,21 C18,17.14 21.14,14 25,14 L35,14 C38.86,14 42,17.14 42,21 L42,40 L38,40 L38,64" id="Fill-539" fill="#E97025"></path>
             <polygon id="Fill-540" fill="#A5ADB1" points="29 64 31 64 31 42 29 42"></polygon>
         </g>
         <rect id="bounding-box" x="0" y="0" width="80" height="80"></rect>

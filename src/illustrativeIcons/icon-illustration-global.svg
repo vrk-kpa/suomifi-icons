@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Icons/Illustrative Icons/Internationalization</title>
-    <g id="Icons/Illustrative-Icons/Internationalization" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <title>Icons/Illustrative icons/global</title>
+    <g id="Icons/Illustrative-icons/global" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Kansainvälistyminen" transform="translate(8.000000, 8.000000)">
             <polygon id="Fill-512" fill="#A5ADB1" points="7 33 14 33 14 31 7 31"></polygon>
             <path d="M4,30 C2.897,30 2,30.897 2,32 C2,33.104 2.897,34 4,34 C5.103,34 6,33.104 6,32 C6,30.897 5.103,30 4,30 Z M4,36 C1.794,36 0,34.206 0,32 C0,29.795 1.794,28 4,28 C6.206,28 8,29.795 8,32 C8,34.206 6.206,36 4,36 L4,36 Z" id="Fill-513" fill="#A5ADB1"></path>
@@ -27,12 +27,12 @@
             <polygon id="Fill-533" fill="#A5ADB1" points="31 57 33 57 33 50 31 50"></polygon>
             <polyline id="Fill-534" fill="#A5ADB1" points="19.832 54.555 18.168 53.446 22.168 47.446 23.832 48.555 19.832 54.555"></polyline>
             <path d="M32,58 C30.897,58 30,58.897 30,60 C30,61.104 30.897,62 32,62 C33.103,62 34,61.104 34,60 C34,58.897 33.103,58 32,58 Z M32,64 C29.794,64 28,62.206 28,60 C28,57.795 29.794,56 32,56 C34.206,56 36,57.795 36,60 C36,62.206 34.206,64 32,64 L32,64 Z" id="Fill-535" fill="#A5ADB1"></path>
-            <path d="M32,18 C24.28,18 18,24.281 18,32 C18,39.72 24.28,46 32,46 C39.72,46 46,39.72 46,32 C46,24.281 39.72,18 32,18 Z M16,32 C16,23.178 23.178,16 32,16 C40.822,16 48,23.178 48,32 C48,40.823 40.822,48 32,48 C23.178,48 16,40.823 16,32 Z" id="Fill-536" class="fi-icon-illustative-highlight-fill"></path>
-            <polygon id="Fill-537" class="fi-icon-illustative-highlight-fill" points="17 33 47 33 47 31 17 31"></polygon>
-            <polygon id="Fill-538" class="fi-icon-illustative-highlight-fill" points="20 24 44 24 44 22 20 22"></polygon>
-            <polygon id="Fill-539" class="fi-icon-illustative-highlight-fill" points="20 42 44 42 44 40 20 40"></polygon>
-            <path d="M32,18 C28.206,18 25,24.412 25,32 C25,39.589 28.206,46 32,46 C35.794,46 39,39.589 39,32 C39,24.412 35.794,18 32,18 Z M32,48 C26.953,48 23,40.973 23,32 C23,23.028 26.953,16 32,16 C37.047,16 41,23.028 41,32 C41,40.973 37.047,48 32,48 L32,48 Z" id="Fill-540" class="fi-icon-illustative-highlight-fill"></path>
-            <polygon id="Fill-541" class="fi-icon-illustative-highlight-fill" points="31 47 33 47 33 17 31 17"></polygon>
+            <path d="M32,18 C24.28,18 18,24.281 18,32 C18,39.72 24.28,46 32,46 C39.72,46 46,39.72 46,32 C46,24.281 39.72,18 32,18 Z M16,32 C16,23.178 23.178,16 32,16 C40.822,16 48,23.178 48,32 C48,40.823 40.822,48 32,48 C23.178,48 16,40.823 16,32 Z" id="Fill-536" fill="#E97025"></path>
+            <polygon id="Fill-537" fill="#E97025" points="17 33 47 33 47 31 17 31"></polygon>
+            <polygon id="Fill-538" fill="#E97025" points="20 24 44 24 44 22 20 22"></polygon>
+            <polygon id="Fill-539" fill="#E97025" points="20 42 44 42 44 40 20 40"></polygon>
+            <path d="M32,18 C28.206,18 25,24.412 25,32 C25,39.589 28.206,46 32,46 C35.794,46 39,39.589 39,32 C39,24.412 35.794,18 32,18 Z M32,48 C26.953,48 23,40.973 23,32 C23,23.028 26.953,16 32,16 C37.047,16 41,23.028 41,32 C41,40.973 37.047,48 32,48 L32,48 Z" id="Fill-540" fill="#E97025"></path>
+            <polygon id="Fill-541" fill="#E97025" points="31 47 33 47 33 17 31 17"></polygon>
         </g>
     </g>
 </svg>

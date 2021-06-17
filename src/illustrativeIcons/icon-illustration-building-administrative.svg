@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Icons/Illustrative Icons/Administration building</title>
-    <g id="Icons/Illustrative-Icons/Administration-building" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <title>Icons/Illustrative icons/building-administrative</title>
+    <g id="Icons/Illustrative-icons/building-administrative" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Hallinto-verotus-ja-rahoitus" transform="translate(7.000000, 11.000000)">
             <path d="M2,20 L64,20 L64,19.585 L33,2.147 L2,19.585 L2,20 Z M65,22 L1,22 C0.447,22 0,21.553 0,21 L0,19 C0,18.639 0.195,18.306 0.51,18.129 L32.51,0.129 C32.814,-0.043 33.186,-0.043 33.49,0.129 L65.49,18.129 C65.805,18.306 66,18.639 66,19 L66,21 C66,21.553 65.553,22 65,22 L65,22 Z" id="Fill-252" fill="#A5ADB1"></path>
             <polyline id="Fill-253" fill="#A5ADB1" points="60 30 48 30 48 25 50 25 50 28 58 28 58 25 60 25 60 30"></polyline>
@@ -21,7 +21,7 @@
             <polygon id="Fill-267" fill="#A5ADB1" points="8 49 10 49 10 30 8 30"></polygon>
             <polygon id="Fill-268" fill="#A5ADB1" points="14 49 16 49 16 30 14 30"></polygon>
             <polyline id="Fill-269" fill="#A5ADB1" points="62 26 4 26 4 21 6 21 6 24 60 24 60 21 62 21 62 26"></polyline>
-            <path d="M33,10 C31.346,10 30,11.346 30,13 C30,14.654 31.346,16 33,16 C34.654,16 36,14.654 36,13 C36,11.346 34.654,10 33,10 Z M33,18 C30.243,18 28,15.757 28,13 C28,10.243 30.243,8 33,8 C35.757,8 38,10.243 38,13 C38,15.757 35.757,18 33,18 L33,18 Z" id="Fill-270" class="fi-icon-illustative-highlight-fill"></path>
+            <path d="M33,10 C31.346,10 30,11.346 30,13 C30,14.654 31.346,16 33,16 C34.654,16 36,14.654 36,13 C36,11.346 34.654,10 33,10 Z M33,18 C30.243,18 28,15.757 28,13 C28,10.243 30.243,8 33,8 C35.757,8 38,10.243 38,13 C38,15.757 35.757,18 33,18 L33,18 Z" id="Fill-270" fill="#E97025"></path>
             <polygon id="Fill-271" fill="#A5ADB1" points="24 14 26 14 26 12 24 12"></polygon>
             <polygon id="Fill-271" fill="#A5ADB1" points="1 58 65 58 65 56 1 56"></polygon>
             <polygon id="Fill-272" fill="#A5ADB1" points="40 14 42 14 42 12 40 12"></polygon>
