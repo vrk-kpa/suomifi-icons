@@ -46,14 +46,14 @@ module.exports = (env) => ({
                         params: {
                           rules: [
                             {
-                              attribute: 'fill',
+                              attribute: 'fill|stroke',
                               value: '#A5ADB1',
-                              className: 'fi-icon-illustrative-base-stroke'
+                              className: 'fi-icon-illustrative-base'
                             },
                             {
-                              attribute: 'fill',
+                              attribute: 'fill|stroke',
                               value: '#E97025',
-                              className: 'fi-icon-illustrative-highlight-fill'
+                              className: 'fi-icon-illustrative-highlight'
                             }
                           ]
                         }
