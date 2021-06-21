@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Icons/Illustrative Icons/Email</title>
-    <g id="Icons/Illustrative-Icons/Email" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-23-Copy" transform="translate(8.000000, 10.000000)">
-            <path d="M24,44 L22,44 L22,15 C22,11.141 18.859,8 15,8 C11.141,8 8,11.141 8,15 L6,15 C6,10.037 10.037,6 15,6 C19.963,6 24,10.037 24,15 L24,44" id="Fill-49" fill="#A5ADB1"></path>
-            <path d="M64,45 L6,45 L6,41 L8,41 L8,43 L62,43 L62,15 C62,11.141 58.859,8 55,8 L45,8 L45,6 L55,6 C59.963,6 64,10.037 64,15 L64,45" id="Fill-50" fill="#A5ADB1"></path>
-            <polygon id="Fill-51" fill="#A5ADB1" points="15 8 27 8 27 6 15 6"></polygon>
-            <polygon id="Fill-52" fill="#A5ADB1" points="29 60 31 60 31 44 29 44"></polygon>
-            <polygon id="Fill-53" fill="#A5ADB1" points="41 60 43 60 43 44 41 44"></polygon>
-            <polygon id="Fill-54" fill="#A5ADB1" points="29 17 31 17 31 0 29 0"></polygon>
-            <polyline id="Fill-55" fill="#A5ADB1" points="43 10 30 10 30 8 41 8 41 2 30 2 30 0 43 0 43 10"></polyline>
-            <path d="M30,17 C28.897,17 28,17.897 28,19 C28,20.103 28.897,21 30,21 C31.103,21 32,20.103 32,19 C32,17.897 31.103,17 30,17 L30,17 Z M30,23 C27.794,23 26,21.206 26,19 C26,16.794 27.794,15 30,15 C32.206,15 34,16.794 34,19 C34,21.206 32.206,23 30,23 L30,23 Z" id="Fill-56" fill="#A5ADB1"></path>
-            <polyline id="Fill-57" class="fi-icon-illustative-highlight-fill" points="20 39 0 39 0 17 20 17 20 19 2 19 2 37 20 37 20 39"></polyline>
-            <polyline id="Fill-58" class="fi-icon-illustative-highlight-fill" points="20 25 6.586 25 0.293 18.707 1.707 17.293 7.414 23 20 23 20 25"></polyline>
-            <polygon id="Fill-59" fill="#A5ADB1" points="30 49 42 49 42 47 30 47"></polygon>
-            <polygon id="Fill-60" fill="#A5ADB1" points="26 39 60 39 60 37 26 37"></polygon>
+<svg  viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons/Illustrative icons/mailbox</title>
+    <g  id="Icons/Illustrative-icons/mailbox" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g  id="Group-23-Copy" transform="translate(8.000000, 10.000000)">
+            <path d="M24,44 L22,44 L22,15 C22,11.141 18.859,8 15,8 C11.141,8 8,11.141 8,15 L6,15 C6,10.037 10.037,6 15,6 C19.963,6 24,10.037 24,15 L24,44"  id="Fill-49" fill="#A5ADB1"></path>
+            <path d="M64,45 L6,45 L6,41 L8,41 L8,43 L62,43 L62,15 C62,11.141 58.859,8 55,8 L45,8 L45,6 L55,6 C59.963,6 64,10.037 64,15 L64,45"  id="Fill-50" fill="#A5ADB1"></path>
+            <polygon  id="Fill-51" fill="#A5ADB1" points="15 8 27 8 27 6 15 6"></polygon>
+            <polygon  id="Fill-52" fill="#A5ADB1" points="29 60 31 60 31 44 29 44"></polygon>
+            <polygon  id="Fill-53" fill="#A5ADB1" points="41 60 43 60 43 44 41 44"></polygon>
+            <polygon  id="Fill-54" fill="#A5ADB1" points="29 17 31 17 31 0 29 0"></polygon>
+            <polyline  id="Fill-55" fill="#A5ADB1" points="43 10 30 10 30 8 41 8 41 2 30 2 30 0 43 0 43 10"></polyline>
+            <path d="M30,17 C28.897,17 28,17.897 28,19 C28,20.103 28.897,21 30,21 C31.103,21 32,20.103 32,19 C32,17.897 31.103,17 30,17 L30,17 Z M30,23 C27.794,23 26,21.206 26,19 C26,16.794 27.794,15 30,15 C32.206,15 34,16.794 34,19 C34,21.206 32.206,23 30,23 L30,23 Z"  id="Fill-56" fill="#A5ADB1"></path>
+            <polyline  id="Fill-57" fill="#E97025" points="20 39 0 39 0 17 20 17 20 19 2 19 2 37 20 37 20 39"></polyline>
+            <polyline  id="Fill-58" fill="#E97025" points="20 25 6.586 25 0.293 18.707 1.707 17.293 7.414 23 20 23 20 25"></polyline>
+            <polygon  id="Fill-59" fill="#A5ADB1" points="30 49 42 49 42 47 30 47"></polygon>
+            <polygon  id="Fill-60" fill="#A5ADB1" points="26 39 60 39 60 37 26 37"></polygon>
         </g>
-        <rect id="bounding-box" x="0" y="0" width="80" height="80"></rect>
+        <rect   id="bounding-box" x="0" y="0" width="80" height="80"></rect>
     </g>
 </svg>

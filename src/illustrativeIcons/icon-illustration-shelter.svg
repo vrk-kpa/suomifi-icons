@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Icons/Illustrative Icons/Life change and crisis situations</title>
-    <g id="Icons/Illustrative-Icons/Life-change-and-crisis-situations" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <title>Icons/Illustrative icons/shelter</title>
+    <g id="Icons/Illustrative-icons/shelter" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Muutokset-ja-kriisitilanteet" transform="translate(14.000000, 8.000000)">
             <polygon id="Fill-611" fill="#A5ADB1" points="6 64 8 64 8 52 6 52"></polygon>
             <path d="M24,64 L22,64 L22,49 C22,47.346 20.654,46 19,46 L7,46 C5.346,46 4,47.346 4,49 L4,64 L2,64 L2,49 C2,46.243 4.243,44 7,44 L19,44 C21.757,44 24,46.243 24,49 L24,64" id="Fill-612" fill="#A5ADB1"></path>
@@ -11,18 +11,18 @@
             <path d="M50,64 L48,64 L48,49 C48,47.346 46.654,46 45,46 L33,46 C31.346,46 30,47.346 30,49 L30,64 L28,64 L28,49 C28,46.243 30.243,44 33,44 L45,44 C47.757,44 50,46.243 50,49 L50,64" id="Fill-617" fill="#A5ADB1"></path>
             <polygon id="Fill-618" fill="#A5ADB1" points="44 64 46 64 46 52 44 52"></polygon>
             <path d="M39,34 C37.346,34 36,35.346 36,37 C36,38.654 37.346,40 39,40 C40.654,40 42,38.654 42,37 C42,35.346 40.654,34 39,34 Z M39,42 C36.243,42 34,39.757 34,37 C34,34.243 36.243,32 39,32 C41.757,32 44,34.243 44,37 C44,39.757 41.757,42 39,42 L39,42 Z" id="Fill-619" fill="#A5ADB1"></path>
-            <path d="M32,28 L30,28 C30,8.162 27.068,2 26,2 C24.932,2 22,8.162 22,28 L20,28 C20,21.432 20.433,0 26,0 C31.567,0 32,21.432 32,28" id="Fill-620" class="fi-icon-illustative-highlight-fill"></path>
-            <path d="M42,28 L40,28 C40,12.691 34.243,2 26,2 C17.757,2 12,12.691 12,28 L10,28 C10,11.252 16.43,0 26,0 C35.57,0 42,11.252 42,28" id="Fill-621" class="fi-icon-illustative-highlight-fill"></path>
-            <path d="M12,28 L10,28 C10,25.794 8.206,24 6,24 C3.794,24 2,25.794 2,28 L0,28 C0,24.691 2.691,22 6,22 C9.309,22 12,24.691 12,28" id="Fill-622" class="fi-icon-illustative-highlight-fill"></path>
-            <path d="M22,28 L20,28 C20,25.794 18.206,24 16,24 C13.794,24 12,25.794 12,28 L10,28 C10,24.691 12.691,22 16,22 C19.309,22 22,24.691 22,28" id="Fill-623" class="fi-icon-illustative-highlight-fill"></path>
-            <path d="M32,28 L30,28 C30,25.794 28.206,24 26,24 C23.794,24 22,25.794 22,28 L20,28 C20,24.691 22.691,22 26,22 C29.309,22 32,24.691 32,28" id="Fill-624" class="fi-icon-illustative-highlight-fill"></path>
-            <path d="M42,28 L40,28 C40,25.794 38.206,24 36,24 C33.794,24 32,25.794 32,28 L30,28 C30,24.691 32.691,22 36,22 C39.309,22 42,24.691 42,28" id="Fill-625" class="fi-icon-illustative-highlight-fill"></path>
-            <path d="M52,28 L50,28 C50,25.794 48.206,24 46,24 C43.794,24 42,25.794 42,28 L40,28 C40,24.691 42.691,22 46,22 C49.309,22 52,24.691 52,28" id="Fill-626" class="fi-icon-illustative-highlight-fill"></path>
-            <path d="M52,28 L50,28 C50,12.448 40.355,2 26,2 C11.645,2 2,12.448 2,28 L0,28 C0,11.514 10.691,0 26,0 C41.309,0 52,11.514 52,28" id="Fill-627" class="fi-icon-illustative-highlight-fill"></path>
-            <polygon id="Fill-628" class="fi-icon-illustative-highlight-fill" points="0 32 2 32 2 30 0 30"></polygon>
-            <polygon id="Fill-629" class="fi-icon-illustative-highlight-fill" points="0 36 2 36 2 34 0 34"></polygon>
-            <polygon id="Fill-630" class="fi-icon-illustative-highlight-fill" points="50 32 52 32 52 30 50 30"></polygon>
-            <polygon id="Fill-631" class="fi-icon-illustative-highlight-fill" points="50 36 52 36 52 34 50 34"></polygon>
+            <path d="M32,28 L30,28 C30,8.162 27.068,2 26,2 C24.932,2 22,8.162 22,28 L20,28 C20,21.432 20.433,0 26,0 C31.567,0 32,21.432 32,28" id="Fill-620" fill="#E97025"></path>
+            <path d="M42,28 L40,28 C40,12.691 34.243,2 26,2 C17.757,2 12,12.691 12,28 L10,28 C10,11.252 16.43,0 26,0 C35.57,0 42,11.252 42,28" id="Fill-621" fill="#E97025"></path>
+            <path d="M12,28 L10,28 C10,25.794 8.206,24 6,24 C3.794,24 2,25.794 2,28 L0,28 C0,24.691 2.691,22 6,22 C9.309,22 12,24.691 12,28" id="Fill-622" fill="#E97025"></path>
+            <path d="M22,28 L20,28 C20,25.794 18.206,24 16,24 C13.794,24 12,25.794 12,28 L10,28 C10,24.691 12.691,22 16,22 C19.309,22 22,24.691 22,28" id="Fill-623" fill="#E97025"></path>
+            <path d="M32,28 L30,28 C30,25.794 28.206,24 26,24 C23.794,24 22,25.794 22,28 L20,28 C20,24.691 22.691,22 26,22 C29.309,22 32,24.691 32,28" id="Fill-624" fill="#E97025"></path>
+            <path d="M42,28 L40,28 C40,25.794 38.206,24 36,24 C33.794,24 32,25.794 32,28 L30,28 C30,24.691 32.691,22 36,22 C39.309,22 42,24.691 42,28" id="Fill-625" fill="#E97025"></path>
+            <path d="M52,28 L50,28 C50,25.794 48.206,24 46,24 C43.794,24 42,25.794 42,28 L40,28 C40,24.691 42.691,22 46,22 C49.309,22 52,24.691 52,28" id="Fill-626" fill="#E97025"></path>
+            <path d="M52,28 L50,28 C50,12.448 40.355,2 26,2 C11.645,2 2,12.448 2,28 L0,28 C0,11.514 10.691,0 26,0 C41.309,0 52,11.514 52,28" id="Fill-627" fill="#E97025"></path>
+            <polygon id="Fill-628" fill="#E97025" points="0 32 2 32 2 30 0 30"></polygon>
+            <polygon id="Fill-629" fill="#E97025" points="0 36 2 36 2 34 0 34"></polygon>
+            <polygon id="Fill-630" fill="#E97025" points="50 32 52 32 52 30 50 30"></polygon>
+            <polygon id="Fill-631" fill="#E97025" points="50 36 52 36 52 34 50 34"></polygon>
         </g>
         <rect id="bounding-box" x="0" y="0" width="80" height="80"></rect>
     </g>

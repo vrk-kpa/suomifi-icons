@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Icons/Illustrative Icons/Feedback</title>
-    <g id="Icons/Illustrative-Icons/Feedback" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <title>Icons/Illustrative icons/feedback</title>
+    <g id="Icons/Illustrative-icons/feedback" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group-29" transform="translate(10.000000, 8.000000)">
-            <path d="M36.707,31.707 L35.293,30.293 L41.586,24 L57,24 C57.552,24 58,23.552 58,23 L58,3 C58,2.448 57.552,2 57,2 L25,2 C24.448,2 24,2.448 24,3 L24,12 L22,12 L22,3 C22,1.346 23.346,0 25,0 L57,0 C58.654,0 60,1.346 60,3 L60,23 C60,24.654 58.654,26 57,26 L42.414,26 L36.707,31.707" id="Fill-188" class="fi-icon-illustative-highlight-fill"></path>
-            <polygon id="Fill-189" class="fi-icon-illustative-highlight-fill" points="36 14 38 14 38 12 36 12"></polygon>
-            <polygon id="Fill-190" class="fi-icon-illustative-highlight-fill" points="40 14 42 14 42 12 40 12"></polygon>
-            <polygon id="Fill-191" class="fi-icon-illustative-highlight-fill" points="44 14 46 14 46 12 44 12"></polygon>
+            <path d="M36.707,31.707 L35.293,30.293 L41.586,24 L57,24 C57.552,24 58,23.552 58,23 L58,3 C58,2.448 57.552,2 57,2 L25,2 C24.448,2 24,2.448 24,3 L24,12 L22,12 L22,3 C22,1.346 23.346,0 25,0 L57,0 C58.654,0 60,1.346 60,3 L60,23 C60,24.654 58.654,26 57,26 L42.414,26 L36.707,31.707" id="Fill-188" fill="#E97025"></path>
+            <polygon id="Fill-189" fill="#E97025" points="36 14 38 14 38 12 36 12"></polygon>
+            <polygon id="Fill-190" fill="#E97025" points="40 14 42 14 42 12 40 12"></polygon>
+            <polygon id="Fill-191" fill="#E97025" points="44 14 46 14 46 12 44 12"></polygon>
             <path d="M2,64 L0,64 L0,57 C0,48.99 4.445,47.3 9.152,45.512 C10.895,44.85 12.696,44.165 14.504,43.132 L15.496,44.868 C13.553,45.979 11.593,46.724 9.863,47.381 C5.128,49.181 2,50.369 2,57 L2,64" id="Fill-192" fill="#A5ADB1"></path>
             <path d="M46,64 L44,64 L44,57 C44,50.369 40.872,49.181 36.137,47.381 C34.407,46.724 32.447,45.979 30.504,44.868 L31.496,43.132 C33.304,44.165 35.105,44.85 36.848,45.512 C41.555,47.3 46,48.99 46,57 L46,64" id="Fill-193" fill="#A5ADB1"></path>
             <path d="M23,44.882 L26.803,46.783 L29.713,43.873 L28.526,42.093 L23,43.014 L17.474,42.093 L16.287,43.873 L19.197,46.783 L23,44.882 L23,44.882 Z M27.197,49.217 L23,47.118 L18.803,49.217 L13.713,44.127 L16.526,39.907 L23,40.986 L29.474,39.907 L32.287,44.127 L27.197,49.217 L27.197,49.217 Z" id="Fill-194" fill="#A5ADB1"></path>
