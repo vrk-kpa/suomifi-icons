@@ -102,7 +102,9 @@ module.exports = (env) => ({
     // publicPath: '/static/',
     // chunkFilename: '[chunkhash].js',
     path: path.resolve(__dirname, 'dist'),
-    libraryTarget: 'commonjs2'
+    library: {
+      type: 'commonjs2'
+    }
   }
   // optimization: {
   //   splitChunks: {
