@@ -8,6 +8,20 @@ This repository uses semantic versioning (https://semver.org/).
 yarn add suomifi-icons
 ```
 
-# ⌨️ Development
+## ⌨️ Development
 
 Use `yarn link` for development usage
+
+## Importing specific icons
+
+To make tree shaking easier, it's possible to import a specific icon. If you use the `SuomifiIcon*` components that accept the icon type as a string, the final bundle will include all icons (even those that you don't use) as that component can't be tree-shaken. Example use of importing a specific icon:
+
+```ts
+import IconClose from 'suomifi-icons/base/IconClose';
+
+function Component() {
+  return <IconClose fill="red" />;
+}
+```
+
+The default-exported icon components accept the same properties as `<svg>` does.
