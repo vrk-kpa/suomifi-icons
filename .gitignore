@@ -1,2 +1,11 @@
 dist
 node_modules
+
+/base
+/component
+/doctype
+/iconsep
+/illustrative
+/*.d.ts
+!/custom.d.ts
+/index.js*

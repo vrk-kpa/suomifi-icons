@@ -2,11 +2,8 @@
   "name": "suomifi-icons",
   "version": "4.0.0",
   "description": "Suomi.fi icons-library",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "main": "index.js",
+  "types": "index.d.ts",
   "sideEffects": false,
   "repository": {
     "type": "git",
@@ -29,9 +26,12 @@
     "icon"
   ],
   "devDependencies": {
+    "@svgr/cli": "5.5.0",
     "@svgr/webpack": "5.5.0",
     "@types/react": "17.0.11",
     "@types/react-dom": "17.0.8",
+    "glob": "7.1.7",
+    "npm-run-all": "4.1.5",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "source-map-loader": "3.0.0",
@@ -49,6 +49,9 @@
   },
   "scripts": {
     "prepare": "yarn run build",
-    "build": "webpack --env production"
+    "build": "npm-run-all build:individual-icons build:webpack",
+    "build:webpack": "webpack --env production",
+    "build:individual-icons": "for type in base component doctype illustrative; do svgr src/${type}Icons --out-dir iconsep/${type} --typescript; done; tsc --build tsconfig.icons.json; rm -rf iconsep",
+    "prepublish": "rm -rf base component doctype illustrative; mv dist/* ."
   }
 }
