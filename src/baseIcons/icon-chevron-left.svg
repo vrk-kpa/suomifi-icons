@@ -1,3 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-    <path d="M8.2 12.9c-.3-.3-.4-.6-.4-.9s.1-.7.4-.9l5.6-5.3c.5-.5 1.4-.5 2 0 .5.5.5 1.4 0 1.9l-4.6 4.4 4.6 4.4c.5.5.5 1.4 0 1.9s-1.4.5-2 0l-5.6-5.5z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg  viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons/Basic icons/chevron-left</title>
+    <defs>
+        <path d="M12.9426195,15.7898171 C12.6826325,16.0628057 12.3413163,16.2 12,16.2 C11.6586837,16.2 11.3173675,16.0628057 11.0573805,15.7898171 L5.72431378,10.1900504 C5.20300652,9.64407316 5.20300652,8.75651015 5.72431378,8.21053289 C6.24562105,7.6631557 7.08824559,7.6631557 7.60955286,8.21053289 L12,12.8205408 L16.3904471,8.21053289 C16.9117544,7.6631557 17.7543789,7.6631557 18.2756862,8.21053289 C18.7969935,8.75651015 18.7969935,9.64407316 18.2756862,10.1900504 L12.9426195,15.7898171 Z"  id="path-1"></path>
+    </defs>
+    <g  id="Icons/Basic-icons/chevron-left" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use  id="Combined-Shape" fill="#292929" transform="translate(12.000000, 12.000000) rotate(90.000000) translate(-12.000000, -12.000000) " xlink:href="#path-1"></use>
+    </g>
 </svg>
