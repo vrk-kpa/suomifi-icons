@@ -27,7 +27,8 @@ module.exports = (env) => ({
           {
             include: [
               path.resolve(__dirname, 'src/illustrativeIcons'),
-              path.resolve(__dirname, 'src/componentIcons')
+              path.resolve(__dirname, 'src/componentIcons'),
+              path.resolve(__dirname, 'src/baseIcons')
             ],
             loader: '@svgr/webpack',
             options: {
@@ -64,6 +65,16 @@ module.exports = (env) => ({
                               attribute: 'stroke',
                               value: '#E97025',
                               className: 'fi-icon-illustrative-highlight-stroke'
+                            },
+                            {
+                              attribute: 'fill',
+                              value: '#292929',
+                              className: 'fi-icon-base-fill'
+                            },
+                            {
+                              attribute: 'stroke',
+                              value: '#292929',
+                              className: 'fi-icon-base-stroke'
                             }
                           ]
                         }
