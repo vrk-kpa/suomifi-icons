@@ -31,13 +31,6 @@ function objValue<T, K extends keyof T>(obj: T, key: K) {
   return obj[key];
 }
 
-interface FillPropsInterface {
-  /** Custom fill color */
-  color?: string;
-  /** Custom fill color, takes precedence over color if both are provided */
-  fill?: string;
-}
-
 interface SuomifiIconBaseInterface<T> {
   /** Icon name */
   icon: T;
@@ -48,12 +41,11 @@ interface SuomifiIconBaseInterface<T> {
 }
 
 export interface SuomifiIconInterface
-  extends SuomifiIconBaseInterface<BaseIconKeys>,
-    FillPropsInterface {}
+  extends SuomifiIconBaseInterface<BaseIconKeys> {}
 
 export class SuomifiIcon extends React.Component<SuomifiIconInterface> {
   render() {
-    const { icon, color, fill, ...passProps } = this.props;
+    const { icon, color, ...passProps } = this.props;
     const Svg = (
       !!(icon in origBaseIcons)
         ? objValue(origBaseIcons, icon as BaseIconKeys)
