@@ -73,7 +73,7 @@ import phone from './baseIcons/icon-phone.svg';
 import plus from './baseIcons/icon-plus.svg';
 import preview from './baseIcons/icon-preview.svg';
 import print from './baseIcons/icon-print.svg';
-import radioButtonOn from './baseIcons/radio-button-on.svg';
+import radioButtonOn from './baseIcons/icon-radio-button-on.svg';
 import refresh from './baseIcons/icon-refresh.svg';
 import registers from './baseIcons/icon-registers.svg';
 import remove from './baseIcons/icon-remove.svg';
