@@ -27,8 +27,8 @@ module.exports = (env) => ({
           {
             include: [
               path.resolve(__dirname, 'src/illustrativeIcons'),
-              path.resolve(__dirname, 'src/componentIcons'),
-              path.resolve(__dirname, 'src/baseIcons')
+              // Component icons rely on having specific id's and classnames. These are used inside suomifi-ui-components library.
+              path.resolve(__dirname, 'src/componentIcons')
             ],
             loader: '@svgr/webpack',
             options: {
@@ -65,16 +65,6 @@ module.exports = (env) => ({
                               attribute: 'stroke',
                               value: '#E97025',
                               className: 'fi-icon-illustrative-highlight-stroke'
-                            },
-                            {
-                              attribute: 'fill',
-                              value: '#292929',
-                              className: 'fi-icon-base-fill'
-                            },
-                            {
-                              attribute: 'stroke',
-                              value: '#292929',
-                              className: 'fi-icon-base-stroke'
                             }
                           ]
                         }
@@ -96,16 +86,52 @@ module.exports = (env) => ({
             }
           },
           {
+            include: [path.resolve(__dirname, 'src/baseIcons')],
+            loader: '@svgr/webpack',
+            options: {
+              svgo: true,
+              svgoConfig: {
+                plugins: [
+                  { removeAttrs: false },
+                  {
+                    addClassNamesPlugin: Object.assign(
+                      {},
+                      addClassNamesPlugin,
+                      {
+                        params: {
+                          rules: [
+                            {
+                              attribute: 'fill',
+                              value: '#292929',
+                              className: 'fi-icon-base-fill'
+                            },
+                            {
+                              attribute: 'stroke',
+                              value: '#292929',
+                              className: 'fi-icon-base-stroke'
+                            }
+                          ]
+                        }
+                      }
+                    )
+                  }
+                ]
+              },
+              icon: true
+            }
+          },
+          {
             exclude: [
               path.resolve(__dirname, 'src/componentIcons'),
               path.resolve(__dirname, 'src/doctypeIcons'),
-              path.resolve(__dirname, 'src/illustrativeIcons')
+              path.resolve(__dirname, 'src/illustrativeIcons'),
+              path.resolve(__dirname, 'src/baseIcons')
             ],
             loader: '@svgr/webpack',
             options: {
               svgo: true,
               svgoConfig: {
-                plugins: [{ removeAttrs: { attrs: '(fill|stroke)' } }]
+                plugins: [{ removeAttrs: false }]
               },
               icon: true
             }
