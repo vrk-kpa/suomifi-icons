@@ -100,22 +100,22 @@ module.exports = (env) => ({
                             {
                               attribute: 'fill',
                               value: '#A5ADB1',
-                              className: 'fi-icon-illustrative-base-fill'
+                              className: 'fi-icon-component-base-fill'
                             },
                             {
                               attribute: 'stroke',
                               value: '#A5ADB1',
-                              className: 'fi-icon-illustrative-base-stroke'
+                              className: 'fi-icon-component-base-stroke'
                             },
                             {
                               attribute: 'fill',
                               value: '#E97025',
-                              className: 'fi-icon-illustrative-highlight-fill'
+                              className: 'fi-icon-component-highlight-fill'
                             },
                             {
                               attribute: 'stroke',
                               value: '#E97025',
-                              className: 'fi-icon-illustrative-highlight-stroke'
+                              className: 'fi-icon-component-highlight-stroke'
                             }
                           ]
                         }
