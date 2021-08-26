@@ -1,6 +1,6 @@
 {
   "name": "suomifi-icons",
-  "version": "4.0.0",
+  "version": "4.0.0-test6",
   "description": "Suomi.fi icons-library",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
