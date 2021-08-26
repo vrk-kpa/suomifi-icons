@@ -25,8 +25,54 @@ module.exports = (env) => ({
         test: /\.svg$/,
         oneOf: [
           {
+            include: [path.resolve(__dirname, 'src/illustrativeIcons')],
+            loader: '@svgr/webpack',
+            options: {
+              svgo: true,
+              svgoConfig: {
+                plugins: [
+                  {
+                    name: 'preset-default'
+                  },
+                  {
+                    addClassNamesPlugin: Object.assign(
+                      {},
+                      addClassNamesPlugin,
+                      {
+                        params: {
+                          rules: [
+                            {
+                              attribute: 'fill',
+                              value: '#A5ADB1',
+                              className: 'fi-icon-illustrative-base-fill'
+                            },
+                            {
+                              attribute: 'stroke',
+                              value: '#A5ADB1',
+                              className: 'fi-icon-illustrative-base-stroke'
+                            },
+                            {
+                              attribute: 'fill',
+                              value: '#E97025',
+                              className: 'fi-icon-illustrative-highlight-fill'
+                            },
+                            {
+                              attribute: 'stroke',
+                              value: '#E97025',
+                              className: 'fi-icon-illustrative-highlight-stroke'
+                            }
+                          ]
+                        }
+                      }
+                    )
+                  }
+                ]
+              },
+              icon: true
+            }
+          },
+          {
             include: [
-              path.resolve(__dirname, 'src/illustrativeIcons'),
               // Component icons rely on having specific id's and classnames. These are used inside suomifi-ui-components library.
               path.resolve(__dirname, 'src/componentIcons')
             ],
@@ -36,8 +82,13 @@ module.exports = (env) => ({
               svgoConfig: {
                 plugins: [
                   {
-                    removeAttrs: false,
-                    prefixIds: false
+                    name: 'preset-default'
+                  },
+                  {
+                    prefixIds: {
+                      prefixIds: false,
+                      prefixClassNames: false
+                    }
                   },
                   {
                     addClassNamesPlugin: Object.assign(
@@ -81,7 +132,13 @@ module.exports = (env) => ({
             loader: '@svgr/webpack',
             options: {
               svgo: true,
-              svgoConfig: { plugins: [{ removeAttrs: false }] },
+              svgoConfig: {
+                plugins: [
+                  {
+                    name: 'preset-default'
+                  }
+                ]
+              },
               icon: true
             }
           },
@@ -92,7 +149,9 @@ module.exports = (env) => ({
               svgo: true,
               svgoConfig: {
                 plugins: [
-                  { removeAttrs: false },
+                  {
+                    name: 'preset-default'
+                  },
                   {
                     addClassNamesPlugin: Object.assign(
                       {},
@@ -131,7 +190,11 @@ module.exports = (env) => ({
             options: {
               svgo: true,
               svgoConfig: {
-                plugins: [{ removeAttrs: false }]
+                plugins: [
+                  {
+                    name: 'preset-default'
+                  }
+                ]
               },
               icon: true
             }
