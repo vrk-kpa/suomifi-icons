@@ -18,7 +18,6 @@ import checkCircleFilled from './baseIcons/icon-check-circle-filled.svg';
 import checkCircle from './baseIcons/icon-check-circle.svg';
 import check from './baseIcons/icon-check.svg';
 import checkSelected from './baseIcons/icon-check-selected.svg';
-import checkSmall from './baseIcons/icon-check-small.svg';
 import chevronUp from './baseIcons/icon-chevron-up.svg';
 import chevronRight from './baseIcons/icon-chevron-right.svg';
 import chevronDown from './baseIcons/icon-chevron-down.svg';
@@ -116,7 +115,6 @@ export const baseIcons = {
   checkCircleFilled,
   checkCircle,
   checkSelected,
-  checkSmall,
   chevronUp,
   chevronRight,
   chevronDown,
