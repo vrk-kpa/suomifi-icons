@@ -32,9 +32,6 @@ module.exports = (env) => ({
               svgoConfig: {
                 plugins: [
                   {
-                    name: 'preset-default'
-                  },
-                  {
                     addClassNamesPlugin: Object.assign(
                       {},
                       addClassNamesPlugin,
@@ -81,9 +78,6 @@ module.exports = (env) => ({
               svgo: true,
               svgoConfig: {
                 plugins: [
-                  {
-                    name: 'preset-default'
-                  },
                   {
                     prefixIds: {
                       prefixIds: false,
@@ -132,13 +126,6 @@ module.exports = (env) => ({
             loader: '@svgr/webpack',
             options: {
               svgo: true,
-              svgoConfig: {
-                plugins: [
-                  {
-                    name: 'preset-default'
-                  }
-                ]
-              },
               icon: true
             }
           },
@@ -149,9 +136,6 @@ module.exports = (env) => ({
               svgo: true,
               svgoConfig: {
                 plugins: [
-                  {
-                    name: 'preset-default'
-                  },
                   {
                     addClassNamesPlugin: Object.assign(
                       {},
@@ -189,13 +173,6 @@ module.exports = (env) => ({
             loader: '@svgr/webpack',
             options: {
               svgo: true,
-              svgoConfig: {
-                plugins: [
-                  {
-                    name: 'preset-default'
-                  }
-                ]
-              },
               icon: true
             }
           }
