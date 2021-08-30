@@ -173,6 +173,16 @@ module.exports = (env) => ({
             loader: '@svgr/webpack',
             options: {
               svgo: true,
+              svgoConfig: {
+                plugins: [
+                  {
+                    prefixIds: {
+                      prefixIds: false,
+                      prefixClassNames: false
+                    }
+                  }
+                ]
+              },
               icon: true
             }
           }
