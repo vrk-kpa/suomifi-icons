@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><defs><path id="a" d="M22 2v20H2V2h20zm-4.75 9H6.75c-.414 0-.75.448-.75 1s.336 1 .75 1h10.5c.414 0 .75-.448.75-1s-.336-1-.75-1zm6 13H.75c-.414 0-.75-.336-.75-.75V.75C0 .336.336 0 .75 0h22.5c.414 0 .75.336.75.75v22.5c0 .414-.336.75-.75.75z"/></defs><g fill="none" fill-rule="evenodd"><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><use fill="#292929" xlink:href="#a"/><g fill="#5F686D" mask="url(#b)"><path d="M0 0h24v24H0z"/></g></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg  viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons/Basic icons/expandable-minus</title>
+    <g  id="Icons/Basic-icons/expandable-minus" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M23.25,0 C23.664,0 24,0.336 24,0.75 L24,23.25 C24,23.664 23.664,24 23.25,24 L0.75,24 C0.336,24 0,23.664 0,23.25 L0,0.75 C0,0.336 0.336,0 0.75,0 L23.25,0 Z M22,2 L2,2 L2,22 L22,22 L22,2 Z M17.25,11 C17.664,11 18,11.448 18,12 C18,12.552 17.664,13 17.25,13 L6.75,13 C6.336,13 6,12.552 6,12 C6,11.448 6.336,11 6.75,11 L17.25,11 Z"  id="Combined-Shape" fill="#292929"></path>
+    </g>
+</svg>

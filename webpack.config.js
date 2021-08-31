@@ -25,19 +25,12 @@ module.exports = (env) => ({
         test: /\.svg$/,
         oneOf: [
           {
-            include: [
-              path.resolve(__dirname, 'src/illustrativeIcons'),
-              path.resolve(__dirname, 'src/componentIcons')
-            ],
+            include: [path.resolve(__dirname, 'src/illustrativeIcons')],
             loader: '@svgr/webpack',
             options: {
               svgo: true,
               svgoConfig: {
                 plugins: [
-                  {
-                    removeAttrs: false,
-                    prefixIds: false
-                  },
                   {
                     addClassNamesPlugin: Object.assign(
                       {},
@@ -76,11 +69,97 @@ module.exports = (env) => ({
             }
           },
           {
+            include: [
+              // Component icons rely on having specific id's and classnames. These are used inside suomifi-ui-components library.
+              path.resolve(__dirname, 'src/componentIcons')
+            ],
+            loader: '@svgr/webpack',
+            options: {
+              svgo: true,
+              svgoConfig: {
+                plugins: [
+                  {
+                    prefixIds: {
+                      prefixIds: false,
+                      prefixClassNames: false
+                    }
+                  },
+                  {
+                    addClassNamesPlugin: Object.assign(
+                      {},
+                      addClassNamesPlugin,
+                      {
+                        params: {
+                          rules: [
+                            {
+                              attribute: 'fill',
+                              value: '#A5ADB1',
+                              className: 'fi-icon-component-base-fill'
+                            },
+                            {
+                              attribute: 'stroke',
+                              value: '#A5ADB1',
+                              className: 'fi-icon-component-base-stroke'
+                            },
+                            {
+                              attribute: 'fill',
+                              value: '#E97025',
+                              className: 'fi-icon-component-highlight-fill'
+                            },
+                            {
+                              attribute: 'stroke',
+                              value: '#E97025',
+                              className: 'fi-icon-component-highlight-stroke'
+                            }
+                          ]
+                        }
+                      }
+                    )
+                  }
+                ]
+              },
+              icon: true
+            }
+          },
+          {
             include: [path.resolve(__dirname, 'src/doctypeIcons')],
             loader: '@svgr/webpack',
             options: {
               svgo: true,
-              svgoConfig: { plugins: [{ removeAttrs: false }] },
+              icon: true
+            }
+          },
+          {
+            include: [path.resolve(__dirname, 'src/baseIcons')],
+            loader: '@svgr/webpack',
+            options: {
+              svgo: true,
+              svgoConfig: {
+                plugins: [
+                  {
+                    addClassNamesPlugin: Object.assign(
+                      {},
+                      addClassNamesPlugin,
+                      {
+                        params: {
+                          rules: [
+                            {
+                              attribute: 'fill',
+                              value: '#292929',
+                              className: 'fi-icon-base-fill'
+                            },
+                            {
+                              attribute: 'stroke',
+                              value: '#292929',
+                              className: 'fi-icon-base-stroke'
+                            }
+                          ]
+                        }
+                      }
+                    )
+                  }
+                ]
+              },
               icon: true
             }
           },
@@ -88,13 +167,21 @@ module.exports = (env) => ({
             exclude: [
               path.resolve(__dirname, 'src/componentIcons'),
               path.resolve(__dirname, 'src/doctypeIcons'),
-              path.resolve(__dirname, 'src/illustrativeIcons')
+              path.resolve(__dirname, 'src/illustrativeIcons'),
+              path.resolve(__dirname, 'src/baseIcons')
             ],
             loader: '@svgr/webpack',
             options: {
               svgo: true,
               svgoConfig: {
-                plugins: [{ removeAttrs: { attrs: '(fill|stroke)' } }]
+                plugins: [
+                  {
+                    prefixIds: {
+                      prefixIds: false,
+                      prefixClassNames: false
+                    }
+                  }
+                ]
               },
               icon: true
             }

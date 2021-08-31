@@ -1,3 +1,4 @@
+import archive from './baseIcons/icon-archive.svg';
 import arrowUp from './baseIcons/icon-arrow-up.svg';
 import arrowRight from './baseIcons/icon-arrow-right.svg';
 import arrowDown from './baseIcons/icon-arrow-down.svg';
@@ -6,13 +7,17 @@ import arrowheadDown from './baseIcons/icon-arrowhead-down.svg';
 import arrowheadUp from './baseIcons/icon-arrowhead-up.svg';
 import attachment from './baseIcons/icon-attachment.svg';
 import authorise from './baseIcons/icon-authorise.svg';
+import basket from './baseIcons/icon-basket.svg';
+import basketAdd from './baseIcons/icon-basket-add.svg';
 import calendar from './baseIcons/icon-calendar.svg';
 import calendarChecked from './baseIcons/icon-calendar-checked.svg';
+import chat from './baseIcons/icon-chat.svg';
 import chatHeart from './baseIcons/icon-chat-heart.svg';
 import chatQuestion from './baseIcons/icon-chat-question.svg';
 import checkCircleFilled from './baseIcons/icon-check-circle-filled.svg';
 import checkCircle from './baseIcons/icon-check-circle.svg';
 import check from './baseIcons/icon-check.svg';
+import checkSelected from './baseIcons/icon-check-selected.svg';
 import chevronUp from './baseIcons/icon-chevron-up.svg';
 import chevronRight from './baseIcons/icon-chevron-right.svg';
 import chevronDown from './baseIcons/icon-chevron-down.svg';
@@ -21,6 +26,7 @@ import chevronCircleUp from './baseIcons/icon-chevron-circle-up.svg';
 import chevronCircleRight from './baseIcons/icon-chevron-circle-right.svg';
 import chevronCircleDown from './baseIcons/icon-chevron-circle-down.svg';
 import chevronCircleLeft from './baseIcons/icon-chevron-circle-left.svg';
+import clock from './baseIcons/icon-clock.svg';
 import close from './baseIcons/icon-close.svg';
 import compare from './baseIcons/icon-compare.svg';
 import compareRemove from './baseIcons/icon-compare-remove.svg';
@@ -35,6 +41,7 @@ import errorFilled from './baseIcons/icon-error-filled.svg';
 import error from './baseIcons/icon-error.svg';
 import expandableMinus from './baseIcons/icon-expandable-minus.svg';
 import expandablePlus from './baseIcons/icon-expandable-plus.svg';
+import fileGeneric from './baseIcons/icon-file-generic.svg';
 import heartFilled from './baseIcons/icon-heart-filled.svg';
 import heart from './baseIcons/icon-heart.svg';
 import helpFilled from './baseIcons/icon-help-filled.svg';
@@ -73,6 +80,8 @@ import reply from './baseIcons/icon-reply.svg';
 import save from './baseIcons/icon-save.svg';
 import search from './baseIcons/icon-search.svg';
 import settings from './baseIcons/icon-settings.svg';
+import star from './baseIcons/icon-star.svg';
+import starFilled from './baseIcons/icon-star-filled.svg';
 import signLanguageContent from './baseIcons/icon-sign-language-content.svg';
 import subDirectory from './baseIcons/icon-sub-directory.svg';
 import swapRounded from './baseIcons/icon-swap-rounded.svg';
@@ -86,6 +95,7 @@ import upload from './baseIcons/icon-upload.svg';
 export type BaseIconKeys = keyof typeof baseIcons;
 
 export const baseIcons = {
+  archive,
   arrowUp,
   arrowRight,
   arrowDown,
@@ -94,13 +104,17 @@ export const baseIcons = {
   arrowheadUp,
   attachment,
   authorise,
+  basket,
+  basketAdd,
   calendar,
   calendarChecked,
+  chat,
   chatHeart,
   chatQuestion,
+  check,
   checkCircleFilled,
   checkCircle,
-  check,
+  checkSelected,
   chevronUp,
   chevronRight,
   chevronDown,
@@ -109,6 +123,7 @@ export const baseIcons = {
   chevronCircleRight,
   chevronCircleDown,
   chevronCircleLeft,
+  clock,
   close,
   compare,
   compareRemove,
@@ -123,6 +138,7 @@ export const baseIcons = {
   error,
   expandableMinus,
   expandablePlus,
+  fileGeneric,
   heartFilled,
   heart,
   helpFilled,
@@ -162,6 +178,8 @@ export const baseIcons = {
   search,
   settings,
   signLanguageContent,
+  star,
+  starFilled,
   subDirectory,
   swapRounded,
   swapVertical,
