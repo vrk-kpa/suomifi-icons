@@ -91,6 +91,7 @@ import transportBus from './baseIcons/icon-transport-bus.svg';
 import transportCar from './baseIcons/icon-transport-car.svg';
 import transportWalk from './baseIcons/icon-transport-walk.svg';
 import upload from './baseIcons/icon-upload.svg';
+import warning from './baseIcons/icon-warning.svg';
 
 export type BaseIconKeys = keyof typeof baseIcons;
 
@@ -187,5 +188,6 @@ export const baseIcons = {
   transportBus,
   transportCar,
   transportWalk,
-  upload
+  upload,
+  warning
 };
