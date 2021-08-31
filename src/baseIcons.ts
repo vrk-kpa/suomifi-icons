@@ -49,6 +49,7 @@ import help from './baseIcons/icon-help.svg';
 import history from './baseIcons/icon-history.svg';
 import infoFilled from './baseIcons/icon-info-filled.svg';
 import info from './baseIcons/icon-info.svg';
+import image from './baseIcons/icon-image.svg';
 import internet from './baseIcons/icon-internet.svg';
 import linkBreadcrumb from './baseIcons/icon-link-breadcrumb.svg';
 import linkExternal from './baseIcons/icon-link-external.svg';
@@ -145,6 +146,7 @@ export const baseIcons = {
   helpFilled,
   help,
   history,
+  image,
   infoFilled,
   info,
   internet,
