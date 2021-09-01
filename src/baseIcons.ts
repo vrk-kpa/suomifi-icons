@@ -49,6 +49,7 @@ import help from './baseIcons/icon-help.svg';
 import history from './baseIcons/icon-history.svg';
 import infoFilled from './baseIcons/icon-info-filled.svg';
 import info from './baseIcons/icon-info.svg';
+import image from './baseIcons/icon-image.svg';
 import internet from './baseIcons/icon-internet.svg';
 import linkBreadcrumb from './baseIcons/icon-link-breadcrumb.svg';
 import linkExternal from './baseIcons/icon-link-external.svg';
@@ -91,6 +92,7 @@ import transportBus from './baseIcons/icon-transport-bus.svg';
 import transportCar from './baseIcons/icon-transport-car.svg';
 import transportWalk from './baseIcons/icon-transport-walk.svg';
 import upload from './baseIcons/icon-upload.svg';
+import warning from './baseIcons/icon-warning.svg';
 
 export type BaseIconKeys = keyof typeof baseIcons;
 
@@ -144,6 +146,7 @@ export const baseIcons = {
   helpFilled,
   help,
   history,
+  image,
   infoFilled,
   info,
   internet,
@@ -187,5 +190,6 @@ export const baseIcons = {
   transportBus,
   transportCar,
   transportWalk,
-  upload
+  upload,
+  warning
 };
