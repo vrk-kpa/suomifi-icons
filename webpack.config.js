@@ -145,12 +145,12 @@ module.exports = (env) => ({
                           rules: [
                             {
                               attribute: 'fill',
-                              value: '#292929',
+                              value: '#222', // #222222 value in the svg gets shortened previously in the build, which requires the shortened value here as well
                               className: 'fi-icon-base-fill'
                             },
                             {
                               attribute: 'stroke',
-                              value: '#292929',
+                              value: '#222',
                               className: 'fi-icon-base-stroke'
                             }
                           ]
