@@ -2,6 +2,6 @@
 <svg  viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>Icons/Basic icons/plus</title>
     <g  id="Icons/Basic-icons/plus" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M12,0 C12.552,0 13,0.448 13,1 L13,11 L23,11 C23.552,11 24,11.448 24,12 C24,12.552 23.552,13 23,13 L13,13 L13,23 C13,23.552 12.552,24 12,24 C11.448,24 11,23.552 11,23 L11,13 L1,13 C0.448,13 0,12.552 0,12 C0,11.448 0.448,11 1,11 L11,11 L11,1 C11,0.448 11.448,0 12,0 Z"  id="Combined-Shape" fill="#292929"></path>
+        <path d="M12,0 C12.552,0 13,0.448 13,1 L13,11 L23,11 C23.552,11 24,11.448 24,12 C24,12.552 23.552,13 23,13 L13,13 L13,23 C13,23.552 12.552,24 12,24 C11.448,24 11,23.552 11,23 L11,13 L1,13 C0.448,13 0,12.552 0,12 C0,11.448 0.448,11 1,11 L11,11 L11,1 C11,0.448 11.448,0 12,0 Z"  id="Combined-Shape" fill="#222222"></path>
     </g>
 </svg>
