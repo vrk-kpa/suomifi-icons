@@ -1,3 +1,5 @@
+import alert from './baseIcons/icon-alert.svg';
+import alertOff from './baseIcons/icon-alert-off.svg';
 import archive from './baseIcons/icon-archive.svg';
 import arrowUp from './baseIcons/icon-arrow-up.svg';
 import arrowRight from './baseIcons/icon-arrow-right.svg';
@@ -46,9 +48,11 @@ import heartFilled from './baseIcons/icon-heart-filled.svg';
 import heart from './baseIcons/icon-heart.svg';
 import helpFilled from './baseIcons/icon-help-filled.svg';
 import help from './baseIcons/icon-help.svg';
+import hint from './baseIcons/icon-hint.svg';
 import history from './baseIcons/icon-history.svg';
 import infoFilled from './baseIcons/icon-info-filled.svg';
 import info from './baseIcons/icon-info.svg';
+import ISA from './baseIcons/icon-ISA.svg';
 import image from './baseIcons/icon-image.svg';
 import internet from './baseIcons/icon-internet.svg';
 import linkBreadcrumb from './baseIcons/icon-link-breadcrumb.svg';
@@ -68,6 +72,7 @@ import map from './baseIcons/icon-map.svg';
 import menu from './baseIcons/icon-menu.svg';
 import message from './baseIcons/icon-message.svg';
 import minus from './baseIcons/icon-minus.svg';
+import peek from './baseIcons/icon-peek.svg';
 import pin from './baseIcons/icon-pin.svg';
 import phone from './baseIcons/icon-phone.svg';
 import plus from './baseIcons/icon-plus.svg';
@@ -97,6 +102,8 @@ import warning from './baseIcons/icon-warning.svg';
 export type BaseIconKeys = keyof typeof baseIcons;
 
 export const baseIcons = {
+  alert,
+  alertOff,
   archive,
   arrowUp,
   arrowRight,
@@ -145,11 +152,13 @@ export const baseIcons = {
   heart,
   helpFilled,
   help,
+  hint,
   history,
   image,
   infoFilled,
   info,
   internet,
+  ISA,
   linkBreadcrumb,
   linkExternal,
   linkList,
@@ -167,6 +176,7 @@ export const baseIcons = {
   menu,
   message,
   minus,
+  peek,
   pin,
   phone,
   plus,

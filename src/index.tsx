@@ -12,20 +12,24 @@ import {
   ComponentIconKeys,
   componentIcons as origComponentIcons
 } from './componentIcons';
+import { LogoIconKeys, logoIcons as origLogoIcons } from './logoIcons';
 
 export { BaseIconKeys } from './baseIcons';
 export { IllustrativeIconKeys } from './illustrativeIcons';
 export { DoctypeIconKeys } from './doctypeIcons';
 export { ComponentIconKeys } from './componentIcons';
+export { LogoIconKeys } from './logoIcons';
 
 export const baseIcons = Object.keys(origBaseIcons);
 export const illustrativeIcons = Object.keys(origIllustrativeIcons);
 export const doctypeIcons = Object.keys(origDoctypeIcons);
 export const componentIcons = Object.keys(origComponentIcons);
+export const logoIcons = Object.keys(origLogoIcons);
 
 const fallbackIcon = 'login';
 const fallbackStaticIcon = 'authorisation';
 const fallbackComponentIcon = 'toggle';
+const fallbackLogoIcon = 'horizontal';
 
 function objValue<T, K extends keyof T>(obj: T, key: K) {
   return obj[key];
@@ -82,6 +86,21 @@ export class SuomifiComponentIcon extends React.Component<SuomifiComponentIconIn
       !!(icon in origComponentIcons)
         ? objValue(origComponentIcons, icon as ComponentIconKeys)
         : objValue(origComponentIcons, fallbackComponentIcon)
+    ) as any;
+    return <Svg {...passProps} />;
+  }
+}
+
+export interface SuomifiLogoIconInterface
+  extends SuomifiIconBaseInterface<LogoIconKeys> {}
+
+export class SuomifiLogoIcon extends React.Component<SuomifiLogoIconInterface> {
+  render() {
+    const { icon, ...passProps } = this.props;
+    const Svg = (
+      !!(icon in origLogoIcons)
+        ? objValue(origLogoIcons, icon as LogoIconKeys)
+        : objValue(origLogoIcons, fallbackLogoIcon)
     ) as any;
     return <Svg {...passProps} />;
   }
