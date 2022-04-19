@@ -110,7 +110,12 @@ module.exports = (env) => ({
                               attribute: 'stroke',
                               value: '#E97025',
                               className: 'fi-icon-component-highlight-stroke'
-                            }
+                            },
+                            {
+                              attribute: 'fill',
+                              value: '#00347A',
+                              className: 'fi-icon-component-brand-fill'
+                            },
                           ]
                         }
                       }
