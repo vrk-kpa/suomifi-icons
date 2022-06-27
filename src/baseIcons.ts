@@ -1,6 +1,6 @@
 import alert from './baseIcons/icon-alert.svg';
 import alertOff from './baseIcons/icon-alert-off.svg';
-import applicationProfile from './baseIcons/application-profile.svg';
+import applicationProfile from './baseIcons/icon-application-profile.svg';
 import archive from './baseIcons/icon-archive.svg';
 import arrowUp from './baseIcons/icon-arrow-up.svg';
 import arrowRight from './baseIcons/icon-arrow-right.svg';
