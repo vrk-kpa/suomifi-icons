@@ -1,0 +1,35 @@
+{
+  "name": "suomifi-icons",
+  "version": "7.0.0",
+  "main": "dist/index.d.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vrk-kpa/suomifi-icons.git"
+  },
+  "author": "Joonas Kaski <joonas.kaski@gofore.com>",
+  "contributors": [
+    "Sami Korpela"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-node-resolve": "^14.0.0",
+    "@svgr/cli": "^6.3.1",
+    "@svgr/rollup": "^6.3.1",
+    "@types/react": "^18.0.18",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^2.79.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript2": "^0.33.0",
+    "typescript": "^4.8.2"
+  },
+  "scripts": {
+    "clean": "rm -rf src/illustrativeIcons && rm -rf dist",
+    "svgr": "svgr --icon --typescript -d src/illustrativeIcons assets/illustrativeIcons --svgo-config svgo.config-illu.js",
+    "build": "yarn run clean && yarn run svgr && rollup -c"
+  },
+  "dependencies": {}
+}
