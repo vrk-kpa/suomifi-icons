@@ -10,33 +10,6 @@ module.exports = {
         },
       },
     },
-    // Object.assign({}, addClassNamesPlugin, {
-    //   name: "addClassNamesPlugin",
-    //   params: {
-    //     rules: [
-    //       {
-    //         attribute: "fill",
-    //         value: "#A5ADB1",
-    //         className: "fi-icon-illustrative-base-fill",
-    //       },
-    //       {
-    //         attribute: "stroke",
-    //         value: "#A5ADB1",
-    //         className: "fi-icon-illustrative-base-stroke",
-    //       },
-    //       {
-    //         attribute: "fill",
-    //         value: "#E97025",
-    //         className: "fi-icon-illustrative-highlight-fill",
-    //       },
-    //       {
-    //         attribute: "stroke",
-    //         value: "#E97025",
-    //         className: "fi-icon-illustrative-highlight-stroke",
-    //       },
-    //     ],
-    //   },
-    // }),
     {
       name: "addClassNamesPlugin",
       type: "perItem",
