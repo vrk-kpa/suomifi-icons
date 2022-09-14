@@ -34,13 +34,15 @@ const buildIcons = (iconType) => {
     plugins: [
       peerDepsExternal(),
       resolve(),
+      typescript({
+        useTsconfigDeclarationDir: true,
+      }),
+      commonjs(),
       svgr({
         typescript: true,
         icon: true,
         svgoConfig: resolveConfig(iconType),
       }),
-      commonjs(),
-      typescript(),
     ],
   };
 };
