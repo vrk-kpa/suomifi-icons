@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons/Illustrative icons/credit-cards</title>
+    <g id="Icons/Illustrative-icons/credit-cards" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(8.000000, 15.000000)">
+            <path d="M8,36 L4,36 C1.794,36 0,34.206 0,32 L0,4 C0,1.794 1.794,0 4,0 L50,0 C52.206,0 54,1.794 54,4 L54,12 L52,12 L52,4 C52,2.897 51.103,2 50,2 L4,2 C2.897,2 2,2.897 2,4 L2,32 C2,33.103 2.897,34 4,34 L8,34 L8,36" id="Fill-96" fill="#A5ADB1"></path>
+            <path d="M14,16 C12.897,16 12,16.897 12,18 L12,46 C12,47.103 12.897,48 14,48 L60,48 C61.103,48 62,47.103 62,46 L62,18 C62,16.897 61.103,16 60,16 L14,16 Z M60,50 L14,50 C11.794,50 10,48.206 10,46 L10,18 C10,15.794 11.794,14 14,14 L60,14 C62.206,14 64,15.794 64,18 L64,46 C64,48.206 62.206,50 60,50 L60,50 Z" id="Fill-97" fill="#A5ADB1"></path>
+            <path d="M32,40 C27.589,40 24,36.411 24,32 C24,27.589 27.589,24 32,24 C34.166,24 36.194,24.852 37.712,26.398 L36.284,27.799 C35.146,26.639 33.624,26 32,26 C28.691,26 26,28.691 26,32 C26,35.309 28.691,38 32,38 C33.626,38 35.147,37.36 36.286,36.198 L37.714,37.599 C36.197,39.147 34.167,40 32,40" id="Fill-98" fill="#E97025"></path>
+            <path d="M42,26 C38.691,26 36,28.691 36,32 C36,35.309 38.691,38 42,38 C45.309,38 48,35.309 48,32 C48,28.691 45.309,26 42,26 Z M42,40 C37.589,40 34,36.411 34,32 C34,27.589 37.589,24 42,24 C46.411,24 50,27.589 50,32 C50,36.411 46.411,40 42,40 L42,40 Z" id="Fill-99" fill="#E97025"></path>
+            <polygon id="Fill-100" fill="#A5ADB1" points="1 6 53 6 53 4 1 4"></polygon>
+            <polygon id="Fill-101" fill="#A5ADB1" points="1 16 8 16 8 14 1 14"></polygon>
+            <polygon id="Fill-102" fill="#A5ADB1" points="4 24 8 24 8 22 4 22"></polygon>
+            <polygon id="Fill-103" fill="#A5ADB1" points="18 33 20 33 20 31 18 31"></polygon>
+            <polygon id="Fill-104" fill="#A5ADB1" points="54 33 56 33 56 31 54 31"></polygon>
+            <polygon id="Fill-105" fill="#E97025" points="38 10 48 10 48 8 38 8"></polygon>
+            <polygon id="Fill-106" fill="#E97025" points="32 10 36 10 36 8 32 8"></polygon>
+        </g>
+        <rect id="bounding-box" x="0" y="0" width="80" height="80"></rect>
+    </g>
+</svg>

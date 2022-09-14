@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg  viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons/Illustrative icons/social-security</title>
+    <g  id="Icons/Illustrative-icons/social-security" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g  id="Sosiaalinen-turva" transform="translate(8.000000, 8.000000)" fill-rule="nonzero">
+            <path d="M53,58 L40,58 L40,49 C40,48.9 40,45.6 42.3,43.3 L52.6,33 L54,33 C56.2,33 58,34.8 58,37 L58,38.4 L50.7,45.7 L49.3,44.3 L56,37.6 L56,37 C56,35.9 55.1,35 54,35 L53.4,35 L43.7,44.7 C42,46.4 42,49 42,49 L42,56 L51,56 L51,55 C51,54.9 51,52.6 53.3,50.3 L60.3,43.3 C62,41.6 62,40.1 62,40 L62,24 C62,22.9 61.1,22 60,22 C58.9,22 58,22.9 58,24 L58,32 L56,32 L56,24 C56,21.8 57.8,20 60,20 C62.2,20 64,21.8 64,24 L64,40 C64,40.1 64,42.4 61.7,44.7 L54.7,51.7 C53.1,53.4 53,54.9 53,55 L53,58 Z"  id="Shape" fill="#A5ADB1"></path>
+            <path d="M55,64 L53,64 L53,58 L40,58 L40,64 L38,64 L38,58 C38,56.9 38.9,56 40,56 L53,56 C54.1,56 55,56.9 55,58 L55,64 Z"  id="Shape" fill="#A5ADB1"></path>
+            <path d="M24,58 L11,58 L11,55 C11,54.9 10.9,53.4 9.3,51.7 L2.3,44.7 C0,42.4 0,40.1 0,40 L0,24 C0,21.8 1.8,20 4,20 C6.2,20 8,21.8 8,24 L8,32 L6,32 L6,24 C6,22.9 5.1,22 4,22 C2.9,22 2,22.9 2,24 L2,40 C2,40.1 2.1,41.6 3.7,43.3 L10.7,50.3 C13,52.6 13,54.9 13,55 L13,56 L22,56 L22,49 C22,49 22,46.4 20.3,44.7 L10.6,35 L10,35 C8.9,35 8,35.9 8,37 L8,37.6 L14.7,44.3 L13.3,45.7 L6,38.4 L6,37 C6,34.8 7.8,33 10,33 L11.4,33 L21.7,43.3 C24,45.6 24,48.9 24,49 L24,58 Z"  id="Shape" fill="#A5ADB1"></path>
+            <path d="M26,64 L24,64 L24,58 L11,58 L11,64 L9,64 L9,58 C9,56.9 9.9,56 11,56 L24,56 C25.1,56 26,56.9 26,58 L26,64 Z"  id="Shape" fill="#A5ADB1"></path>
+            <path d="M54,22 L52,22 C52,11 43,2 32,2 C21,2 12,11 12,22 L10,22 C10,9.9 19.9,0 32,0 C44.1,0 54,9.9 54,22 Z"  id="Shape" fill="#A5ADB1"></path>
+            <rect  id="Rectangle-path" fill="#A5ADB1" x="10" y="24" width="2" height="2"></rect>
+            <rect  id="Rectangle-path" fill="#A5ADB1" x="10" y="28" width="2" height="2"></rect>
+            <rect  id="Rectangle-path" fill="#A5ADB1" x="52" y="24" width="2" height="2"></rect>
+            <rect  id="Rectangle-path" fill="#A5ADB1" x="52" y="28" width="2" height="2"></rect>
+            <path d="M32,25 C28.2,25 26,20.9 26,17 C26,13.4 27,11 32,11 C37,11 38,13.4 38,17 C38,20.9 35.8,25 32,25 Z M32,13 C28.6,13 28,14 28,17 C28,19.9 29.5,23 32,23 C34.5,23 36,19.9 36,17 C36,14 35.4,13 32,13 Z"  id="Shape" fill="#E97025"></path>
+            <path d="M40,33 L24,33 C22.4,33 21,31.2 21,29 L21,27 C21,26.6 21.2,26.3 21.5,26.1 L28.5,22.1 L29.5,23.8 L23,27.6 L23,29 C23,30.2 23.7,31 24,31 L40,31 C40.3,31 41,30.2 41,29 L41,27.6 L34.5,23.9 L35.5,22.2 L42.5,26.2 C42.8,26.4 43,26.7 43,27.1 L43,29.1 C43,31.2 41.6,33 40,33 Z"  id="Shape" fill="#E97025"></path>
+        </g>
+        <rect   id="bounding-box" x="0" y="0" width="80" height="80"></rect>
+    </g>
+</svg>

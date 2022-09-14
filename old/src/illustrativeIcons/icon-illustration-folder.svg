@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons/Illustrative icons/folder</title>
+    <g id="Icons/Illustrative-icons/folder" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(8.000000, 14.000000)">
+            <polygon id="Fill-89" fill="#E97025" points="40 18 58 18 58 16 40 16"></polygon>
+            <polygon id="Fill-90" fill="#E97025" points="40 22 58 22 58 20 40 20"></polygon>
+            <polygon id="Fill-91" fill="#A5ADB1" points="12 18 14 18 14 16 12 16"></polygon>
+            <polygon id="Fill-92" fill="#A5ADB1" points="16 18 18 18 18 16 16 16"></polygon>
+            <polygon id="Fill-93" fill="#A5ADB1" points="20 18 22 18 22 16 20 16"></polygon>
+            <path d="M7.463,50 L62,50 L62,12 L8,12 L8,48 C8,48.728 7.805,49.411 7.463,50 Z M64,52 L4,52 C1.794,52 0,50.206 0,48 L0,0 L19.414,0 L23.414,4 L60,4 L60,8 L58,8 L58,6 L22.586,6 L18.586,2 L2,2 L2,48 C2,49.103 2.897,50 4,50 C5.103,50 6,49.103 6,48 L6,10 L64,10 L64,52 L64,52 Z" id="Fill-94" fill="#A5ADB1"></path>
+            <polygon id="Fill-95" fill="#A5ADB1" points="12 46 58 46 58 44 12 44"></polygon>
+        </g>
+    </g>
+</svg>
