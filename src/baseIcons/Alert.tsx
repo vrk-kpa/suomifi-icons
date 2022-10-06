@@ -1,8 +1,12 @@
-import React, { ReactComponentElement } from "react";
-import IconAlert from "../../assets/baseIcons/icon-alert.svg";
-import classnames from "classnames";
 
-const baseClassName = "fi-icon";
+import React from 'react';
+import { default as styled } from 'styled-components';
+import classnames from 'classnames';
+import Alert from '../../assets/baseIcons/icon-alert.svg';
+import { iconStyles } from '../utils/styles';
+import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
+
+const baseClassName = 'fi-icon';
 const cursorPointerClassName = `${baseClassName}--cursor-pointer`;
 
 interface SuomifiIconProps {
@@ -23,19 +27,22 @@ interface SuomifiIconProps {
   [key: string]: any;
 }
 
-const Alert = ({
-  ariaLabel,
-  mousePointer,
-  className,
-  props,
-}: SuomifiIconProps) => (
-  <IconAlert
-    aria-label="Toimii"
-    {...props}
-    className={classnames(baseClassName, className, {
-      [cursorPointerClassName]: !!mousePointer,
-    })}
-  />
-);
+const IconAlert = styled((props: SuomifiIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, ...passProps } =
+    props;
+  return (
+    <Alert
+      className={classnames(baseClassName, className, {
+        [cursorPointerClassName]: !!mousePointer
+      })}
+      {...passProps}
+      {...ariaLabelOrHidden(ariaLabel)}
+      {...ariaFocusableNoLabel(ariaLabel)}
+    />
+  );
+})`
+  ${({ color, fill }) => iconStyles({ color, fill })}
+`;
 
-export default Alert;
+IconAlert.displayName = 'Icon';
+export default IconAlert;

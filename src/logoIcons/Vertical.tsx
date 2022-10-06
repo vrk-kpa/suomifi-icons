@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import IconVertical from '../../assets/logoIcons/icon-vertical.svg';
+import Vertical from '../../assets/logoIcons/icon-vertical.svg';
 import { iconStyles } from '../utils/styles';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
@@ -27,11 +27,11 @@ interface SuomifiIconProps {
   [key: string]: any;
 }
 
-const Vertical = styled((props: SuomifiIconProps) => {
+const IconVertical = styled((props: SuomifiIconProps) => {
   const { className, mousePointer, ariaLabel, color, fill, ...passProps } =
     props;
   return (
-    <IconVertical
+    <Vertical
       className={classnames(baseClassName, className, {
         [cursorPointerClassName]: !!mousePointer
       })}
@@ -44,5 +44,5 @@ const Vertical = styled((props: SuomifiIconProps) => {
   ${({ color, fill }) => iconStyles({ color, fill })}
 `;
 
-Vertical.displayName = 'Icon';
-export default Vertical;
+IconVertical.displayName = 'Icon';
+export default IconVertical;
