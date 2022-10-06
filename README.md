@@ -18,6 +18,6 @@ yarn add suomifi-icons
 
 When adding new icons, add the icon to the correct folder under 'assets'. Make sure the new icon follows the same naming policy as existing icons.
 
-Then add the icon name in the correct array in `utils/createComponents`. Run `yarn createComponents` to rebuild icon components. The new icon will be included in the correct iconset and the corresponding index.
+Then add the icon name in the correct array in `utils/createComponents`. Run `yarn generate` to rebuild icon components. The new icon will be included in the correct iconset and the corresponding index.
 
-Run `yarn build` and publish using `npm publish ./dist` to ensure importing from subfolders works as intended.
+Run `yarn build` to create a production build and publish using `npm publish ./dist` to ensure importing from subfolders works as intended.

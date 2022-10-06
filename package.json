@@ -27,7 +27,7 @@
   },
   "scripts": {
     "clean": "rm -rf dist",
-    "createComponents": "yarn node src/utils/createComponents",
+    "generate": "rm -rf src/baseIcons src/componentIcons src/doctypeIcons src/illustrativeIcons src/logoIcons && yarn node src/utils/createComponents",
     "build": "yarn run clean && rollup -c && node src/utils/frank.js"
   },
   "peerDependencies": {
