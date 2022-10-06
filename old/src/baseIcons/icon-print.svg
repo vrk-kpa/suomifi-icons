@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg  viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Icons/Basic icons/print</title>
-    <g  id="Icons/Basic-icons/print" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M19,0 C19.552,0 20,0.447 20,1 L20,1 L20,6 L22,6 C23.103,6 24,6.897 24,8 L24,8 L24,18 C24,19.103 23.103,20 22,20 L22,20 L20,20 L20,23 C20,23.553 19.552,24 19,24 L19,24 L5,24 C4.448,24 4,23.553 4,23 L4,23 L4,20 L2,20 C0.897,20 0,19.103 0,18 L0,18 L0,8 C0,6.897 0.897,6 2,6 L2,6 L4,6 L4,1 C4,0.447 4.448,0 5,0 L5,0 Z M18,15 L6,15 L6,22 L18,22 L18,15 Z M22,8 L2,8 L2,18 L4,18 L4,14 C4,13.447 4.448,13 5,13 L5,13 L19,13 C19.552,13 20,13.447 20,14 L20,14 L20,18 L22,18 L22,8 Z M18,2 L6,2 L6,6 L18,6 L18,2 Z"  id="Combined-Shape" fill="#222222"></path>
-    </g>
-</svg>

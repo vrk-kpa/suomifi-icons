@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="37px" height="20px" viewBox="0 0 37 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Artboard</title>
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="fi-icon-toggle-base" class="fi-icon-toggle-base" x="0.5" y="3.5" width="36" height="13" rx="6.5"></rect>
-        <circle id="fi-icon-toggle-knob" class="fi-icon-toggle-knob" cx="27" cy="10" r="10"></circle>
-        <path id="fi-icon-toggle-checkmark" class="fi-icon-toggle-checkmark" d="M31.7235251,7.69212662 L25.9998114,13.7093477 C25.6311783,14.0968841 25.0343885,14.0968841 24.6666981,13.7093477 L22.2757678,11.1968036 C21.9080774,10.8092672 21.9080774,10.1818745 22.2757678,9.7943381 C22.644401,9.40779285 23.2411908,9.40779285 23.6088811,9.7943381 L25.3332548,11.6071362 L30.3904118,6.2906523 C30.7581022,5.9031159 31.3548919,5.9031159 31.7235251,6.2906523 C32.0921583,6.67719755 32.0921583,7.30459022 31.7235251,7.69212662"></path>
-    </g>
-</svg>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg  viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Icons/Basic icons/expandable-minus</title>
-    <g  id="Icons/Basic-icons/expandable-minus" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M23.25,0 C23.664,0 24,0.336 24,0.75 L24,23.25 C24,23.664 23.664,24 23.25,24 L0.75,24 C0.336,24 0,23.664 0,23.25 L0,0.75 C0,0.336 0.336,0 0.75,0 L23.25,0 Z M22,2 L2,2 L2,22 L22,22 L22,2 Z M17.25,11 C17.664,11 18,11.448 18,12 C18,12.552 17.664,13 17.25,13 L6.75,13 C6.336,13 6,12.552 6,12 C6,11.448 6.336,11 6.75,11 L17.25,11 Z"  id="Combined-Shape" fill="#222222"></path>
-    </g>
-</svg>
