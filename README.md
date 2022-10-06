@@ -1,6 +1,6 @@
-    # <img src="https://avatars0.githubusercontent.com/u/11345641?s=88&v=4" alt="DVV" width="18"/> suomifi-icons
+# <img src="https://avatars0.githubusercontent.com/u/11345641?s=88&v=4" alt="DVV" width="18"/> suomifi-icons
 
-Offers suomi.fi-styleguide icons as React-components.
+Offers suomi.fi icons as accessible React-components.
 
 Icons should be imported from subfolders e.g. `import { IconAlert } from 'suomifi-icons/baseIcons'`
 
@@ -16,4 +16,8 @@ yarn add suomifi-icons
 
 # ⌨️ Development
 
-When adding new icons, add the icon to the correct folder under 'assets'. Then add the icon name in the correct array in `utils/createComponents`. Run `yarn createComponents` to rebuild icon components. The new icon will be included in the correct iconset and the corresponding index.
+When adding new icons, add the icon to the correct folder under 'assets'. Make sure the new icon follows the same naming policy as existing icons.
+
+Then add the icon name in the correct array in `utils/createComponents`. Run `yarn createComponents` to rebuild icon components. The new icon will be included in the correct iconset and the corresponding index.
+
+Run `yarn build` and publish using `npm publish ./dist` to ensure importing from subfolders works as intended.
