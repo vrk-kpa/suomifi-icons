@@ -305,15 +305,16 @@ const createIcons = () => {
           type === 'illustrative'
             ? `icon-illustration-${toKebabCase(icon)}`
             : `icon-${toKebabCase(icon)}`;
-        const componentName = `Icon${icon}`;
+        const componentName = `${icon}`;
+        const iconName = `Icon${icon}`;
         try {
           fs.writeFileSync(
             `src/${type}Icons/${icon}.tsx`,
-            buildcontent(componentName, type, iconFile, icon)
+            buildcontent(componentName, type, iconFile, iconName)
           );
           fs.appendFileSync(
             `src/${type}Icons/index.ts`,
-            `export { default as ${icon} } from './${icon}';\n`
+            `export { default as Icon${icon} } from './${icon}';\n`
           );
         } catch (error) {
           console.error(`Error creating ${icon} icon: `, error);
