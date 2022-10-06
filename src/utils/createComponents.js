@@ -12,107 +12,208 @@ const baseIcons = [
   'AlertOff',
   'Archive',
   'ArrowUp',
-  'ArrowRight'
-  // 'ArrowDown',
-  // 'ArrowLeft',
-  // 'ArrowheadDown',
-  // 'ArrowheadUp',
-  // 'Attachment',
-  // 'Authorise',
-  // 'Basket',
-  // 'BasketAdd',
-  // 'Calendar',
-  // 'CalendarChecked',
-  // 'Chat',
-  // 'ChatHeart',
-  // 'ChatQuestion',
-  // 'Check',
-  // 'CheckCircleFilled',
-  // 'CheckCircle',
-  // 'CheckSelected',
-  // 'ChevronUp',
-  // 'ChevronRight',
-  // 'ChevronDown',
-  // 'ChevronLeft',
-  // 'ChevronCircleUp',
-  // 'ChevronCircleRight',
-  // 'ChevronCircleDown',
-  // 'ChevronCircleLeft',
-  // 'Clock',
-  // 'Close',
-  // 'Compare',
-  // 'CompareRemove',
-  // 'ControlPrevious',
-  // 'ControlPlay',
-  // 'ControlNext',
-  // 'Copy',
-  // 'Disabled',
-  // 'Download',
-  // 'Edit',
-  // 'ErrorFilled',
-  // 'Error',
-  // 'ExpandableMinus',
-  // 'ExpandablePlus',
-  // 'FileGeneric',
-  // 'HeartFilled',
-  // 'Heart',
-  // 'HelpFilled',
-  // 'Help',
-  // 'Hint',
-  // 'History',
-  // 'Image',
-  // 'InfoFilled',
-  // 'Info',
-  // 'Internet',
-  // 'ISA',
-  // 'LinkBreadcrumb',
-  // 'LinkExternal',
-  // 'LinkList',
-  // 'ListBulleted',
-  // 'ListNumbered',
-  // 'Login',
-  // 'Logout',
-  // 'MailSend',
-  // 'MapLayers',
-  // 'MapLocationFilled',
-  // 'MapLocation',
-  // 'MapMyLocation',
-  // 'MapRoute',
-  // 'Map',
-  // 'Menu',
-  // 'Message',
-  // 'Minus',
-  // 'Peek',
-  // 'Pin',
-  // 'Phone',
-  // 'Plus',
-  // 'Preview',
-  // 'Print',
-  // 'RadioButtonOn',
-  // 'Refresh',
-  // 'Registers',
-  // 'Remove',
-  // 'Reply',
-  // 'Save',
-  // 'Search',
-  // 'Settings',
-  // 'SignLanguageContent',
-  // 'Star',
-  // 'StarFilled',
-  // 'SubDirectory',
-  // 'SwapRounded',
-  // 'SwapVertical',
-  // 'TransportBicycle',
-  // 'TransportBus',
-  // 'TransportCar',
-  // 'TransportWalk',
-  // 'Upload',
-  // 'Warning'
+  'ArrowRight',
+  'ArrowDown',
+  'ArrowLeft',
+  'ArrowheadDown',
+  'ArrowheadUp',
+  'Attachment',
+  'Authorise',
+  'Basket',
+  'BasketAdd',
+  'Calendar',
+  'CalendarChecked',
+  'Chat',
+  'ChatHeart',
+  'ChatQuestion',
+  'Check',
+  'CheckCircleFilled',
+  'CheckCircle',
+  'CheckSelected',
+  'ChevronUp',
+  'ChevronRight',
+  'ChevronDown',
+  'ChevronLeft',
+  'ChevronCircleUp',
+  'ChevronCircleRight',
+  'ChevronCircleDown',
+  'ChevronCircleLeft',
+  'Clock',
+  'Close',
+  'Compare',
+  'CompareRemove',
+  'ControlPrevious',
+  'ControlPlay',
+  'ControlNext',
+  'Copy',
+  'Disabled',
+  'Download',
+  'Edit',
+  'ErrorFilled',
+  'Error',
+  'ExpandableMinus',
+  'ExpandablePlus',
+  'FileGeneric',
+  'HeartFilled',
+  'Heart',
+  'HelpFilled',
+  'Help',
+  'Hint',
+  'History',
+  'Image',
+  'InfoFilled',
+  'Info',
+  'Internet',
+  'ISA',
+  'LinkBreadcrumb',
+  'LinkExternal',
+  'LinkList',
+  'ListBulleted',
+  'ListNumbered',
+  'Login',
+  'Logout',
+  'MailSend',
+  'MapLayers',
+  'MapLocationFilled',
+  'MapLocation',
+  'MapMyLocation',
+  'MapRoute',
+  'Map',
+  'Menu',
+  'Message',
+  'Minus',
+  'Peek',
+  'Pin',
+  'Phone',
+  'Plus',
+  'Preview',
+  'Print',
+  'RadioButtonOn',
+  'Refresh',
+  'Registers',
+  'Remove',
+  'Reply',
+  'Save',
+  'Search',
+  'Settings',
+  'SignLanguageContent',
+  'Star',
+  'StarFilled',
+  'SubDirectory',
+  'SwapRounded',
+  'SwapVertical',
+  'TransportBicycle',
+  'TransportBus',
+  'TransportCar',
+  'TransportWalk',
+  'Upload',
+  'Warning'
 ];
 
-const baseIconFileNames = baseIcons.map((icon) => {
-  return toKebabCase(icon);
-});
+const componentIcons = [
+  'RadioButton',
+  'RadioButtonLarge',
+  'Toggle',
+  'Preloader'
+];
+
+const doctypeIcons = ['Doc', 'GenericFile', 'Pdf', 'Ppt', 'Xls', 'Xml'];
+
+const illustrativeIcons = [
+  'Archive',
+  'Authorisation',
+  'Book',
+  'Briefcase',
+  'BuildingAdministrative',
+  'Buildings',
+  'Catalog',
+  'ChartAnalytics',
+  'ChartPie',
+  'ChartScreen',
+  'ChartStatistic',
+  'ChatBubbles',
+  'Child',
+  'Collaboration',
+  'Contract',
+  'Conversation',
+  'Court',
+  'CreditCards',
+  'Database',
+  'Display',
+  'Doctor',
+  'Environment',
+  'Exchange',
+  'Failure',
+  'Family',
+  'Faq',
+  'Feedback',
+  'Finance',
+  'Folder',
+  'Global',
+  'Group',
+  'Growth',
+  'HandCoins',
+  'HandPlate',
+  'Helpdesk',
+  'Home',
+  'House',
+  'IdBadge',
+  'LaptopContent',
+  'Laptop',
+  'Leap',
+  'MagicWand',
+  'Mailbox',
+  'ManButtons',
+  'ManGlasses',
+  'ManLaptop',
+  'Map',
+  'MessageSent',
+  'Messages',
+  'Meter',
+  'MigrationFinland',
+  'Money',
+  'MoneyBag',
+  'Organisation',
+  'PhoneText',
+  'Phone',
+  'PiggyBank',
+  'Pillar',
+  'PlaneFlying',
+  'Presentation',
+  'Puzzle',
+  'Registers',
+  'Rocket',
+  'ScaleBalance',
+  'Scale',
+  'Server',
+  'Settings',
+  'Shelter',
+  'Shop',
+  'Smartwatch',
+  'SocialSecurity',
+  'Steering',
+  'Success',
+  'Support',
+  'Swim',
+  'TabletText',
+  'Tablet',
+  'Team',
+  'Touch',
+  'Train',
+  'UserBadge',
+  'UserProfile',
+  'WebDevelopment',
+  'WebService',
+  'WomanButtons',
+  'WomanNecklace'
+];
+
+const logoIcons = [
+  'Horizontal',
+  'HorizontalInvert',
+  'Vertical',
+  'VerticalInvert'
+];
 
 const iconTypes = ['base', 'component', 'doctype', 'illustrative', 'logo'];
 
@@ -126,7 +227,7 @@ import { iconStyles } from \'../utils/styles\';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from \'../utils/aria\';
 
 const baseClassName = \'fi-icon\';
-const cursorPointerClassName = (baseClassName + '--cursor-pointer');
+const cursorPointerClassName = \`\${baseClassName}--cursor-pointer\`;
 
 interface SuomifiIconProps {
   /** Custom classname to extend or customize */
@@ -171,28 +272,66 @@ export default ${iconName};
 const createFolders = () => {
   try {
     iconTypes.forEach((type) => {
-      fs.mkdirSync(`src/test/${type}`, { recursive: true });
+      fs.mkdirSync(`src/${type}Icons`, { recursive: true });
     });
   } catch (error) {
     console.error(error);
   }
 };
 
-const createBaseIcons = () => {
+const getIconSet = (iconType) => {
+  switch (iconType) {
+    case 'base':
+      return baseIcons;
+    case 'illustrative':
+      return illustrativeIcons;
+    case 'component':
+      return componentIcons;
+    case 'doctype':
+      return doctypeIcons;
+    case 'logo':
+      return logoIcons;
+    default:
+      return [];
+  }
+};
+
+const createIcons = () => {
   try {
-    baseIcons.forEach((icon) => {
-      const iconType = 'base';
-      const iconFile = toKebabCase(icon);
-      const componentName = `Icon${icon}`;
-      fs.writeFileSync(
-        `src/test/${iconType}/${icon}.tsx`,
-        buildcontent(componentName, iconType, iconFile, icon)
-      );
+    iconTypes.forEach((type) => {
+      iconSet = getIconSet(type);
+      try {
+        iconSet.forEach((icon) => {
+          const iconFile =
+            type === 'illustrative'
+              ? `icon-illustration-${toKebabCase(icon)}`
+              : `icon-${toKebabCase(icon)}`;
+          const componentName = `Icon${icon}`;
+          try {
+            fs.writeFileSync(
+              `src/${type}Icons/${icon}.tsx`,
+              buildcontent(componentName, type, iconFile, icon)
+            );
+            fs.appendFileSync(
+              `src/${type}Icons/index.ts`,
+              `export { default as ${icon} } from './${icon}';\n`
+            );
+          } catch (error) {
+            console.error(`Error creating ${icon} icon: `, error);
+          }
+        });
+      } catch (error) {
+        console.error(
+          `
+      Error in generating ${icon} files: `,
+          error
+        );
+      }
     });
-  } catch (err) {
-    console.error(err);
+  } catch (error) {
+    console.error(`Error generating icons: `, error);
   }
 };
 
 createFolders();
-createBaseIcons();
+createIcons();
