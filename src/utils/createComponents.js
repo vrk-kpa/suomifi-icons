@@ -297,40 +297,32 @@ const getIconSet = (iconType) => {
 };
 
 const createIcons = () => {
-  try {
-    iconTypes.forEach((type) => {
-      iconSet = getIconSet(type);
-      try {
-        iconSet.forEach((icon) => {
-          const iconFile =
-            type === 'illustrative'
-              ? `icon-illustration-${toKebabCase(icon)}`
-              : `icon-${toKebabCase(icon)}`;
-          const componentName = `Icon${icon}`;
-          try {
-            fs.writeFileSync(
-              `src/${type}Icons/${icon}.tsx`,
-              buildcontent(componentName, type, iconFile, icon)
-            );
-            fs.appendFileSync(
-              `src/${type}Icons/index.ts`,
-              `export { default as ${icon} } from './${icon}';\n`
-            );
-          } catch (error) {
-            console.error(`Error creating ${icon} icon: `, error);
-          }
-        });
-      } catch (error) {
-        console.error(
-          `
-      Error in generating ${icon} files: `,
-          error
-        );
-      }
-    });
-  } catch (error) {
-    console.error(`Error generating icons: `, error);
-  }
+  iconTypes.forEach((type) => {
+    iconSet = getIconSet(type);
+    try {
+      iconSet.forEach((icon) => {
+        const iconFile =
+          type === 'illustrative'
+            ? `icon-illustration-${toKebabCase(icon)}`
+            : `icon-${toKebabCase(icon)}`;
+        const componentName = `Icon${icon}`;
+        try {
+          fs.writeFileSync(
+            `src/${type}Icons/${icon}.tsx`,
+            buildcontent(componentName, type, iconFile, icon)
+          );
+          fs.appendFileSync(
+            `src/${type}Icons/index.ts`,
+            `export { default as ${icon} } from './${icon}';\n`
+          );
+        } catch (error) {
+          console.error(`Error creating ${icon} icon: `, error);
+        }
+      });
+    } catch (error) {
+      console.error(`Error generating ${type}Icon files: `, error);
+    }
+  });
 };
 
 createFolders();
