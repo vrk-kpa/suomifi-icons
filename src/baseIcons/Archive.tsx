@@ -4,28 +4,9 @@ import { default as styled } from 'styled-components';
 import classnames from 'classnames';
 import Archive from '../../assets/baseIcons/icon-archive.svg';
 import { iconStyles } from '../utils/styles';
+import { SuomifiIconProps } from '../utils/iconInterface';
+import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
-
-const baseClassName = 'fi-icon';
-const cursorPointerClassName = `${baseClassName}--cursor-pointer`;
-
-interface SuomifiIconProps {
-  /** Custom classname to extend or customize */
-  className?: string;
-  /** Aria-label for SVG, undefined hides SVG from screen reader
-   * @default undefined
-   */
-  ariaLabel?: string;
-  /** Show mouse cursor as hand-pointer */
-  mousePointer?: boolean;
-  /** Custom fill color */
-  color?: string;
-  /** Custom fill color, takes precedence over color if both are provided */
-  fill?: string;
-  testId?: string;
-  // Allow passing unsupported custom props to SVG without providing an API
-  [key: string]: any;
-}
 
 const IconArchive = styled((props: SuomifiIconProps) => {
   const { className, mousePointer, ariaLabel, color, fill, ...passProps } =
