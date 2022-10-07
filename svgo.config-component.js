@@ -1,55 +1,55 @@
-const addClassNamesPlugin = require("./add_classnames.svgo-plugin");
+const addClassNamesPlugin = require('./add_classnames.svgo-plugin');
 
 module.exports = {
   plugins: [
     {
-      name: "preset-default",
+      name: 'preset-default',
       params: {
         overrides: {
-          removeViewBox: false,
-        },
-      },
+          removeViewBox: false
+        }
+      }
     },
     {
-      name: "addClassNamesPlugin",
-      type: "perItem",
+      name: 'addClassNamesPlugin',
+      type: 'perItem',
       params: {
         rules: [
           {
-            attribute: "fill",
-            value: "#A5ADB1",
-            className: "fi-icon-component-base-fill",
+            attribute: 'fill',
+            value: '#A5ADB1',
+            className: 'fi-icon-component-base-fill'
           },
           {
-            attribute: "stroke",
-            value: "#A5ADB1",
-            className: "fi-icon-component-base-stroke",
+            attribute: 'stroke',
+            value: '#A5ADB1',
+            className: 'fi-icon-component-base-stroke'
           },
           {
-            attribute: "fill",
-            value: "#E97025",
-            className: "fi-icon-component-highlight-fill",
+            attribute: 'fill',
+            value: '#E97025',
+            className: 'fi-icon-component-highlight-fill'
           },
           {
-            attribute: "stroke",
-            value: "#E97025",
-            className: "fi-icon-component-highlight-stroke",
+            attribute: 'stroke',
+            value: '#E97025',
+            className: 'fi-icon-component-highlight-stroke'
           },
           {
-            attribute: "fill",
-            value: "#00347A",
-            className: "fi-icon-component-brand-fill",
-          },
-        ],
+            attribute: 'fill',
+            value: '#00347A',
+            className: 'fi-icon-component-brand-fill'
+          }
+        ]
       },
       fn: function (item, params) {
         var patternMap = params.rules.map(function (rule) {
           return {
             pattern: [
-              new RegExp(["^", rule.attribute, "$"].join(""), "i"),
-              new RegExp(["^", rule.value, "$"].join(""), "i"),
+              new RegExp(['^', rule.attribute, '$'].join(''), 'i'),
+              new RegExp(['^', rule.value, '$'].join(''), 'i')
             ],
-            className: rule.className,
+            className: rule.className
           };
         });
 
@@ -62,7 +62,7 @@ module.exports = {
             }
           }
         });
-      },
-    },
-  ],
+      }
+    }
+  ]
 };

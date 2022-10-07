@@ -1,6 +1,6 @@
 {
   "name": "suomifi-icons",
-  "version": "7.0.0-test22",
+  "version": "7.0.0",
   "main": "./dist/index.d.ts",
   "module": "./dist/index.d.ts",
   "repository": {

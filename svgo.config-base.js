@@ -1,40 +1,40 @@
-const addClassNamesPlugin = require("./add_classnames.svgo-plugin");
+const addClassNamesPlugin = require('./add_classnames.svgo-plugin');
 
 module.exports = {
   plugins: [
     {
-      name: "preset-default",
+      name: 'preset-default',
       params: {
         overrides: {
-          removeViewBox: false,
-        },
-      },
+          removeViewBox: false
+        }
+      }
     },
     {
-      name: "addClassNamesPlugin",
-      type: "perItem",
+      name: 'addClassNamesPlugin',
+      type: 'perItem',
       params: {
         rules: [
           {
-            attribute: "fill",
-            value: "#222", // #222222 value in the svg gets shortened previously in the build, which requires the shortened value here as well
-            className: "fi-icon-base-fill",
+            attribute: 'fill',
+            value: '#222', // #222222 value in the svg gets shortened previously in the build, which requires the shortened value here as well
+            className: 'fi-icon-base-fill'
           },
           {
-            attribute: "stroke",
-            value: "#222",
-            className: "fi-icon-base-stroke",
-          },
-        ],
+            attribute: 'stroke',
+            value: '#222',
+            className: 'fi-icon-base-stroke'
+          }
+        ]
       },
       fn: function (item, params) {
         var patternMap = params.rules.map(function (rule) {
           return {
             pattern: [
-              new RegExp(["^", rule.attribute, "$"].join(""), "i"),
-              new RegExp(["^", rule.value, "$"].join(""), "i"),
+              new RegExp(['^', rule.attribute, '$'].join(''), 'i'),
+              new RegExp(['^', rule.value, '$'].join(''), 'i')
             ],
-            className: rule.className,
+            className: rule.className
           };
         });
 
@@ -47,7 +47,7 @@ module.exports = {
             }
           }
         });
-      },
-    },
-  ],
+      }
+    }
+  ]
 };
