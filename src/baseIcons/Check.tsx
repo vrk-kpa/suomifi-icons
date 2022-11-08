@@ -26,4 +26,4 @@ const IconCheck = styled((props: SuomifiIconProps) => {
 `;
 
 IconCheck.displayName = 'Icon';
-export default IconCheck;
+export { IconCheck };

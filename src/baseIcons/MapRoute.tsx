@@ -26,4 +26,4 @@ const IconMapRoute = styled((props: SuomifiIconProps) => {
 `;
 
 IconMapRoute.displayName = 'Icon';
-export default IconMapRoute;
+export { IconMapRoute };

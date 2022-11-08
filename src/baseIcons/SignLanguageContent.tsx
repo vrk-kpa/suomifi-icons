@@ -26,4 +26,4 @@ const IconSignLanguageContent = styled((props: SuomifiIconProps) => {
 `;
 
 IconSignLanguageContent.displayName = 'Icon';
-export default IconSignLanguageContent;
+export { IconSignLanguageContent };

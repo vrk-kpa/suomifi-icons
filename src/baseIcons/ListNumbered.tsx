@@ -26,4 +26,4 @@ const IconListNumbered = styled((props: SuomifiIconProps) => {
 `;
 
 IconListNumbered.displayName = 'Icon';
-export default IconListNumbered;
+export { IconListNumbered };

@@ -26,4 +26,4 @@ const IconISA = styled((props: SuomifiIconProps) => {
 `;
 
 IconISA.displayName = 'Icon';
-export default IconISA;
+export { IconISA };

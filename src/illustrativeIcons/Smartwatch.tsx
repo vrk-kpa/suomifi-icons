@@ -26,4 +26,4 @@ const IconSmartwatch = styled((props: SuomifiIconProps) => {
 `;
 
 IconSmartwatch.displayName = 'Icon';
-export default IconSmartwatch;
+export { IconSmartwatch };

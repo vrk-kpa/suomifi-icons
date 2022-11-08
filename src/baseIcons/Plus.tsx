@@ -26,4 +26,4 @@ const IconPlus = styled((props: SuomifiIconProps) => {
 `;
 
 IconPlus.displayName = 'Icon';
-export default IconPlus;
+export { IconPlus };

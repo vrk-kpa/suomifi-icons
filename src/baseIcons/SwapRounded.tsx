@@ -26,4 +26,4 @@ const IconSwapRounded = styled((props: SuomifiIconProps) => {
 `;
 
 IconSwapRounded.displayName = 'Icon';
-export default IconSwapRounded;
+export { IconSwapRounded };

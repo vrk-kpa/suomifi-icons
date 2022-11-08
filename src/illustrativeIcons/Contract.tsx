@@ -26,4 +26,4 @@ const IconContract = styled((props: SuomifiIconProps) => {
 `;
 
 IconContract.displayName = 'Icon';
-export default IconContract;
+export { IconContract };

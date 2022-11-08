@@ -26,4 +26,4 @@ const IconLogout = styled((props: SuomifiIconProps) => {
 `;
 
 IconLogout.displayName = 'Icon';
-export default IconLogout;
+export { IconLogout };

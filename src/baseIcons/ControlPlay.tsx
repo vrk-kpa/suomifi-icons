@@ -26,4 +26,4 @@ const IconControlPlay = styled((props: SuomifiIconProps) => {
 `;
 
 IconControlPlay.displayName = 'Icon';
-export default IconControlPlay;
+export { IconControlPlay };

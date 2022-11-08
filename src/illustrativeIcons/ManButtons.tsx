@@ -26,4 +26,4 @@ const IconManButtons = styled((props: SuomifiIconProps) => {
 `;
 
 IconManButtons.displayName = 'Icon';
-export default IconManButtons;
+export { IconManButtons };

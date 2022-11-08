@@ -26,4 +26,4 @@ const IconFileGeneric = styled((props: SuomifiIconProps) => {
 `;
 
 IconFileGeneric.displayName = 'Icon';
-export default IconFileGeneric;
+export { IconFileGeneric };

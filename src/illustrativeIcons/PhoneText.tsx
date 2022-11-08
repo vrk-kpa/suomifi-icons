@@ -26,4 +26,4 @@ const IconPhoneText = styled((props: SuomifiIconProps) => {
 `;
 
 IconPhoneText.displayName = 'Icon';
-export default IconPhoneText;
+export { IconPhoneText };

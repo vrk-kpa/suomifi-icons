@@ -26,4 +26,4 @@ const IconMagicWand = styled((props: SuomifiIconProps) => {
 `;
 
 IconMagicWand.displayName = 'Icon';
-export default IconMagicWand;
+export { IconMagicWand };

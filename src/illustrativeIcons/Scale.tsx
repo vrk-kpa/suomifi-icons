@@ -26,4 +26,4 @@ const IconScale = styled((props: SuomifiIconProps) => {
 `;
 
 IconScale.displayName = 'Icon';
-export default IconScale;
+export { IconScale };

@@ -26,4 +26,4 @@ const IconSteering = styled((props: SuomifiIconProps) => {
 `;
 
 IconSteering.displayName = 'Icon';
-export default IconSteering;
+export { IconSteering };

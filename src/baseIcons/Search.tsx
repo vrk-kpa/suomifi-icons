@@ -26,4 +26,4 @@ const IconSearch = styled((props: SuomifiIconProps) => {
 `;
 
 IconSearch.displayName = 'Icon';
-export default IconSearch;
+export { IconSearch };

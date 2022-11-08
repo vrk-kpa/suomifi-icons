@@ -26,4 +26,4 @@ const IconHandPlate = styled((props: SuomifiIconProps) => {
 `;
 
 IconHandPlate.displayName = 'Icon';
-export default IconHandPlate;
+export { IconHandPlate };

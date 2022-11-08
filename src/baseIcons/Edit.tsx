@@ -26,4 +26,4 @@ const IconEdit = styled((props: SuomifiIconProps) => {
 `;
 
 IconEdit.displayName = 'Icon';
-export default IconEdit;
+export { IconEdit };

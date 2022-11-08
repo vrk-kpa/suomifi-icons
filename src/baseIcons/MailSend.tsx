@@ -26,4 +26,4 @@ const IconMailSend = styled((props: SuomifiIconProps) => {
 `;
 
 IconMailSend.displayName = 'Icon';
-export default IconMailSend;
+export { IconMailSend };

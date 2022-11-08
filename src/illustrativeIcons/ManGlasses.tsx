@@ -26,4 +26,4 @@ const IconManGlasses = styled((props: SuomifiIconProps) => {
 `;
 
 IconManGlasses.displayName = 'Icon';
-export default IconManGlasses;
+export { IconManGlasses };

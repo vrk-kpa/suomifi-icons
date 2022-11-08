@@ -26,4 +26,4 @@ const IconDownload = styled((props: SuomifiIconProps) => {
 `;
 
 IconDownload.displayName = 'Icon';
-export default IconDownload;
+export { IconDownload };

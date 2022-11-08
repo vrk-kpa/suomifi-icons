@@ -26,4 +26,4 @@ const IconMapLocationFilled = styled((props: SuomifiIconProps) => {
 `;
 
 IconMapLocationFilled.displayName = 'Icon';
-export default IconMapLocationFilled;
+export { IconMapLocationFilled };

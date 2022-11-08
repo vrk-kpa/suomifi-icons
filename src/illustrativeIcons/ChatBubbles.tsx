@@ -26,4 +26,4 @@ const IconChatBubbles = styled((props: SuomifiIconProps) => {
 `;
 
 IconChatBubbles.displayName = 'Icon';
-export default IconChatBubbles;
+export { IconChatBubbles };

@@ -26,4 +26,4 @@ const IconMigrationFinland = styled((props: SuomifiIconProps) => {
 `;
 
 IconMigrationFinland.displayName = 'Icon';
-export default IconMigrationFinland;
+export { IconMigrationFinland };

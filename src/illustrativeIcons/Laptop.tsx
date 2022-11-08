@@ -26,4 +26,4 @@ const IconLaptop = styled((props: SuomifiIconProps) => {
 `;
 
 IconLaptop.displayName = 'Icon';
-export default IconLaptop;
+export { IconLaptop };

@@ -26,4 +26,4 @@ const IconMapLayers = styled((props: SuomifiIconProps) => {
 `;
 
 IconMapLayers.displayName = 'Icon';
-export default IconMapLayers;
+export { IconMapLayers };

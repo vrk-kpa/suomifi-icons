@@ -26,4 +26,4 @@ const IconScaleBalance = styled((props: SuomifiIconProps) => {
 `;
 
 IconScaleBalance.displayName = 'Icon';
-export default IconScaleBalance;
+export { IconScaleBalance };

@@ -26,4 +26,4 @@ const IconDisabled = styled((props: SuomifiIconProps) => {
 `;
 
 IconDisabled.displayName = 'Icon';
-export default IconDisabled;
+export { IconDisabled };

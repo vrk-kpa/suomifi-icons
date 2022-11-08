@@ -26,4 +26,4 @@ const IconXml = styled((props: SuomifiIconProps) => {
 `;
 
 IconXml.displayName = 'Icon';
-export default IconXml;
+export { IconXml };

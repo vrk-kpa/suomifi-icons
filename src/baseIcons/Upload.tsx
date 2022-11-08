@@ -26,4 +26,4 @@ const IconUpload = styled((props: SuomifiIconProps) => {
 `;
 
 IconUpload.displayName = 'Icon';
-export default IconUpload;
+export { IconUpload };

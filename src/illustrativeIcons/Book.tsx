@@ -26,4 +26,4 @@ const IconBook = styled((props: SuomifiIconProps) => {
 `;
 
 IconBook.displayName = 'Icon';
-export default IconBook;
+export { IconBook };

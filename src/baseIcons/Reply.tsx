@@ -26,4 +26,4 @@ const IconReply = styled((props: SuomifiIconProps) => {
 `;
 
 IconReply.displayName = 'Icon';
-export default IconReply;
+export { IconReply };

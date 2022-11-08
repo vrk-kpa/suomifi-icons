@@ -26,4 +26,4 @@ const IconArrowheadUp = styled((props: SuomifiIconProps) => {
 `;
 
 IconArrowheadUp.displayName = 'Icon';
-export default IconArrowheadUp;
+export { IconArrowheadUp };

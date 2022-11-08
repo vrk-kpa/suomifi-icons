@@ -26,4 +26,4 @@ const IconCopy = styled((props: SuomifiIconProps) => {
 `;
 
 IconCopy.displayName = 'Icon';
-export default IconCopy;
+export { IconCopy };

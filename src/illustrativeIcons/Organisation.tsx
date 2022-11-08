@@ -26,4 +26,4 @@ const IconOrganisation = styled((props: SuomifiIconProps) => {
 `;
 
 IconOrganisation.displayName = 'Icon';
-export default IconOrganisation;
+export { IconOrganisation };

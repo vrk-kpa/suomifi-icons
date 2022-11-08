@@ -26,4 +26,4 @@ const IconShelter = styled((props: SuomifiIconProps) => {
 `;
 
 IconShelter.displayName = 'Icon';
-export default IconShelter;
+export { IconShelter };

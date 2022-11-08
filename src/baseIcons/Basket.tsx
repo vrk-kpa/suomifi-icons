@@ -26,4 +26,4 @@ const IconBasket = styled((props: SuomifiIconProps) => {
 `;
 
 IconBasket.displayName = 'Icon';
-export default IconBasket;
+export { IconBasket };

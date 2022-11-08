@@ -26,4 +26,4 @@ const IconPrint = styled((props: SuomifiIconProps) => {
 `;
 
 IconPrint.displayName = 'Icon';
-export default IconPrint;
+export { IconPrint };

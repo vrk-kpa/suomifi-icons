@@ -26,4 +26,4 @@ const IconCompare = styled((props: SuomifiIconProps) => {
 `;
 
 IconCompare.displayName = 'Icon';
-export default IconCompare;
+export { IconCompare };

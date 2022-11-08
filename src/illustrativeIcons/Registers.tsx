@@ -26,4 +26,4 @@ const IconRegisters = styled((props: SuomifiIconProps) => {
 `;
 
 IconRegisters.displayName = 'Icon';
-export default IconRegisters;
+export { IconRegisters };

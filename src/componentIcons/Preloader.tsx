@@ -26,4 +26,4 @@ const IconPreloader = styled((props: SuomifiIconProps) => {
 `;
 
 IconPreloader.displayName = 'Icon';
-export default IconPreloader;
+export { IconPreloader };

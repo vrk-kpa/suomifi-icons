@@ -26,4 +26,4 @@ const IconCheckSelected = styled((props: SuomifiIconProps) => {
 `;
 
 IconCheckSelected.displayName = 'Icon';
-export default IconCheckSelected;
+export { IconCheckSelected };

@@ -26,4 +26,4 @@ const IconAuthorise = styled((props: SuomifiIconProps) => {
 `;
 
 IconAuthorise.displayName = 'Icon';
-export default IconAuthorise;
+export { IconAuthorise };

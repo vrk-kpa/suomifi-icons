@@ -26,4 +26,4 @@ const IconSocialSecurity = styled((props: SuomifiIconProps) => {
 `;
 
 IconSocialSecurity.displayName = 'Icon';
-export default IconSocialSecurity;
+export { IconSocialSecurity };

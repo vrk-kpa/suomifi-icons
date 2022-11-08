@@ -26,4 +26,4 @@ const IconPuzzle = styled((props: SuomifiIconProps) => {
 `;
 
 IconPuzzle.displayName = 'Icon';
-export default IconPuzzle;
+export { IconPuzzle };

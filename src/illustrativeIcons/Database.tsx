@@ -26,4 +26,4 @@ const IconDatabase = styled((props: SuomifiIconProps) => {
 `;
 
 IconDatabase.displayName = 'Icon';
-export default IconDatabase;
+export { IconDatabase };

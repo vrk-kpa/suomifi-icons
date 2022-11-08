@@ -26,4 +26,4 @@ const IconFinance = styled((props: SuomifiIconProps) => {
 `;
 
 IconFinance.displayName = 'Icon';
-export default IconFinance;
+export { IconFinance };

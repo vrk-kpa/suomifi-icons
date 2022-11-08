@@ -26,4 +26,4 @@ const IconHandCoins = styled((props: SuomifiIconProps) => {
 `;
 
 IconHandCoins.displayName = 'Icon';
-export default IconHandCoins;
+export { IconHandCoins };

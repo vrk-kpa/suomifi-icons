@@ -26,4 +26,4 @@ const IconClock = styled((props: SuomifiIconProps) => {
 `;
 
 IconClock.displayName = 'Icon';
-export default IconClock;
+export { IconClock };

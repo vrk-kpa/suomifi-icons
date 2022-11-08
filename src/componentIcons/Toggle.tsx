@@ -26,4 +26,4 @@ const IconToggle = styled((props: SuomifiIconProps) => {
 `;
 
 IconToggle.displayName = 'Icon';
-export default IconToggle;
+export { IconToggle };

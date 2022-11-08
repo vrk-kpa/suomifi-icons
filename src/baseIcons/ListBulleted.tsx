@@ -26,4 +26,4 @@ const IconListBulleted = styled((props: SuomifiIconProps) => {
 `;
 
 IconListBulleted.displayName = 'Icon';
-export default IconListBulleted;
+export { IconListBulleted };

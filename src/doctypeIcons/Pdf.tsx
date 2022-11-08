@@ -26,4 +26,4 @@ const IconPdf = styled((props: SuomifiIconProps) => {
 `;
 
 IconPdf.displayName = 'Icon';
-export default IconPdf;
+export { IconPdf };

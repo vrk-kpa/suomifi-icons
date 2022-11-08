@@ -26,4 +26,4 @@ const IconInternet = styled((props: SuomifiIconProps) => {
 `;
 
 IconInternet.displayName = 'Icon';
-export default IconInternet;
+export { IconInternet };

@@ -26,4 +26,4 @@ const IconGroup = styled((props: SuomifiIconProps) => {
 `;
 
 IconGroup.displayName = 'Icon';
-export default IconGroup;
+export { IconGroup };

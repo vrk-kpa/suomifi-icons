@@ -26,4 +26,4 @@ const IconLinkExternal = styled((props: SuomifiIconProps) => {
 `;
 
 IconLinkExternal.displayName = 'Icon';
-export default IconLinkExternal;
+export { IconLinkExternal };

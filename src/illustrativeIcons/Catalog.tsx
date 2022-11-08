@@ -26,4 +26,4 @@ const IconCatalog = styled((props: SuomifiIconProps) => {
 `;
 
 IconCatalog.displayName = 'Icon';
-export default IconCatalog;
+export { IconCatalog };

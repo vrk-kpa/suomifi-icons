@@ -26,4 +26,4 @@ const IconRefresh = styled((props: SuomifiIconProps) => {
 `;
 
 IconRefresh.displayName = 'Icon';
-export default IconRefresh;
+export { IconRefresh };

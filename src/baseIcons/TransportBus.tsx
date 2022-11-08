@@ -26,4 +26,4 @@ const IconTransportBus = styled((props: SuomifiIconProps) => {
 `;
 
 IconTransportBus.displayName = 'Icon';
-export default IconTransportBus;
+export { IconTransportBus };

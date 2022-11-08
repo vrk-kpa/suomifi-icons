@@ -26,4 +26,4 @@ const IconFolder = styled((props: SuomifiIconProps) => {
 `;
 
 IconFolder.displayName = 'Icon';
-export default IconFolder;
+export { IconFolder };

@@ -26,4 +26,4 @@ const IconTouch = styled((props: SuomifiIconProps) => {
 `;
 
 IconTouch.displayName = 'Icon';
-export default IconTouch;
+export { IconTouch };

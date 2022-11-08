@@ -1,4 +1,4 @@
-export { default as IconRadioButton } from './RadioButton';
-export { default as IconRadioButtonLarge } from './RadioButtonLarge';
-export { default as IconToggle } from './Toggle';
-export { default as IconPreloader } from './Preloader';
+export { IconRadioButton } from './RadioButton';
+export { IconRadioButtonLarge } from './RadioButtonLarge';
+export { IconToggle } from './Toggle';
+export { IconPreloader } from './Preloader';

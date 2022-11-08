@@ -26,4 +26,4 @@ const IconBriefcase = styled((props: SuomifiIconProps) => {
 `;
 
 IconBriefcase.displayName = 'Icon';
-export default IconBriefcase;
+export { IconBriefcase };

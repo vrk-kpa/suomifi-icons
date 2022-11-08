@@ -26,4 +26,4 @@ const IconMessage = styled((props: SuomifiIconProps) => {
 `;
 
 IconMessage.displayName = 'Icon';
-export default IconMessage;
+export { IconMessage };

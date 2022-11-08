@@ -26,4 +26,4 @@ const IconUserProfile = styled((props: SuomifiIconProps) => {
 `;
 
 IconUserProfile.displayName = 'Icon';
-export default IconUserProfile;
+export { IconUserProfile };

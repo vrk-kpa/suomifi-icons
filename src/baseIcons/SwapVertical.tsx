@@ -26,4 +26,4 @@ const IconSwapVertical = styled((props: SuomifiIconProps) => {
 `;
 
 IconSwapVertical.displayName = 'Icon';
-export default IconSwapVertical;
+export { IconSwapVertical };

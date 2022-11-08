@@ -26,4 +26,4 @@ const IconChatQuestion = styled((props: SuomifiIconProps) => {
 `;
 
 IconChatQuestion.displayName = 'Icon';
-export default IconChatQuestion;
+export { IconChatQuestion };

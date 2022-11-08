@@ -26,4 +26,4 @@ const IconClose = styled((props: SuomifiIconProps) => {
 `;
 
 IconClose.displayName = 'Icon';
-export default IconClose;
+export { IconClose };

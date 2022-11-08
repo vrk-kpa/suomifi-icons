@@ -26,4 +26,4 @@ const IconArchive = styled((props: SuomifiIconProps) => {
 `;
 
 IconArchive.displayName = 'Icon';
-export default IconArchive;
+export { IconArchive };

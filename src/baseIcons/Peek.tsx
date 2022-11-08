@@ -26,4 +26,4 @@ const IconPeek = styled((props: SuomifiIconProps) => {
 `;
 
 IconPeek.displayName = 'Icon';
-export default IconPeek;
+export { IconPeek };

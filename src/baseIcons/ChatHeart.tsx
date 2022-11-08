@@ -26,4 +26,4 @@ const IconChatHeart = styled((props: SuomifiIconProps) => {
 `;
 
 IconChatHeart.displayName = 'Icon';
-export default IconChatHeart;
+export { IconChatHeart };

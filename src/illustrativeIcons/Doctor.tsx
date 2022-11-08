@@ -26,4 +26,4 @@ const IconDoctor = styled((props: SuomifiIconProps) => {
 `;
 
 IconDoctor.displayName = 'Icon';
-export default IconDoctor;
+export { IconDoctor };

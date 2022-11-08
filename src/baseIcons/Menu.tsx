@@ -26,4 +26,4 @@ const IconMenu = styled((props: SuomifiIconProps) => {
 `;
 
 IconMenu.displayName = 'Icon';
-export default IconMenu;
+export { IconMenu };

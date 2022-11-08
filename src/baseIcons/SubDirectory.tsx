@@ -26,4 +26,4 @@ const IconSubDirectory = styled((props: SuomifiIconProps) => {
 `;
 
 IconSubDirectory.displayName = 'Icon';
-export default IconSubDirectory;
+export { IconSubDirectory };

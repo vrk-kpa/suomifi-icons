@@ -26,4 +26,4 @@ const IconErrorFilled = styled((props: SuomifiIconProps) => {
 `;
 
 IconErrorFilled.displayName = 'Icon';
-export default IconErrorFilled;
+export { IconErrorFilled };

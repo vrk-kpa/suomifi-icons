@@ -26,4 +26,4 @@ const IconIdBadge = styled((props: SuomifiIconProps) => {
 `;
 
 IconIdBadge.displayName = 'Icon';
-export default IconIdBadge;
+export { IconIdBadge };

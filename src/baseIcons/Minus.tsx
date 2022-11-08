@@ -26,4 +26,4 @@ const IconMinus = styled((props: SuomifiIconProps) => {
 `;
 
 IconMinus.displayName = 'Icon';
-export default IconMinus;
+export { IconMinus };

@@ -26,4 +26,4 @@ const IconRadioButton = styled((props: SuomifiIconProps) => {
 `;
 
 IconRadioButton.displayName = 'Icon';
-export default IconRadioButton;
+export { IconRadioButton };

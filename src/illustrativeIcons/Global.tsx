@@ -26,4 +26,4 @@ const IconGlobal = styled((props: SuomifiIconProps) => {
 `;
 
 IconGlobal.displayName = 'Icon';
-export default IconGlobal;
+export { IconGlobal };

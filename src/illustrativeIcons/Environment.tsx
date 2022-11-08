@@ -26,4 +26,4 @@ const IconEnvironment = styled((props: SuomifiIconProps) => {
 `;
 
 IconEnvironment.displayName = 'Icon';
-export default IconEnvironment;
+export { IconEnvironment };

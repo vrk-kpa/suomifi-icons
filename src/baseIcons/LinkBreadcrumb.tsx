@@ -26,4 +26,4 @@ const IconLinkBreadcrumb = styled((props: SuomifiIconProps) => {
 `;
 
 IconLinkBreadcrumb.displayName = 'Icon';
-export default IconLinkBreadcrumb;
+export { IconLinkBreadcrumb };

@@ -26,4 +26,4 @@ const IconChevronCircleLeft = styled((props: SuomifiIconProps) => {
 `;
 
 IconChevronCircleLeft.displayName = 'Icon';
-export default IconChevronCircleLeft;
+export { IconChevronCircleLeft };

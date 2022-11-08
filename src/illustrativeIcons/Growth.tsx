@@ -26,4 +26,4 @@ const IconGrowth = styled((props: SuomifiIconProps) => {
 `;
 
 IconGrowth.displayName = 'Icon';
-export default IconGrowth;
+export { IconGrowth };

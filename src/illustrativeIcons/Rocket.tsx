@@ -26,4 +26,4 @@ const IconRocket = styled((props: SuomifiIconProps) => {
 `;
 
 IconRocket.displayName = 'Icon';
-export default IconRocket;
+export { IconRocket };

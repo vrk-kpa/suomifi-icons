@@ -246,7 +246,7 @@ const ${iconName} = styled((props: SuomifiIconProps) => {
 \`;
 
 ${iconName}.displayName = \'Icon\';
-export default ${iconName};
+export { ${iconName} };
 `;
 };
 
@@ -295,7 +295,7 @@ const createIcons = () => {
           );
           fs.appendFileSync(
             `src/${type}Icons/index.ts`,
-            `export { default as Icon${icon} } from './${icon}';\n`
+            `export { Icon${icon} } from './${icon}';\n`
           );
         } catch (error) {
           console.error(`Error creating ${icon} icon: `, error);

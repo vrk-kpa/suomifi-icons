@@ -26,4 +26,4 @@ const IconStar = styled((props: SuomifiIconProps) => {
 `;
 
 IconStar.displayName = 'Icon';
-export default IconStar;
+export { IconStar };

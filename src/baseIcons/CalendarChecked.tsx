@@ -26,4 +26,4 @@ const IconCalendarChecked = styled((props: SuomifiIconProps) => {
 `;
 
 IconCalendarChecked.displayName = 'Icon';
-export default IconCalendarChecked;
+export { IconCalendarChecked };

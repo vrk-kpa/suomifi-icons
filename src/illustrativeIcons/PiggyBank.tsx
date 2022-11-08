@@ -26,4 +26,4 @@ const IconPiggyBank = styled((props: SuomifiIconProps) => {
 `;
 
 IconPiggyBank.displayName = 'Icon';
-export default IconPiggyBank;
+export { IconPiggyBank };

@@ -26,4 +26,4 @@ const IconHistory = styled((props: SuomifiIconProps) => {
 `;
 
 IconHistory.displayName = 'Icon';
-export default IconHistory;
+export { IconHistory };

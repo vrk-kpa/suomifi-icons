@@ -26,4 +26,4 @@ const IconMeter = styled((props: SuomifiIconProps) => {
 `;
 
 IconMeter.displayName = 'Icon';
-export default IconMeter;
+export { IconMeter };

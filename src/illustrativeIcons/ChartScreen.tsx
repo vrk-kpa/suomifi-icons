@@ -26,4 +26,4 @@ const IconChartScreen = styled((props: SuomifiIconProps) => {
 `;
 
 IconChartScreen.displayName = 'Icon';
-export default IconChartScreen;
+export { IconChartScreen };

@@ -26,4 +26,4 @@ const IconCourt = styled((props: SuomifiIconProps) => {
 `;
 
 IconCourt.displayName = 'Icon';
-export default IconCourt;
+export { IconCourt };

@@ -26,4 +26,4 @@ const IconWebService = styled((props: SuomifiIconProps) => {
 `;
 
 IconWebService.displayName = 'Icon';
-export default IconWebService;
+export { IconWebService };

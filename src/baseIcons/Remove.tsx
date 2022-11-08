@@ -26,4 +26,4 @@ const IconRemove = styled((props: SuomifiIconProps) => {
 `;
 
 IconRemove.displayName = 'Icon';
-export default IconRemove;
+export { IconRemove };

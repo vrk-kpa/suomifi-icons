@@ -26,4 +26,4 @@ const IconControlNext = styled((props: SuomifiIconProps) => {
 `;
 
 IconControlNext.displayName = 'Icon';
-export default IconControlNext;
+export { IconControlNext };

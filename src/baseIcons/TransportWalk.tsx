@@ -26,4 +26,4 @@ const IconTransportWalk = styled((props: SuomifiIconProps) => {
 `;
 
 IconTransportWalk.displayName = 'Icon';
-export default IconTransportWalk;
+export { IconTransportWalk };

@@ -26,4 +26,4 @@ const IconLeap = styled((props: SuomifiIconProps) => {
 `;
 
 IconLeap.displayName = 'Icon';
-export default IconLeap;
+export { IconLeap };

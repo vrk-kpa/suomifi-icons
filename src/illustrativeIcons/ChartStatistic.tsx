@@ -26,4 +26,4 @@ const IconChartStatistic = styled((props: SuomifiIconProps) => {
 `;
 
 IconChartStatistic.displayName = 'Icon';
-export default IconChartStatistic;
+export { IconChartStatistic };

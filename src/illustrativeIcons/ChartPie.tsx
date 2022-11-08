@@ -26,4 +26,4 @@ const IconChartPie = styled((props: SuomifiIconProps) => {
 `;
 
 IconChartPie.displayName = 'Icon';
-export default IconChartPie;
+export { IconChartPie };

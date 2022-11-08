@@ -26,4 +26,4 @@ const IconSwim = styled((props: SuomifiIconProps) => {
 `;
 
 IconSwim.displayName = 'Icon';
-export default IconSwim;
+export { IconSwim };

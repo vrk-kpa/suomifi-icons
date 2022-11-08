@@ -26,4 +26,4 @@ const IconAttachment = styled((props: SuomifiIconProps) => {
 `;
 
 IconAttachment.displayName = 'Icon';
-export default IconAttachment;
+export { IconAttachment };

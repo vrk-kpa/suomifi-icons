@@ -26,4 +26,4 @@ const IconExchange = styled((props: SuomifiIconProps) => {
 `;
 
 IconExchange.displayName = 'Icon';
-export default IconExchange;
+export { IconExchange };

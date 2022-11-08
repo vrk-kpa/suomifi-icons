@@ -26,4 +26,4 @@ const IconShop = styled((props: SuomifiIconProps) => {
 `;
 
 IconShop.displayName = 'Icon';
-export default IconShop;
+export { IconShop };

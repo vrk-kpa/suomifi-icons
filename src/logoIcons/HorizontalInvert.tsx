@@ -26,4 +26,4 @@ const IconHorizontalInvert = styled((props: SuomifiIconProps) => {
 `;
 
 IconHorizontalInvert.displayName = 'Icon';
-export default IconHorizontalInvert;
+export { IconHorizontalInvert };

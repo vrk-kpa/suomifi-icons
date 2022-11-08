@@ -26,4 +26,4 @@ const IconCheckCircleFilled = styled((props: SuomifiIconProps) => {
 `;
 
 IconCheckCircleFilled.displayName = 'Icon';
-export default IconCheckCircleFilled;
+export { IconCheckCircleFilled };

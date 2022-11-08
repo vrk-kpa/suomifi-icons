@@ -26,4 +26,4 @@ const IconMailbox = styled((props: SuomifiIconProps) => {
 `;
 
 IconMailbox.displayName = 'Icon';
-export default IconMailbox;
+export { IconMailbox };

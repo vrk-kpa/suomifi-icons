@@ -26,4 +26,4 @@ const IconPillar = styled((props: SuomifiIconProps) => {
 `;
 
 IconPillar.displayName = 'Icon';
-export default IconPillar;
+export { IconPillar };

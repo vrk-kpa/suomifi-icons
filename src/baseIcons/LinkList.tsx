@@ -26,4 +26,4 @@ const IconLinkList = styled((props: SuomifiIconProps) => {
 `;
 
 IconLinkList.displayName = 'Icon';
-export default IconLinkList;
+export { IconLinkList };

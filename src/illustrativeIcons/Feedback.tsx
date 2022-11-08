@@ -26,4 +26,4 @@ const IconFeedback = styled((props: SuomifiIconProps) => {
 `;
 
 IconFeedback.displayName = 'Icon';
-export default IconFeedback;
+export { IconFeedback };

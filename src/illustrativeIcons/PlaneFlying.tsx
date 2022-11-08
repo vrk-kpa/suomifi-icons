@@ -26,4 +26,4 @@ const IconPlaneFlying = styled((props: SuomifiIconProps) => {
 `;
 
 IconPlaneFlying.displayName = 'Icon';
-export default IconPlaneFlying;
+export { IconPlaneFlying };

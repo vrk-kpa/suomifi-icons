@@ -26,4 +26,4 @@ const IconChevronUp = styled((props: SuomifiIconProps) => {
 `;
 
 IconChevronUp.displayName = 'Icon';
-export default IconChevronUp;
+export { IconChevronUp };

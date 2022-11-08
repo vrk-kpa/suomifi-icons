@@ -26,4 +26,4 @@ const IconCreditCards = styled((props: SuomifiIconProps) => {
 `;
 
 IconCreditCards.displayName = 'Icon';
-export default IconCreditCards;
+export { IconCreditCards };

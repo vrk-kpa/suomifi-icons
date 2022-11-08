@@ -26,4 +26,4 @@ const IconWebDevelopment = styled((props: SuomifiIconProps) => {
 `;
 
 IconWebDevelopment.displayName = 'Icon';
-export default IconWebDevelopment;
+export { IconWebDevelopment };

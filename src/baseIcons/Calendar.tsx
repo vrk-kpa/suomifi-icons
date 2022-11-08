@@ -26,4 +26,4 @@ const IconCalendar = styled((props: SuomifiIconProps) => {
 `;
 
 IconCalendar.displayName = 'Icon';
-export default IconCalendar;
+export { IconCalendar };

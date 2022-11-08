@@ -26,4 +26,4 @@ const IconHelpdesk = styled((props: SuomifiIconProps) => {
 `;
 
 IconHelpdesk.displayName = 'Icon';
-export default IconHelpdesk;
+export { IconHelpdesk };

@@ -26,4 +26,4 @@ const IconServer = styled((props: SuomifiIconProps) => {
 `;
 
 IconServer.displayName = 'Icon';
-export default IconServer;
+export { IconServer };

@@ -26,4 +26,4 @@ const IconCollaboration = styled((props: SuomifiIconProps) => {
 `;
 
 IconCollaboration.displayName = 'Icon';
-export default IconCollaboration;
+export { IconCollaboration };

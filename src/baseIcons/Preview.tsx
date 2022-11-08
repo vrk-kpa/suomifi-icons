@@ -26,4 +26,4 @@ const IconPreview = styled((props: SuomifiIconProps) => {
 `;
 
 IconPreview.displayName = 'Icon';
-export default IconPreview;
+export { IconPreview };

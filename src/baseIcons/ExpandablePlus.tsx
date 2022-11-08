@@ -26,4 +26,4 @@ const IconExpandablePlus = styled((props: SuomifiIconProps) => {
 `;
 
 IconExpandablePlus.displayName = 'Icon';
-export default IconExpandablePlus;
+export { IconExpandablePlus };

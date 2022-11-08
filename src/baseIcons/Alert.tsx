@@ -26,4 +26,4 @@ const IconAlert = styled((props: SuomifiIconProps) => {
 `;
 
 IconAlert.displayName = 'Icon';
-export default IconAlert;
+export { IconAlert };

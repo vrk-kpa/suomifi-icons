@@ -26,4 +26,4 @@ const IconDisplay = styled((props: SuomifiIconProps) => {
 `;
 
 IconDisplay.displayName = 'Icon';
-export default IconDisplay;
+export { IconDisplay };

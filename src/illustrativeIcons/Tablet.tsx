@@ -26,4 +26,4 @@ const IconTablet = styled((props: SuomifiIconProps) => {
 `;
 
 IconTablet.displayName = 'Icon';
-export default IconTablet;
+export { IconTablet };

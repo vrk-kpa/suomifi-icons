@@ -26,4 +26,4 @@ const IconWomanNecklace = styled((props: SuomifiIconProps) => {
 `;
 
 IconWomanNecklace.displayName = 'Icon';
-export default IconWomanNecklace;
+export { IconWomanNecklace };

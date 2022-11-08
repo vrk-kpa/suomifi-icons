@@ -26,4 +26,4 @@ const IconSettings = styled((props: SuomifiIconProps) => {
 `;
 
 IconSettings.displayName = 'Icon';
-export default IconSettings;
+export { IconSettings };
