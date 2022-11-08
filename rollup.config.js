@@ -8,8 +8,6 @@ const baseConfig = require('./svgo.config-base.js');
 const componentConfig = require('./svgo.config-component.js');
 const defaultConfig = require('./svgo.config-default.js');
 
-const iconTypes = ['base', 'illustrative', 'component']; // add doctype and logo
-
 const resolveConfig = (iconType) => {
   switch (iconType) {
     case 'base':
@@ -29,19 +27,20 @@ const buildIcons = (iconType) => {
     output: {
       dir: `dist/${iconType}Icons`,
       format: 'esm',
-      sourcemap: true
+      sourcemap: true,
+      preserveModules: true
     },
     plugins: [
       peerDepsExternal(),
       resolve(),
-      typescript({
-        useTsconfigDeclarationDir: true
-      }),
-      commonjs(),
       svgr({
         typescript: true,
         icon: true,
         svgoConfig: resolveConfig(iconType)
+      }),
+      commonjs(),
+      typescript({
+        useTsconfigDeclarationDir: true
       })
     ]
   };
