@@ -27,9 +27,7 @@ async function createPackageFile() {
     JSON.parse(packageData);
   const newPackageData = {
     ...packageOthers,
-    private: false,
-    typings: './index.d.ts',
-    main: './index.d.ts'
+    private: false
   };
 
   const targetPath = resolve(distPath, './package.json');
