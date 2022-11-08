@@ -33,10 +33,11 @@
     "typescript": "^4.8.2"
   },
   "scripts": {
-    "prepare": "yarn run build",
+    "prepublish": "yarn run build",
     "clean": "rm -rf dist",
     "generate": "rm -rf src/baseIcons src/componentIcons src/doctypeIcons src/illustrativeIcons src/logoIcons && yarn node src/utils/createComponents",
-    "build": "yarn run clean && rollup -c && node src/utils/frank.js"
+    "build": "yarn run clean && rollup -c && yarn run frank",
+    "frank": "yarn node src/utils/frank.js"
   },
   "peerDependencies": {
     "react": "^16.2.0",
