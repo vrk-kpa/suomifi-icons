@@ -1,8 +1,14 @@
 {
   "name": "suomifi-icons",
   "version": "7.0.0",
-  "main": "./dist/index.d.ts",
-  "module": "./dist/index.d.ts",
+  "exports": {
+    "./baseIcons": "./baseIcons/src/baseIcons/index.js",
+    "./illustrativeIcons": "./illustrativeIcons/src/illustrativeIcons/index.js",
+    "./doctypeIcons": "./doctypeIcons/src/doctypeIcons/index.js",
+    "./logoIcons": "./logoIcons/src/logoIcons/index.js",
+    "./componentIcons": "./componentIcons/scr/componentIcons/index.js"
+  },
+  "sideEffects": false,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vrk-kpa/suomifi-icons.git"
@@ -23,9 +29,11 @@
     "rollup": "^2.79.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-typescript2": "^0.33.0",
+    "styled-components": "^5.3.6",
     "typescript": "^4.8.2"
   },
   "scripts": {
+    "prepare": "yarn run build",
     "clean": "rm -rf dist",
     "generate": "rm -rf src/baseIcons src/componentIcons src/doctypeIcons src/illustrativeIcons src/logoIcons && yarn node src/utils/createComponents",
     "build": "yarn run clean && rollup -c && node src/utils/frank.js"
