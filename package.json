@@ -6,7 +6,8 @@
     "./illustrativeIcons": "./illustrativeIcons/src/illustrativeIcons/index.js",
     "./doctypeIcons": "./doctypeIcons/src/doctypeIcons/index.js",
     "./logoIcons": "./logoIcons/src/logoIcons/index.js",
-    "./componentIcons": "./componentIcons/scr/componentIcons/index.js"
+    "./componentIcons": "./componentIcons/src/componentIcons/index.js",
+    "./iconInterface": "./utils/iconInterface.d.ts"
   },
   "sideEffects": false,
   "repository": {
