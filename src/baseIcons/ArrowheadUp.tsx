@@ -3,13 +3,13 @@ import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
 import ArrowheadUp from '../../assets/baseIcons/icon-arrowhead-up.svg';
-import { iconStyles } from '../utils/styles';
-import { SuomifiIconProps } from '../utils/iconInterface';
+import { baseIconStyles } from '../utils/styles';
+import { BaseIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconArrowheadUp = styled((props: SuomifiIconProps) => {
-  const { className, mousePointer, ariaLabel, color, fill, ...passProps } =
+const IconArrowheadUp = styled((props: BaseIconProps) => {
+  const { className, mousePointer, ariaLabel, ...passProps } =
     props;
   return (
     <ArrowheadUp
@@ -22,7 +22,7 @@ const IconArrowheadUp = styled((props: SuomifiIconProps) => {
     />
   );
 })`
-  ${({ color, fill }) => iconStyles({ color, fill })}
+  ${baseIconStyles}
 `;
 
 IconArrowheadUp.displayName = 'Icon';

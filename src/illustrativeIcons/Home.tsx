@@ -3,13 +3,13 @@ import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
 import Home from '../../assets/illustrativeIcons/icon-illustration-home.svg';
-import { iconStyles } from '../utils/styles';
-import { SuomifiIconProps } from '../utils/iconInterface';
+import { staticIconStyles } from '../utils/styles';
+import { StaticIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconHome = styled((props: SuomifiIconProps) => {
-  const { className, mousePointer, ariaLabel, color, fill, ...passProps } =
+const IconHome = styled((props: StaticIconProps) => {
+  const { className, mousePointer, ariaLabel, ...passProps } =
     props;
   return (
     <Home
@@ -22,7 +22,7 @@ const IconHome = styled((props: SuomifiIconProps) => {
     />
   );
 })`
-  ${({ color, fill }) => iconStyles({ color, fill })}
+  ${staticIconStyles}
 `;
 
 IconHome.displayName = 'Icon';

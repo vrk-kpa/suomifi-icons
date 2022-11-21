@@ -3,13 +3,13 @@ import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
 import HeartFilled from '../../assets/baseIcons/icon-heart-filled.svg';
-import { iconStyles } from '../utils/styles';
-import { SuomifiIconProps } from '../utils/iconInterface';
+import { baseIconStyles } from '../utils/styles';
+import { BaseIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconHeartFilled = styled((props: SuomifiIconProps) => {
-  const { className, mousePointer, ariaLabel, color, fill, ...passProps } =
+const IconHeartFilled = styled((props: BaseIconProps) => {
+  const { className, mousePointer, ariaLabel, ...passProps } =
     props;
   return (
     <HeartFilled
@@ -22,7 +22,7 @@ const IconHeartFilled = styled((props: SuomifiIconProps) => {
     />
   );
 })`
-  ${({ color, fill }) => iconStyles({ color, fill })}
+  ${baseIconStyles}
 `;
 
 IconHeartFilled.displayName = 'Icon';

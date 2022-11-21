@@ -3,13 +3,13 @@ import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
 import Error from '../../assets/baseIcons/icon-error.svg';
-import { iconStyles } from '../utils/styles';
-import { SuomifiIconProps } from '../utils/iconInterface';
+import { baseIconStyles } from '../utils/styles';
+import { BaseIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconError = styled((props: SuomifiIconProps) => {
-  const { className, mousePointer, ariaLabel, color, fill, ...passProps } =
+const IconError = styled((props: BaseIconProps) => {
+  const { className, mousePointer, ariaLabel, ...passProps } =
     props;
   return (
     <Error
@@ -22,7 +22,7 @@ const IconError = styled((props: SuomifiIconProps) => {
     />
   );
 })`
-  ${({ color, fill }) => iconStyles({ color, fill })}
+  ${baseIconStyles}
 `;
 
 IconError.displayName = 'Icon';
