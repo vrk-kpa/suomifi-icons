@@ -217,19 +217,26 @@ const logoIcons = [
 
 const iconTypes = ['base', 'component', 'doctype', 'illustrative', 'logo'];
 
-const buildcontent = (componentName, iconType, iconFile, iconName) => {
+const buildcontent = (
+  componentName,
+  iconType,
+  iconFile,
+  iconName,
+  interface,
+  styles
+) => {
   return `
 import React from \'react\';
 import { default as styled } from \'styled-components\';
 import classnames from \'classnames\';
 import ${componentName} from \'../../assets/${iconType}Icons/${iconFile}.svg\';
-import { iconStyles } from \'../utils/styles\';
-import { SuomifiIconProps } from \'../utils/iconInterface\';
+import { ${styles} } from \'../utils/styles\';
+import { ${interface} } from \'../utils/iconInterface\';
 import { baseClassName, cursorPointerClassName } from \'../utils/classes\';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from \'../utils/aria\';
 
-const ${iconName} = styled((props: SuomifiIconProps) => {
-  const { className, mousePointer, ariaLabel, color, fill, ...passProps } =
+const ${iconName} = styled((props: ${interface}) => {
+  const { className, mousePointer, ariaLabel, ...passProps } =
     props;
   return (
     <${componentName}
@@ -242,7 +249,7 @@ const ${iconName} = styled((props: SuomifiIconProps) => {
     />
   );
 })\`
-  \${({ color, fill }) => iconStyles({ color, fill })}
+  \${${styles}}
 \`;
 
 ${iconName}.displayName = \'Icon\';
@@ -277,6 +284,28 @@ const getIconSet = (iconType) => {
   }
 };
 
+const getInterface = (iconType) => {
+  if (
+    iconType === 'illustrative' ||
+    iconType === 'component' ||
+    iconType === 'doctype'
+  )
+    return 'StaticIconProps';
+  if (iconType === 'logo') return 'LogoIconProps';
+  return 'BaseIconProps';
+};
+
+const getStyles = (iconType) => {
+  if (
+    iconType === 'illustrative' ||
+    iconType === 'component' ||
+    iconType === 'doctype'
+  )
+    return 'staticIconStyles';
+  if (iconType === 'logo') return 'logoIconStyles';
+  return 'baseIconStyles';
+};
+
 const createIcons = () => {
   iconTypes.forEach((type) => {
     iconSet = getIconSet(type);
@@ -288,10 +317,19 @@ const createIcons = () => {
             : `icon-${toKebabCase(icon)}`;
         const componentName = `${icon}`;
         const iconName = `Icon${icon}`;
+        const interface = getInterface(type);
+        const styles = getStyles(type);
         try {
           fs.writeFileSync(
             `src/${type}Icons/${icon}.tsx`,
-            buildcontent(componentName, type, iconFile, iconName)
+            buildcontent(
+              componentName,
+              type,
+              iconFile,
+              iconName,
+              interface,
+              styles
+            )
           );
           fs.appendFileSync(
             `src/${type}Icons/index.ts`,
