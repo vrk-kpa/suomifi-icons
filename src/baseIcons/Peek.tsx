@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import Peek from '../../assets/baseIcons/icon-peek.svg';
+import { ReactComponent as Peek } from '../../assets/baseIcons/icon-peek.svg';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

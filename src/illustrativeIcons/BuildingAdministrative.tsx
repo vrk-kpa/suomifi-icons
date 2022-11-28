@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import BuildingAdministrative from '../../assets/illustrativeIcons/icon-illustration-building-administrative.svg';
+import { ReactComponent as BuildingAdministrative } from '../../assets/illustrativeIcons/icon-illustration-building-administrative.svg';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

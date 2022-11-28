@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import Mailbox from '../../assets/illustrativeIcons/icon-illustration-mailbox.svg';
+import { ReactComponent as Mailbox } from '../../assets/illustrativeIcons/icon-illustration-mailbox.svg';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

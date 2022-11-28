@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import TransportCar from '../../assets/baseIcons/icon-transport-car.svg';
+import { ReactComponent as TransportCar } from '../../assets/baseIcons/icon-transport-car.svg';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

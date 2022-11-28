@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import ControlNext from '../../assets/baseIcons/icon-control-next.svg';
+import { ReactComponent as ControlNext } from '../../assets/baseIcons/icon-control-next.svg';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

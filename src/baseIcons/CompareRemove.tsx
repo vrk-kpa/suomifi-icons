@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import CompareRemove from '../../assets/baseIcons/icon-compare-remove.svg';
+import { ReactComponent as CompareRemove } from '../../assets/baseIcons/icon-compare-remove.svg';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

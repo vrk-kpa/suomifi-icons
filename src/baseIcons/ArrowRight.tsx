@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import ArrowRight from '../../assets/baseIcons/icon-arrow-right.svg';
+import { ReactComponent as ArrowRight } from '../../assets/baseIcons/icon-arrow-right.svg';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

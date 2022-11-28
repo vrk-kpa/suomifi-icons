@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import ChatBubbles from '../../assets/illustrativeIcons/icon-illustration-chat-bubbles.svg';
+import { ReactComponent as ChatBubbles } from '../../assets/illustrativeIcons/icon-illustration-chat-bubbles.svg';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

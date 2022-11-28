@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import Doc from '../../assets/doctypeIcons/icon-doc.svg';
+import { ReactComponent as Doc } from '../../assets/doctypeIcons/icon-doc.svg';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

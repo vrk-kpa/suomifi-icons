@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import SignLanguageContent from '../../assets/baseIcons/icon-sign-language-content.svg';
+import { ReactComponent as SignLanguageContent } from '../../assets/baseIcons/icon-sign-language-content.svg';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import Train from '../../assets/illustrativeIcons/icon-illustration-train.svg';
+import { ReactComponent as Train } from '../../assets/illustrativeIcons/icon-illustration-train.svg';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

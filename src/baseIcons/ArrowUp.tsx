@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import ArrowUp from '../../assets/baseIcons/icon-arrow-up.svg';
+import { ReactComponent as ArrowUp } from '../../assets/baseIcons/icon-arrow-up.svg';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import FileGeneric from '../../assets/baseIcons/icon-file-generic.svg';
+import { ReactComponent as FileGeneric } from '../../assets/baseIcons/icon-file-generic.svg';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import Growth from '../../assets/illustrativeIcons/icon-illustration-growth.svg';
+import { ReactComponent as Growth } from '../../assets/illustrativeIcons/icon-illustration-growth.svg';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import Toggle from '../../assets/componentIcons/icon-toggle.svg';
+import { ReactComponent as Toggle } from '../../assets/componentIcons/icon-toggle.svg';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

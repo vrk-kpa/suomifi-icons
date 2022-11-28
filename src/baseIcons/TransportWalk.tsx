@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import TransportWalk from '../../assets/baseIcons/icon-transport-walk.svg';
+import { ReactComponent as TransportWalk } from '../../assets/baseIcons/icon-transport-walk.svg';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

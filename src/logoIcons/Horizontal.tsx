@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import Horizontal from '../../assets/logoIcons/icon-horizontal.svg';
+import { ReactComponent as Horizontal } from '../../assets/logoIcons/icon-horizontal.svg';
 import { logoIconStyles } from '../utils/styles';
 import { LogoIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import ChevronRight from '../../assets/baseIcons/icon-chevron-right.svg';
+import { ReactComponent as ChevronRight } from '../../assets/baseIcons/icon-chevron-right.svg';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import RadioButtonOn from '../../assets/baseIcons/icon-radio-button-on.svg';
+import { ReactComponent as RadioButtonOn } from '../../assets/baseIcons/icon-radio-button-on.svg';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

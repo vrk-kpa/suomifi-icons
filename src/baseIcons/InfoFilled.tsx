@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import InfoFilled from '../../assets/baseIcons/icon-info-filled.svg';
+import { ReactComponent as InfoFilled } from '../../assets/baseIcons/icon-info-filled.svg';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

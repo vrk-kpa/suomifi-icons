@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import CheckSelected from '../../assets/baseIcons/icon-check-selected.svg';
+import { ReactComponent as CheckSelected } from '../../assets/baseIcons/icon-check-selected.svg';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

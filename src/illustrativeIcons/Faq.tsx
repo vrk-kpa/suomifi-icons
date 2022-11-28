@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import Faq from '../../assets/illustrativeIcons/icon-illustration-faq.svg';
+import { ReactComponent as Faq } from '../../assets/illustrativeIcons/icon-illustration-faq.svg';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

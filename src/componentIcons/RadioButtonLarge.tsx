@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import RadioButtonLarge from '../../assets/componentIcons/icon-radio-button-large.svg';
+import { ReactComponent as RadioButtonLarge } from '../../assets/componentIcons/icon-radio-button-large.svg';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

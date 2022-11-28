@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import LinkBreadcrumb from '../../assets/baseIcons/icon-link-breadcrumb.svg';
+import { ReactComponent as LinkBreadcrumb } from '../../assets/baseIcons/icon-link-breadcrumb.svg';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

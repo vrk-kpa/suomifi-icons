@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import SwapVertical from '../../assets/baseIcons/icon-swap-vertical.svg';
+import { ReactComponent as SwapVertical } from '../../assets/baseIcons/icon-swap-vertical.svg';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import ControlPlay from '../../assets/baseIcons/icon-control-play.svg';
+import { ReactComponent as ControlPlay } from '../../assets/baseIcons/icon-control-play.svg';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

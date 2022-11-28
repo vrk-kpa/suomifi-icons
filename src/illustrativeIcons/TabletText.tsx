@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import TabletText from '../../assets/illustrativeIcons/icon-illustration-tablet-text.svg';
+import { ReactComponent as TabletText } from '../../assets/illustrativeIcons/icon-illustration-tablet-text.svg';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

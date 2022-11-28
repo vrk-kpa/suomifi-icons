@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import MagicWand from '../../assets/illustrativeIcons/icon-illustration-magic-wand.svg';
+import { ReactComponent as MagicWand } from '../../assets/illustrativeIcons/icon-illustration-magic-wand.svg';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

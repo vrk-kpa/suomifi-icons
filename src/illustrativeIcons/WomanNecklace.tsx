@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import WomanNecklace from '../../assets/illustrativeIcons/icon-illustration-woman-necklace.svg';
+import { ReactComponent as WomanNecklace } from '../../assets/illustrativeIcons/icon-illustration-woman-necklace.svg';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

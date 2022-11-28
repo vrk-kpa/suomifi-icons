@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import Contract from '../../assets/illustrativeIcons/icon-illustration-contract.svg';
+import { ReactComponent as Contract } from '../../assets/illustrativeIcons/icon-illustration-contract.svg';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import CalendarChecked from '../../assets/baseIcons/icon-calendar-checked.svg';
+import { ReactComponent as CalendarChecked } from '../../assets/baseIcons/icon-calendar-checked.svg';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

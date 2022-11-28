@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import Ppt from '../../assets/doctypeIcons/icon-ppt.svg';
+import { ReactComponent as Ppt } from '../../assets/doctypeIcons/icon-ppt.svg';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

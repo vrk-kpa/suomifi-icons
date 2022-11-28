@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import ListNumbered from '../../assets/baseIcons/icon-list-numbered.svg';
+import { ReactComponent as ListNumbered } from '../../assets/baseIcons/icon-list-numbered.svg';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

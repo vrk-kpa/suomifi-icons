@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import Vertical from '../../assets/logoIcons/icon-vertical.svg';
+import { ReactComponent as Vertical } from '../../assets/logoIcons/icon-vertical.svg';
 import { logoIconStyles } from '../utils/styles';
 import { LogoIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

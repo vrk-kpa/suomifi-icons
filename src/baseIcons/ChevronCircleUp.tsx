@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import ChevronCircleUp from '../../assets/baseIcons/icon-chevron-circle-up.svg';
+import { ReactComponent as ChevronCircleUp } from '../../assets/baseIcons/icon-chevron-circle-up.svg';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import Child from '../../assets/illustrativeIcons/icon-illustration-child.svg';
+import { ReactComponent as Child } from '../../assets/illustrativeIcons/icon-illustration-child.svg';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

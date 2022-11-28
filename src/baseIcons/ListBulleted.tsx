@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import ListBulleted from '../../assets/baseIcons/icon-list-bulleted.svg';
+import { ReactComponent as ListBulleted } from '../../assets/baseIcons/icon-list-bulleted.svg';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

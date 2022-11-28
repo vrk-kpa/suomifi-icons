@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import MapMyLocation from '../../assets/baseIcons/icon-map-my-location.svg';
+import { ReactComponent as MapMyLocation } from '../../assets/baseIcons/icon-map-my-location.svg';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';

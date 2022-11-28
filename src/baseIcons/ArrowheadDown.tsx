@@ -2,7 +2,7 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import ArrowheadDown from '../../assets/baseIcons/icon-arrowhead-down.svg';
+import { ReactComponent as ArrowheadDown } from '../../assets/baseIcons/icon-arrowhead-down.svg';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from '../utils/iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
