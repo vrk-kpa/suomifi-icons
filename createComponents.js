@@ -229,7 +229,7 @@ const buildcontent = (
 import React from \'react\';
 import { default as styled } from \'styled-components\';
 import classnames from \'classnames\';
-import ${componentName} from \'../../assets/${iconType}Icons/${iconFile}.svg\';
+import { ReactComponent as ${componentName} } from \'../../assets/${iconType}Icons/${iconFile}.svg\';
 import { ${styles} } from \'../utils/styles\';
 import { ${interface} } from \'../utils/iconInterface\';
 import { baseClassName, cursorPointerClassName } from \'../utils/classes\';
@@ -306,6 +306,7 @@ const getStyles = (iconType) => {
   return 'baseIconStyles';
 };
 
+// Create icons under corresponding icon type folders
 const createIcons = () => {
   iconTypes.forEach((type) => {
     iconSet = getIconSet(type);
@@ -320,6 +321,7 @@ const createIcons = () => {
         const interface = getInterface(type);
         const styles = getStyles(type);
         try {
+          // Create icon component
           fs.writeFileSync(
             `src/${type}Icons/${icon}.tsx`,
             buildcontent(
@@ -331,6 +333,7 @@ const createIcons = () => {
               styles
             )
           );
+          // Add the component export to the corresponding index file
           fs.appendFileSync(
             `src/${type}Icons/index.ts`,
             `export { Icon${icon} } from './${icon}';\n`
