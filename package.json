@@ -1,14 +1,6 @@
 {
   "name": "suomifi-icons",
   "version": "7.0.0",
-  "exports": {
-    "./baseIcons": "./baseIcons/src/baseIcons/index.js",
-    "./illustrativeIcons": "./illustrativeIcons/src/illustrativeIcons/index.js",
-    "./doctypeIcons": "./doctypeIcons/src/doctypeIcons/index.js",
-    "./logoIcons": "./logoIcons/src/logoIcons/index.js",
-    "./componentIcons": "./componentIcons/src/componentIcons/index.js",
-    "./iconInterface": "./utils/iconInterface.d.ts"
-  },
   "sideEffects": false,
   "repository": {
     "type": "git",
@@ -25,6 +17,7 @@
     "@svgr/rollup": "^6.3.1",
     "@types/react": "^17.0.0",
     "@types/styled-components": "^5.1.26",
+    "fs-extra": "^11.1.0",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
     "rollup": "^2.79.0",
@@ -36,9 +29,10 @@
   "scripts": {
     "prepublish": "yarn run build",
     "clean": "rm -rf dist",
-    "generate": "rm -rf src/baseIcons src/componentIcons src/doctypeIcons src/illustrativeIcons src/logoIcons && yarn node src/utils/createComponents",
-    "build": "yarn run clean && rollup -c && yarn run frank",
-    "frank": "yarn node src/utils/frank.js"
+    "generate": "rm -rf src/baseIcons src/componentIcons src/doctypeIcons src/illustrativeIcons src/logoIcons && yarn node createComponents",
+    "build": "yarn run clean && rollup -c && yarn run frank && yarn run copytypes &&",
+    "frank": "yarn node frank.js",
+    "copytypes": "yarn node copyTypes.js && rm -rf dist/types"
   },
   "peerDependencies": {
     "react": "^16.2.0",
