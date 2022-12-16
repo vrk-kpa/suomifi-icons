@@ -15,10 +15,12 @@ const { readFile, writeFile, copy } = require('fs-extra');
 const packagePath = process.cwd();
 const distPath = join(packagePath, './dist');
 
+const iconTypes = ['base', 'component', 'doctype', 'illustrative', 'logo'];
+
 const writeJson = (targetPath, obj) =>
   writeFile(targetPath, JSON.stringify(obj, null, 2), 'utf8');
 
-async function createPackageFile() {
+async function createMainPackageFile() {
   const packageData = await readFile(
     resolve(packagePath, './package.json'),
     'utf8'
@@ -36,6 +38,32 @@ async function createPackageFile() {
   console.log(`Created package.json in ${targetPath}`);
 }
 
+async function createIconTypePackageFile(iconType) {
+  const packageData = await readFile(
+    resolve(packagePath, './package.json'),
+    'utf8'
+  );
+  const { scripts, devDependencies, name, ...packageOthers } =
+    JSON.parse(packageData);
+  const newPackageData = {
+    name: `suomifi-icons/${iconType}Icons`,
+    main: `./cjs/${iconType}Icons/index.js`,
+    module: `./esm/${iconType}Icons/index.js`,
+    types: `./types`,
+    ...packageOthers,
+    private: false
+  };
+
+  const targetPath = resolve(distPath, `./${iconType}Icons/package.json`);
+
+  await writeJson(targetPath, newPackageData);
+  console.log(`Created package.json in ${targetPath}`);
+}
+
+function createIconTypePackageFiles() {
+  iconTypes.forEach((iconType) => createIconTypePackageFile(iconType));
+}
+
 async function includeFileInBuild(file) {
   const sourcePath = resolve(packagePath, file);
   const targetPath = resolve(distPath, basename(file));
@@ -45,9 +73,10 @@ async function includeFileInBuild(file) {
 
 async function run() {
   try {
-    await createPackageFile();
+    await createMainPackageFile();
     await includeFileInBuild('./README.md');
     await includeFileInBuild('./LICENSE');
+    createIconTypePackageFiles();
   } catch (err) {
     console.error(err);
     process.exit(1);
