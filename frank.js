@@ -76,6 +76,7 @@ async function run() {
     await createMainPackageFile();
     await includeFileInBuild('./README.md');
     await includeFileInBuild('./LICENSE');
+    await includeFileInBuild('./DEVELOPMENT.md');
     createIconTypePackageFiles();
   } catch (err) {
     console.error(err);

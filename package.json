@@ -30,7 +30,7 @@
     "prepublish": "yarn run build",
     "clean": "rm -rf dist",
     "generate": "rm -rf src/baseIcons src/componentIcons src/doctypeIcons src/illustrativeIcons src/logoIcons && yarn node createComponents",
-    "build": "yarn run clean && rollup -c && yarn run frank && yarn run copytypes &&",
+    "build": "yarn run clean && rollup -c && yarn run frank && yarn run copytypes",
     "frank": "yarn node frank.js",
     "copytypes": "yarn node copyTypes.js && rm -rf dist/types"
   },
