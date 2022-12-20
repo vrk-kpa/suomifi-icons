@@ -20,6 +20,10 @@ The build process is somewhat complicated due to many moving parts, but here it 
 4. After the build the `frank.js` script is ran to generate separate `package.json` files for the `dist` folder as well as the icon type folders, in practice generating "sub-packages".
 5. Finally the typings are moved under the corresponding icon type folders
 
+## Publishing
+
+IMPORTANT! Make sure to publish the `dist` folder, not the root, as in `npm publish ./dist`
+
 ## Semantic versioning
 
 See README.md for information of how semantic versioning is applied here
