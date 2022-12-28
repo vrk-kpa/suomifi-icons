@@ -3,8 +3,9 @@
 ## Adding new icons
 
 1. Add the new icon file(s) under the correct folder under `assets`
-2. Run `yarn generate` to regenerate all icon components
-3. Build and publish as minor version upgrade
+2. Add the icon name in the correct array in `utils/createComponents`.
+3. Run `yarn generate` to regenerate all icon components. The new icon will be included in the correct iconset and the corresponding index.
+4. Build and publish as minor version upgrade
 
 ## Making changes to the icons
 
