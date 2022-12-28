@@ -4,7 +4,7 @@ import { default as styled } from 'styled-components';
 import classnames from 'classnames';
 import { ReactComponent as ArrowLeft } from '../../assets/baseIcons/icon-arrow-left.svg';
 import { baseIconStyles } from '../utils/styles';
-import { BaseIconProps } from '../utils/iconInterface';
+import { BaseIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 

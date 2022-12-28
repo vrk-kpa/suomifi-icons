@@ -98,3 +98,4 @@ export { IconTransportCar } from './TransportCar';
 export { IconTransportWalk } from './TransportWalk';
 export { IconUpload } from './Upload';
 export { IconWarning } from './Warning';
+export type { BaseIconProps } from './iconInterface';

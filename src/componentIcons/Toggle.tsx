@@ -4,7 +4,7 @@ import { default as styled } from 'styled-components';
 import classnames from 'classnames';
 import { ReactComponent as Toggle } from '../../assets/componentIcons/icon-toggle.svg';
 import { staticIconStyles } from '../utils/styles';
-import { StaticIconProps } from '../utils/iconInterface';
+import { StaticIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 

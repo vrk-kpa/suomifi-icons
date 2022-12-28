@@ -4,7 +4,7 @@ import { default as styled } from 'styled-components';
 import classnames from 'classnames';
 import { ReactComponent as Horizontal } from '../../assets/logoIcons/icon-horizontal.svg';
 import { logoIconStyles } from '../utils/styles';
-import { LogoIconProps } from '../utils/iconInterface';
+import { LogoIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
