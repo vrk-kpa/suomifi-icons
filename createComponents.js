@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 
 const toKebabCase = (source) => {
   return source
@@ -231,7 +232,7 @@ import { default as styled } from \'styled-components\';
 import classnames from \'classnames\';
 import { ReactComponent as ${componentName} } from \'../../assets/${iconType}Icons/${iconFile}.svg\';
 import { ${styles} } from \'../utils/styles\';
-import { ${interface} } from \'../utils/iconInterface\';
+import { ${interface} } from \'./iconInterface\';
 import { baseClassName, cursorPointerClassName } from \'../utils/classes\';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from \'../utils/aria\';
 
@@ -306,10 +307,24 @@ const getStyles = (iconType) => {
   return 'baseIconStyles';
 };
 
+const copyInterface = (iconType) => {
+  const currentPath = path.join(__dirname, `src/utils/iconInterface.ts`);
+  const destinationPath = path.join(
+    __dirname,
+    `src/${iconType}Icons/iconInterface.ts`
+  );
+  fs.copyFile(currentPath, destinationPath, (err) => {
+    if (err) {
+      console.log(`Could not move interface to ${iconType}Icons`);
+      return console.error(err);
+    }
+  });
+};
+
 // Create icons under corresponding icon type folders
 const createIcons = () => {
   iconTypes.forEach((type) => {
-    iconSet = getIconSet(type);
+    const iconSet = getIconSet(type);
     try {
       iconSet.forEach((icon) => {
         const iconFile =
@@ -342,9 +357,15 @@ const createIcons = () => {
           console.error(`Error creating ${icon} icon: `, error);
         }
       });
+      // Copy the interface file under the icon type folder
+      copyInterface(type);
     } catch (error) {
       console.error(`Error generating ${type}Icon files: `, error);
     }
+    fs.appendFileSync(
+      `src/${type}Icons/index.ts`,
+      `export type { ${getInterface(type)} } from './iconInterface';\n`
+    );
   });
 };
 
