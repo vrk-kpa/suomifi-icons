@@ -35,6 +35,8 @@ export interface StaticIconProps {
    * @default depthBase
    */
   baseColor?: string;
+  // Allow passing unsupported custom props to SVG without providing an API
+  [key: string]: any;
 }
 
 export interface LogoIconProps {
@@ -46,4 +48,6 @@ export interface LogoIconProps {
   ariaLabel?: string;
   /** Show mouse cursor as hand-pointer */
   mousePointer?: boolean;
+  // Allow passing unsupported custom props to SVG without providing an API
+  [key: string]: any;
 }
