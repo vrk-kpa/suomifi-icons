@@ -315,7 +315,7 @@ const copyInterface = (iconType) => {
   );
   fs.copyFile(currentPath, destinationPath, (err) => {
     if (err) {
-      console.log(`Could not move interface to ${iconType}Icons`);
+      console.log(`Could not copy interface to ${iconType}Icons`);
       return console.error(err);
     }
   });
