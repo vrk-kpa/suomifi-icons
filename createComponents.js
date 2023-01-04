@@ -11,7 +11,7 @@ const toKebabCase = (source) => {
 const baseIcons = [
   'Alert',
   'AlertOff',
-  'Archive',
+  'ArchiveBase',
   'ArrowUp',
   'ArrowRight',
   'ArrowDown',
@@ -79,24 +79,24 @@ const baseIcons = [
   'MapLocation',
   'MapMyLocation',
   'MapRoute',
-  'Map',
+  'MapBase',
   'Menu',
   'Message',
   'Minus',
   'Peek',
   'Pin',
-  'Phone',
+  'PhoneBase',
   'Plus',
   'Preview',
   'Print',
   'RadioButtonOn',
   'Refresh',
-  'Registers',
+  'RegistersBase',
   'Remove',
   'Reply',
   'Save',
   'Search',
-  'Settings',
+  'SettingsBase',
   'SignLanguageContent',
   'Star',
   'StarFilled',
@@ -237,7 +237,7 @@ import { baseClassName, cursorPointerClassName } from \'../utils/classes\';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from \'../utils/aria\';
 
 const ${iconName} = styled((props: ${interface}) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <${componentName}
@@ -352,6 +352,10 @@ const createIcons = () => {
           fs.appendFileSync(
             `src/${type}Icons/index.ts`,
             `export { Icon${icon} } from './${icon}';\n`
+          );
+          fs.appendFileSync(
+            `src/index.ts`,
+            `export { Icon${icon} } from './${type}Icons/${icon}';\n`
           );
         } catch (error) {
           console.error(`Error creating ${icon} icon: `, error);
