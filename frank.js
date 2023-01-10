@@ -38,22 +38,6 @@ async function createMainPackageFile() {
   console.log(`Created package.json in ${targetPath}`);
 }
 
-async function createIconTypePackageFile(iconType) {
-  const packageData = await readFile(
-    resolve(packagePath, './package.json'),
-    'utf8'
-  );
-  const { scripts, devDependencies, name, ...packageOthers } =
-    JSON.parse(packageData);
-  const newPackageData = {
-    name: `suomifi-icons/${iconType}Icons`,
-    main: `./cjs/${iconType}Icons/index.js`,
-    module: `./esm/${iconType}Icons/index.js`,
-    types: `./types`,
-    ...packageOthers,
-    private: false
-  };
-
   const targetPath = resolve(distPath, `./${iconType}Icons/package.json`);
 
   await writeJson(targetPath, newPackageData);
@@ -77,7 +61,6 @@ async function run() {
     await includeFileInBuild('./README.md');
     await includeFileInBuild('./LICENSE');
     await includeFileInBuild('./DEVELOPMENT.md');
-    createIconTypePackageFiles();
   } catch (err) {
     console.error(err);
     process.exit(1);
