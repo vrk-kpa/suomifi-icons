@@ -1,6 +1,9 @@
 {
   "name": "suomifi-icons",
   "version": "7.0.0-beta.0",
+  "main": "./cjs/src/index.js",
+  "module": "./esm/src/index.js",
+  "typings": "./types/src/index.d.ts",
   "sideEffects": false,
   "repository": {
     "type": "git",
@@ -14,6 +17,7 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "^22.0.2",
     "@rollup/plugin-node-resolve": "^14.0.0",
+    "@svgr/cli": "^6.5.1",
     "@svgr/rollup": "^6.3.1",
     "@types/react": "^17.0.0",
     "@types/styled-components": "^5.1.26",
@@ -29,8 +33,9 @@
   "scripts": {
     "prepublish": "yarn run build",
     "clean": "rm -rf dist",
-    "generate": "rm -rf src/baseIcons src/componentIcons src/doctypeIcons src/illustrativeIcons src/logoIcons && yarn node createComponents",
-    "build": "yarn run clean && rollup -c && yarn run frank && yarn run copytypes",
+    "svgr": "rm -rf test && yarn node runSVGR.js",
+    "generate": "rm -rf src/index.ts src/baseIcons src/componentIcons src/doctypeIcons src/illustrativeIcons src/logoIcons && yarn node createComponents",
+    "build": "yarn run clean && rollup -c && yarn node frank.js",
     "frank": "yarn node frank.js",
     "copytypes": "yarn node copyTypes.js && rm -rf dist/types"
   },
