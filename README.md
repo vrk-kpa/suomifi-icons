@@ -1,14 +1,24 @@
 # <img src="https://avatars0.githubusercontent.com/u/11345641?s=88&v=4" alt="DVV" width="18"/> suomifi-icons
 
-Offers suomi.fi icons as accessible React-components.
+Suomi.fi icons as accessible React-components.
 
-Icons should be imported from subfolders e.g. `import { IconAlert } from 'suomifi-icons/baseIcons'`
+The library consists of five icon categories:
 
-This repository uses semantic versioning (https://semver.org/), but since it doesn't contain an distinct API of its own, the following rules for versioning are applied:
+- Base icons
+- Illustrative icons
+- Doctype icons
+- Component icons
+- Logo icons
 
-- **Major**: Changes that result in visible changes in the existing icons or other major changes that affect the way the icons are used from the library.
-- **Minor**: Addition of new icons, or non-breaking changes to the inner structure or build configuration
-- **Patch**: Any other changes that don't affect the build
+Please note that the API varies slightly according to [Suomi.fi ui-components documentation](https://vrk-kpa.github.io/suomifi-ui-components/#/Introduction/Icons) for API descriptions and more information.
+
+### Versioning
+
+This repository uses semantic versioning (https://semver.org/).
+
+- **Major**: Changes to the APIs or changes that result in visible changes in the existing icons.
+- **Minor**: Addition of new icons, or other non-breaking changes.
+- **Patch**: Any other changes that don't affect how the components are or can be used.
 
 ```bash
 yarn add suomifi-icons
