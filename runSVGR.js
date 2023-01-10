@@ -21,7 +21,7 @@ const resolveSvgoConfig = (iconType) => {
 
 iconTypes.forEach((type) =>
   exec(
-    `node node_modules/@svgr/cli/bin/svgr --out-dir test/${type}Icons --icon --svgo-config ${resolveSvgoConfig(
+    `node node_modules/@svgr/cli/bin/svgr --out-dir svgrComponents/${type}Icons --icon --svgo-config ${resolveSvgoConfig(
       type
     )} --typescript -- assets/${type}Icons`,
     (error, stdout, stderr) => {
