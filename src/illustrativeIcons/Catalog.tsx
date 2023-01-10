@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as Catalog } from '../../assets/illustrativeIcons/icon-illustration-catalog.svg';
+import { IconCatalog as Catalog } from '../../svgrComponents/illustrativeIcons/';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconCatalog = styled((props: StaticIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconCatalog = styled((props: StaticIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <Catalog
@@ -24,6 +24,10 @@ const IconCatalog = styled((props: StaticIconProps) => {
 })`
   ${staticIconStyles}
 `;
+
+const IconCatalog = (props: StaticIconProps) => {
+  return <StyledIconCatalog {...props}/>
+}
 
 IconCatalog.displayName = 'Icon';
 export { IconCatalog };

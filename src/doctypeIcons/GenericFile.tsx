@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as GenericFile } from '../../assets/doctypeIcons/icon-generic-file.svg';
+import { IconGenericFile as GenericFile } from '../../svgrComponents/doctypeIcons/';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconGenericFile = styled((props: StaticIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconGenericFile = styled((props: StaticIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <GenericFile
@@ -24,6 +24,10 @@ const IconGenericFile = styled((props: StaticIconProps) => {
 })`
   ${staticIconStyles}
 `;
+
+const IconGenericFile = (props: StaticIconProps) => {
+  return <StyledIconGenericFile {...props}/>
+}
 
 IconGenericFile.displayName = 'Icon';
 export { IconGenericFile };

@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as Exchange } from '../../assets/illustrativeIcons/icon-illustration-exchange.svg';
+import { IconExchange as Exchange } from '../../svgrComponents/illustrativeIcons/';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconExchange = styled((props: StaticIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconExchange = styled((props: StaticIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <Exchange
@@ -24,6 +24,10 @@ const IconExchange = styled((props: StaticIconProps) => {
 })`
   ${staticIconStyles}
 `;
+
+const IconExchange = (props: StaticIconProps) => {
+  return <StyledIconExchange {...props}/>
+}
 
 IconExchange.displayName = 'Icon';
 export { IconExchange };

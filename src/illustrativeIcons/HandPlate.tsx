@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as HandPlate } from '../../assets/illustrativeIcons/icon-illustration-hand-plate.svg';
+import { IconHandPlate as HandPlate } from '../../svgrComponents/illustrativeIcons/';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconHandPlate = styled((props: StaticIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconHandPlate = styled((props: StaticIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <HandPlate
@@ -24,6 +24,10 @@ const IconHandPlate = styled((props: StaticIconProps) => {
 })`
   ${staticIconStyles}
 `;
+
+const IconHandPlate = (props: StaticIconProps) => {
+  return <StyledIconHandPlate {...props}/>
+}
 
 IconHandPlate.displayName = 'Icon';
 export { IconHandPlate };

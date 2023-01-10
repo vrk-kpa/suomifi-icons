@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as SwapVertical } from '../../assets/baseIcons/icon-swap-vertical.svg';
+import { IconSwapVertical as SwapVertical } from '../../svgrComponents/baseIcons/';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconSwapVertical = styled((props: BaseIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconSwapVertical = styled((props: BaseIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <SwapVertical
@@ -24,6 +24,10 @@ const IconSwapVertical = styled((props: BaseIconProps) => {
 })`
   ${baseIconStyles}
 `;
+
+const IconSwapVertical = (props: BaseIconProps) => {
+  return <StyledIconSwapVertical {...props}/>
+}
 
 IconSwapVertical.displayName = 'Icon';
 export { IconSwapVertical };

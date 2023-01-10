@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as Helpdesk } from '../../assets/illustrativeIcons/icon-illustration-helpdesk.svg';
+import { IconHelpdesk as Helpdesk } from '../../svgrComponents/illustrativeIcons/';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconHelpdesk = styled((props: StaticIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconHelpdesk = styled((props: StaticIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <Helpdesk
@@ -24,6 +24,10 @@ const IconHelpdesk = styled((props: StaticIconProps) => {
 })`
   ${staticIconStyles}
 `;
+
+const IconHelpdesk = (props: StaticIconProps) => {
+  return <StyledIconHelpdesk {...props}/>
+}
 
 IconHelpdesk.displayName = 'Icon';
 export { IconHelpdesk };

@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as ListNumbered } from '../../assets/baseIcons/icon-list-numbered.svg';
+import { IconListNumbered as ListNumbered } from '../../svgrComponents/baseIcons/';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconListNumbered = styled((props: BaseIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconListNumbered = styled((props: BaseIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <ListNumbered
@@ -24,6 +24,10 @@ const IconListNumbered = styled((props: BaseIconProps) => {
 })`
   ${baseIconStyles}
 `;
+
+const IconListNumbered = (props: BaseIconProps) => {
+  return <StyledIconListNumbered {...props}/>
+}
 
 IconListNumbered.displayName = 'Icon';
 export { IconListNumbered };

@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as Feedback } from '../../assets/illustrativeIcons/icon-illustration-feedback.svg';
+import { IconFeedback as Feedback } from '../../svgrComponents/illustrativeIcons/';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconFeedback = styled((props: StaticIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconFeedback = styled((props: StaticIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <Feedback
@@ -24,6 +24,10 @@ const IconFeedback = styled((props: StaticIconProps) => {
 })`
   ${staticIconStyles}
 `;
+
+const IconFeedback = (props: StaticIconProps) => {
+  return <StyledIconFeedback {...props}/>
+}
 
 IconFeedback.displayName = 'Icon';
 export { IconFeedback };

@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as Smartwatch } from '../../assets/illustrativeIcons/icon-illustration-smartwatch.svg';
+import { IconSmartwatch as Smartwatch } from '../../svgrComponents/illustrativeIcons/';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconSmartwatch = styled((props: StaticIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconSmartwatch = styled((props: StaticIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <Smartwatch
@@ -24,6 +24,10 @@ const IconSmartwatch = styled((props: StaticIconProps) => {
 })`
   ${staticIconStyles}
 `;
+
+const IconSmartwatch = (props: StaticIconProps) => {
+  return <StyledIconSmartwatch {...props}/>
+}
 
 IconSmartwatch.displayName = 'Icon';
 export { IconSmartwatch };

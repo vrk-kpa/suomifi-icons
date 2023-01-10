@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as Steering } from '../../assets/illustrativeIcons/icon-illustration-steering.svg';
+import { IconSteering as Steering } from '../../svgrComponents/illustrativeIcons/';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconSteering = styled((props: StaticIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconSteering = styled((props: StaticIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <Steering
@@ -24,6 +24,10 @@ const IconSteering = styled((props: StaticIconProps) => {
 })`
   ${staticIconStyles}
 `;
+
+const IconSteering = (props: StaticIconProps) => {
+  return <StyledIconSteering {...props}/>
+}
 
 IconSteering.displayName = 'Icon';
 export { IconSteering };

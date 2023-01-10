@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as WomanNecklace } from '../../assets/illustrativeIcons/icon-illustration-woman-necklace.svg';
+import { IconWomanNecklace as WomanNecklace } from '../../svgrComponents/illustrativeIcons/';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconWomanNecklace = styled((props: StaticIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconWomanNecklace = styled((props: StaticIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <WomanNecklace
@@ -24,6 +24,10 @@ const IconWomanNecklace = styled((props: StaticIconProps) => {
 })`
   ${staticIconStyles}
 `;
+
+const IconWomanNecklace = (props: StaticIconProps) => {
+  return <StyledIconWomanNecklace {...props}/>
+}
 
 IconWomanNecklace.displayName = 'Icon';
 export { IconWomanNecklace };

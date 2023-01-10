@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as InfoFilled } from '../../assets/baseIcons/icon-info-filled.svg';
+import { IconInfoFilled as InfoFilled } from '../../svgrComponents/baseIcons/';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconInfoFilled = styled((props: BaseIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconInfoFilled = styled((props: BaseIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <InfoFilled
@@ -24,6 +24,10 @@ const IconInfoFilled = styled((props: BaseIconProps) => {
 })`
   ${baseIconStyles}
 `;
+
+const IconInfoFilled = (props: BaseIconProps) => {
+  return <StyledIconInfoFilled {...props}/>
+}
 
 IconInfoFilled.displayName = 'Icon';
 export { IconInfoFilled };

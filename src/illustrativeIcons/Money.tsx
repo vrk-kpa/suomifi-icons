@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as Money } from '../../assets/illustrativeIcons/icon-illustration-money.svg';
+import { IconMoney as Money } from '../../svgrComponents/illustrativeIcons/';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconMoney = styled((props: StaticIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconMoney = styled((props: StaticIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <Money
@@ -24,6 +24,10 @@ const IconMoney = styled((props: StaticIconProps) => {
 })`
   ${staticIconStyles}
 `;
+
+const IconMoney = (props: StaticIconProps) => {
+  return <StyledIconMoney {...props}/>
+}
 
 IconMoney.displayName = 'Icon';
 export { IconMoney };

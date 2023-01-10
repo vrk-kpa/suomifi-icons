@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as Tablet } from '../../assets/illustrativeIcons/icon-illustration-tablet.svg';
+import { IconTablet as Tablet } from '../../svgrComponents/illustrativeIcons/';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconTablet = styled((props: StaticIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconTablet = styled((props: StaticIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <Tablet
@@ -24,6 +24,10 @@ const IconTablet = styled((props: StaticIconProps) => {
 })`
   ${staticIconStyles}
 `;
+
+const IconTablet = (props: StaticIconProps) => {
+  return <StyledIconTablet {...props}/>
+}
 
 IconTablet.displayName = 'Icon';
 export { IconTablet };

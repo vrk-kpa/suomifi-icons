@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as Authorisation } from '../../assets/illustrativeIcons/icon-illustration-authorisation.svg';
+import { IconAuthorisation as Authorisation } from '../../svgrComponents/illustrativeIcons/';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconAuthorisation = styled((props: StaticIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconAuthorisation = styled((props: StaticIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <Authorisation
@@ -24,6 +24,10 @@ const IconAuthorisation = styled((props: StaticIconProps) => {
 })`
   ${staticIconStyles}
 `;
+
+const IconAuthorisation = (props: StaticIconProps) => {
+  return <StyledIconAuthorisation {...props}/>
+}
 
 IconAuthorisation.displayName = 'Icon';
 export { IconAuthorisation };

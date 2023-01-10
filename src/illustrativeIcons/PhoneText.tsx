@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as PhoneText } from '../../assets/illustrativeIcons/icon-illustration-phone-text.svg';
+import { IconPhoneText as PhoneText } from '../../svgrComponents/illustrativeIcons/';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconPhoneText = styled((props: StaticIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconPhoneText = styled((props: StaticIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <PhoneText
@@ -24,6 +24,10 @@ const IconPhoneText = styled((props: StaticIconProps) => {
 })`
   ${staticIconStyles}
 `;
+
+const IconPhoneText = (props: StaticIconProps) => {
+  return <StyledIconPhoneText {...props}/>
+}
 
 IconPhoneText.displayName = 'Icon';
 export { IconPhoneText };

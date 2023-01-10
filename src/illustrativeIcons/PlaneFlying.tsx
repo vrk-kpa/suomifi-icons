@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as PlaneFlying } from '../../assets/illustrativeIcons/icon-illustration-plane-flying.svg';
+import { IconPlaneFlying as PlaneFlying } from '../../svgrComponents/illustrativeIcons/';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconPlaneFlying = styled((props: StaticIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconPlaneFlying = styled((props: StaticIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <PlaneFlying
@@ -24,6 +24,10 @@ const IconPlaneFlying = styled((props: StaticIconProps) => {
 })`
   ${staticIconStyles}
 `;
+
+const IconPlaneFlying = (props: StaticIconProps) => {
+  return <StyledIconPlaneFlying {...props}/>
+}
 
 IconPlaneFlying.displayName = 'Icon';
 export { IconPlaneFlying };

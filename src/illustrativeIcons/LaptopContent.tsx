@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as LaptopContent } from '../../assets/illustrativeIcons/icon-illustration-laptop-content.svg';
+import { IconLaptopContent as LaptopContent } from '../../svgrComponents/illustrativeIcons/';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconLaptopContent = styled((props: StaticIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconLaptopContent = styled((props: StaticIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <LaptopContent
@@ -24,6 +24,10 @@ const IconLaptopContent = styled((props: StaticIconProps) => {
 })`
   ${staticIconStyles}
 `;
+
+const IconLaptopContent = (props: StaticIconProps) => {
+  return <StyledIconLaptopContent {...props}/>
+}
 
 IconLaptopContent.displayName = 'Icon';
 export { IconLaptopContent };

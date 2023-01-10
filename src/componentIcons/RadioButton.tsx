@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as RadioButton } from '../../assets/componentIcons/icon-radio-button.svg';
+import { IconRadioButton as RadioButton } from '../../svgrComponents/componentIcons/';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconRadioButton = styled((props: StaticIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconRadioButton = styled((props: StaticIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <RadioButton
@@ -24,6 +24,10 @@ const IconRadioButton = styled((props: StaticIconProps) => {
 })`
   ${staticIconStyles}
 `;
+
+const IconRadioButton = (props: StaticIconProps) => {
+  return <StyledIconRadioButton {...props}/>
+}
 
 IconRadioButton.displayName = 'Icon';
 export { IconRadioButton };

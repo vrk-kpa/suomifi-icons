@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as HorizontalInvert } from '../../assets/logoIcons/icon-horizontal-invert.svg';
+import { IconHorizontalInvert as HorizontalInvert } from '../../svgrComponents/logoIcons/';
 import { logoIconStyles } from '../utils/styles';
 import { LogoIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconHorizontalInvert = styled((props: LogoIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconHorizontalInvert = styled((props: LogoIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <HorizontalInvert
@@ -24,6 +24,10 @@ const IconHorizontalInvert = styled((props: LogoIconProps) => {
 })`
   ${logoIconStyles}
 `;
+
+const IconHorizontalInvert = (props: LogoIconProps) => {
+  return <StyledIconHorizontalInvert {...props}/>
+}
 
 IconHorizontalInvert.displayName = 'Icon';
 export { IconHorizontalInvert };

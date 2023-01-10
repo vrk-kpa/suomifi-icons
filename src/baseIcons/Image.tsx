@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as Image } from '../../assets/baseIcons/icon-image.svg';
+import { IconImage as Image } from '../../svgrComponents/baseIcons/';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconImage = styled((props: BaseIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconImage = styled((props: BaseIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <Image
@@ -24,6 +24,10 @@ const IconImage = styled((props: BaseIconProps) => {
 })`
   ${baseIconStyles}
 `;
+
+const IconImage = (props: BaseIconProps) => {
+  return <StyledIconImage {...props}/>
+}
 
 IconImage.displayName = 'Icon';
 export { IconImage };

@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as Help } from '../../assets/baseIcons/icon-help.svg';
+import { IconHelp as Help } from '../../svgrComponents/baseIcons/';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconHelp = styled((props: BaseIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconHelp = styled((props: BaseIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <Help
@@ -24,6 +24,10 @@ const IconHelp = styled((props: BaseIconProps) => {
 })`
   ${baseIconStyles}
 `;
+
+const IconHelp = (props: BaseIconProps) => {
+  return <StyledIconHelp {...props}/>
+}
 
 IconHelp.displayName = 'Icon';
 export { IconHelp };

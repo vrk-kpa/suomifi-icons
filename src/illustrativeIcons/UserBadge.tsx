@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as UserBadge } from '../../assets/illustrativeIcons/icon-illustration-user-badge.svg';
+import { IconUserBadge as UserBadge } from '../../svgrComponents/illustrativeIcons/';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconUserBadge = styled((props: StaticIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconUserBadge = styled((props: StaticIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <UserBadge
@@ -24,6 +24,10 @@ const IconUserBadge = styled((props: StaticIconProps) => {
 })`
   ${staticIconStyles}
 `;
+
+const IconUserBadge = (props: StaticIconProps) => {
+  return <StyledIconUserBadge {...props}/>
+}
 
 IconUserBadge.displayName = 'Icon';
 export { IconUserBadge };

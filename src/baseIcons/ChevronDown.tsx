@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as ChevronDown } from '../../assets/baseIcons/icon-chevron-down.svg';
+import { IconChevronDown as ChevronDown } from '../../svgrComponents/baseIcons/';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconChevronDown = styled((props: BaseIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconChevronDown = styled((props: BaseIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <ChevronDown
@@ -24,6 +24,10 @@ const IconChevronDown = styled((props: BaseIconProps) => {
 })`
   ${baseIconStyles}
 `;
+
+const IconChevronDown = (props: BaseIconProps) => {
+  return <StyledIconChevronDown {...props}/>
+}
 
 IconChevronDown.displayName = 'Icon';
 export { IconChevronDown };

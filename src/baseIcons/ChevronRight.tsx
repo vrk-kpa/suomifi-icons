@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as ChevronRight } from '../../assets/baseIcons/icon-chevron-right.svg';
+import { IconChevronRight as ChevronRight } from '../../svgrComponents/baseIcons/';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconChevronRight = styled((props: BaseIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconChevronRight = styled((props: BaseIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <ChevronRight
@@ -24,6 +24,10 @@ const IconChevronRight = styled((props: BaseIconProps) => {
 })`
   ${baseIconStyles}
 `;
+
+const IconChevronRight = (props: BaseIconProps) => {
+  return <StyledIconChevronRight {...props}/>
+}
 
 IconChevronRight.displayName = 'Icon';
 export { IconChevronRight };

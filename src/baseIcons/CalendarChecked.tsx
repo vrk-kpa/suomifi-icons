@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as CalendarChecked } from '../../assets/baseIcons/icon-calendar-checked.svg';
+import { IconCalendarChecked as CalendarChecked } from '../../svgrComponents/baseIcons/';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconCalendarChecked = styled((props: BaseIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconCalendarChecked = styled((props: BaseIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <CalendarChecked
@@ -24,6 +24,10 @@ const IconCalendarChecked = styled((props: BaseIconProps) => {
 })`
   ${baseIconStyles}
 `;
+
+const IconCalendarChecked = (props: BaseIconProps) => {
+  return <StyledIconCalendarChecked {...props}/>
+}
 
 IconCalendarChecked.displayName = 'Icon';
 export { IconCalendarChecked };

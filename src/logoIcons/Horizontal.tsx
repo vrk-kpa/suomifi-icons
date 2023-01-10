@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as Horizontal } from '../../assets/logoIcons/icon-horizontal.svg';
+import { IconHorizontal as Horizontal } from '../../svgrComponents/logoIcons/';
 import { logoIconStyles } from '../utils/styles';
 import { LogoIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconHorizontal = styled((props: LogoIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconHorizontal = styled((props: LogoIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <Horizontal
@@ -24,6 +24,10 @@ const IconHorizontal = styled((props: LogoIconProps) => {
 })`
   ${logoIconStyles}
 `;
+
+const IconHorizontal = (props: LogoIconProps) => {
+  return <StyledIconHorizontal {...props}/>
+}
 
 IconHorizontal.displayName = 'Icon';
 export { IconHorizontal };

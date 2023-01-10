@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as ExpandablePlus } from '../../assets/baseIcons/icon-expandable-plus.svg';
+import { IconExpandablePlus as ExpandablePlus } from '../../svgrComponents/baseIcons/';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconExpandablePlus = styled((props: BaseIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconExpandablePlus = styled((props: BaseIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <ExpandablePlus
@@ -24,6 +24,10 @@ const IconExpandablePlus = styled((props: BaseIconProps) => {
 })`
   ${baseIconStyles}
 `;
+
+const IconExpandablePlus = (props: BaseIconProps) => {
+  return <StyledIconExpandablePlus {...props}/>
+}
 
 IconExpandablePlus.displayName = 'Icon';
 export { IconExpandablePlus };

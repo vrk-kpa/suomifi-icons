@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as Reply } from '../../assets/baseIcons/icon-reply.svg';
+import { IconReply as Reply } from '../../svgrComponents/baseIcons/';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconReply = styled((props: BaseIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconReply = styled((props: BaseIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <Reply
@@ -24,6 +24,10 @@ const IconReply = styled((props: BaseIconProps) => {
 })`
   ${baseIconStyles}
 `;
+
+const IconReply = (props: BaseIconProps) => {
+  return <StyledIconReply {...props}/>
+}
 
 IconReply.displayName = 'Icon';
 export { IconReply };

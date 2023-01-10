@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as ChartPie } from '../../assets/illustrativeIcons/icon-illustration-chart-pie.svg';
+import { IconChartPie as ChartPie } from '../../svgrComponents/illustrativeIcons/';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconChartPie = styled((props: StaticIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconChartPie = styled((props: StaticIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <ChartPie
@@ -24,6 +24,10 @@ const IconChartPie = styled((props: StaticIconProps) => {
 })`
   ${staticIconStyles}
 `;
+
+const IconChartPie = (props: StaticIconProps) => {
+  return <StyledIconChartPie {...props}/>
+}
 
 IconChartPie.displayName = 'Icon';
 export { IconChartPie };

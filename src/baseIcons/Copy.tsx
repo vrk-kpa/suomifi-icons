@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as Copy } from '../../assets/baseIcons/icon-copy.svg';
+import { IconCopy as Copy } from '../../svgrComponents/baseIcons/';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconCopy = styled((props: BaseIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconCopy = styled((props: BaseIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <Copy
@@ -24,6 +24,10 @@ const IconCopy = styled((props: BaseIconProps) => {
 })`
   ${baseIconStyles}
 `;
+
+const IconCopy = (props: BaseIconProps) => {
+  return <StyledIconCopy {...props}/>
+}
 
 IconCopy.displayName = 'Icon';
 export { IconCopy };

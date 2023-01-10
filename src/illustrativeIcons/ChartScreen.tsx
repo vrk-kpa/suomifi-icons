@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as ChartScreen } from '../../assets/illustrativeIcons/icon-illustration-chart-screen.svg';
+import { IconChartScreen as ChartScreen } from '../../svgrComponents/illustrativeIcons/';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconChartScreen = styled((props: StaticIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconChartScreen = styled((props: StaticIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <ChartScreen
@@ -24,6 +24,10 @@ const IconChartScreen = styled((props: StaticIconProps) => {
 })`
   ${staticIconStyles}
 `;
+
+const IconChartScreen = (props: StaticIconProps) => {
+  return <StyledIconChartScreen {...props}/>
+}
 
 IconChartScreen.displayName = 'Icon';
 export { IconChartScreen };

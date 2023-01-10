@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as ArrowheadDown } from '../../assets/baseIcons/icon-arrowhead-down.svg';
+import { IconArrowheadDown as ArrowheadDown } from '../../svgrComponents/baseIcons/';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconArrowheadDown = styled((props: BaseIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconArrowheadDown = styled((props: BaseIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <ArrowheadDown
@@ -24,6 +24,10 @@ const IconArrowheadDown = styled((props: BaseIconProps) => {
 })`
   ${baseIconStyles}
 `;
+
+const IconArrowheadDown = (props: BaseIconProps) => {
+  return <StyledIconArrowheadDown {...props}/>
+}
 
 IconArrowheadDown.displayName = 'Icon';
 export { IconArrowheadDown };

@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as Calendar } from '../../assets/baseIcons/icon-calendar.svg';
+import { IconCalendar as Calendar } from '../../svgrComponents/baseIcons/';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconCalendar = styled((props: BaseIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconCalendar = styled((props: BaseIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <Calendar
@@ -24,6 +24,10 @@ const IconCalendar = styled((props: BaseIconProps) => {
 })`
   ${baseIconStyles}
 `;
+
+const IconCalendar = (props: BaseIconProps) => {
+  return <StyledIconCalendar {...props}/>
+}
 
 IconCalendar.displayName = 'Icon';
 export { IconCalendar };

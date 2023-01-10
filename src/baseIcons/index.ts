@@ -54,7 +54,7 @@ export { IconImage } from './Image';
 export { IconInfoFilled } from './InfoFilled';
 export { IconInfo } from './Info';
 export { IconInternet } from './Internet';
-export { IconISA } from './ISA';
+export { IconIsa } from './Isa';
 export { IconLinkBreadcrumb } from './LinkBreadcrumb';
 export { IconLinkExternal } from './LinkExternal';
 export { IconLinkList } from './LinkList';

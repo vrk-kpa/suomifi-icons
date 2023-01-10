@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as ChartAnalytics } from '../../assets/illustrativeIcons/icon-illustration-chart-analytics.svg';
+import { IconChartAnalytics as ChartAnalytics } from '../../svgrComponents/illustrativeIcons/';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconChartAnalytics = styled((props: StaticIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconChartAnalytics = styled((props: StaticIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <ChartAnalytics
@@ -24,6 +24,10 @@ const IconChartAnalytics = styled((props: StaticIconProps) => {
 })`
   ${staticIconStyles}
 `;
+
+const IconChartAnalytics = (props: StaticIconProps) => {
+  return <StyledIconChartAnalytics {...props}/>
+}
 
 IconChartAnalytics.displayName = 'Icon';
 export { IconChartAnalytics };

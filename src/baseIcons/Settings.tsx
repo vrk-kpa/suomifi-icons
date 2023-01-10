@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as Settings } from '../../assets/baseIcons/icon-settings.svg';
+import { IconSettings as Settings } from '../../svgrComponents/baseIcons/';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconSettings = styled((props: BaseIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconSettings = styled((props: BaseIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <Settings
@@ -24,6 +24,10 @@ const IconSettings = styled((props: BaseIconProps) => {
 })`
   ${baseIconStyles}
 `;
+
+const IconSettings = (props: BaseIconProps) => {
+  return <StyledIconSettings {...props}/>
+}
 
 IconSettings.displayName = 'Icon';
 export { IconSettings };

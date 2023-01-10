@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as WebDevelopment } from '../../assets/illustrativeIcons/icon-illustration-web-development.svg';
+import { IconWebDevelopment as WebDevelopment } from '../../svgrComponents/illustrativeIcons/';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconWebDevelopment = styled((props: StaticIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconWebDevelopment = styled((props: StaticIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <WebDevelopment
@@ -24,6 +24,10 @@ const IconWebDevelopment = styled((props: StaticIconProps) => {
 })`
   ${staticIconStyles}
 `;
+
+const IconWebDevelopment = (props: StaticIconProps) => {
+  return <StyledIconWebDevelopment {...props}/>
+}
 
 IconWebDevelopment.displayName = 'Icon';
 export { IconWebDevelopment };

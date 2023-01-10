@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as Organisation } from '../../assets/illustrativeIcons/icon-illustration-organisation.svg';
+import { IconOrganisation as Organisation } from '../../svgrComponents/illustrativeIcons/';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconOrganisation = styled((props: StaticIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconOrganisation = styled((props: StaticIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <Organisation
@@ -24,6 +24,10 @@ const IconOrganisation = styled((props: StaticIconProps) => {
 })`
   ${staticIconStyles}
 `;
+
+const IconOrganisation = (props: StaticIconProps) => {
+  return <StyledIconOrganisation {...props}/>
+}
 
 IconOrganisation.displayName = 'Icon';
 export { IconOrganisation };

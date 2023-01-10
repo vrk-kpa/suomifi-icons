@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as ArrowLeft } from '../../assets/baseIcons/icon-arrow-left.svg';
+import { IconArrowLeft as ArrowLeft } from '../../svgrComponents/baseIcons/';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconArrowLeft = styled((props: BaseIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconArrowLeft = styled((props: BaseIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <ArrowLeft
@@ -24,6 +24,10 @@ const IconArrowLeft = styled((props: BaseIconProps) => {
 })`
   ${baseIconStyles}
 `;
+
+const IconArrowLeft = (props: BaseIconProps) => {
+  return <StyledIconArrowLeft {...props}/>
+}
 
 IconArrowLeft.displayName = 'Icon';
 export { IconArrowLeft };

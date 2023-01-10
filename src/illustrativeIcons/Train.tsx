@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as Train } from '../../assets/illustrativeIcons/icon-illustration-train.svg';
+import { IconTrain as Train } from '../../svgrComponents/illustrativeIcons/';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconTrain = styled((props: StaticIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconTrain = styled((props: StaticIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <Train
@@ -24,6 +24,10 @@ const IconTrain = styled((props: StaticIconProps) => {
 })`
   ${staticIconStyles}
 `;
+
+const IconTrain = (props: StaticIconProps) => {
+  return <StyledIconTrain {...props}/>
+}
 
 IconTrain.displayName = 'Icon';
 export { IconTrain };

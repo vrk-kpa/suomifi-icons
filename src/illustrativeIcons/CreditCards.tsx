@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as CreditCards } from '../../assets/illustrativeIcons/icon-illustration-credit-cards.svg';
+import { IconCreditCards as CreditCards } from '../../svgrComponents/illustrativeIcons/';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconCreditCards = styled((props: StaticIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconCreditCards = styled((props: StaticIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <CreditCards
@@ -24,6 +24,10 @@ const IconCreditCards = styled((props: StaticIconProps) => {
 })`
   ${staticIconStyles}
 `;
+
+const IconCreditCards = (props: StaticIconProps) => {
+  return <StyledIconCreditCards {...props}/>
+}
 
 IconCreditCards.displayName = 'Icon';
 export { IconCreditCards };

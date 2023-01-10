@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as Error } from '../../assets/baseIcons/icon-error.svg';
+import { IconError as Error } from '../../svgrComponents/baseIcons/';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconError = styled((props: BaseIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconError = styled((props: BaseIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <Error
@@ -24,6 +24,10 @@ const IconError = styled((props: BaseIconProps) => {
 })`
   ${baseIconStyles}
 `;
+
+const IconError = (props: BaseIconProps) => {
+  return <StyledIconError {...props}/>
+}
 
 IconError.displayName = 'Icon';
 export { IconError };

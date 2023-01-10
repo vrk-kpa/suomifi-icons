@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as Hint } from '../../assets/baseIcons/icon-hint.svg';
+import { IconHint as Hint } from '../../svgrComponents/baseIcons/';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconHint = styled((props: BaseIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconHint = styled((props: BaseIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <Hint
@@ -24,6 +24,10 @@ const IconHint = styled((props: BaseIconProps) => {
 })`
   ${baseIconStyles}
 `;
+
+const IconHint = (props: BaseIconProps) => {
+  return <StyledIconHint {...props}/>
+}
 
 IconHint.displayName = 'Icon';
 export { IconHint };

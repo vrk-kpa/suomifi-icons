@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as ManButtons } from '../../assets/illustrativeIcons/icon-illustration-man-buttons.svg';
+import { IconManButtons as ManButtons } from '../../svgrComponents/illustrativeIcons/';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconManButtons = styled((props: StaticIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconManButtons = styled((props: StaticIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <ManButtons
@@ -24,6 +24,10 @@ const IconManButtons = styled((props: StaticIconProps) => {
 })`
   ${staticIconStyles}
 `;
+
+const IconManButtons = (props: StaticIconProps) => {
+  return <StyledIconManButtons {...props}/>
+}
 
 IconManButtons.displayName = 'Icon';
 export { IconManButtons };

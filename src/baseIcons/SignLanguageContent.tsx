@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as SignLanguageContent } from '../../assets/baseIcons/icon-sign-language-content.svg';
+import { IconSignLanguageContent as SignLanguageContent } from '../../svgrComponents/baseIcons/';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconSignLanguageContent = styled((props: BaseIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconSignLanguageContent = styled((props: BaseIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <SignLanguageContent
@@ -24,6 +24,10 @@ const IconSignLanguageContent = styled((props: BaseIconProps) => {
 })`
   ${baseIconStyles}
 `;
+
+const IconSignLanguageContent = (props: BaseIconProps) => {
+  return <StyledIconSignLanguageContent {...props}/>
+}
 
 IconSignLanguageContent.displayName = 'Icon';
 export { IconSignLanguageContent };

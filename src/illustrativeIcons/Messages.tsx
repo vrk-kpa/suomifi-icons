@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as Messages } from '../../assets/illustrativeIcons/icon-illustration-messages.svg';
+import { IconMessages as Messages } from '../../svgrComponents/illustrativeIcons/';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconMessages = styled((props: StaticIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconMessages = styled((props: StaticIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <Messages
@@ -24,6 +24,10 @@ const IconMessages = styled((props: StaticIconProps) => {
 })`
   ${staticIconStyles}
 `;
+
+const IconMessages = (props: StaticIconProps) => {
+  return <StyledIconMessages {...props}/>
+}
 
 IconMessages.displayName = 'Icon';
 export { IconMessages };

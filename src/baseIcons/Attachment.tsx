@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as Attachment } from '../../assets/baseIcons/icon-attachment.svg';
+import { IconAttachment as Attachment } from '../../svgrComponents/baseIcons/';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconAttachment = styled((props: BaseIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconAttachment = styled((props: BaseIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <Attachment
@@ -24,6 +24,10 @@ const IconAttachment = styled((props: BaseIconProps) => {
 })`
   ${baseIconStyles}
 `;
+
+const IconAttachment = (props: BaseIconProps) => {
+  return <StyledIconAttachment {...props}/>
+}
 
 IconAttachment.displayName = 'Icon';
 export { IconAttachment };

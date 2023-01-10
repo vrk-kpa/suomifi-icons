@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as MigrationFinland } from '../../assets/illustrativeIcons/icon-illustration-migration-finland.svg';
+import { IconMigrationFinland as MigrationFinland } from '../../svgrComponents/illustrativeIcons/';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconMigrationFinland = styled((props: StaticIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconMigrationFinland = styled((props: StaticIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <MigrationFinland
@@ -24,6 +24,10 @@ const IconMigrationFinland = styled((props: StaticIconProps) => {
 })`
   ${staticIconStyles}
 `;
+
+const IconMigrationFinland = (props: StaticIconProps) => {
+  return <StyledIconMigrationFinland {...props}/>
+}
 
 IconMigrationFinland.displayName = 'Icon';
 export { IconMigrationFinland };

@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as Court } from '../../assets/illustrativeIcons/icon-illustration-court.svg';
+import { IconCourt as Court } from '../../svgrComponents/illustrativeIcons/';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconCourt = styled((props: StaticIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconCourt = styled((props: StaticIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <Court
@@ -24,6 +24,10 @@ const IconCourt = styled((props: StaticIconProps) => {
 })`
   ${staticIconStyles}
 `;
+
+const IconCourt = (props: StaticIconProps) => {
+  return <StyledIconCourt {...props}/>
+}
 
 IconCourt.displayName = 'Icon';
 export { IconCourt };

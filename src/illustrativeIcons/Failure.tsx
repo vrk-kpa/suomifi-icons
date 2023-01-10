@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as Failure } from '../../assets/illustrativeIcons/icon-illustration-failure.svg';
+import { IconFailure as Failure } from '../../svgrComponents/illustrativeIcons/';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconFailure = styled((props: StaticIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconFailure = styled((props: StaticIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <Failure
@@ -24,6 +24,10 @@ const IconFailure = styled((props: StaticIconProps) => {
 })`
   ${staticIconStyles}
 `;
+
+const IconFailure = (props: StaticIconProps) => {
+  return <StyledIconFailure {...props}/>
+}
 
 IconFailure.displayName = 'Icon';
 export { IconFailure };

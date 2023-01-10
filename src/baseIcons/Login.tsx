@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as Login } from '../../assets/baseIcons/icon-login.svg';
+import { IconLogin as Login } from '../../svgrComponents/baseIcons/';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconLogin = styled((props: BaseIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconLogin = styled((props: BaseIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <Login
@@ -24,6 +24,10 @@ const IconLogin = styled((props: BaseIconProps) => {
 })`
   ${baseIconStyles}
 `;
+
+const IconLogin = (props: BaseIconProps) => {
+  return <StyledIconLogin {...props}/>
+}
 
 IconLogin.displayName = 'Icon';
 export { IconLogin };

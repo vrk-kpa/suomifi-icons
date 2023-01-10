@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as CompareRemove } from '../../assets/baseIcons/icon-compare-remove.svg';
+import { IconCompareRemove as CompareRemove } from '../../svgrComponents/baseIcons/';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconCompareRemove = styled((props: BaseIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconCompareRemove = styled((props: BaseIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <CompareRemove
@@ -24,6 +24,10 @@ const IconCompareRemove = styled((props: BaseIconProps) => {
 })`
   ${baseIconStyles}
 `;
+
+const IconCompareRemove = (props: BaseIconProps) => {
+  return <StyledIconCompareRemove {...props}/>
+}
 
 IconCompareRemove.displayName = 'Icon';
 export { IconCompareRemove };

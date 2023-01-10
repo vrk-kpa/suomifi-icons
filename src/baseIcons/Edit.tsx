@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as Edit } from '../../assets/baseIcons/icon-edit.svg';
+import { IconEdit as Edit } from '../../svgrComponents/baseIcons/';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconEdit = styled((props: BaseIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconEdit = styled((props: BaseIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <Edit
@@ -24,6 +24,10 @@ const IconEdit = styled((props: BaseIconProps) => {
 })`
   ${baseIconStyles}
 `;
+
+const IconEdit = (props: BaseIconProps) => {
+  return <StyledIconEdit {...props}/>
+}
 
 IconEdit.displayName = 'Icon';
 export { IconEdit };

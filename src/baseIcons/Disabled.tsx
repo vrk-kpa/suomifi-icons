@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as Disabled } from '../../assets/baseIcons/icon-disabled.svg';
+import { IconDisabled as Disabled } from '../../svgrComponents/baseIcons/';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconDisabled = styled((props: BaseIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconDisabled = styled((props: BaseIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <Disabled
@@ -24,6 +24,10 @@ const IconDisabled = styled((props: BaseIconProps) => {
 })`
   ${baseIconStyles}
 `;
+
+const IconDisabled = (props: BaseIconProps) => {
+  return <StyledIconDisabled {...props}/>
+}
 
 IconDisabled.displayName = 'Icon';
 export { IconDisabled };

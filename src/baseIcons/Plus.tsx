@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as Plus } from '../../assets/baseIcons/icon-plus.svg';
+import { IconPlus as Plus } from '../../svgrComponents/baseIcons/';
 import { baseIconStyles } from '../utils/styles';
 import { BaseIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconPlus = styled((props: BaseIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconPlus = styled((props: BaseIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <Plus
@@ -24,6 +24,10 @@ const IconPlus = styled((props: BaseIconProps) => {
 })`
   ${baseIconStyles}
 `;
+
+const IconPlus = (props: BaseIconProps) => {
+  return <StyledIconPlus {...props}/>
+}
 
 IconPlus.displayName = 'Icon';
 export { IconPlus };

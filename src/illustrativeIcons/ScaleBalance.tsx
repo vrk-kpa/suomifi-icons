@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as ScaleBalance } from '../../assets/illustrativeIcons/icon-illustration-scale-balance.svg';
+import { IconScaleBalance as ScaleBalance } from '../../svgrComponents/illustrativeIcons/';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconScaleBalance = styled((props: StaticIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconScaleBalance = styled((props: StaticIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <ScaleBalance
@@ -24,6 +24,10 @@ const IconScaleBalance = styled((props: StaticIconProps) => {
 })`
   ${staticIconStyles}
 `;
+
+const IconScaleBalance = (props: StaticIconProps) => {
+  return <StyledIconScaleBalance {...props}/>
+}
 
 IconScaleBalance.displayName = 'Icon';
 export { IconScaleBalance };

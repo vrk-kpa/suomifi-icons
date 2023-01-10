@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as Folder } from '../../assets/illustrativeIcons/icon-illustration-folder.svg';
+import { IconFolder as Folder } from '../../svgrComponents/illustrativeIcons/';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconFolder = styled((props: StaticIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconFolder = styled((props: StaticIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <Folder
@@ -24,6 +24,10 @@ const IconFolder = styled((props: StaticIconProps) => {
 })`
   ${staticIconStyles}
 `;
+
+const IconFolder = (props: StaticIconProps) => {
+  return <StyledIconFolder {...props}/>
+}
 
 IconFolder.displayName = 'Icon';
 export { IconFolder };

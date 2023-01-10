@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as Preloader } from '../../assets/componentIcons/icon-preloader.svg';
+import { IconPreloader as Preloader } from '../../svgrComponents/componentIcons/';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconPreloader = styled((props: StaticIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconPreloader = styled((props: StaticIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <Preloader
@@ -24,6 +24,10 @@ const IconPreloader = styled((props: StaticIconProps) => {
 })`
   ${staticIconStyles}
 `;
+
+const IconPreloader = (props: StaticIconProps) => {
+  return <StyledIconPreloader {...props}/>
+}
 
 IconPreloader.displayName = 'Icon';
 export { IconPreloader };

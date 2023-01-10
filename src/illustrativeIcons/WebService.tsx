@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as WebService } from '../../assets/illustrativeIcons/icon-illustration-web-service.svg';
+import { IconWebService as WebService } from '../../svgrComponents/illustrativeIcons/';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconWebService = styled((props: StaticIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconWebService = styled((props: StaticIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <WebService
@@ -24,6 +24,10 @@ const IconWebService = styled((props: StaticIconProps) => {
 })`
   ${staticIconStyles}
 `;
+
+const IconWebService = (props: StaticIconProps) => {
+  return <StyledIconWebService {...props}/>
+}
 
 IconWebService.displayName = 'Icon';
 export { IconWebService };

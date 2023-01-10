@@ -2,14 +2,14 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { ReactComponent as Touch } from '../../assets/illustrativeIcons/icon-illustration-touch.svg';
+import { IconTouch as Touch } from '../../svgrComponents/illustrativeIcons/';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const IconTouch = styled((props: StaticIconProps) => {
-  const { className, mousePointer, ariaLabel, ...passProps } =
+const StyledIconTouch = styled((props: StaticIconProps) => {
+  const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
     <Touch
@@ -24,6 +24,10 @@ const IconTouch = styled((props: StaticIconProps) => {
 })`
   ${staticIconStyles}
 `;
+
+const IconTouch = (props: StaticIconProps) => {
+  return <StyledIconTouch {...props}/>
+}
 
 IconTouch.displayName = 'Icon';
 export { IconTouch };
