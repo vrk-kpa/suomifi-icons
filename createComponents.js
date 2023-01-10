@@ -11,7 +11,7 @@ const toKebabCase = (source) => {
 const baseIcons = [
   'Alert',
   'AlertOff',
-  'ArchiveBase',
+  'Archive',
   'ArrowUp',
   'ArrowRight',
   'ArrowDown',
@@ -65,7 +65,7 @@ const baseIcons = [
   'InfoFilled',
   'Info',
   'Internet',
-  'ISA',
+  'Isa',
   'LinkBreadcrumb',
   'LinkExternal',
   'LinkList',
@@ -79,24 +79,24 @@ const baseIcons = [
   'MapLocation',
   'MapMyLocation',
   'MapRoute',
-  'MapBase',
+  'Map',
   'Menu',
   'Message',
   'Minus',
   'Peek',
   'Pin',
-  'PhoneBase',
+  'Phone',
   'Plus',
   'Preview',
   'Print',
   'RadioButtonOn',
   'Refresh',
-  'RegistersBase',
+  'Registers',
   'Remove',
   'Reply',
   'Save',
   'Search',
-  'SettingsBase',
+  'Settings',
   'SignLanguageContent',
   'Star',
   'StarFilled',
@@ -121,7 +121,6 @@ const componentIcons = [
 const doctypeIcons = ['Doc', 'GenericFile', 'Pdf', 'Ppt', 'Xls', 'Xml'];
 
 const illustrativeIcons = [
-  'Archive',
   'Authorisation',
   'Book',
   'Briefcase',
@@ -134,12 +133,14 @@ const illustrativeIcons = [
   'ChartStatistic',
   'ChatBubbles',
   'Child',
+  'Cogwheel',
   'Collaboration',
   'Contract',
   'Conversation',
   'Court',
   'CreditCards',
   'Database',
+  'Device',
   'Display',
   'Doctor',
   'Environment',
@@ -148,6 +149,7 @@ const illustrativeIcons = [
   'Family',
   'Faq',
   'Feedback',
+  'FileCabinet',
   'Finance',
   'Folder',
   'Global',
@@ -162,12 +164,12 @@ const illustrativeIcons = [
   'LaptopContent',
   'Laptop',
   'Leap',
+  'Location',
   'MagicWand',
   'Mailbox',
   'ManButtons',
   'ManGlasses',
   'ManLaptop',
-  'Map',
   'MessageSent',
   'Messages',
   'Meter',
@@ -176,18 +178,16 @@ const illustrativeIcons = [
   'MoneyBag',
   'Organisation',
   'PhoneText',
-  'Phone',
   'PiggyBank',
   'Pillar',
   'PlaneFlying',
   'Presentation',
   'Puzzle',
-  'Registers',
+  'Register',
   'Rocket',
   'ScaleBalance',
   'Scale',
   'Server',
-  'Settings',
   'Shelter',
   'Shop',
   'Smartwatch',
@@ -218,25 +218,18 @@ const logoIcons = [
 
 const iconTypes = ['base', 'component', 'doctype', 'illustrative', 'logo'];
 
-const buildcontent = (
-  componentName,
-  iconType,
-  iconFile,
-  iconName,
-  interface,
-  styles
-) => {
+const buildcontent = (componentName, iconType, iconName, interface, styles) => {
   return `
 import React from \'react\';
 import { default as styled } from \'styled-components\';
 import classnames from \'classnames\';
-import { ReactComponent as ${componentName} } from \'../../assets/${iconType}Icons/${iconFile}.svg\';
+import { ${iconName} as ${componentName} } from \'../../svgrComponents/${iconType}Icons/';
 import { ${styles} } from \'../utils/styles\';
 import { ${interface} } from \'./iconInterface\';
 import { baseClassName, cursorPointerClassName } from \'../utils/classes\';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from \'../utils/aria\';
 
-const ${iconName} = styled((props: ${interface}) => {
+const Styled${iconName} = styled((props: ${interface}) => {
   const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
@@ -252,6 +245,10 @@ const ${iconName} = styled((props: ${interface}) => {
 })\`
   \${${styles}}
 \`;
+
+const ${iconName} = (props: ${interface}) => {
+  return <Styled${iconName} {...props}/>
+}
 
 ${iconName}.displayName = \'Icon\';
 export { ${iconName} };
@@ -327,10 +324,6 @@ const createIcons = () => {
     const iconSet = getIconSet(type);
     try {
       iconSet.forEach((icon) => {
-        const iconFile =
-          type === 'illustrative'
-            ? `icon-illustration-${toKebabCase(icon)}`
-            : `icon-${toKebabCase(icon)}`;
         const componentName = `${icon}`;
         const iconName = `Icon${icon}`;
         const interface = getInterface(type);
@@ -339,23 +332,16 @@ const createIcons = () => {
           // Create icon component
           fs.writeFileSync(
             `src/${type}Icons/${icon}.tsx`,
-            buildcontent(
-              componentName,
-              type,
-              iconFile,
-              iconName,
-              interface,
-              styles
-            )
+            buildcontent(componentName, type, iconName, interface, styles)
           );
           // Add the component export to the corresponding index file
           fs.appendFileSync(
             `src/${type}Icons/index.ts`,
-            `export { Icon${icon} } from './${icon}';\n`
+            `export { ${iconName} } from './${icon}';\n`
           );
           fs.appendFileSync(
             `src/index.ts`,
-            `export { Icon${icon} } from './${type}Icons/${icon}';\n`
+            `export { ${iconName} } from './${type}Icons/';\n`
           );
         } catch (error) {
           console.error(`Error creating ${icon} icon: `, error);
