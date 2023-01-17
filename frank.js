@@ -38,16 +38,6 @@ async function createMainPackageFile() {
   console.log(`Created package.json in ${targetPath}`);
 }
 
-  const targetPath = resolve(distPath, `./${iconType}Icons/package.json`);
-
-  await writeJson(targetPath, newPackageData);
-  console.log(`Created package.json in ${targetPath}`);
-}
-
-function createIconTypePackageFiles() {
-  iconTypes.forEach((iconType) => createIconTypePackageFile(iconType));
-}
-
 async function includeFileInBuild(file) {
   const sourcePath = resolve(packagePath, file);
   const targetPath = resolve(distPath, basename(file));

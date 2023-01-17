@@ -14,7 +14,7 @@ The icon components are built by the `createComponents.js` script, so making cha
 
 ## Publishing
 
-IMPORTANT! Make sure to publish the `dist` folder, not the root, as in `npm publish ./dist`
+**IMPORTANT!** Make sure to publish the `dist` folder, not the root, as in `npm publish ./dist`
 
 ## Semantic versioning
 
