@@ -1,4 +1,4 @@
-export { default as IconHorizontalInvert } from './IconHorizontalInvert';
-export { default as IconHorizontal } from './IconHorizontal';
-export { default as IconVerticalInvert } from './IconVerticalInvert';
-export { default as IconVertical } from './IconVertical';
+export { default as IconLogoHorizontalInvert } from './IconLogoHorizontalInvert';
+export { default as IconLogoHorizontal } from './IconLogoHorizontal';
+export { default as IconLogoVerticalInvert } from './IconLogoVerticalInvert';
+export { default as IconLogoVertical } from './IconLogoVertical';

@@ -1,5 +1,5 @@
-export { IconHorizontal } from './Horizontal';
-export { IconHorizontalInvert } from './HorizontalInvert';
-export { IconVertical } from './Vertical';
-export { IconVerticalInvert } from './VerticalInvert';
+export { IconLogoHorizontal } from './LogoHorizontal';
+export { IconLogoHorizontalInvert } from './LogoHorizontalInvert';
+export { IconLogoVertical } from './LogoVertical';
+export { IconLogoVerticalInvert } from './LogoVerticalInvert';
 export type { LogoIconProps } from './iconInterface';

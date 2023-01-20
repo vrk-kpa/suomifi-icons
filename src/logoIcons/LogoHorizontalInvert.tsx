@@ -2,17 +2,17 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { IconHorizontal as Horizontal } from '../../svgrComponents/logoIcons/';
+import { IconLogoHorizontalInvert as LogoHorizontalInvert } from '../../svgrComponents/logoIcons/';
 import { logoIconStyles } from '../utils/styles';
 import { LogoIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const StyledIconHorizontal = styled((props: LogoIconProps) => {
+const StyledIconLogoHorizontalInvert = styled((props: LogoIconProps) => {
   const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
-    <Horizontal
+    <LogoHorizontalInvert
       className={classnames(baseClassName, className, {
         [cursorPointerClassName]: !!mousePointer
       })}
@@ -25,9 +25,9 @@ const StyledIconHorizontal = styled((props: LogoIconProps) => {
   ${logoIconStyles}
 `;
 
-const IconHorizontal = (props: LogoIconProps) => {
-  return <StyledIconHorizontal {...props}/>
+const IconLogoHorizontalInvert = (props: LogoIconProps) => {
+  return <StyledIconLogoHorizontalInvert {...props}/>
 }
 
-IconHorizontal.displayName = 'Icon';
-export { IconHorizontal };
+IconLogoHorizontalInvert.displayName = 'Icon';
+export { IconLogoHorizontalInvert };

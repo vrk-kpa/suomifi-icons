@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
-const SvgIconHorizontal = (props: SVGProps<SVGSVGElement>) => (
+const SvgIconLogoHorizontal = (props: SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
     height="1em"
@@ -24,4 +24,4 @@ const SvgIconHorizontal = (props: SVGProps<SVGSVGElement>) => (
     </g>
   </svg>
 );
-export default SvgIconHorizontal;
+export default SvgIconLogoHorizontal;

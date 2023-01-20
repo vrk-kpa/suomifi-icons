@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
-const SvgIconVerticalInvert = (props: SVGProps<SVGSVGElement>) => (
+const SvgIconLogoVerticalInvert = (props: SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
     height="1em"
@@ -13,4 +13,4 @@ const SvgIconVerticalInvert = (props: SVGProps<SVGSVGElement>) => (
     </g>
   </svg>
 );
-export default SvgIconVerticalInvert;
+export default SvgIconLogoVerticalInvert;
