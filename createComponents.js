@@ -210,10 +210,10 @@ const illustrativeIcons = [
 ];
 
 const logoIcons = [
-  'Horizontal',
-  'HorizontalInvert',
-  'Vertical',
-  'VerticalInvert'
+  'LogoHorizontal',
+  'LogoHorizontalInvert',
+  'LogoVertical',
+  'LogoVerticalInvert'
 ];
 
 const iconTypes = ['base', 'component', 'doctype', 'illustrative', 'logo'];
