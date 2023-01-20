@@ -32,7 +32,7 @@
   "scripts": {
     "prepublish": "yarn run build",
     "clean": "rm -rf dist",
-    "svgr": "rm -rf test && yarn node runSVGR.js",
+    "svgr": "rm -rf svgrComponents && yarn node runSVGR.js",
     "generate": "rm -rf src/index.ts src/baseIcons src/componentIcons src/doctypeIcons src/illustrativeIcons src/logoIcons && yarn node createComponents",
     "build": "yarn run clean && rollup -c && yarn node frank.js",
     "frank": "yarn node frank.js",

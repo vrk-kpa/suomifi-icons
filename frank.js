@@ -1,9 +1,5 @@
 /**
- * A script to frank the build i.e. to copy the package.json an readme files to the dist folder.
- * This will enable importing icons from subfolders with cleaner paths. For example 'import {Alert} from suomifi-icons/base/'
- * instead of 'import {Alert} from suomifi-icons/dist/base'.
- *
- * This allows shorter names for the icons, as there are duplicate names across different icon sets.
+ * A script to frank the build i.e. to copy the package.json and readme files to the dist folder.
  *
  * Credit for the script goes to @Izhaki
  */
