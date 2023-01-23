@@ -2,17 +2,17 @@
 import React from 'react';
 import { default as styled } from 'styled-components';
 import classnames from 'classnames';
-import { IconPhoneText as PhoneText } from '../../svgrComponents/illustrativeIcons/';
+import { IconMobile as Mobile } from '../../svgrComponents/illustrativeIcons/';
 import { staticIconStyles } from '../utils/styles';
 import { StaticIconProps } from './iconInterface';
 import { baseClassName, cursorPointerClassName } from '../utils/classes';
 import { ariaFocusableNoLabel, ariaLabelOrHidden } from '../utils/aria';
 
-const StyledIconPhoneText = styled((props: StaticIconProps) => {
+const StyledIconMobile = styled((props: StaticIconProps) => {
   const { className, mousePointer, ariaLabel, color, fill, baseColor, highlightColor, ...passProps } =
     props;
   return (
-    <PhoneText
+    <Mobile
       className={classnames(baseClassName, className, {
         [cursorPointerClassName]: !!mousePointer
       })}
@@ -25,9 +25,9 @@ const StyledIconPhoneText = styled((props: StaticIconProps) => {
   ${staticIconStyles}
 `;
 
-const IconPhoneText = (props: StaticIconProps) => {
-  return <StyledIconPhoneText {...props}/>
+const IconMobile = (props: StaticIconProps) => {
+  return <StyledIconMobile {...props}/>
 }
 
-IconPhoneText.displayName = 'Icon';
-export { IconPhoneText };
+IconMobile.displayName = 'Icon';
+export { IconMobile };

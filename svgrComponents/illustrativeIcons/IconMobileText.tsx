@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
-const SvgIconPhoneText = (props: SVGProps<SVGSVGElement>) => (
+const SvgIconMobileText = (props: SVGProps<SVGSVGElement>) => (
   <svg
     viewBox="0 0 80 80"
     xmlns="http://www.w3.org/2000/svg"
@@ -28,4 +28,4 @@ const SvgIconPhoneText = (props: SVGProps<SVGSVGElement>) => (
     </g>
   </svg>
 );
-export default SvgIconPhoneText;
+export default SvgIconMobileText;
