@@ -10,7 +10,7 @@
 
 ## Making changes to the icons
 
-The icon components are built by the `createComponents.js` script, so making changes to the component structure is done there. Make necessary adjustments to the component template found in the script, run `yarn` generate, check the generated components for any errors or warnings and finally build and publish as a major version upgrade.
+The icon components are built by the `createComponents.js` script, so making changes to the component structure is done there. Make necessary adjustments to the component template found in the script, run `yarn generate`, check the generated components for any errors or warnings and finally build and publish as a major version upgrade.
 
 ## Publishing
 
