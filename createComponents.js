@@ -11,6 +11,7 @@ const toKebabCase = (source) => {
 const baseIcons = [
   'Alert',
   'AlertOff',
+  'AlignLeft',
   'Archive',
   'ArrowUp',
   'ArrowRight',
@@ -55,6 +56,8 @@ const baseIcons = [
   'ExpandableMinus',
   'ExpandablePlus',
   'FileGeneric',
+  'Fullscreen',
+  'Grid',
   'HeartFilled',
   'Heart',
   'HelpFilled',
@@ -83,6 +86,7 @@ const baseIcons = [
   'Menu',
   'Message',
   'Minus',
+  'OptionsVertical',
   'Peek',
   'Pin',
   'Phone',
@@ -108,7 +112,8 @@ const baseIcons = [
   'TransportCar',
   'TransportWalk',
   'Upload',
-  'Warning'
+  'Warning',
+  'Window'
 ];
 
 const componentIcons = [
