@@ -203,3 +203,4 @@ export { IconLogoHorizontal } from './logoIcons/';
 export { IconLogoHorizontalInvert } from './logoIcons/';
 export { IconLogoVertical } from './logoIcons/';
 export { IconLogoVerticalInvert } from './logoIcons/';
+export type { BaseIconProps, StaticIconProps, LogoIconProps } from './utils/iconInterface';

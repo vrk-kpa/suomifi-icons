@@ -323,6 +323,17 @@ const copyInterface = (iconType) => {
   });
 };
 
+const addInterfaceExports = () => {
+  try {
+    fs.appendFileSync(
+      `src/index.ts`,
+      `export type { BaseIconProps, StaticIconProps, LogoIconProps } from './utils/iconInterface';\n`
+    );
+  } catch (error) {
+    console.error(error);
+  }
+};
+
 // Create icons under corresponding icon type folders
 const createIcons = () => {
   iconTypes.forEach((type) => {
@@ -357,12 +368,9 @@ const createIcons = () => {
     } catch (error) {
       console.error(`Error generating ${type}Icon files: `, error);
     }
-    fs.appendFileSync(
-      `src/${type}Icons/index.ts`,
-      `export type { ${getInterface(type)} } from './iconInterface';\n`
-    );
   });
 };
 
 createFolders();
 createIcons();
+addInterfaceExports();

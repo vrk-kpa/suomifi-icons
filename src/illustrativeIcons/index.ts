@@ -84,4 +84,3 @@ export { IconWebDevelopment } from './WebDevelopment';
 export { IconWebService } from './WebService';
 export { IconWomanButtons } from './WomanButtons';
 export { IconWomanNecklace } from './WomanNecklace';
-export type { StaticIconProps } from './iconInterface';
