@@ -73,6 +73,7 @@ import map from './baseIcons/icon-map.svg';
 import menu from './baseIcons/icon-menu.svg';
 import message from './baseIcons/icon-message.svg';
 import minus from './baseIcons/icon-minus.svg';
+import optionsVertical from './baseIcons/icon-options-vertical.svg';
 import peek from './baseIcons/icon-peek.svg';
 import pin from './baseIcons/icon-pin.svg';
 import phone from './baseIcons/icon-phone.svg';
@@ -178,6 +179,7 @@ export const baseIcons = {
   menu,
   message,
   minus,
+  optionsVertical,
   peek,
   pin,
   phone,
