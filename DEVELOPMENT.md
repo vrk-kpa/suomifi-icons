@@ -19,3 +19,7 @@ The icon components are built by the `createComponents.js` script, so making cha
 ## Semantic versioning
 
 See README.md for information of how semantic versioning is applied.
+
+## Warnings
+
+The default export warning during build is a known issue. It is due to the fact that SVGR CLI doesn't support named exports option unlike the regular version, and due to requirements of the library, we currently have to use the CLI. It seems to have no effect in regards of using the library.
