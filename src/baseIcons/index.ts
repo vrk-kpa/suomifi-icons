@@ -103,4 +103,3 @@ export { IconTransportWalk } from './TransportWalk';
 export { IconUpload } from './Upload';
 export { IconWarning } from './Warning';
 export { IconWindow } from './Window';
-export type { BaseIconProps } from './iconInterface';
