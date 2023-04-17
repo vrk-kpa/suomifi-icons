@@ -56,6 +56,7 @@ import info from './baseIcons/icon-info.svg';
 import ISA from './baseIcons/icon-ISA.svg';
 import image from './baseIcons/icon-image.svg';
 import internet from './baseIcons/icon-internet.svg';
+import link from './baseIcons/icon-link.svg';
 import linkBreadcrumb from './baseIcons/icon-link-breadcrumb.svg';
 import linkExternal from './baseIcons/icon-link-external.svg';
 import linkList from './baseIcons/icon-link-list.svg';
@@ -71,6 +72,7 @@ import mapMyLocation from './baseIcons/icon-map-my-location.svg';
 import mapRoute from './baseIcons/icon-map-route.svg';
 import map from './baseIcons/icon-map.svg';
 import menu from './baseIcons/icon-menu.svg';
+import merge from './baseIcons/icon-merge.svg';
 import message from './baseIcons/icon-message.svg';
 import minus from './baseIcons/icon-minus.svg';
 import optionsVertical from './baseIcons/icon-options-vertical.svg';
@@ -85,9 +87,11 @@ import refresh from './baseIcons/icon-refresh.svg';
 import registers from './baseIcons/icon-registers.svg';
 import remove from './baseIcons/icon-remove.svg';
 import reply from './baseIcons/icon-reply.svg';
+import rows from './baseIcons/icon-rows.svg';
 import save from './baseIcons/icon-save.svg';
 import search from './baseIcons/icon-search.svg';
 import settings from './baseIcons/icon-settings.svg';
+import split from './baseIcons/icon-split.svg';
 import star from './baseIcons/icon-star.svg';
 import starFilled from './baseIcons/icon-star-filled.svg';
 import signLanguageContent from './baseIcons/icon-sign-language-content.svg';
@@ -162,6 +166,7 @@ export const baseIcons = {
   info,
   internet,
   ISA,
+  link,
   linkBreadcrumb,
   linkExternal,
   linkList,
@@ -177,6 +182,7 @@ export const baseIcons = {
   mapRoute,
   map,
   menu,
+  merge,
   message,
   minus,
   optionsVertical,
@@ -191,10 +197,12 @@ export const baseIcons = {
   registers,
   remove,
   reply,
+  rows,
   save,
   search,
   settings,
   signLanguageContent,
+  split,
   star,
   starFilled,
   subDirectory,
