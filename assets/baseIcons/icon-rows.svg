@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons/Basic icons/attribute</title>
+    <g id="Icons/Basic-icons/attribute" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M2,4 L22,4 L22,2 L2,2 L2,4 Z M23,6 L1,6 C0.448,6 0,5.552 0,5 L0,1 C0,0.448 0.448,0 1,0 L23,0 C23.552,0 24,0.448 24,1 L24,5 C24,5.552 23.552,6 23,6 L23,6 Z" id="Fill-1" fill="#222222"></path>
+        <path d="M2,13 L22,13 L22,11 L2,11 L2,13 Z M23,15 L1,15 C0.448,15 0,14.552 0,14 L0,10 C0,9.448 0.448,9 1,9 L23,9 C23.552,9 24,9.448 24,10 L24,14 C24,14.552 23.552,15 23,15 L23,15 Z" id="Fill-3" fill="#222222"></path>
+        <path d="M2,22 L22,22 L22,20 L2,20 L2,22 Z M23,24 L1,24 C0.448,24 0,23.552 0,23 L0,19 C0,18.448 0.448,18 1,18 L23,18 C23.552,18 24,18.448 24,19 L24,23 C24,23.552 23.552,24 23,24 L23,24 Z" id="Fill-4" fill="#222222"></path>
+    </g>
+</svg>
