@@ -1,5 +1,10 @@
 const fs = require('fs');
 const path = require('path');
+const { baseIcons } = require('./src/IconLists');
+const { componentIcons } = require('./src/IconLists');
+const { doctypeIcons } = require('./src/IconLists');
+const { illustrativeIcons } = require('./src/IconLists');
+const { logoIcons } = require('./src/IconLists');
 
 const toKebabCase = (source) => {
   return source
@@ -7,219 +12,6 @@ const toKebabCase = (source) => {
     .replace(/[\s_]+/g, '-')
     .toLowerCase();
 };
-
-const baseIcons = [
-  'Alert',
-  'AlertOff',
-  'AlignLeft',
-  'Archive',
-  'ArrowUp',
-  'ArrowRight',
-  'ArrowDown',
-  'ArrowLeft',
-  'ArrowheadDown',
-  'ArrowheadUp',
-  'Attachment',
-  'Authorise',
-  'Basket',
-  'BasketAdd',
-  'Calendar',
-  'CalendarChecked',
-  'Chat',
-  'ChatHeart',
-  'ChatQuestion',
-  'Check',
-  'CheckCircleFilled',
-  'CheckCircle',
-  'CheckSelected',
-  'ChevronUp',
-  'ChevronRight',
-  'ChevronDown',
-  'ChevronLeft',
-  'ChevronCircleUp',
-  'ChevronCircleRight',
-  'ChevronCircleDown',
-  'ChevronCircleLeft',
-  'Clock',
-  'Close',
-  'Compare',
-  'CompareRemove',
-  'ControlPrevious',
-  'ControlPlay',
-  'ControlNext',
-  'Copy',
-  'Disabled',
-  'Download',
-  'Edit',
-  'ErrorFilled',
-  'Error',
-  'ExpandableMinus',
-  'ExpandablePlus',
-  'FileGeneric',
-  'Fullscreen',
-  'Grid',
-  'HeartFilled',
-  'Heart',
-  'HelpFilled',
-  'Help',
-  'Hint',
-  'History',
-  'Image',
-  'InfoFilled',
-  'Info',
-  'Internet',
-  'Isa',
-  'LinkBreadcrumb',
-  'LinkExternal',
-  'LinkList',
-  'ListBulleted',
-  'ListNumbered',
-  'Login',
-  'Logout',
-  'MailSend',
-  'MapLayers',
-  'MapLocationFilled',
-  'MapLocation',
-  'MapMyLocation',
-  'MapRoute',
-  'Map',
-  'Menu',
-  'Message',
-  'Minus',
-  'OptionsVertical',
-  'Peek',
-  'Pin',
-  'Phone',
-  'Plus',
-  'Preview',
-  'Print',
-  'RadioButtonOn',
-  'Refresh',
-  'Registers',
-  'Remove',
-  'Reply',
-  'Save',
-  'Search',
-  'Settings',
-  'SignLanguageContent',
-  'Star',
-  'StarFilled',
-  'SubDirectory',
-  'SwapRounded',
-  'SwapVertical',
-  'TransportBicycle',
-  'TransportBus',
-  'TransportCar',
-  'TransportWalk',
-  'Upload',
-  'Warning',
-  'Window'
-];
-
-const componentIcons = [
-  'RadioButton',
-  'RadioButtonLarge',
-  'Toggle',
-  'Preloader'
-];
-
-const doctypeIcons = ['Doc', 'GenericFile', 'Pdf', 'Ppt', 'Xls', 'Xml'];
-
-const illustrativeIcons = [
-  'Authorisation',
-  'Book',
-  'Briefcase',
-  'BuildingAdministrative',
-  'Buildings',
-  'Catalog',
-  'ChartAnalytics',
-  'ChartPie',
-  'ChartScreen',
-  'ChartStatistic',
-  'ChatBubbles',
-  'Child',
-  'Cogwheel',
-  'Collaboration',
-  'Contract',
-  'Conversation',
-  'Court',
-  'CreditCards',
-  'Database',
-  'Mobile',
-  'Display',
-  'Doctor',
-  'Environment',
-  'Exchange',
-  'Failure',
-  'Family',
-  'Faq',
-  'Feedback',
-  'FileCabinet',
-  'Finance',
-  'Folder',
-  'Global',
-  'Group',
-  'Growth',
-  'HandCoins',
-  'HandPlate',
-  'Helpdesk',
-  'Home',
-  'House',
-  'IdBadge',
-  'LaptopContent',
-  'Laptop',
-  'Leap',
-  'Location',
-  'MagicWand',
-  'Mailbox',
-  'ManButtons',
-  'ManGlasses',
-  'ManLaptop',
-  'MessageSent',
-  'Messages',
-  'Meter',
-  'MigrationFinland',
-  'Money',
-  'MoneyBag',
-  'Organisation',
-  'MobileText',
-  'PiggyBank',
-  'Pillar',
-  'PlaneFlying',
-  'Presentation',
-  'Puzzle',
-  'Register',
-  'Rocket',
-  'ScaleBalance',
-  'Scale',
-  'Server',
-  'Shelter',
-  'Shop',
-  'Smartwatch',
-  'SocialSecurity',
-  'Steering',
-  'Success',
-  'Support',
-  'Swim',
-  'TabletText',
-  'Tablet',
-  'Team',
-  'Touch',
-  'Train',
-  'UserBadge',
-  'UserProfile',
-  'WebDevelopment',
-  'WebService',
-  'WomanButtons',
-  'WomanNecklace'
-];
-
-const logoIcons = [
-  'LogoHorizontal',
-  'LogoHorizontalInvert',
-  'LogoVertical',
-  'LogoVerticalInvert'
-];
 
 const iconTypes = ['base', 'component', 'doctype', 'illustrative', 'logo'];
 
@@ -334,6 +126,17 @@ const addInterfaceExports = () => {
   }
 };
 
+const addIconListExports = () => {
+  try {
+    fs.appendFileSync(
+      `src/index.ts`,
+      `export { baseIcons, illustrativeIcons, doctypeIcons, componentIcons, logoIcons } from './IconLists';\n`
+    );
+  } catch (error) {
+    console.error(error);
+  }
+};
+
 // Create icons under corresponding icon type folders
 const createIcons = () => {
   iconTypes.forEach((type) => {
@@ -374,3 +177,4 @@ const createIcons = () => {
 createFolders();
 createIcons();
 addInterfaceExports();
+addIconListExports();
