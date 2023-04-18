@@ -3,7 +3,7 @@
 ## Adding new icons
 
 1. Add the new icon file(s) under the correct folder under `assets`
-2. Add the icon name in the correct array in `utils/createComponents`.
+2. Add the icon name in the correct array in `src/IconLists`.
 3. Run `yarn svgr` to generate the underlying icon components.
 4. Run `yarn generate` to regenerate the icon components with added logic. The new icon will be included in the correct iconset and the corresponding index.
 5. Build and publish as minor version upgrade
@@ -14,7 +14,7 @@ The icon components are built by the `createComponents.js` script, so making cha
 
 ## Publishing
 
-**IMPORTANT!** Make sure to publish the `dist` folder, not the root, as in `npm publish ./dist`
+**IMPORTANT!** Make sure to publish the `dist` folder instead of the root, as in `npm publish ./dist`
 
 ## Semantic versioning
 
