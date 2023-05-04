@@ -29,6 +29,8 @@ export { IconChevronCircleUp } from './baseIcons/';
 export { IconChevronCircleRight } from './baseIcons/';
 export { IconChevronCircleDown } from './baseIcons/';
 export { IconChevronCircleLeft } from './baseIcons/';
+export { IconChevronDoubleRight } from './baseIcons/';
+export { IconChevronDoubleLeft } from './baseIcons/';
 export { IconClock } from './baseIcons/';
 export { IconClose } from './baseIcons/';
 export { IconCompare } from './baseIcons/';

@@ -30,6 +30,8 @@ const baseIcons = [
   'ChevronCircleRight',
   'ChevronCircleDown',
   'ChevronCircleLeft',
+  'ChevronDoubleRight',
+  'ChevronDoubleLeft',
   'Clock',
   'Close',
   'Compare',

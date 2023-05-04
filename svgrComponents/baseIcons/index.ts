@@ -25,6 +25,8 @@ export { default as IconChevronCircleDown } from './IconChevronCircleDown';
 export { default as IconChevronCircleLeft } from './IconChevronCircleLeft';
 export { default as IconChevronCircleRight } from './IconChevronCircleRight';
 export { default as IconChevronCircleUp } from './IconChevronCircleUp';
+export { default as IconChevronDoubleLeft } from './IconChevronDoubleLeft';
+export { default as IconChevronDoubleRight } from './IconChevronDoubleRight';
 export { default as IconChevronDown } from './IconChevronDown';
 export { default as IconChevronLeft } from './IconChevronLeft';
 export { default as IconChevronRight } from './IconChevronRight';

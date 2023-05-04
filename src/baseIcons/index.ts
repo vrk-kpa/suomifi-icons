@@ -29,6 +29,8 @@ export { IconChevronCircleUp } from './ChevronCircleUp';
 export { IconChevronCircleRight } from './ChevronCircleRight';
 export { IconChevronCircleDown } from './ChevronCircleDown';
 export { IconChevronCircleLeft } from './ChevronCircleLeft';
+export { IconChevronDoubleRight } from './ChevronDoubleRight';
+export { IconChevronDoubleLeft } from './ChevronDoubleLeft';
 export { IconClock } from './Clock';
 export { IconClose } from './Close';
 export { IconCompare } from './Compare';
