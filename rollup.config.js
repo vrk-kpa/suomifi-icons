@@ -15,7 +15,8 @@ const buildIcons = () => {
       {
         dir: `dist/cjs`,
         format: 'cjs',
-        sourcemap: true
+        sourcemap: true,
+        exports: 'auto' // Explicit 'auto' needed to silence rollop warning https://rollupjs.org/guide/en/#outputexports
       }
     ],
     preserveModules: true,
