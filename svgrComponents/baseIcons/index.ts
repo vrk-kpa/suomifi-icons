@@ -1,6 +1,7 @@
 export { default as IconAlertOff } from './IconAlertOff';
 export { default as IconAlert } from './IconAlert';
 export { default as IconAlignLeft } from './IconAlignLeft';
+export { default as IconApplicationProfile } from './IconApplicationProfile';
 export { default as IconArchive } from './IconArchive';
 export { default as IconArrowDown } from './IconArrowDown';
 export { default as IconArrowLeft } from './IconArrowLeft';

@@ -1,6 +1,7 @@
 export { IconAlert } from './Alert';
 export { IconAlertOff } from './AlertOff';
 export { IconAlignLeft } from './AlignLeft';
+export { IconApplicationProfile } from './ApplicationProfile';
 export { IconArchive } from './Archive';
 export { IconArrowUp } from './ArrowUp';
 export { IconArrowRight } from './ArrowRight';

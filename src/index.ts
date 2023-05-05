@@ -1,6 +1,7 @@
 export { IconAlert } from './baseIcons/';
 export { IconAlertOff } from './baseIcons/';
 export { IconAlignLeft } from './baseIcons/';
+export { IconApplicationProfile } from './baseIcons/';
 export { IconArchive } from './baseIcons/';
 export { IconArrowUp } from './baseIcons/';
 export { IconArrowRight } from './baseIcons/';

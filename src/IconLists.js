@@ -2,6 +2,7 @@ const baseIcons = [
   'Alert',
   'AlertOff',
   'AlignLeft',
+  'ApplicationProfile',
   'Archive',
   'ArrowUp',
   'ArrowRight',
