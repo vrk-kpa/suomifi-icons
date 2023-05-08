@@ -31,7 +31,6 @@
     "typescript": "^4.8.2"
   },
   "scripts": {
-    "prepublish": "yarn run build",
     "clean": "rimraf dist",
     "svgr": "rimraf svgrComponents && yarn node runSVGR.js",
     "generate": "rimraf src/index.ts src/baseIcons src/componentIcons src/doctypeIcons src/illustrativeIcons src/logoIcons && yarn node createComponents",

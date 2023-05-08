@@ -6,7 +6,8 @@
 2. Add the icon name in the correct array in `src/IconLists`.
 3. Run `yarn svgr` to generate the underlying icon components.
 4. Run `yarn generate` to regenerate the icon components with added logic. The new icon will be included in the correct iconset and the corresponding index.
-5. Build and publish as minor version upgrade
+5. Run `yarn build` to remove possible old dist folder and generate a new dist folder
+6. Publish newly generated dist folder with `npm publish ./dist` as minor version update
 
 ## Making changes to the icons
 
@@ -14,7 +15,10 @@ The icon components are built by the `createComponents.js` script, so making cha
 
 ## Publishing
 
-**IMPORTANT!** Make sure to publish the `dist` folder instead of the root, as in `npm publish ./dist`
+**IMPORTANT!**
+
+1. Make sure to generate new dist folder by running `yarn build`, and
+2. publish the `dist` folder instead of the root, as in `npm publish ./dist`
 
 ## Semantic versioning
 
