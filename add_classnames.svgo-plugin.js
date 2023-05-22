@@ -1,11 +1,12 @@
-'use strict';
+"use strict";
 
-exports.type = 'perItem';
+exports.name = "addClassNamesPlugin";
+exports.type = "perItem";
 exports.active = false;
-exports.description = 'add classnames based on attributes and values';
+exports.description = "add classnames based on attributes and values";
 
 exports.params = {
-  rules: []
+  rules: [],
 };
 
 /**
@@ -54,13 +55,14 @@ exports.params = {
  * @author Sami Korpela
  */
 exports.fn = function (item, params) {
+  console.log("function start");
   var patternMap = params.rules.map(function (rule) {
     return {
       pattern: [
-        new RegExp(['^', rule.attribute, '$'].join(''), 'i'),
-        new RegExp(['^', rule.value, '$'].join(''), 'i')
+        new RegExp(["^", rule.attribute, "$"].join(""), "i"),
+        new RegExp(["^", rule.value, "$"].join(""), "i"),
       ],
-      className: rule.className
+      className: rule.className,
     };
   });
 

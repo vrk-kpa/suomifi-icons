@@ -1,54 +1,47 @@
 {
   "name": "suomifi-icons",
-  "version": "6.5.0",
-  "description": "Suomi.fi icons-library",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "version": "7.0.0-beta.1",
+  "main": "./cjs/src/index.js",
+  "module": "./esm/src/index.js",
+  "typings": "./types/src/index.d.ts",
   "sideEffects": false,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vrk-kpa/suomifi-icons.git"
   },
-  "author": "Joonas Kallunki <jkallunki@gmail.com> (https://jkallunki.net/)",
+  "author": "Joonas Kaski <joonas.kaski@gofore.com>",
   "contributors": [
-    "Aappo Ålander",
-    "Joonas Kaski",
     "Sami Korpela"
   ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/vrk-kpa/suomifi-icons/issues"
-  },
-  "homepage": "https://github.com/vrk-kpa/suomifi-ui-components#readme",
-  "keywords": [
-    "suomifi",
-    "icons",
-    "icon"
-  ],
   "devDependencies": {
-    "@svgr/webpack": "5.5.0",
-    "@types/react": "17.0.11",
-    "@types/react-dom": "17.0.8",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "source-map-loader": "3.0.0",
-    "ts-loader": "9.2.3",
-    "typescript": "4.3.4",
-    "webpack": "5.40.0",
-    "webpack-cli": "4.7.2"
-  },
-  "peerDependencies": {
-    "react": ">=16.3",
-    "react-dom": ">=16.3"
-  },
-  "resolutions": {
-    "css-what": "^5.0.1"
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-node-resolve": "^14.0.0",
+    "@svgr/cli": "^6.5.1",
+    "@types/react": "^17.0.0",
+    "@types/styled-components": "^5.1.26",
+    "fs-extra": "^11.1.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "rimraf": "^5.0.0",
+    "rollup": "^2.79.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript2": "^0.33.0",
+    "styled-components": "^5.3.6",
+    "typescript": "^4.8.2"
   },
   "scripts": {
-    "prepare": "yarn run build",
-    "build": "webpack --env production"
+    "clean": "rimraf dist",
+    "svgr": "rimraf svgrComponents && yarn node runSVGR.js",
+    "generate": "rimraf src/index.ts src/baseIcons src/componentIcons src/doctypeIcons src/illustrativeIcons src/logoIcons && yarn node createComponents",
+    "build": "yarn run clean && rollup -c && yarn node frank.js",
+    "frank": "yarn node frank.js"
+  },
+  "peerDependencies": {
+    "react": ">=16.2.0",
+    "styled-components": ">=5.2.1"
+  },
+  "dependencies": {
+    "classnames": "^2.3.1"
   }
 }
