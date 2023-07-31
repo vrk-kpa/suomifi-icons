@@ -212,4 +212,3 @@ export { IconLogoVertical } from './logoIcons/';
 export { IconLogoVerticalInvert } from './logoIcons/';
 export type { BaseIconProps, StaticIconProps, LogoIconProps } from './utils/iconInterface';
 export { baseIcons, illustrativeIcons, doctypeIcons, componentIcons, logoIcons } from './iconLists';
-export type { BaseIconKeys, IllustrativeIconKeys, DoctypeIconKeys, ComponentIconKeys, LogoIconKeys } from './iconLists';
