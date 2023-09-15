@@ -32,10 +32,10 @@
   },
   "scripts": {
     "clean": "rimraf dist",
-    "svgr": "rimraf svgrComponents && yarn node runSVGR.js",
-    "generate": "rimraf src/index.ts src/baseIcons src/componentIcons src/doctypeIcons src/illustrativeIcons src/logoIcons && yarn node createComponents",
-    "build": "yarn run clean && rollup -c && yarn node frank.js",
-    "frank": "yarn node frank.js"
+    "svgr": "rimraf svgrComponents && node runSVGR.js",
+    "generate": "rimraf src/index.ts src/baseIcons src/componentIcons src/doctypeIcons src/illustrativeIcons src/logoIcons && node createComponents",
+    "build": "npm run clean && rollup -c && node frank.js",
+    "frank": "node frank.js"
   },
   "peerDependencies": {
     "react": ">=16.2.0",

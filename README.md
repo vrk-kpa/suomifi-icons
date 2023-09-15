@@ -78,6 +78,11 @@ This repository uses semantic versioning (https://semver.org/).
 - **Minor**: Addition of new icons, or other non-breaking changes.
 - **Patch**: Any other changes that don't affect how the components are or can be used.
 
+
+```bash
+npm install suomifi-icons
+```
+or
 ```bash
 yarn add suomifi-icons
 ```
