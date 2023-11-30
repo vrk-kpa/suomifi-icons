@@ -1,6 +1,6 @@
 {
   "name": "suomifi-icons",
-  "version": "7.1.0",
+  "version": "7.2.0",
   "main": "./cjs/src/index.js",
   "module": "./esm/src/index.js",
   "typings": "./types/src/index.d.ts",
