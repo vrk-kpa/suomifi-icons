@@ -131,12 +131,14 @@ const addIconListExports = () => {
     iconTypes.forEach((type) => {
       const iconSet = getIconSet(type);
       fileContent += `export const ${type}Icons = ${JSON.stringify(iconSet)}\n`;
+      fileContent += `const ${type}IconsList = ${JSON.stringify(iconSet)} as const\n`;
+      fileContent += `export type ${type}IconKeys = typeof ${type}IconsList[number]\n`;
     });
     fs.writeFileSync('src/iconLists.ts', `${fileContent}\n\n`);
 
     fs.appendFileSync(
       `src/index.ts`,
-      `export { baseIcons, illustrativeIcons, doctypeIcons, componentIcons, logoIcons } from './iconLists';\n`
+      `export * from './iconLists';\n`
     );
   } catch (error) {
     console.error(error);
