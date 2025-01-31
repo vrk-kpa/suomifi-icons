@@ -49,6 +49,7 @@ export { IconError } from './Error';
 export { IconExpandableMinus } from './ExpandableMinus';
 export { IconExpandablePlus } from './ExpandablePlus';
 export { IconFileGeneric } from './FileGeneric';
+export { IconFlag } from './Flag';
 export { IconFullscreen } from './Fullscreen';
 export { IconGrid } from './Grid';
 export { IconHeartFilled } from './HeartFilled';
