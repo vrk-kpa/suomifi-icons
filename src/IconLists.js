@@ -50,6 +50,7 @@ const baseIcons = [
   'ExpandableMinus',
   'ExpandablePlus',
   'FileGeneric',
+  'Flag',
   'Fullscreen',
   'Grid',
   'HeartFilled',

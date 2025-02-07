@@ -49,6 +49,7 @@ export { default as IconError } from './IconError';
 export { default as IconExpandableMinus } from './IconExpandableMinus';
 export { default as IconExpandablePlus } from './IconExpandablePlus';
 export { default as IconFileGeneric } from './IconFileGeneric';
+export { default as IconFlag } from './IconFlag';
 export { default as IconFullscreen } from './IconFullscreen';
 export { default as IconGrid } from './IconGrid';
 export { default as IconHeartFilled } from './IconHeartFilled';

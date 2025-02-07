@@ -49,6 +49,7 @@ export { IconError } from './baseIcons/';
 export { IconExpandableMinus } from './baseIcons/';
 export { IconExpandablePlus } from './baseIcons/';
 export { IconFileGeneric } from './baseIcons/';
+export { IconFlag } from './baseIcons/';
 export { IconFullscreen } from './baseIcons/';
 export { IconGrid } from './baseIcons/';
 export { IconHeartFilled } from './baseIcons/';
