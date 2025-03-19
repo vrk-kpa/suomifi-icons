@@ -1,4 +1,6 @@
 export { default as IconAuthorisation } from './IconAuthorisation';
+export { default as IconBehalfOfACompany } from './IconBehalfOfACompany';
+export { default as IconBehalfOfAPerson } from './IconBehalfOfAPerson';
 export { default as IconBook } from './IconBook';
 export { default as IconBriefcase } from './IconBriefcase';
 export { default as IconBuildingAdministrative } from './IconBuildingAdministrative';

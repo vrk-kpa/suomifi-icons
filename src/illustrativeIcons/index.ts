@@ -53,6 +53,8 @@ export { IconMeter } from './Meter';
 export { IconMigrationFinland } from './MigrationFinland';
 export { IconMoney } from './Money';
 export { IconMoneyBag } from './MoneyBag';
+export { IconBehalfOfACompany } from './BehalfOfACompany';
+export { IconBehalfOfAPerson } from './BehalfOfAPerson';
 export { IconOrganisation } from './Organisation';
 export { IconMobileText } from './MobileText';
 export { IconPiggyBank } from './PiggyBank';
