@@ -131,15 +131,14 @@ const addIconListExports = () => {
     iconTypes.forEach((type) => {
       const iconSet = getIconSet(type);
       fileContent += `export const ${type}Icons = ${JSON.stringify(iconSet)}\n`;
-      fileContent += `const ${type}IconsList = ${JSON.stringify(iconSet)} as const\n`;
+      fileContent += `const ${type}IconsList = ${JSON.stringify(
+        iconSet
+      )} as const\n`;
       fileContent += `export type ${type}IconKeys = typeof ${type}IconsList[number]\n`;
     });
     fs.writeFileSync('src/iconLists.ts', `${fileContent}\n\n`);
 
-    fs.appendFileSync(
-      `src/index.ts`,
-      `export * from './iconLists';\n`
-    );
+    fs.appendFileSync(`src/index.ts`, `export * from './iconLists';\n`);
   } catch (error) {
     console.error(error);
   }
@@ -182,7 +181,16 @@ const createIcons = () => {
   });
 };
 
-createFolders();
-createIcons();
-addInterfaceExports();
-addIconListExports();
+const generateComponents = () => {
+  try {
+    createFolders();
+    createIcons();
+    addInterfaceExports();
+    addIconListExports();
+    console.log('All components and exports were generated successfully!');
+  } catch (error) {
+    console.error('An error occurred during the generation process:', error);
+  }
+};
+
+generateComponents();
