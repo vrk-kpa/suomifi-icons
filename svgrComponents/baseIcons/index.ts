@@ -10,6 +10,7 @@ export { default as IconArrowUp } from './IconArrowUp';
 export { default as IconArrowheadDown } from './IconArrowheadDown';
 export { default as IconArrowheadUp } from './IconArrowheadUp';
 export { default as IconAttachment } from './IconAttachment';
+export { default as IconAuthoriseCompany } from './IconAuthoriseCompany';
 export { default as IconAuthorise } from './IconAuthorise';
 export { default as IconBasketAdd } from './IconBasketAdd';
 export { default as IconBasket } from './IconBasket';

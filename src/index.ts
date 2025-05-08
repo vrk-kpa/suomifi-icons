@@ -10,6 +10,7 @@ export { IconArrowLeft } from './baseIcons/';
 export { IconArrowheadDown } from './baseIcons/';
 export { IconArrowheadUp } from './baseIcons/';
 export { IconAttachment } from './baseIcons/';
+export { IconAuthoriseCompany } from './baseIcons/';
 export { IconAuthorise } from './baseIcons/';
 export { IconBasket } from './baseIcons/';
 export { IconBasketAdd } from './baseIcons/';

@@ -10,6 +10,7 @@ export { IconArrowLeft } from './ArrowLeft';
 export { IconArrowheadDown } from './ArrowheadDown';
 export { IconArrowheadUp } from './ArrowheadUp';
 export { IconAttachment } from './Attachment';
+export { IconAuthoriseCompany } from './AuthoriseCompany';
 export { IconAuthorise } from './Authorise';
 export { IconBasket } from './Basket';
 export { IconBasketAdd } from './BasketAdd';
