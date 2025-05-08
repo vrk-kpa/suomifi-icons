@@ -1,6 +1,6 @@
 {
   "name": "suomifi-icons",
-  "version": "7.5.0",
+  "version": "7.6.0",
   "main": "./cjs/src/index.js",
   "module": "./esm/src/index.js",
   "typings": "./types/src/index.d.ts",
@@ -11,7 +11,8 @@
   },
   "author": "Joonas Kaski <joonas.kaski@gofore.com>",
   "contributors": [
-    "Sami Korpela"
+    "Sami Korpela",
+    "Ilkka Pättikangas"
   ],
   "license": "MIT",
   "devDependencies": {

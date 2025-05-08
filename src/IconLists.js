@@ -11,6 +11,7 @@ const baseIcons = [
   'ArrowheadDown',
   'ArrowheadUp',
   'Attachment',
+  'AuthoriseCompany',
   'Authorise',
   'Basket',
   'BasketAdd',

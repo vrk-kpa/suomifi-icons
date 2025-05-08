@@ -2,13 +2,15 @@
 
 ## Adding new icons
 
-1. Add the new icon file(s) under the correct folder under `assets`
-2. Add the icon name in the correct array in `src/IconLists`.
-3. Run `npm run svgr` to generate the underlying icon components.
-4. Run `npm run generate` to regenerate the icon components with added logic. The new icon will be included in the correct iconset and the corresponding index.
-5. Update package.json to a new minor version
-6. Run `npm run build` to remove possible old dist folder and generate a new dist folder
-7. Publish newly generated dist folder with `npm publish ./dist`
+1. Create a new feature branch for the addition
+2. Add the new icon file(s) under the correct folder under `assets`
+3. Add the icon name in the correct array in `src/IconLists`.
+4. Run `npm run svgr` to generate the underlying icon components.
+5. Run `npm run generate` to regenerate the icon components with added logic. The new icon will be included in the correct iconset and the corresponding index.
+6. Update package.json to a new minor version
+7. Create a pull request and merge the changes to master after review
+8. Switch to the master branch and run `npm run build` to remove possible old dist folder and generate a new dist folder
+9. Publish newly generated dist folder with `npm publish ./dist`
 
 ## Making changes to the icons
 
