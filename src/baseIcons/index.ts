@@ -84,6 +84,7 @@ export { IconMap } from './Map';
 export { IconMenu } from './Menu';
 export { IconMerge } from './Merge';
 export { IconMessage } from './Message';
+export { IconMessageUnread } from './MessageUnread';
 export { IconMinus } from './Minus';
 export { IconOptionsVertical } from './OptionsVertical';
 export { IconPeek } from './Peek';

@@ -85,6 +85,7 @@ const baseIcons = [
   'Menu',
   'Merge',
   'Message',
+  'MessageUnread',
   'Minus',
   'OptionsVertical',
   'Peek',
