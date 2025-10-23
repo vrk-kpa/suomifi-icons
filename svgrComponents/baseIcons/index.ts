@@ -83,6 +83,7 @@ export { default as IconMapRoute } from './IconMapRoute';
 export { default as IconMap } from './IconMap';
 export { default as IconMenu } from './IconMenu';
 export { default as IconMerge } from './IconMerge';
+export { default as IconMessageUnread } from './IconMessageUnread';
 export { default as IconMessage } from './IconMessage';
 export { default as IconMinus } from './IconMinus';
 export { default as IconOptionsVertical } from './IconOptionsVertical';

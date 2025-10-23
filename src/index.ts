@@ -84,6 +84,7 @@ export { IconMap } from './baseIcons/';
 export { IconMenu } from './baseIcons/';
 export { IconMerge } from './baseIcons/';
 export { IconMessage } from './baseIcons/';
+export { IconMessageUnread } from './baseIcons/';
 export { IconMinus } from './baseIcons/';
 export { IconOptionsVertical } from './baseIcons/';
 export { IconPeek } from './baseIcons/';
