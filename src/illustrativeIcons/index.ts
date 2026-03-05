@@ -55,6 +55,7 @@ export { IconMoney } from './Money';
 export { IconMoneyBag } from './MoneyBag';
 export { IconBehalfOfACompany } from './BehalfOfACompany';
 export { IconBehalfOfAPerson } from './BehalfOfAPerson';
+export { IconBehalfOfAnEstate } from './BehalfOfAnEstate';
 export { IconOrganisation } from './Organisation';
 export { IconMobileText } from './MobileText';
 export { IconPiggyBank } from './PiggyBank';
