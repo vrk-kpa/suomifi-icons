@@ -2,17 +2,16 @@ import * as React from 'react';
 import { SVGProps } from 'react';
 const SvgIconChevronRight = (props: SVGProps<SVGSVGElement>) => (
   <svg
-    viewBox="0 0 24 24"
-    xmlns="http://www.w3.org/2000/svg"
     width="1em"
     height="1em"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
     <path
-      d="M15.61 11.01c.26.273.39.632.39.99s-.13.717-.39.99l-5.334 5.6a1.287 1.287 0 0 1-1.885 0 1.448 1.448 0 0 1 0-1.98l4.39-4.61-4.39-4.61a1.448 1.448 0 0 1 0-1.98 1.287 1.287 0 0 1 1.885 0l5.333 5.6Z"
-      fill="#222"
-      fillRule="evenodd"
-      className="fi-icon-base-fill"
+      d="M8.293 5.293a1 1 0 0 1 1.414 0l6 6a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414-1.414L13.586 12 8.293 6.707a1 1 0 0 1 0-1.414Z"
+      fill="#212121"
     />
   </svg>
 );
