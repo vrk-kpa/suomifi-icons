@@ -1,0 +1,17 @@
+{
+    "plugins": [
+        [
+            "babel-plugin-styled-components",
+            {
+                "displayName": true,
+                "fileName": true,
+                "meaninglessFileNames": [
+                    "index"
+                ],
+                "minify": false,
+                "transpileTemplateLiterals": false,
+                "pure": true
+            }
+        ]
+    ]
+}

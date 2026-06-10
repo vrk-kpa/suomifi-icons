@@ -16,11 +16,13 @@
   ],
   "license": "MIT",
   "devDependencies": {
+    "@rollup/plugin-babel": "^7.1.0",
     "@rollup/plugin-commonjs": "^22.0.2",
     "@rollup/plugin-node-resolve": "^14.0.0",
     "@svgr/cli": "^6.5.1",
     "@types/react": "^17.0.0",
     "@types/styled-components": "^5.1.26",
+    "babel-plugin-styled-components": "^2.3.0",
     "fs-extra": "^11.1.0",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
