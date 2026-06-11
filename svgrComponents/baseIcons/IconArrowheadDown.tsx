@@ -9,7 +9,7 @@ const SvgIconArrowheadDown = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#222"
+      fill="#212121"
       d="m5 8 4-6H1z"
       fillRule="evenodd"
       className="fi-icon-base-fill"

@@ -10,7 +10,7 @@ const SvgIconArrowDown = (props: SVGProps<SVGSVGElement>) => (
   >
     <path
       d="M18.708 16.291a1 1 0 0 0-1.414 0L13 20.585V1a1 1 0 1 0-2 0v19.585l-4.293-4.294a1 1 0 0 0-1.414 1.414l5.999 6.001a1.001 1.001 0 0 0 1.416 0l5.999-6.001a.999.999 0 0 0 0-1.414"
-      fill="#222"
+      fill="#212121"
       fillRule="nonzero"
       className="fi-icon-base-fill"
     />

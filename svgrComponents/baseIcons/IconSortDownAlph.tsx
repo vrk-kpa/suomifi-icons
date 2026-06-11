@@ -9,7 +9,7 @@ const SvgIconSortDownAlph = (props: SVGProps<SVGSVGElement>) => (
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
-    <g fill="#222" className="fi-icon-base-fill">
+    <g fill="#212121" className="fi-icon-base-fill">
       <path d="M6 3a1 1 0 0 1 1 1v13.58l3.294-3.288a.999.999 0 1 1 1.412 1.416l-4.919 4.909A.998.998 0 0 1 6 21a.998.998 0 0 1-.788-.383L.294 15.708a.999.999 0 1 1 1.412-1.416L5 17.58V4a1 1 0 0 1 1-1Z" />
       <path
         fillRule="evenodd"

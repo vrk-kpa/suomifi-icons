@@ -10,7 +10,7 @@ const SvgIconListBulleted = (props: SVGProps<SVGSVGElement>) => (
   >
     <path
       d="M3 17a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm20 2a1 1 0 0 1 .117 1.993L23 21H9a1 1 0 0 1-.117-1.993L9 19h14ZM3 19a1 1 0 1 0 0 2 1 1 0 0 0 0-2ZM3 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm20 2a1 1 0 0 1 .117 1.993L23 13H9a1 1 0 0 1-.117-1.993L9 11h14ZM3 11a1 1 0 1 0 0 2 1 1 0 0 0 0-2ZM3 1a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm20 2a1 1 0 0 1 .117 1.993L23 5H9a1 1 0 0 1-.117-1.993L9 3h14ZM3 3a1 1 0 1 0 0 2 1 1 0 0 0 0-2Z"
-      fill="#222"
+      fill="#212121"
       fillRule="evenodd"
       className="fi-icon-base-fill"
     />

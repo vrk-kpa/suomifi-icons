@@ -12,6 +12,7 @@ const SvgIconChevronDown = (props: SVGProps<SVGSVGElement>) => (
     <path
       d="M18.707 8.293a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414 0l-6-6a1 1 0 0 1 1.414-1.414L12 13.586l5.293-5.293a1 1 0 0 1 1.414 0Z"
       fill="#212121"
+      className="fi-icon-base-fill"
     />
   </svg>
 );

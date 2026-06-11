@@ -10,7 +10,7 @@ const SvgIconAlignLeft = (props: SVGProps<SVGSVGElement>) => (
   >
     <path
       d="M23 4H1a1 1 0 0 1 0-2h22a1 1 0 0 1 0 2m-7.999 6H1a1 1 0 0 1 0-2h14.001a1 1 0 0 1 0 2M23 16H1a1 1 0 0 1 0-2h22a1 1 0 0 1 0 2m-7.999 6H1a1 1 0 0 1 0-2h14.001a1 1 0 0 1 0 2"
-      fill="#222"
+      fill="#212121"
       fillRule="evenodd"
       className="fi-icon-base-fill"
     />

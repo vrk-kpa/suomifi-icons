@@ -10,7 +10,7 @@ const SvgIconChevronCircleLeft = (props: SVGProps<SVGSVGElement>) => (
   >
     <path
       d="M12 0c6.617 0 12 5.383 12 12s-5.383 12-12 12S0 18.617 0 12 5.383 0 12 0Zm0 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2Zm.293 5.293a.999.999 0 1 1 1.414 1.414L10.414 12l3.293 3.293a.999.999 0 1 1-1.414 1.414l-4-4a.999.999 0 0 1 0-1.414l4-4Z"
-      fill="#222"
+      fill="#212121"
       fillRule="evenodd"
       className="fi-icon-base-fill"
     />
