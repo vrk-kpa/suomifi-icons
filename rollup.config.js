@@ -28,16 +28,8 @@ const buildIcons = () => {
       typescript({ useTsconfigDeclarationDir: true }),
       babel({
         babelHelpers: 'bundled',
-        plugins: [
-          [
-            'babel-plugin-styled-components',
-            {
-              displayName: true,
-              fileName: true
-            }
-          ]
-        ],
-        extensions: ['.ts', '.tsx']
+        extensions: ['.ts', '.tsx'],
+        babelrc: true
       })
     ]
   };
