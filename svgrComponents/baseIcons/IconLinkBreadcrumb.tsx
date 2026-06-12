@@ -9,7 +9,7 @@ const SvgIconLinkBreadcrumb = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="#222"
+      fill="#212121"
       d="M6 18v-2.12l5.902-2.328 3.748-1.492v-.12l-3.748-1.492L6 8.119V6l12 5.015v1.97z"
       fillRule="evenodd"
       className="fi-icon-base-fill"

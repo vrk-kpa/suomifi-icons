@@ -12,7 +12,7 @@ const SvgIconSort = (props: SVGProps<SVGSVGElement>) => (
     <g
       fillRule="evenodd"
       clipRule="evenodd"
-      fill="#222"
+      fill="#212121"
       className="fi-icon-base-fill"
     >
       <path d="M7.293 15.293a1 1 0 0 1 1.414 0L12 18.586l3.293-3.293a1 1 0 0 1 1.414 1.414l-4 4a1 1 0 0 1-1.414 0l-4-4a1 1 0 0 1 0-1.414ZM16.707 8.707a1 1 0 0 1-1.414 0L12 5.414 8.707 8.707a1 1 0 0 1-1.414-1.414l4-4a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1 0 1.414Z" />

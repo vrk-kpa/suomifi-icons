@@ -10,7 +10,7 @@ const SvgIconMinus = (props: SVGProps<SVGSVGElement>) => (
   >
     <path
       d="M1 13a1 1 0 0 1 0-2h22a1 1 0 0 1 0 2H1Z"
-      fill="#222"
+      fill="#212121"
       fillRule="evenodd"
       className="fi-icon-base-fill"
     />

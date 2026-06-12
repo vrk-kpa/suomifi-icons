@@ -9,7 +9,7 @@ const SvgIconRadioButtonOn = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <circle
-      fill="#222"
+      fill="#212121"
       cx={5}
       cy={5}
       r={5}

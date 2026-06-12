@@ -10,7 +10,7 @@ const SvgIconItalics = (props: SVGProps<SVGSVGElement>) => (
   >
     <path
       d="M18 0h-6a1 1 0 0 0 0 2h1.691L8.236 22H6a1 1 0 0 0 0 2h6a1 1 0 0 0 0-2h-1.691l5.455-20H18a1 1 0 0 0 0-2"
-      fill="#222"
+      fill="#212121"
       fillRule="evenodd"
       className="fi-icon-base-fill"
     />

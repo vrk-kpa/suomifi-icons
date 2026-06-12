@@ -10,7 +10,7 @@ const SvgIconMenu = (props: SVGProps<SVGSVGElement>) => (
   >
     <path
       d="M23 18a1 1 0 0 1 0 2H1a1 1 0 0 1 0-2h22Zm0-7a1 1 0 0 1 0 2H1a1 1 0 0 1 0-2h22Zm0-7a1 1 0 0 1 0 2H1a1 1 0 0 1 0-2h22Z"
-      fill="#222"
+      fill="#212121"
       fillRule="evenodd"
       className="fi-icon-base-fill"
     />
