@@ -35,6 +35,8 @@
     "typescript": "^4.8.2"
   },
   "scripts": {
+    "prepare": "npm run check:npm-version",
+    "check:npm-version": "node scripts/check-npm-version.js",
     "clean": "rimraf dist",
     "svgr": "rimraf svgrComponents && node runSVGR.js",
     "generate": "rimraf src/index.ts src/baseIcons src/componentIcons src/doctypeIcons src/illustrativeIcons src/logoIcons && node createComponents",

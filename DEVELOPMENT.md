@@ -1,5 +1,9 @@
 # <img src="./assets/logoIcons/icon-horizontal.svg" alt="DVV" width="100"/> icons
 
+## Tooling
+
+**Note!** Before installing dependencies, make sure you are using npm v11.10.0 or newer in order to utilize `min-release-age` as a safety measure.
+
 ## Adding new icons
 
 1. Create a new feature branch for the addition
